@@ -1,0 +1,12 @@
+%nprocs=4
+%mem=2GB
+#p pbepbe aug-cc-pv5z output=wfx scf=(conver=6) int=(grid=200974)
+
+title
+
+0 1
+He	0.000000 0.000000 0.000000
+
+he_ar_1.wfx
+
+

@@ -1,0 +1,20 @@
+memory 2400 mb heap 500 mb global 1000 mb
+title nh3_h2o_2
+start nh3_h2o_2
+geometry noautoz
+  O 0.000000000000000 0.000000000000000 0.000000000000000
+  H 0.000000000000000 0.000000000000000 0.961831000000000
+  H 0.933579000000000 0.000000000000000 -0.231409000000000
+end
+basis spherical
+* library aug-cc-pvtz
+end
+dft
+  maxiter 200
+  xc xpbe96 cpbe96
+  direct
+  grid xfine
+  xdm a1 1.0 a2 1.0
+end
+task dft energy
+

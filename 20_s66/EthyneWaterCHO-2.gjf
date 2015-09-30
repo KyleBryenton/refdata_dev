@@ -1,0 +1,13 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 1
+O 2.263904602 -0.145570055 -0.115470815
+H 2.834261017 -0.735339436 0.381556111
+H 2.835900444 0.205417967 -0.800842969
+ 
+EthyneWaterCHO-2.wfx
+ 

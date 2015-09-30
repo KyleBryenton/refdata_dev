@@ -1,0 +1,14 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 2
+O	0.055414 0.716171 0.000000
+O	0.055414 -0.607791 0.000000
+H	-0.886617 -0.867043 0.000000
+
+hydrogenperoxide_rad.wfx
+
+

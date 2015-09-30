@@ -1,0 +1,13 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 1
+O -0.392018453 -0.384718737 0.076071325
+H -0.911460851 0.413812040 0.177648774
+H 0.524903820 -0.068484694 0.090511364
+ 
+WaterPeptide-1.wfx
+ 

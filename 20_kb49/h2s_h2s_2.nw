@@ -1,0 +1,20 @@
+memory 2400 mb heap 500 mb global 1000 mb
+title h2s_h2s_2
+start h2s_h2s_2
+geometry noautoz
+  S 0.000000000000000 -0.000000000000000 0.103894000000000
+  H -0.000000000000000 0.961162000000000 -0.831153000000000
+  H -0.000000000000000 -0.961162000000000 -0.831153000000000
+end
+basis spherical
+* library aug-cc-pvtz
+end
+dft
+  maxiter 200
+  xc xpbe96 cpbe96
+  direct
+  grid xfine
+  xdm a1 1.0 a2 1.0
+end
+task dft energy
+

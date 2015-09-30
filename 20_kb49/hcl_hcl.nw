@@ -1,0 +1,21 @@
+memory 2400 mb heap 500 mb global 1000 mb
+title hcl_hcl
+start hcl_hcl
+geometry noautoz
+  Cl 1.860824000000000 -0.065411000000000 -0.000068000000000
+  H 1.753941000000000 1.210981000000000 0.000341000000000
+  Cl -1.925266000000000 0.005571000000000 -0.000097000000000
+  H -0.658427000000000 -0.193703000000000 0.002476000000000
+end
+basis spherical
+* library aug-cc-pvtz
+end
+dft
+  maxiter 200
+  xc xpbe96 cpbe96
+  direct
+  grid xfine
+  xdm a1 1.0 a2 1.0
+end
+task dft energy
+

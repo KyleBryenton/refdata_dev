@@ -1,0 +1,15 @@
+%nprocs=4
+%mem=4GB
+#p pbepbe aug-cc-pvtz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+C	0.000000 0.000000 2.900503
+C	0.000000 0.000000 1.693240
+H	0.000000 0.000000 0.627352
+H	0.000000 0.000000 3.963929
+
+c2h4_c2h2_2.wfx
+
+

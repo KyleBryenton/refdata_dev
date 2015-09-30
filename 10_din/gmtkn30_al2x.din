@@ -1,0 +1,52 @@
+# The AL2X set is part of the GMTKN30, by Grimme et al.
+# Goerigk, L.; Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J. 
+# http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
+#
+# Taken from Johnson, E. R.; Mori-Sanchez, P.; Cohen, A. J; Yang,
+# W. J. Chem. Phys. 2008, 129, 204112.  (back-corrected experimental
+# values); all values are in kcal/mol.
+#
+-1
+al2h6
+2
+alh3
+0
+35.8
+-1
+al2f6
+2
+alf3
+0
+52.6
+-1
+al2cl6
+2
+alcl3
+0
+31.4
+-1
+al2br6
+2
+albr3
+0
+28.4
+-1
+al2me4
+2
+alme2
+0
+37.8
+-1
+al2me5
+1
+alme2
+1
+alme3
+0
+30.0
+-1
+al2me6
+2
+alme3
+0
+21.4

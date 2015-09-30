@@ -1,0 +1,68 @@
+# The PCONF set is part of the GMTKN30, by Grimme et al.  Goerigk, L.;
+# Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J.
+# http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
+#
+# Taken from Reha, D.; Valdes, H.; Vondrasek, J.; Hobza, P.;
+# Abu-Riziq, A.; Crews, B.; de Vries, M. S. Chem. Eur. J. 2005, 11,
+# 6803-6817.  (estimated CCSD(T)/CBS); all values are in kcal/mol.
+#
+-1
+99
+1
+444
+0
+0.14
+-1
+99
+1
+357
+0
+0.90
+-1
+99
+1
+366
+0
+1.15
+-1
+99
+1
+215
+0
+0.79
+-1
+99
+1
+300
+0
+1.31
+-1
+99
+1
+114
+0
+1.87
+-1
+99
+1
+412
+0
+2.37
+-1
+99
+1
+691
+0
+2.07
+-1
+99
+1
+470
+0
+2.51
+-1
+99
+1
+224
+0
+2.04

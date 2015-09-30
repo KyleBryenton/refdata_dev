@@ -1,0 +1,17 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 2
+C	0.000000 0.426534 0.000000
+O	-1.192572 0.117792 0.000000
+H	0.305214 1.491864 0.000000
+C	1.054745 -0.530305 0.000000
+H	0.811725 -1.587274 0.000000
+H	2.095168 -0.224299 0.000000
+
+acetaldehyde_rad.wfx
+
+

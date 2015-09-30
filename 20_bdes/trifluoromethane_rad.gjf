@@ -1,0 +1,15 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 2
+C	0.000000 0.000000 0.323330
+F	0.000000 1.257274 -0.071851
+F	1.088831 -0.628637 -0.071851
+F	-1.088831 -0.628637 -0.071851
+
+trifluoromethane_rad.wfx
+
+

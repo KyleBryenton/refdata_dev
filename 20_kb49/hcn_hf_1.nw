@@ -1,0 +1,20 @@
+memory 2400 mb heap 500 mb global 1000 mb
+title hcn_hf_1
+start hcn_hf_1
+geometry noautoz
+  C 0.000000000000000 0.000000000000000 -1.908042000000000
+  H 0.000000000000000 0.000000000000000 -2.973042000000000
+  N 0.000000000000000 0.000000000000000 -0.755442000000000
+end
+basis spherical
+* library aug-cc-pvtz
+end
+dft
+  maxiter 200
+  xc xpbe96 cpbe96
+  direct
+  grid xfine
+  xdm a1 1.0 a2 1.0
+end
+task dft energy
+

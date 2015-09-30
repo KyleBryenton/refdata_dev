@@ -1,0 +1,46 @@
+# The RG6 set is part of the GMTKN30, by Grimme et al.  Goerigk, L.;
+# Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J.
+# http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
+#
+# Taken from Grimme, S.; Antony, J.; Ehrlich, S.; Krieg, H
+# J. Chem. Phys. 2010, 132, 154104. (experimental reference values);
+# all values are in kcal/mol. 
+#
+-1
+ne_2
+2
+ne
+0
+0.08
+-1
+ar_2
+2
+ar
+0
+0.28
+-1
+kr_2
+2
+kr
+0
+0.40
+-1
+xe_2
+2
+xe
+0
+0.56
+-1
+rnxe
+1
+rn
+1
+xe
+0
+0.65
+-1
+rn_2
+2
+rn
+0
+0.79

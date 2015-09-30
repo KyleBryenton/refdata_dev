@@ -1,0 +1,20 @@
+memory 2400 mb heap 500 mb global 1000 mb
+title c6h6_hcn_2
+start c6h6_hcn_2
+geometry noautoz
+  N -0.003411800000000 3.535392600000000 0.000000000000000
+  C 0.075196300000000 2.370704000000000 0.000000000000000
+  H 0.147629500000000 1.305284700000000 0.000000000000000
+end
+basis spherical
+* library aug-cc-pvtz
+end
+dft
+  maxiter 200
+  xc xpbe96 cpbe96
+  direct
+  grid xfine
+  xdm a1 1.0 a2 1.0
+end
+task dft energy
+

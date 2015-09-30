@@ -1,0 +1,48 @@
+# The IDISP set is part of the GMTKN30, by Grimme et al.
+# Goerigk, L.; Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J. 
+# http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
+#
+# For more information, see: Goerigk, L.; Grimme S. J. Chem. Theory
+# Comput. 2010, 6, 107-126. NOTE: Some reference values were changed
+# for GMTKN30, see Goerigk, L.; Grimme S. J. Chem. Theory
+# Comput. 2011, DOI: 10.1021/ct100466k. (theoretical and
+# back-corrected, experimental values); all values are in kcal/mol. 
+#
+1
+antdimer
+-2
+ant
+0
+-9.0
+2
+pxylene
+-1
+pc22
+-2
+h2
+0
+-58.5
+1
+octane1
+-1
+octane2
+0
+-1.9
+1
+undecan1
+-1
+undecan2
+0
+8.2
+-1
+F14f
+1
+F14l
+0
+-3.1
+-1
+F22f
+1
+F22l
+0
+0.4

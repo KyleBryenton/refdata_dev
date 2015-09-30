@@ -1,0 +1,16 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
+ 
+title
+ 
+0 1
+Si	0.000000 0.000000 0.501363
+H	0.000000 0.000000 1.967910
+Cl	0.000000 1.933615 -0.176216
+Cl	1.674559 -0.966807 -0.176216
+Cl	-1.674559 -0.966807 -0.176216
+
+trichlorosilane.wfx
+
+

@@ -1,0 +1,15 @@
+%nprocs=4
+%mem=2GB
+#P pbepbe aug-cc-pvtz SCF=(Conver=5) GFPrint int=(grid=ultrafine) output=wfx guess=alter
+ 
+title
+ 
+0 3
+Ni
+
+
+13 15
+
+Ni.wfx
+
+

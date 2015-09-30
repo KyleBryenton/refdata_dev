@@ -1,0 +1,64 @@
+# The DC9 set is part of the GMTKN30, by Grimme et al.
+# Goerigk, L.; Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J. 
+# http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
+#
+# Taken from Goerigk, L.; Grimme, S. J. Chem. Theory Comput. 2010, 6,
+# 107-126. (theoretical and back-corrected, experimental values); all
+# values are in kcal/mol. 
+#
+1
+ISO_E36
+-1
+ISO_P36
+0
+-1.0
+-1
+c20cage
+1
+c20bowl
+0
+-13.3
+1
+heptatriyne
+-1
+heptahexaene
+0
+-14.3
+-2
+tmethen
+1
+omcb
+0
+-19.2
+1
+ISO_E35
+-1
+ISO_P35
+0
+-19.5
+-1
+carbooxo2
+1
+carbooxo1
+0
+-26.9
+-1
+ethen
+-1
+ch2n2
+1
+13dip
+0
+-38.1
+1
+be4
+-4
+be
+0
+-88.4
+-4
+s2
+1
+s8
+0
+-101.0
