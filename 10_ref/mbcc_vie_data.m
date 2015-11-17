@@ -1,5 +1,10 @@
 #! /usr/bin/octave
 
+## This is a data set for vertical ionization energies, from:
+##   McKechnie te al., J. Chem. Phys. 142 (2015) 194114.
+## The reference data comes from experimental (photoelectron
+## spectroscopy) and computational (CCSD(T) delta-SCF) results.
+
 list={...
        "CH3","ClO","HCO","NH2","NH",...
        "NO2","NO","O2","OH","S2",...
