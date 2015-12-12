@@ -22,19 +22,6 @@ function file = namefile(edir,tag)
   file = sprintf("%s/%s.out",edir,tag);
 endfunction
 
-## function: read a xyz file
-function [x,z,n] = readxyz(file)
-  fid = fopen(file,"r");
-  n = fscanf(fid,"%d","C");
-  x = zeros(3,n); z = zeros(1,n);
-  line = fscanf(fid,"%s %s","C");
-  for i = 1:n
-    [z(i),x(1,i),x(2,i),x(3,i)] = fscanf(fid,"%f %f %f %f","C");
-  endfor
-  x = x / .52917720859;
-  fclose(fid);
-endfunction
-
 ## function: read the dispersion coefficients from qe output
 function [c6,c8,c10,rc] = readcij(file,n)
 

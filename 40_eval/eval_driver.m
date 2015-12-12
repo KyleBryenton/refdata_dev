@@ -1,4 +1,4 @@
-#! /usr/bin/octave -q
+#! /usr/bin/octave-cli -q
 
 # Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
 #
@@ -17,12 +17,11 @@
 
 ## Choose the energy reader and name generator
 # source("reader_g09.m");
-# source("reader_postg.m");
-source("reader_orca.m");
+source("reader_postg.m");
+# source("reader_orca.m");
  
-din = {"../10_din/bdes.din"};
-din = {"../10_din/bleh.din"};
-data = {"../30_run/hf-3c_bdes"};
+din = {"../10_din/s22.din"};
+data = {"../30_run/10_kb_lcwpbe"};
 
 ## ## List of din files to process
 ## din  = {...
@@ -106,23 +105,23 @@ for i = 1:ndin
   [n rxn] = load_din(din{i});
   [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines] = process_din(n,rxn,data{i},0);
 
-  # #### Simple output, whole list
-  # printf("## din file: %s\n",din{i});
-  # printf("## All results in kcal/mol.\n",din{i});
-  # printf("| name | Ref. | Calc. | \n");
-  # for j = 1:n
-  #   yref = rxn{j}{end};
-  #   printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{end-1},elist(j),yref);
-  # endfor
-  # printf("| MAE  | -- | %.3f |\n",mad(1));
-  # printf("| ME   | -- | %.3f |\n",md(1));
-  # printf("| MAPE | -- | %.3f |\n",mapd(1));
-  # printf("| MPE  | -- | %.3f |\n",mpd(1));
-  # printf("| RMS  | -- | %.3f |\n",rms(1));
-  # printf("| RMSP | -- | %.3f |\n",rmsp(1));
+  #### Simple output, whole list
+  printf("## din file: %s\n",din{i});
+  printf("## All results in kcal/mol.\n",din{i});
+  printf("| name | Ref. | Calc. | \n");
+  for j = 1:n
+    yref = rxn{j}{end};
+    printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{end-1},yref,elist(j));
+  endfor
+  printf("| MAE  | -- | %.3f |\n",mad(1));
+  printf("| ME   | -- | %.3f |\n",md(1));
+  printf("| MAPE | -- | %.3f |\n",mapd(1));
+  printf("| MPE  | -- | %.3f |\n",mpd(1));
+  printf("| RMS  | -- | %.3f |\n",rms(1));
+  printf("| RMSP | -- | %.3f |\n",rmsp(1));
 
   #### Simple output, only name of the set and MAE
-  printf("| %s | %.3f |\n",din{i},mad(1));
+  ## printf("| %s | %.3f |\n",din{i},mad(1));
 
 endfor
 

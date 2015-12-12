@@ -1,4 +1,4 @@
-#! /usr/bin/octave -q
+#! /usr/bin/octave-cli -q
 
 # Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
 #
@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-din="din/s22.din";
+din="../10_din/bdes.din";
 
 ## globals
 format long;
@@ -26,7 +26,7 @@ source("load_din.m");
 
 # list only the product and the energy
 for i = 1:n
-  printf(" %30s  %10.3f\n",rxn{i}{2},-rxn{i}{end});
+  printf(" %30s  %10.3f\n",rxn{i}{2},rxn{i}{end});
 endfor
 
 # # list only the product and the energy

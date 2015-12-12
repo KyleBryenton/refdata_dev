@@ -1,4 +1,4 @@
-#! /usr/bin/octave -q
+#! /usr/bin/octave-cli -q
 
 # Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
 #
@@ -19,6 +19,7 @@
 #source("reader_vasp.m");
 #source("reader_qe.m");
 source("reader_postg.m");
+#source("reader_orca.m");
 #source("reader_psi4.m");
 #source("reader_qchem.m");
 #source("reader_nwchem.m");
@@ -32,13 +33,14 @@ source("energy_bj.m");
 ## din file
 din="../10_din/kb49.din";
 #din="../10_din/bleh.din";
+#din="../10_din/s22.din";
 
 ## data source
-#dir_e={"../30_run_xdmfit/pw86%qe"};
-#dir_e={"../30_run_xdmfit/pw86"};
-#dir_e={"../30_run_xdmfit/pbe%nwchem"};
-dir_e={"../30_run_xdmfit/pbe"};
-#dir_e={"../30_run_xdmfit/pbe%def2qzvpp"};
+## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_pc1_scan6%hf"};
+## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_minis_scan5%b3lyp"};
+## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_minis_scan5%blyp"};
+## dir_e={"/home/alberto/calc/dcp/15_xdm/hf-3c"};
+dir_e={"../30_run/hf_pc2spd"};
 
 ## xyz structure source
 dir_s="../20_kb65";
