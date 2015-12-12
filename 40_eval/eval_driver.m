@@ -20,8 +20,48 @@
 source("reader_postg.m");
 # source("reader_orca.m");
  
-din = {"../10_din/s22.din"};
-data = {"../30_run/10_kb_lcwpbe"};
+din = {...
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_h.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+        "../10_din/bleh_noh.din"
+      };
+data = {...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-pc1_dcp/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-pc1_dcp/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-pc1_dcp/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/b3lyp-pc1_dcp/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/blyp-pc1_dcp/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-atz/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-pc1/",...
+        "/home/alberto/calc/dcp/20_evals_bde03/lcwpbe-pc1_dcp/",...
+       };
+
+%%        "/home/alberto/calc/dcp/20_evals_bde03/hf-3c/",...
 
 ## ## List of din files to process
 ## din  = {...
@@ -107,21 +147,22 @@ for i = 1:ndin
 
   #### Simple output, whole list
   printf("## din file: %s\n",din{i});
+  printf("## data file: %s\n",data{i});
   printf("## All results in kcal/mol.\n",din{i});
   printf("| name | Ref. | Calc. | \n");
   for j = 1:n
     yref = rxn{j}{end};
-    printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{end-1},yref,elist(j));
+    printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{2},yref,elist(j));
   endfor
   printf("| MAE  | -- | %.3f |\n",mad(1));
-  printf("| ME   | -- | %.3f |\n",md(1));
-  printf("| MAPE | -- | %.3f |\n",mapd(1));
-  printf("| MPE  | -- | %.3f |\n",mpd(1));
-  printf("| RMS  | -- | %.3f |\n",rms(1));
-  printf("| RMSP | -- | %.3f |\n",rmsp(1));
+  ## printf("| ME   | -- | %.3f |\n",md(1));
+  ## printf("| MAPE | -- | %.3f |\n",mapd(1));
+  ## printf("| MPE  | -- | %.3f |\n",mpd(1));
+  ## printf("| RMS  | -- | %.3f |\n",rms(1));
+  ## printf("| RMSP | -- | %.3f |\n",rmsp(1));
 
   #### Simple output, only name of the set and MAE
-  ## printf("| %s | %.3f |\n",din{i},mad(1));
+  ## printf("| %s | %s | %.3f |\n",data{i},din{i},mad(1));
 
 endfor
 
