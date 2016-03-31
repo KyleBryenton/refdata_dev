@@ -68,7 +68,7 @@ for idin = 1:length(din)
   for i = 1:n
     name = sprintf("%s_%3.3d",names{idin},i);
     fid = fopen(sprintf("%s.db",name),"w");
-    fprintf(fid,"type reaction_frozen");
+    fprintf(fid,"type reaction_frozen\n");
     fprintf(fid,"ref %.4f\n",rxn{i}{end});
     for j = 1:(length(rxn{i})-1)/2
       mol = mol_readxyz(sprintf("%s/%s.xyz",dirs{idin},rxn{i}{2*j}));
