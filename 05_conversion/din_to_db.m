@@ -1,6 +1,6 @@
 #! /usr/bin/octave-cli -q
 
-# Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
+# Copyright (c) 2016 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
 #
 # refdata is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -51,4 +51,43 @@ for idin = 1:length(din)
     endfor
     fclose(fid);
   endfor
+=======
+[n rxn] = load_din(din);
+
+# list only the product and the energy
+for i = 1:n
+  name = rxn{i}{2};
+  fid = fopen(sprintf("bde03_%s.db",name),"w");
+  fprintf(fid,"type be_frozen_monomer\n");
+  fprintf(fid,"ref %.4f\n",rxn{i}{7});
+
+  mol = mol_readxyz(sprintf("%s/%s.xyz",sdir,rxn{i}{2}));
+  xx = str2num(mol.name);
+  q = xx(1); m = xx(2);
+  fprintf(fid,"mol %d %d\n",q,m);
+  for j = 1:mol.nat
+    fprintf(fid,"%s %.10f %.10f %.10f\n",mol.atname{j},mol.atxyz(:,j));
+  endfor
+  fprintf(fid,"end\n");
+
+  mol = mol_readxyz(sprintf("%s/%s.xyz",sdir,rxn{i}{4}));
+  xx = str2num(mol.name);
+  q = xx(1); m = xx(2);
+  fprintf(fid,"mon1 %d %d\n",q,m);
+  for j = 1:mol.nat
+    fprintf(fid,"%s %.10f %.10f %.10f\n",mol.atname{j},mol.atxyz(:,j));
+  endfor
+  fprintf(fid,"end\n");
+
+  mol = mol_readxyz(sprintf("%s/%s.xyz",sdir,rxn{i}{6}));
+  xx = str2num(mol.name);
+  q = xx(1); m = xx(2);
+  fprintf(fid,"mon2 %d %d\n",q,m);
+  for j = 1:mol.nat
+    fprintf(fid,"%s %.10f %.10f %.10f\n",mol.atname{j},mol.atxyz(:,j));
+  endfor
+  fprintf(fid,"end\n");
+
+  fclose(fid);
+>>>>>>> 0ecc79dc4523552240b3beb29d5ccffba7bbbb12
 endfor
