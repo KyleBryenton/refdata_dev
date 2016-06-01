@@ -1,5 +1,3 @@
-# Rezac et al. JCTC 7 (2011) 2427
-# Only dimers on 95% compression.
 1
 Water-Water_0.95
 -1
@@ -7,7 +5,7 @@ Water-Water_1
 -1
 Water-Water_2
 0
--4.884
+-4.954
 1
 Water-MeOH_0.95
 -1
@@ -15,7 +13,7 @@ Water-MeOH_1
 -1
 Water-MeOH_2
 0
--5.550
+-5.630
 1
 Water-MeNH2_0.95
 -1
@@ -23,7 +21,7 @@ Water-MeNH2_1
 -1
 Water-MeNH2_2
 0
--6.870
+-6.937
 1
 Water-Peptide_0.95
 -1
@@ -31,7 +29,7 @@ Water-Peptide_1
 -1
 Water-Peptide_2
 0
--8.055
+-8.149
 1
 MeOH-MeOH_0.95
 -1
@@ -39,7 +37,7 @@ MeOH-MeOH_1
 -1
 MeOH-MeOH_2
 0
--5.691
+-5.787
 1
 MeOH-MeNH2_0.95
 -1
@@ -47,7 +45,7 @@ MeOH-MeNH2_1
 -1
 MeOH-MeNH2_2
 0
--7.472
+-7.550
 1
 MeOH-Peptide_0.95
 -1
@@ -55,7 +53,7 @@ MeOH-Peptide_1
 -1
 MeOH-Peptide_2
 0
--8.140
+-8.270
 1
 MeOH-Water_0.95
 -1
@@ -63,7 +61,7 @@ MeOH-Water_1
 -1
 MeOH-Water_2
 0
--4.952
+-5.032
 1
 MeNH2-MeOH_0.95
 -1
@@ -71,7 +69,7 @@ MeNH2-MeOH_1
 -1
 MeNH2-MeOH_2
 0
--3.041
+-3.078
 1
 MeNH2-MeNH2_0.95
 -1
@@ -79,7 +77,7 @@ MeNH2-MeNH2_1
 -1
 MeNH2-MeNH2_2
 0
--4.093
+-4.113
 1
 MeNH2-Peptide_0.95
 -1
@@ -87,7 +85,7 @@ MeNH2-Peptide_1
 -1
 MeNH2-Peptide_2
 0
--5.356
+-5.409
 1
 MeNH2-Water_0.95
 -1
@@ -95,7 +93,7 @@ MeNH2-Water_1
 -1
 MeNH2-Water_2
 0
--7.203
+-7.272
 1
 Peptide-MeOH_0.95
 -1
@@ -103,7 +101,7 @@ Peptide-MeOH_1
 -1
 Peptide-MeOH_2
 0
--6.107
+-6.224
 1
 Peptide-MeNH2_0.95
 -1
@@ -111,7 +109,7 @@ Peptide-MeNH2_1
 -1
 Peptide-MeNH2_2
 0
--7.341
+-7.446
 1
 Peptide-Peptide_0.95
 -1
@@ -119,7 +117,7 @@ Peptide-Peptide_1
 -1
 Peptide-Peptide_2
 0
--8.531
+-8.696
 1
 Peptide-Water_0.95
 -1
@@ -127,7 +125,7 @@ Peptide-Water_1
 -1
 Peptide-Water_2
 0
--5.061
+-5.150
 1
 Uracil-Uracil_BP_0.95
 -1
@@ -135,7 +133,7 @@ Uracil-Uracil_BP_1
 -1
 Uracil-Uracil_BP_2
 0
--16.898
+-17.358
 1
 Water-Pyridine_0.95
 -1
@@ -143,7 +141,7 @@ Water-Pyridine_1
 -1
 Water-Pyridine_2
 0
--6.804
+-6.918
 1
 MeOH-Pyridine_0.95
 -1
@@ -151,7 +149,7 @@ MeOH-Pyridine_1
 -1
 MeOH-Pyridine_2
 0
--7.307
+-7.445
 1
 AcOH-AcOH_0.95
 -1
@@ -159,7 +157,7 @@ AcOH-AcOH_1
 -1
 AcOH-AcOH_2
 0
--18.787
+-19.228
 1
 AcNH2-AcNH2_0.95
 -1
@@ -167,7 +165,7 @@ AcNH2-AcNH2_1
 -1
 AcNH2-AcNH2_2
 0
--16.026
+-16.375
 1
 AcOH-Uracil_0.95
 -1
@@ -175,7 +173,7 @@ AcOH-Uracil_1
 -1
 AcOH-Uracil_2
 0
--19.185
+-19.632
 1
 AcNH2-Uracil_0.95
 -1
@@ -183,7 +181,7 @@ AcNH2-Uracil_1
 -1
 AcNH2-Uracil_2
 0
--18.889
+-19.310
 1
 Benzene-Benzene_pi-pi_0.95
 -1
@@ -191,7 +189,7 @@ Benzene-Benzene_pi-pi_1
 -1
 Benzene-Benzene_pi-pi_2
 0
--2.069
+-2.016
 1
 Pyridine-Pyridine_pi-pi_0.95
 -1
@@ -199,7 +197,7 @@ Pyridine-Pyridine_pi-pi_1
 -1
 Pyridine-Pyridine_pi-pi_2
 0
--3.168
+-3.111
 1
 Uracil-Uracil_pi-pi_0.95
 -1
@@ -207,7 +205,7 @@ Uracil-Uracil_pi-pi_1
 -1
 Uracil-Uracil_pi-pi_2
 0
--9.498
+-9.640
 1
 Benzene-Pyridine_pi-pi_0.95
 -1
@@ -215,7 +213,7 @@ Benzene-Pyridine_pi-pi_1
 -1
 Benzene-Pyridine_pi-pi_2
 0
--2.690
+-2.636
 1
 Benzene-Uracil_pi-pi_0.95
 -1
@@ -223,7 +221,7 @@ Benzene-Uracil_pi-pi_1
 -1
 Benzene-Uracil_pi-pi_2
 0
--5.216
+-5.222
 1
 Pyridine-Uracil_pi-pi_0.95
 -1
@@ -231,7 +229,7 @@ Pyridine-Uracil_pi-pi_1
 -1
 Pyridine-Uracil_pi-pi_2
 0
--6.173
+-6.170
 1
 Benzene-Ethene_0.95
 -1
@@ -239,7 +237,7 @@ Benzene-Ethene_1
 -1
 Benzene-Ethene_2
 0
--1.125
+-1.027
 1
 Uracil-Ethene_0.95
 -1
@@ -247,7 +245,7 @@ Uracil-Ethene_1
 -1
 Uracil-Ethene_2
 0
--3.237
+-3.209
 1
 Uracil-Ethyne_0.95
 -1
@@ -255,7 +253,7 @@ Uracil-Ethyne_1
 -1
 Uracil-Ethyne_2
 0
--3.563
+-3.507
 1
 Pyridine-Ethene_0.95
 -1
@@ -263,7 +261,7 @@ Pyridine-Ethene_1
 -1
 Pyridine-Ethene_2
 0
--1.622
+-1.541
 1
 Pentane-Pentane_0.95
 -1
@@ -271,7 +269,7 @@ Pentane-Pentane_1
 -1
 Pentane-Pentane_2
 0
--3.620
+-3.674
 1
 Neopentane-Pentane_0.95
 -1
@@ -279,7 +277,7 @@ Neopentane-Pentane_1
 -1
 Neopentane-Pentane_2
 0
--2.492
+-2.542
 1
 Neopentane-Neopentane_0.95
 -1
@@ -287,7 +285,7 @@ Neopentane-Neopentane_1
 -1
 Neopentane-Neopentane_2
 0
--1.735
+-1.758
 1
 Cyclopentane-Neopentane_0.95
 -1
@@ -295,7 +293,7 @@ Cyclopentane-Neopentane_1
 -1
 Cyclopentane-Neopentane_2
 0
--2.250
+-2.299
 1
 Cyclopentane-Cyclopentane_0.95
 -1
@@ -303,7 +301,7 @@ Cyclopentane-Cyclopentane_1
 -1
 Cyclopentane-Cyclopentane_2
 0
--2.842
+-2.894
 1
 Benzene-Cyclopentane_0.95
 -1
@@ -311,7 +309,7 @@ Benzene-Cyclopentane_1
 -1
 Benzene-Cyclopentane_2
 0
--3.239
+-3.243
 1
 Benzene-Neopentane_0.95
 -1
@@ -319,7 +317,7 @@ Benzene-Neopentane_1
 -1
 Benzene-Neopentane_2
 0
--2.675
+-2.683
 1
 Uracil-Pentane_0.95
 -1
@@ -327,7 +325,7 @@ Uracil-Pentane_1
 -1
 Uracil-Pentane_2
 0
--4.692
+-4.792
 1
 Uracil-Cyclopentane_0.95
 -1
@@ -335,7 +333,7 @@ Uracil-Cyclopentane_1
 -1
 Uracil-Cyclopentane_2
 0
--3.968
+-4.062
 1
 Uracil-Neopentane_0.95
 -1
@@ -343,7 +341,7 @@ Uracil-Neopentane_1
 -1
 Uracil-Neopentane_2
 0
--3.599
+-3.684
 1
 Ethene-Pentane_0.95
 -1
@@ -351,7 +349,7 @@ Ethene-Pentane_1
 -1
 Ethene-Pentane_2
 0
--1.971
+-1.966
 1
 Ethyne-Pentane_0.95
 -1
@@ -359,7 +357,7 @@ Ethyne-Pentane_1
 -1
 Ethyne-Pentane_2
 0
--1.631
+-1.563
 1
 Peptide-Pentane_0.95
 -1
@@ -367,7 +365,7 @@ Peptide-Pentane_1
 -1
 Peptide-Pentane_2
 0
--4.205
+-4.264
 1
 Benzene-Benzene_TS_0.95
 -1
@@ -375,7 +373,7 @@ Benzene-Benzene_TS_1
 -1
 Benzene-Benzene_TS_2
 0
--2.578
+-2.603
 1
 Pyridine-Pyridine_TS_0.95
 -1
@@ -383,7 +381,7 @@ Pyridine-Pyridine_TS_1
 -1
 Pyridine-Pyridine_TS_2
 0
--3.307
+-3.336
 1
 Benzene-Pyridine_TS_0.95
 -1
@@ -391,7 +389,7 @@ Benzene-Pyridine_TS_1
 -1
 Benzene-Pyridine_TS_2
 0
--3.041
+-3.064
 1
 Benzene-Ethyne_CH-pi_0.95
 -1
@@ -399,7 +397,7 @@ Benzene-Ethyne_CH-pi_1
 -1
 Benzene-Ethyne_CH-pi_2
 0
--2.646
+-2.636
 1
 Ethyne-Ethyne_TS_0.95
 -1
@@ -407,7 +405,7 @@ Ethyne-Ethyne_TS_1
 -1
 Ethyne-Ethyne_TS_2
 0
--1.470
+-1.464
 1
 Benzene-AcOH_OH-pi_0.95
 -1
@@ -415,7 +413,7 @@ Benzene-AcOH_OH-pi_1
 -1
 Benzene-AcOH_OH-pi_2
 0
--4.580
+-4.613
 1
 Benzene-AcNH2_NH-pi_0.95
 -1
@@ -423,7 +421,7 @@ Benzene-AcNH2_NH-pi_1
 -1
 Benzene-AcNH2_NH-pi_2
 0
--4.265
+-4.320
 1
 Benzene-Water_OH-pi_0.95
 -1
@@ -431,7 +429,7 @@ Benzene-Water_OH-pi_1
 -1
 Benzene-Water_OH-pi_2
 0
--3.213
+-3.186
 1
 Benzene-MeOH_OH-pi_0.95
 -1
@@ -439,7 +437,7 @@ Benzene-MeOH_OH-pi_1
 -1
 Benzene-MeOH_OH-pi_2
 0
--4.047
+-4.014
 1
 Benzene-MeNH2_NH-pi_0.95
 -1
@@ -447,7 +445,7 @@ Benzene-MeNH2_NH-pi_1
 -1
 Benzene-MeNH2_NH-pi_2
 0
--3.087
+-3.051
 1
 Benzene-Peptide_NH-pi_0.95
 -1
@@ -455,7 +453,7 @@ Benzene-Peptide_NH-pi_1
 -1
 Benzene-Peptide_NH-pi_2
 0
--4.955
+-4.978
 1
 Pyridine-Pyridine_CH-N_0.95
 -1
@@ -463,7 +461,7 @@ Pyridine-Pyridine_CH-N_1
 -1
 Pyridine-Pyridine_CH-N_2
 0
--3.819
+-3.970
 1
 Ethyne-Water_CH-O_0.95
 -1
@@ -471,7 +469,7 @@ Ethyne-Water_CH-O_1
 -1
 Ethyne-Water_CH-O_2
 0
--2.797
+-2.873
 1
 Ethyne-AcOH_OH-pi_0.95
 -1
@@ -479,7 +477,7 @@ Ethyne-AcOH_OH-pi_1
 -1
 Ethyne-AcOH_OH-pi_2
 0
--4.781
+-4.844
 1
 Pentane-AcOH_0.95
 -1
@@ -487,7 +485,7 @@ Pentane-AcOH_1
 -1
 Pentane-AcOH_2
 0
--2.901
+-2.938
 1
 Pentane-AcNH2_0.95
 -1
@@ -495,7 +493,7 @@ Pentane-AcNH2_1
 -1
 Pentane-AcNH2_2
 0
--3.501
+-3.538
 1
 Benzene-AcOH_0.95
 -1
@@ -503,7 +501,7 @@ Benzene-AcOH_1
 -1
 Benzene-AcOH_2
 0
--3.600
+-3.581
 1
 Peptide-Ethene_0.95
 -1
@@ -511,7 +509,7 @@ Peptide-Ethene_1
 -1
 Peptide-Ethene_2
 0
--2.949
+-2.952
 1
 Pyridine-Ethyne_0.95
 -1
@@ -519,7 +517,7 @@ Pyridine-Ethyne_1
 -1
 Pyridine-Ethyne_2
 0
--3.910
+-4.048
 1
 MeNH2-Pyridine_0.95
 -1
@@ -527,4 +525,4 @@ MeNH2-Pyridine_1
 -1
 MeNH2-Pyridine_2
 0
--3.875
+-3.870
