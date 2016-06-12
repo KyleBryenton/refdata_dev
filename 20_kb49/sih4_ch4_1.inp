@@ -1,0 +1,29 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule sih4_ch4_1 {
+0 1
+Si 0.000000 0.000000 1.357108
+H -0.000000 1.397458 0.864404
+H 1.210234 -0.698729 0.864404
+H -1.210234 -0.698729 0.864404
+H 0.000000 0.000000 2.838879
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label sih4_ch4_1
+ molden_write true
+}
+
+energy('b86bpbe')

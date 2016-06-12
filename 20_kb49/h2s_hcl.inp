@@ -1,0 +1,29 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule h2s_hcl {
+0 1
+S 1.842529 0.000013 -0.101543
+H 1.822779 -0.961810 0.834650
+H 1.821877 0.961860 0.834622
+Cl -1.911636 -0.000011 0.003498
+H -0.627317 -0.000058 -0.104051
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label h2s_hcl
+ molden_write true
+}
+
+energy('b86bpbe')

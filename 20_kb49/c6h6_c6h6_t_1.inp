@@ -1,0 +1,36 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule c6h6_c6h6_t_1 {
+0 1
+C 0.0000000 0.0000000 1.0590353
+C 0.0000000 -1.2060084 1.7576742
+C 0.0000000 -1.2071767 3.1515905
+C 0.0000000 0.0000000 3.8485751
+C 0.0000000 1.2071767 3.1515905
+C 0.0000000 1.2060084 1.7576742
+H 0.0000000 0.0000000 -0.0215805
+H 0.0000000 -2.1416387 1.2144217
+H 0.0000000 -2.1435657 3.6929953
+H 0.0000000 0.0000000 4.9301499
+H 0.0000000 2.1435657 3.6929953
+H 0.0000000 2.1416387 1.2144217
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label c6h6_c6h6_t_1
+ molden_write true
+}
+
+energy('b86bpbe')

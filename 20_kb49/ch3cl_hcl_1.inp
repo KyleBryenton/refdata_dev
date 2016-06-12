@@ -1,0 +1,29 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule ch3cl_hcl_1 {
+0 1
+C -0.000000 -0.000000 -1.126268
+H -0.000000 1.030970 -1.470596
+H 0.892846 -0.515485 -1.470596
+H -0.892846 -0.515485 -1.470596
+Cl -0.000000 -0.000000 0.658206
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label ch3cl_hcl_1
+ molden_write true
+}
+
+energy('b86bpbe')

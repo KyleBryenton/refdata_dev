@@ -1,0 +1,28 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule hf_hf {
+0 1
+F 1.323736 -0.090226 -0.000007
+H 1.740437 0.733390 0.000013
+F -1.457195 0.019257 -0.000011
+H -0.539310 -0.094664 0.000145
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label hf_hf
+ molden_write true
+}
+
+energy('b86bpbe')
