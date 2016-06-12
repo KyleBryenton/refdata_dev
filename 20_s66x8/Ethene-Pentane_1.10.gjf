@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-44-dpial__Ethene-Pentane_1.10 
 
@@ -29,5 +29,5 @@ S66-44-dpial__Ethene-Pentane_1.10
   H    3.433773645   0.193769196   4.524672022
   H    2.568513896  -1.091623053   5.362599694
 
-Ethene-Pentane_1.10.wfn
+Ethene-Pentane_1.10.wfx
 

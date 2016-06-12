@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-57-ot__Benzene-Peptide_NH-pi_1.00 
 
@@ -30,5 +30,5 @@ S66-57-ot__Benzene-Peptide_NH-pi_1.00
   H   -1.135919572  -2.207969943   3.530089705
   H    0.628447441  -2.293492131   3.399490385
 
-Benzene-Peptide_NH-pi_1.00.wfn
+Benzene-Peptide_NH-pi_1.00.wfx
 

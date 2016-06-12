@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-13-hb__Peptide-MeOH_1.05 
 
@@ -24,5 +24,5 @@ S66-13-hb__Peptide-MeOH_1.05
   H    3.547210278  -1.321604033  -0.024422366
   H    3.189168562  -1.154060484   1.708092898
 
-Peptide-MeOH_1.05.wfn
+Peptide-MeOH_1.05.wfx
 

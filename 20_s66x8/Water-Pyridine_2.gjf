@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-18-hb__Water-Pyridine_0.90_2 
 
@@ -17,5 +17,5 @@ S66-18-hb__Water-Pyridine_0.90_2
   C    2.902200712   0.054647413  -1.144707660
   H    2.317431829   0.078248068  -2.055500213
 
-Water-Pyridine_0.90_2.wfn
+Water-Pyridine_2.wfx
 

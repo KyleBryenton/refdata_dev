@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-32-dpipi__Uracil-Ethyne_2.00 
 
@@ -22,5 +22,5 @@ S66-32-dpipi__Uracil-Ethyne_2.00
   C   -0.277515723   0.236339123   6.359960025
   H   -1.282398278   0.565039465   6.460324191
 
-Uracil-Ethyne_2.00.wfn
+Uracil-Ethyne_2.00.wfx
 

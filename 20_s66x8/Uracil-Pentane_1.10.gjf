@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-41-dpial__Uracil-Pentane_1.10 
 
@@ -35,5 +35,5 @@ S66-41-dpial__Uracil-Pentane_1.10
   H   -1.376829162  -3.065495183   4.263632887
   H   -2.121730733  -1.650380813   4.998808746
 
-Uracil-Pentane_1.10.wfn
+Uracil-Pentane_1.10.wfx
 

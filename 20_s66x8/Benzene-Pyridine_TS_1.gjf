@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-49-ot__Benzene-Pyridine_TS_0.90_1 
 
@@ -18,5 +18,5 @@ S66-49-ot__Benzene-Pyridine_TS_0.90_1
   C   -0.536613149   1.243422206   0.712738819
   H   -0.948924265   2.232806277   0.857366346
 
-Benzene-Pyridine_TS_0.90_1.wfn
+Benzene-Pyridine_TS_1.wfx
 

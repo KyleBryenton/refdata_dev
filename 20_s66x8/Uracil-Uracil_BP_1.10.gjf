@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-17-hb__Uracil-Uracil_BP_1.10 
 
@@ -30,5 +30,5 @@ S66-17-hb__Uracil-Uracil_BP_1.10
   C    2.956642734  -1.080479227   0.001457116
   O    2.306321850  -0.039260922   0.002693509
 
-Uracil-Uracil_BP_1.10.wfn
+Uracil-Uracil_BP_1.10.wfx
 

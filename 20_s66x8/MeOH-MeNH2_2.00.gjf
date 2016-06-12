@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-06-hb__MeOH-MeNH2_2.00 
 
@@ -19,5 +19,5 @@ S66-06-hb__MeOH-MeNH2_2.00
   H    5.762766467  -1.640749490   0.032331292
   H    4.283928910  -2.020744491   0.918928944
 
-MeOH-MeNH2_2.00.wfn
+MeOH-MeNH2_2.00.wfx
 

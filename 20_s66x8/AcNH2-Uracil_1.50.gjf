@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-23-hb__AcNH2-Uracil_1.50 
 
@@ -27,5 +27,5 @@ S66-23-hb__AcNH2-Uracil_1.50
   C    3.696392940   1.050309223  -0.117419578
   O    3.099204210  -0.013606738  -0.259227069
 
-AcNH2-Uracil_1.50.wfn
+AcNH2-Uracil_1.50.wfx
 

@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-58-ot__Pyridine-Pyridine_CH-N_1.05 
 
@@ -28,5 +28,5 @@ S66-58-ot__Pyridine-Pyridine_CH-N_1.05
   C    2.698049391   0.397194691   0.015320327
   H    1.718138991   0.860857273   0.013657482
 
-Pyridine-Pyridine_CH-N_1.05.wfn
+Pyridine-Pyridine_CH-N_1.05.wfx
 

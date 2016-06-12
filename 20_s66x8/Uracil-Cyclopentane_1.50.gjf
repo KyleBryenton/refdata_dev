@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-42-dpial__Uracil-Cyclopentane_1.50 
 
@@ -33,5 +33,5 @@ S66-42-dpial__Uracil-Cyclopentane_1.50
   H   -0.646947292  -1.858051836   4.982955113
   H   -0.719388973  -1.741298125   6.725401207
 
-Uracil-Cyclopentane_1.50.wfn
+Uracil-Cyclopentane_1.50.wfx
 

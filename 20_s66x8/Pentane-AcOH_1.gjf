@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-61-ot__Pentane-AcOH_0.90_1 
 
@@ -23,5 +23,5 @@ S66-61-ot__Pentane-AcOH_0.90_1
   H    3.661501004   0.011693084  -0.015968628
   H    2.835194072  -1.137409942   1.034075121
 
-Pentane-AcOH_0.90_1.wfn
+Pentane-AcOH_1.wfx
 

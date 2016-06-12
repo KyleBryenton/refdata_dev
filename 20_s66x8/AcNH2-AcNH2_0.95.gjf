@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-21-hb__AcNH2-AcNH2_0.95 
 
@@ -24,5 +24,5 @@ S66-21-hb__AcNH2-AcNH2_0.95
   H    4.611800894   0.999000220  -0.791074883
   H    4.536023462   0.215970353   0.776885764
 
-AcNH2-AcNH2_0.95.wfn
+AcNH2-AcNH2_0.95.wfx
 
