@@ -1,0 +1,28 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule h2co_h2co_2 {
+0 1
+C -1.530024 -0.948171 0.000000
+H -2.465888 -1.528135 0.000000
+H -0.594159 -1.528135 0.000000
+O -1.530024 0.256029 0.000000
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label h2co_h2co_2
+ molden_write true
+}
+
+energy('b86bpbe')

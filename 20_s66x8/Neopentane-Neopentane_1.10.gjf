@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-36-dalal__Neopentane-Neopentane_1.10 
 
@@ -40,5 +40,5 @@ S66-36-dalal__Neopentane-Neopentane_1.10
   H   -2.448320803  -0.575281591   5.881375292
   H   -1.287727340  -0.936028841   4.601410777
 
-Neopentane-Neopentane_1.10.wfn
+Neopentane-Neopentane_1.10.wfx
 

@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-53-ot__Benzene-AcNH2_NH-pi_1.10 
 
@@ -27,5 +27,5 @@ S66-53-ot__Benzene-AcNH2_NH-pi_1.10
   H   -0.361485239  -0.664619837   6.944438674
   H   -0.489045994   1.105869469   6.970183512
 
-Benzene-AcNH2_NH-pi_1.10.wfn
+Benzene-AcNH2_NH-pi_1.10.wfx
 

@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-38-dalal__Cyclopentane-Cyclopentane_2.00 
 
@@ -36,5 +36,5 @@ S66-38-dalal__Cyclopentane-Cyclopentane_2.00
   H   -1.420993284   1.823488722   8.399439383
   H   -0.541284790   0.839336904   9.570869643
 
-Cyclopentane-Cyclopentane_2.00.wfn
+Cyclopentane-Cyclopentane_2.00.wfx
 

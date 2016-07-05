@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-46-dpial__Peptide-Pentane_2.00 
 
@@ -35,5 +35,5 @@ S66-46-dpial__Peptide-Pentane_2.00
   H   -3.009828531  -0.042306138   6.844220221
   H   -2.274842357   1.149922443   7.911272722
 
-Peptide-Pentane_2.00.wfn
+Peptide-Pentane_2.00.wfx
 

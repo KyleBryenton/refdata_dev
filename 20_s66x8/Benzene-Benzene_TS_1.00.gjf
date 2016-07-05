@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-47-ot__Benzene-Benzene_TS_1.00 
 
@@ -30,5 +30,5 @@ S66-47-ot__Benzene-Benzene_TS_1.00
   C    1.083694047   0.606323951   4.973968620
   H    1.930951965   1.192398746   4.643921295
 
-Benzene-Benzene_TS_1.00.wfn
+Benzene-Benzene_TS_1.00.wfx
 

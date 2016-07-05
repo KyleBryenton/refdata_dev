@@ -1,0 +1,28 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule c6h6_nh3_2 {
+0 1
+N 0.1803930 -2.9491231 0.0000000
+H 0.7595495 -3.1459477 -0.8060729
+H 0.7595495 -3.1459477 0.8060729
+H 0.0444167 -1.9449399 0.0000000
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label c6h6_nh3_2
+ molden_write true
+}
+
+energy('b86bpbe')

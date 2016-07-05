@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-20-hb__AcOH-AcOH_0.95 
 
@@ -22,5 +22,5 @@ S66-20-hb__AcOH-AcOH_0.95
   H    4.593300434   1.772540829  -0.460817827
   H    4.583318200   1.364882407   1.244706432
 
-AcOH-AcOH_0.95.wfn
+AcOH-AcOH_0.95.wfx
 

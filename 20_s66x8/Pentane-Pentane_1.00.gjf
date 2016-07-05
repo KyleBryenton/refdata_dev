@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-34-dalal__Pentane-Pentane_1.00 
 
@@ -40,5 +40,5 @@ S66-34-dalal__Pentane-Pentane_1.00
   H   -3.434325996  -0.316550490   4.561720119
   H   -2.564063554   0.977334105   5.381468327
 
-Pentane-Pentane_1.00.wfn
+Pentane-Pentane_1.00.wfx
 

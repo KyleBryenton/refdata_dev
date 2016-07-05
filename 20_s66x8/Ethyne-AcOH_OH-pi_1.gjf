@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-60-ot__Ethyne-AcOH_OH-pi_0.90_1 
 
@@ -10,5 +10,5 @@ S66-60-ot__Ethyne-AcOH_OH-pi_0.90_1
   C   -1.386275728  -0.525325504   0.379973527
   H   -2.080703238  -1.174067393   0.854379369
 
-Ethyne-AcOH_OH-pi_0.90_1.wfn
+Ethyne-AcOH_OH-pi_1.wfx
 

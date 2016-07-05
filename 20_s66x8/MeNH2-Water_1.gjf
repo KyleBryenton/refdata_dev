@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-12-hb__MeNH2-Water_0.90_1 
 
@@ -13,5 +13,5 @@ S66-12-hb__MeNH2-Water_0.90_1
   H   -2.054737265   0.415082130   1.478503595
   H   -0.385023376   0.448800896   2.060614186
 
-MeNH2-Water_0.90_1.wfn
+MeNH2-Water_1.wfx
 

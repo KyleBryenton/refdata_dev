@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-50-ot__Benzene-Ethyne_CH-pi_1.50 
 
@@ -22,5 +22,5 @@ S66-50-ot__Benzene-Ethyne_CH-pi_1.50
   C    0.011274268   0.130229037   6.504932116
   H    0.014386676   0.147401965   7.566129127
 
-Benzene-Ethyne_CH-pi_1.50.wfn
+Benzene-Ethyne_CH-pi_1.50.wfx
 

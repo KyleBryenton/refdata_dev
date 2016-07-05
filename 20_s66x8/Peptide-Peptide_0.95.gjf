@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-15-hb__Peptide-Peptide_0.95 
 
@@ -30,5 +30,5 @@ S66-15-hb__Peptide-Peptide_0.95
   H    5.675083478  -0.015539252   0.638941841
   H    5.472659221  -0.314986712  -1.097603802
 
-Peptide-Peptide_0.95.wfn
+Peptide-Peptide_0.95.wfx
 

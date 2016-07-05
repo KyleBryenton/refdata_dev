@@ -1,0 +1,33 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule ch4_nh3 {
+0 1
+C 0.000000 0.000000 -1.993520
+H 0.000000 0.000000 -0.905538
+H 0.000000 -1.025759 -2.356181
+H -0.888334 0.512880 -2.356181
+H 0.888334 0.512880 -2.356181
+N 0.000000 0.000000 1.906480
+H 0.000000 0.969936 2.196615
+H 0.839989 -0.484968 2.196615
+H -0.839989 -0.484968 2.196615
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label ch4_nh3
+ molden_write true
+}
+
+energy('b86bpbe')

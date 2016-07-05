@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-11-hb__MeNH2-Peptide_0.90 
 
@@ -25,5 +25,5 @@ S66-11-hb__MeNH2-Peptide_0.90
   H    4.880656012  -0.479205198   0.049534772
   H    4.654049743  -0.423078015   1.808018692
 
-MeNH2-Peptide_0.90.wfn
+MeNH2-Peptide_0.90.wfx
 

@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-31-dpipi__Uracil-Ethene_1.50 
 
@@ -24,5 +24,5 @@ S66-31-dpipi__Uracil-Ethene_1.50
   H   -1.174247611  -0.610260903   4.444340723
   H   -1.074069715   1.048288278   5.245241206
 
-Uracil-Ethene_1.50.wfn
+Uracil-Ethene_1.50.wfx
 

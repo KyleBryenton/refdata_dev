@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-64-ot__Peptide-Ethene_1.25 
 
@@ -24,5 +24,5 @@ S66-64-ot__Peptide-Ethene_1.25
   H    1.470963635  -0.747148746   5.376630901
   H    0.820546683  -1.310523231   3.734193758
 
-Peptide-Ethene_1.25.wfn
+Peptide-Ethene_1.25.wfx
 

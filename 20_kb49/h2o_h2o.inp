@@ -1,0 +1,30 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule h2o_h2o {
+0 1
+O -1.551007 -0.114520 0.000000
+H -1.934259 0.762503 0.000000
+H -0.599677 0.040712 0.000000
+O 1.350625 0.111469 0.000000
+H 1.680398 -0.373741 -0.758561
+H 1.680398 -0.373741 0.758561
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label h2o_h2o
+ molden_write true
+}
+
+energy('b86bpbe')

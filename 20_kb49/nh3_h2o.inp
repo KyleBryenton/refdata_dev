@@ -1,0 +1,31 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule nh3_h2o {
+0 1
+N -1.395591 -0.021564 0.000037
+H -1.629811 0.961096 -0.106224
+H -1.862767 -0.512544 -0.755974
+H -1.833547 -0.330770 0.862307
+O 1.568501 0.105892 0.000005
+H 0.606736 -0.033962 -0.000628
+H 1.940519 -0.780005 0.000222
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label nh3_h2o
+ molden_write true
+}
+
+energy('b86bpbe')

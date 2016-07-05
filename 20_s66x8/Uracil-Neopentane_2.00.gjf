@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-43-dpial__Uracil-Neopentane_2.00 
 
@@ -35,5 +35,5 @@ S66-43-dpial__Uracil-Neopentane_2.00
   H   -0.948718093  -1.907173376   6.551791766
   H   -2.551802201  -2.030588419   7.281613368
 
-Uracil-Neopentane_2.00.wfn
+Uracil-Neopentane_2.00.wfx
 

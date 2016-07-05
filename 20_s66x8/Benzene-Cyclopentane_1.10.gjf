@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-39-dpial__Benzene-Cyclopentane_1.10 
 
@@ -33,5 +33,5 @@ S66-39-dpial__Benzene-Cyclopentane_1.10
   H   -1.984160028   1.063116123   4.808107820
   H   -1.118597281   0.378057765   6.184556206
 
-Benzene-Cyclopentane_1.10.wfn
+Benzene-Cyclopentane_1.10.wfx
 

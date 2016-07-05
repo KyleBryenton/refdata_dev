@@ -1,0 +1,29 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule cf4_cf4_2 {
+0 1
+C 0.000000 0.000000 -2.000000
+F 0.000000 0.000000 -3.315800
+F 0.000000 -1.240548 -1.561400
+F -1.074346 0.620274 -1.561400
+F 1.074346 0.620274 -1.561400
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label cf4_cf4_2
+ molden_write true
+}
+
+energy('b86bpbe')

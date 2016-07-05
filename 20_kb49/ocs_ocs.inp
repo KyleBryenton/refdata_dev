@@ -1,0 +1,30 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule ocs_ocs {
+0 1
+C 1.800000 0.550000 0.000000
+S 1.800000 -1.021100 0.000000
+O 1.800000 1.702700 0.000000
+C -1.800000 -0.550000 0.000000
+S -1.800000 1.021100 0.000000
+O -1.800000 -1.702700 0.000000
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label ocs_ocs
+ molden_write true
+}
+
+energy('b86bpbe')

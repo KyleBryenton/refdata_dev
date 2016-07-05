@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfn
+#P pbepbe aug-cc-pvtz SCF=(Conver=6) Int=(grid=ultrafine) output=wfx
 
 S66-51-ot__Ethyne-Ethyne_TS_0.90_1 
 
@@ -10,5 +10,5 @@ S66-51-ot__Ethyne-Ethyne_TS_0.90_1
   C    0.610109174  -0.028663644   0.388163788
   H    1.672135444  -0.028793082   0.387967520
 
-Ethyne-Ethyne_TS_0.90_1.wfn
+Ethyne-Ethyne_TS_1.wfx
 

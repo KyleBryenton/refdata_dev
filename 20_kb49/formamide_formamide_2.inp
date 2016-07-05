@@ -1,0 +1,30 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule formamide_formamide_2 {
+0 1
+C 2.018649 -0.052883 0.000000
+O 1.452200 -1.143634 0.000000
+N 1.407770 1.142484 0.000000
+H 1.964596 1.977036 0.000000
+H 0.387244 1.207782 0.000000
+H 3.117061 0.013701 0.000000
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label formamide_formamide_2
+ molden_write true
+}
+
+energy('b86bpbe')

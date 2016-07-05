@@ -1,0 +1,30 @@
+memory 2 GB
+set_num_threads(6)
+
+molecule c2h4_hf_1 {
+0 1
+C 0.000000 0.665900 -1.163992
+H 0.922200 1.231634 -1.163992
+H -0.922200 1.231634 -1.163992
+C 0.000000 -0.665900 -1.163992
+H 0.922200 -1.231634 -1.163992
+H -0.922200 -1.231634 -1.163992
+units angstrom
+no_reorient
+symmetry c1
+}
+
+set scf {
+  scf_type df
+  dft_spherical_points 590
+  dft_radial_points 99
+}
+
+set {
+ basis aug-cc-pvtz
+ puream false
+ writer_file_label c2h4_hf_1
+ molden_write true
+}
+
+energy('b86bpbe')

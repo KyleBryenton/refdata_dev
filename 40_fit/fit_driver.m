@@ -19,6 +19,7 @@
 #source("reader_vasp.m");
 #source("reader_qe.m");
 source("reader_postg.m");
+#source("reader_postg_psi4.m");
 #source("reader_orca.m");
 #source("reader_psi4.m");
 #source("reader_qchem.m");
@@ -31,6 +32,7 @@ source("energy_bj.m");
 #source("energy_tt.m");
 
 ## din file
+#din="../10_din/temp.din";
 din="../10_din/kb49.din";
 #din="../10_din/bleh.din";
 #din="../10_din/s22.din";
@@ -40,7 +42,11 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_minis_scan5%b3lyp"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_minis_scan5%blyp"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/hf-3c"};
-dir_e={"../30_run/hf_pc2spd"};
+## dir_e={"../30_run/hf_pc2spd"};
+## dir_e={"/home/alberto/calc/psi4/kb49_b86bpbe"};
+## dir_e={"/home/alberto/calc/psi4/kb49_b86blyp"};
+## dir_e={"/home/alberto/calc/psi4/kb49_wb86b"};
+dir_e={"/home/alberto/calc/psi4/kb49_b86bhpbe"};
 
 ## xyz structure source
 dir_s="../20_kb65";
