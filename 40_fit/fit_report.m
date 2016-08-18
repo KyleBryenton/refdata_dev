@@ -1,4 +1,4 @@
-# Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
+# Copyright (c) 2015 Alberto Otero de la Roza <aoterodelaroza@gmail.com>
 #
 # refdata is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

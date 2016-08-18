@@ -1,6 +1,6 @@
 #! /usr/bin/octave-cli -q
 
-# Copyright (c) 2015 Alberto Otero de la Roza <alberto@fluor.quimica.uniovi.es>
+# Copyright (c) 2015 Alberto Otero de la Roza <aoterodelaroza@gmail.com>
 #
 # refdata is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@ din = {...
         "../10_din/kb49.din",...
         "../10_din/kb49.din",...
         "../10_din/kb49.din",...
-       };
+      };
 
 #### Now DO stuff ####
 warning("off");
@@ -69,7 +69,7 @@ for i = 1:ndin
   ## printf("| RMSP | -- | %.3f |\n",rmsp(1));
 
   ## Simple output, only name of the set and MAE
-  printf("| %s | %s | %.3f |\n",data{i},din{i},mad(1));
+  ## printf("| %s | %s | %.3f |\n",data{i},din{i},mad(1));
 
 endfor
 
