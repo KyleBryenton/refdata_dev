@@ -13,9 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+[];
+
 function fit_report_full(pout,yin,yout)
 
-  global hy2kcal e n xc z c6 c8 c10 rc dimers mol1 mol2 be_ref active
+  global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 be_ref active
 
   printf("# Parameters of the fit\n");
   printf(" a1 = %.8f || a2(ang) = %.8f\n\n",pout(1),pout(2))

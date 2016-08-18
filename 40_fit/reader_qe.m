@@ -15,15 +15,17 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+format long;
+
 ## function: give the name of the file
 function file = namefile(edir,tag)
   file = sprintf("%s/%s/%s.scf.out",edir,tag,tag);
 endfunction
 
 ## function: read the dispersion coefficients from qe output
-function [c6,c8,c10,rc] = readcij(file,n)
+function [c6,c8,c10,rc,c9] = readcij(file,n)
 
-  c6 = zeros(n); c8 = zeros(n); c10 = zeros(n); rc = zeros(n);
+  c6 = zeros(n); c8 = zeros(n); c10 = zeros(n); rc = zeros(n); c9 = zeros(n,n,n);
 
   fid = fopen(file,"r");
   line = fgetl(fid);

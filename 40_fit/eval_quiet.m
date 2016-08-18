@@ -15,11 +15,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+[];
 
 ## define the least-squares function
 function y = f(x,p)
 
-  global hy2kcal e n xc z c6 c8 c10 rc dimers mol1 mol2 active
+  global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 active
 
   y = zeros(size(x));
   for ii = 1:length(x)

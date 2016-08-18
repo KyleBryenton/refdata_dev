@@ -13,8 +13,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-[];
-
 ## function: calculate the vdw energy of a single molecule
 function e = energy(n,z,x,c6,c8,c10,rc,coef)
 
@@ -26,7 +24,7 @@ function e = energy(n,z,x,c6,c8,c10,rc,coef)
       a2 = coef(2) / .52917720859;
       rvdw = a1 * rc(i,j) + a2;
       
-      e -= c6(i,j) / (rvdw^6 + d^6) + c8(i,j) / (rvdw^8 + d^8) + c10(i,j) / (rvdw^10 + d^10);
+      e -= c6(i,j) / (rvdw^6 + d^6) + c8(i,j) / (rvdw^8 + d^8);
     endfor
   endfor
 endfunction

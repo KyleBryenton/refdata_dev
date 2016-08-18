@@ -4,5 +4,8 @@
 # runs
 30_*/
 
+# results of the fit
+40_fit/*.org
+
 # old calculations
 zz_*_attic/

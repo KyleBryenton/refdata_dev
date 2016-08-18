@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## globals
-global hy2kcal e n xc z c6 c8 c10 rc dimers mol1 mol2 be_ref active
+global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 be_ref active
 
 ## molecule components of the dimers
 mol1 = cell(length(dimers),1);
@@ -74,7 +74,7 @@ endfor
 active = active2 & active;
 
 ## collect the coefficients and radii
-c6 = struct(); c8 = struct(); c10 = struct(); rc = struct();
+c6 = struct(); c8 = struct(); c10 = struct(); rc = struct(); c9 = struct();
 for i = 1:length(dimers);
   if (active(i) == 0) 
     continue
@@ -89,25 +89,28 @@ for i = 1:length(dimers);
     if (exist(filed,"file") && exist(file1,"file") && exist(file2,"file"))
       s = dimers{i};
       nn = getfield(n,s);
-      [cc6,cc8,cc10,rrc] = readcij(namefile(ddir,s),nn);
+      [cc6,cc8,cc10,rrc,cc9] = readcij(namefile(ddir,s),nn);
       c6 = setfield(c6,s,cc6);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
+      c9 = setfield(c9,s,cc9);
       s = mol1{i};
       nn = getfield(n,s);
-      [cc6,cc8,cc10,rrc] = readcij(namefile(ddir,s),nn);
+      [cc6,cc8,cc10,rrc,cc9] = readcij(namefile(ddir,s),nn);
       c6 = setfield(c6,s,cc6);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
+      c9 = setfield(c9,s,cc9);
       s = mol2{i};
       nn = getfield(n,s);
-      [cc6,cc8,cc10,rrc] = readcij(namefile(ddir,s),nn);
+      [cc6,cc8,cc10,rrc,cc9] = readcij(namefile(ddir,s),nn);
       c6 = setfield(c6,s,cc6);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
+      c9 = setfield(c9,s,cc9);
       break
     endif
   endfor
