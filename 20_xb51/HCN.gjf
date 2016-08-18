@@ -1,0 +1,13 @@
+%nprocs=6
+%mem=4GB
+#p blyp aug-cc-pvqz output=wfx scf=(conver=6) int=(grid=ultrafine)
+ 
+title
+ 
+0 1
+N 0.0000000000 0.0000000000 0.6546190000
+C 0.0000000000 0.0000000000 -0.5021760000
+H 0.0000000000 0.0000000000 -1.5692750000
+
+HCN.wfx
+
