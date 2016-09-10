@@ -22,14 +22,10 @@ source("reader_g09.m");
 # source("reader_postg_psi4.m");
  
 data = {...
-        "/home/alberto/git/refdata/30_run/pw86pbe",...
-        "/home/alberto/git/refdata/30_run/pbe",...
-        "/home/alberto/git/refdata/30_run/pbe0",...
+        "/home/alberto/git/refdata/30_run/20_a24",...
       };
 din = {...
-        "../10_din/kb49.din",...
-        "../10_din/kb49.din",...
-        "../10_din/kb49.din",...
+        "../10_din/a24.din",...
       };
 
 #### Now DO stuff ####
@@ -53,20 +49,20 @@ for i = 1:ndin
   [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines] = process_din(n,rxn,data{i},0);
 
   #### Simple output, whole list
-  ## printf("## din file: %s\n",din{i});
-  ## printf("## data file: %s\n",data{i});
-  ## printf("## All results in kcal/mol.\n",din{i});
-  ## printf("| name | Ref. | Calc. | \n");
-  ## for j = 1:n
-  ##   yref = rxn{j}{end};
-  ##   printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{2},yref,elist(j));
-  ## endfor
-  ## printf("| MAE  | -- | %.3f |\n",mad(1));
-  ## printf("| ME   | -- | %.3f |\n",md(1));
-  ## printf("| MAPE | -- | %.3f |\n",mapd(1));
-  ## printf("| MPE  | -- | %.3f |\n",mpd(1));
-  ## printf("| RMS  | -- | %.3f |\n",rms(1));
-  ## printf("| RMSP | -- | %.3f |\n",rmsp(1));
+  printf("## din file: %s\n",din{i});
+  printf("## data file: %s\n",data{i});
+  printf("## All results in kcal/mol.\n",din{i});
+  printf("| name | Ref. | Calc. | \n");
+  for j = 1:n
+    yref = rxn{j}{end};
+    printf("| %25s | %10.3f | %10.3f |\n",rxn{j}{2},yref,elist(j));
+  endfor
+  printf("| MAE  | -- | %.3f |\n",mad(1));
+  printf("| ME   | -- | %.3f |\n",md(1));
+  printf("| MAPE | -- | %.3f |\n",mapd(1));
+  printf("| MPE  | -- | %.3f |\n",mpd(1));
+  printf("| RMS  | -- | %.3f |\n",rms(1));
+  printf("| RMSP | -- | %.3f |\n",rmsp(1));
 
   ## Simple output, only name of the set and MAE
   ## printf("| %s | %s | %.3f |\n",data{i},din{i},mad(1));
