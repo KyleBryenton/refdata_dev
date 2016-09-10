@@ -16,16 +16,16 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Choose the energy reader and name generator
-# source("reader_g09.m");
-source("reader_postg.m");
+source("reader_g09.m");
+# source("reader_postg.m");
 # source("reader_orca.m");
 # source("reader_postg_psi4.m");
  
 data = {...
-        "/home/alberto/git/refdata/30_run/20_water",...
+        "/home/alberto/git/refdata/30_run/20_sulfur_x8",...
       };
 din = {...
-        "../10_din/water.din",...
+        "../10_din/sulfur_x8.din",...
       };
 
 #### Now DO stuff ####
