@@ -48,7 +48,8 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/ncifun/kb49_wb86bpbe_0.6"};
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09_wfn"};
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09"};
-dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.4/"};
+## dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0/"};
+dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0_vol0/"};
 
 ## xyz structure source
 dir_s="../20_kb65";
