@@ -1,16 +1,6 @@
-# The P26 set is a benchmark database on isolated small peptides
-# containing an aromatic side chain; quantum chemical study on five
-# peptides (WG,WGG,FGG,GGF and GFA) were presented in the paper;
-# Reference relative energy data are taken from the ESI for the paper
-# (estimated CCSD(T)/CBS column); all values are in kcal/mol.
+# The P26 set is a benchmark database on isolated small peptides containing an aromatic side chain; quantum chemical study on five peptides (WG,WGG,FGG,GGF and GFA) were presented in the paper; Reference relative energy data are taken from the ESI for the paper (estimated CCSD(T)/CBS column); all values are in kcal/mol.
 # 
-# Conformers WGG10 and WGG12 could NOT be confirmed. They are probably
-# erroneously switched in the paper. Hence, the two have been dropped
-# from this file.
-#
-# Valdes, H.; Pluháčková, K.; Pitoňák, M.; Řezáč, J. and Hobza,
-# P. Phys. Chem. Chem. Phys., 2008, 10, 2747–2757; DOI:
-# 10.1039/b719294k  
+# Valdes, H.; Pluháčková, K.; Pitoňák, M.; Řezáč, J. and Hobza, P. Phys. Chem. Chem. Phys., 2008, 10, 2747–2757; DOI: 10.1039/b719294k 
 #
 -1
 WG01
@@ -168,6 +158,18 @@ WGG01
 WGG13
 0
 4.24
+-1
+WGG01
+1
+WGG10
+0
+3.83
+-1
+WGG01
+1
+WGG12
+0
+3.36
 -1
 GGF15
 1
