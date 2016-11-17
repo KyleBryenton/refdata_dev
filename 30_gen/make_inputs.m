@@ -15,14 +15,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-din="../10_din/g3_99.din";
-src="../20_g3/";
-template="templates/g09.gjf";
+# x40  x40x10
+
+din="../10_din/x40x10.din";
+src="../20_x40x10/";
+template="templates/g09-cp.gjf";
 target="gen/";
 
 #### End of input block. ####
 
-keywords={"%q%","%m%","%geometry%"};
+keywords={"%q%","%m%","%geometry%","%geometry:cp%","%gaussian:cp%"};
 
 ## Read the din file
 if (!exist(din,"file"))
@@ -63,9 +65,9 @@ for i = 1:n
         error(sprintf("No atoms found in file: %s",file))
       endif
       smol = mol_burst(mol);
-      smol = {mol smol(:)};
+      smol = {mol smol{:}};
       dat = setfield(dat,rxn{i}{j},smol);
-      ## printf("| %d-%d | %s | %d |\n",i,j,rxn{i}{j},length(smol)-1);
+      printf("| %d-%d | %s | %d |\n",i,j,rxn{i}{j},length(smol)-1);
     endif
   endfor
 endfor
@@ -77,8 +79,8 @@ line = {};
 process = {};
 while (!feof(fid))
   nline++;
-  line{nline} = fgetl(fid);
-  process{nline} = find(index(line{nline},keywords));
+  line0{nline} = fgetl(fid);
+  process{nline} = find(index(line0{nline},keywords));
 endwhile
 fclose(fid);
 
@@ -88,6 +90,7 @@ for i = 1:length(names)
   file = sprintf("%s%s.%s",target,names{i},ext);
   fid = fopen(file,"w");
   mol = getfield(dat,names{i});
+  line = line0;
   for j = 1:nline
     if (!any(process{j}))
       ## do nothing
@@ -97,6 +100,30 @@ for i = 1:length(names)
       endif
       if (index(line{j},"%m%"))
         line{j} = strrep(line{j},"%m%",sprintf("%d",mol{1}.m));
+      endif
+      if (index(line{j},"%gaussian:cp%"))
+        if (length(mol) > 2)
+          line{j} = strrep(line{j},"%gaussian:cp%",sprintf("counterpoise=%d",length(mol)-1));
+        else
+          line{j} = strrep(line{j},"%gaussian:cp%","");
+        endif
+      endif
+      if (index(line{j},"%geometry:cp%"))
+        if (mol{1}.q != 0 || mol{1}.m != 1)
+          warning(sprintf("Wrong charge multiplicity in input: %s",file))
+        endif
+        if (length(mol) > 2)
+          for im = 2:length(mol)
+            for k = 1:mol{im}.nat
+              fprintf(fid,"%s(fragment=%d) %.10f %.10f %.10f\n",mol{im}.atname{k},im-1,mol{im}.atxyz(:,k));
+            endfor
+          endfor
+        else
+          for k = 1:mol{1}.nat
+            fprintf(fid,"%s %.10f %.10f %.10f\n",mol{1}.atname{k},mol{1}.atxyz(:,k));
+          endfor
+        endif
+        continue
       endif
       if (index(line{j},"%geometry%"))
         for k = 1:mol{1}.nat

@@ -1,0 +1,11 @@
+%nprocs=6
+%mem=2GB
+#p blyp gen scf=(conver=6) int=(grid=ultrafine) %gaussian:cp%
+ 
+title
+ 
+%q% %m% %q% %m% %q% %m%
+%geometry:cp%
+
+@minis.gbs/N
+
