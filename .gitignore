@@ -3,6 +3,7 @@
 
 # runs
 30_run/
+30_gen/gen
 
 # results of the fit
 40_fit/*.org
