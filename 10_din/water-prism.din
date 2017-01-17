@@ -1,0 +1,11 @@
+## Water cluster set by Shields et al.:
+##   Temelso, B., Archer, K.A., Shields, G. C. J. Phys. Chem. A, 115(43), 12034-12046 (2011)
+## The structures have been taken from begdb.com, except 
+## the monomer, which has been optimized with Gaussian at the
+## MP2/aug-cc-pVDZ level. The reference data is CCSD(T)/CBS.
+1
+water6PR
+-6
+water1
+0
+-46.14

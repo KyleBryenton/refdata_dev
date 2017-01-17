@@ -1,0 +1,48 @@
+## Water cluster set by Shields et al.:
+##   Temelso, B., Archer, K.A., Shields, G. C. J. Phys. Chem. A, 115(43), 12034-12046 (2011)
+## The structures have been taken from begdb.com, except 
+## the monomer, which has been optimized with Gaussian at the
+## MP2/aug-cc-pVDZ level. The reference data is CCSD(T)/CBS.
+## This din file contains the energies for the hexamers relative to the prism.
+1
+water6CA
+-1
+water6PR
+0
+0.21
+1
+water6BK1
+-1
+water6PR
+0
+0.63
+1
+water6BK2
+-1
+water6PR
+0
+1.00
+1
+water6CC
+-1
+water6PR
+0
+1.54
+1
+water6BAG
+-1
+water6PR
+0
+1.55
+1
+water6CB1
+-1
+water6PR
+0
+2.57
+1
+water6CB2
+-1
+water6PR
+0
+2.63
