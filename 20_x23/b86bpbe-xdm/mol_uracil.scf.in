@@ -1,0 +1,46 @@
+&control
+ title='uracil',
+ prefix='uracil',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=40,
+ nat=12,
+ ntyp=4,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -3.20546 -1.40329 0.00001
+n -1.83154 -1.23695 -0.00000
+c -1.10376 -0.02705 -0.00001
+c -1.94641 1.16460 -0.00000
+c -3.29203 1.03592 0.00001
+n -3.90354 -0.19750 0.00002
+h -1.46360 2.13183 -0.00001
+h -3.96327 1.88753 0.00002
+o 0.11879 -0.04458 -0.00003
+o -3.76467 -2.48780 0.00001
+h -1.28554 -2.09152 -0.00001
+h -4.91015 -0.28541 0.00002
+
+K_POINTS gamma
+

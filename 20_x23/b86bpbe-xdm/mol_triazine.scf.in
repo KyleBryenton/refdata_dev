@@ -1,0 +1,42 @@
+&control
+ title='triazine',
+ prefix='triazine',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=25,
+ nat=9,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+
+ATOMIC_POSITIONS angstrom
+c -2.07811 -1.91538 -0.00000
+n -0.74056 -1.90192 -0.00000
+c -0.20277 -0.67741 -0.00001
+c -2.21253 0.32770 -0.00002
+n -2.86968 -0.83712 -0.00000
+h 0.88283 -0.61169 -0.00002
+h -2.56457 -2.88808 -0.00001
+h -2.81116 1.23571 -0.00001
+n -0.88284 0.47463 -0.00000
+
+K_POINTS gamma
+

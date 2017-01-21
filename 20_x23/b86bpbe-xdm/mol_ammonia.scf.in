@@ -1,0 +1,36 @@
+&control
+ title='ammonia',
+ prefix='ammonia',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=20,
+ nat=4,
+ ntyp=2,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+
+ATOMIC_POSITIONS angstrom
+n -0.29411 0.93939 0.00000
+h 0.06770 -0.00985 0.00000
+h 0.06771 1.41401 0.82206
+h 0.06771 1.41401 -0.82206
+
+K_POINTS gamma
+

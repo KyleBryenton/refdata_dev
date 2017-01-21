@@ -1,0 +1,47 @@
+&control
+ title='cytosine',
+ prefix='cytosine',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=40,
+ nat=13,
+ ntyp=4,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -0.59603 -0.11503 0.13736
+c 1.43132 1.22878 -0.15353
+c -0.66063 2.25820 -0.00835
+c -1.36348 1.00842 0.14354
+h -1.00625 -1.11381 0.24341
+h 1.34253 -0.83468 -0.01294
+h -2.43824 0.95854 0.26210
+n 0.74910 -0.01575 -0.00440
+n 0.64950 2.35516 -0.14955
+o 2.64893 1.20913 -0.27611
+n -1.36676 3.42202 0.01207
+h -0.86623 4.27682 -0.18180
+h -2.37257 3.42744 -0.02442
+
+K_POINTS gamma
+

@@ -1,0 +1,49 @@
+&control
+ title='14-cyclohexanedione',
+ prefix='14-cyclohexanedione',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=40,
+ nat=16,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -2.82925 -1.01435 0.00693
+c -1.32605 -0.81559 -0.25129
+c -1.74668 1.54753 0.71500
+c -2.94013 1.55741 -0.25522
+h -0.73782 -1.68441 0.05661
+h -1.14670 -0.68786 -1.32923
+h -2.99912 -1.23038 1.07226
+h -2.10528 1.40786 1.74570
+h -1.20178 2.49551 0.70578
+h -2.59106 1.78595 -1.27324
+h -3.67024 2.33060 -0.00065
+h -3.23213 -1.86681 -0.54685
+c -0.75798 0.42030 0.43777
+o 0.41627 0.50229 0.74856
+c -3.66317 0.21703 -0.32964
+o -4.83761 0.13477 -0.63965
+
+K_POINTS gamma
+

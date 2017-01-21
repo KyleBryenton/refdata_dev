@@ -1,0 +1,44 @@
+&control
+ title='benzene',
+ prefix='benzene',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=25,
+ nat=12,
+ ntyp=2,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+
+ATOMIC_POSITIONS angstrom
+c 0.00435 -0.19083 0.00007
+c 1.40284 -0.19081 0.00059
+c 2.10210 1.02002 -0.00010
+c 1.40290 2.23116 -0.00103
+c 0.00461 2.23114 -0.00142
+c -0.69476 1.02014 -0.00099
+h -0.53863 -1.13156 0.00044
+h 1.94576 -1.13160 0.00137
+h 3.18829 1.02005 0.00017
+h 1.94611 3.17175 -0.00145
+h -0.53852 3.17180 -0.00225
+h -1.78094 1.02038 -0.00133
+
+K_POINTS gamma
+

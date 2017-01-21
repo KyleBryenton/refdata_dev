@@ -1,0 +1,47 @@
+&control
+ title='ethylcarbamate',
+ prefix='ethylcarbamate',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=30,
+ nat=13,
+ ntyp=4,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c 0.02166 0.20617 0.12083
+o 0.67114 1.22389 0.28934
+o 0.55358 -1.03533 -0.02099
+n -1.34250 0.14699 0.07420
+h -1.84000 1.02078 0.01845
+h -1.80140 -0.70050 -0.21999
+c 1.99707 -1.11365 0.05748
+c 2.38391 -2.56959 -0.12082
+h 2.31737 -0.72076 1.02714
+h 2.42661 -0.47710 -0.72193
+h 3.47312 -2.66863 -0.06662
+h 1.94280 -3.19274 0.66311
+h 2.05267 -2.94882 -1.09244
+
+K_POINTS gamma
+

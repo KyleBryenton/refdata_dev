@@ -1,0 +1,42 @@
+&control
+ title='urea',
+ prefix='urea',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=35,
+ nat=8,
+ ntyp=4,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c 0.08560 0.24327 0.00019
+o 0.69692 1.30440 -0.00515
+n -1.26701 0.15519 -0.28874
+h -1.80510 -0.59850 0.11551
+h -1.73456 1.05018 -0.31705
+n 0.68928 -0.96903 0.29611
+h 0.30641 -1.81493 -0.10270
+h 1.69824 -0.92371 0.31842
+
+K_POINTS gamma
+

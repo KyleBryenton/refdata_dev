@@ -1,0 +1,41 @@
+&control
+ title='oxalic_acid',
+ prefix='oxalic_acid',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=30,
+ nat=8,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c          0.75335       -0.16954        0.00001
+c         -0.75335        0.16954        0.00003
+o          1.13827       -1.30769       -0.00008
+o          1.53227        0.90317        0.00007
+o         -1.13827        1.30769       -0.00008
+o         -1.53227       -0.90317        0.00006
+h          0.95148        1.68488        0.00003
+h         -0.95147       -1.68488        0.00007
+
+K_POINTS gamma
+

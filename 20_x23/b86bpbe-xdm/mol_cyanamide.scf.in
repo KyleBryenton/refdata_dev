@@ -1,0 +1,38 @@
+&control
+ title='cyanamide',
+ prefix='cyanamide',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=40,
+ nat=5,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+
+ATOMIC_POSITIONS angstrom
+c 0.16330 -0.03216 0.00140
+n 1.32637 -0.12176 -0.00189
+n -1.18013 0.00713 0.00372
+h -1.61237 0.32076 0.86363
+h -1.61385 0.37432 -0.83395
+
+K_POINTS gamma
+

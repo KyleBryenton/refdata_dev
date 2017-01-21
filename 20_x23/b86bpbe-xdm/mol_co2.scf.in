@@ -1,0 +1,35 @@
+&control
+ title='co2',
+ prefix='co2',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=20,
+ nat=3,
+ ntyp=2,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c 0.21212 -0.04242 0.00000
+o 1.38148 -0.04242 0.00000
+o -0.95723 -0.04242 0.00000
+
+K_POINTS gamma
+

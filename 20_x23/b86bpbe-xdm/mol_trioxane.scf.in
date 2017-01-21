@@ -1,0 +1,45 @@
+&control
+ title='trioxane',
+ prefix='trioxane',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=25,
+ nat=12,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -0.86150 -1.21575 -1.13768
+c 1.05297 0.09075 -1.13763
+c -0.86037 0.83777 -0.06285
+h 2.13530 0.03456 -1.03119
+h -1.22080 -0.77317 -2.08478
+h -1.20352 -2.24424 -1.03191
+h -1.20104 1.33685 0.84314
+h -1.22028 1.36448 -0.96566
+h 0.77243 0.58653 -2.08499
+o 0.55231 -1.23151 -1.12884
+o 0.55355 0.83816 -0.04616
+o -1.37542 -0.47885 -0.04583
+
+K_POINTS gamma
+

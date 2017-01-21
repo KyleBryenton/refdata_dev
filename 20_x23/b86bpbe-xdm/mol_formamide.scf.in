@@ -1,0 +1,40 @@
+&control
+ title='formamide',
+ prefix='formamide',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=40,
+ nat=6,
+ ntyp=4,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+n 14.0067000000 n.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -0.02202 0.15596 -0.02354
+o 0.72955 0.88142 -0.65281
+n -1.37477 0.30037 0.03095
+h -1.95024 -0.32947 0.56822
+h -1.81286 1.05569 -0.47808
+h 0.33969 -0.70347 0.57221
+
+K_POINTS gamma
+

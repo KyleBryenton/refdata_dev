@@ -1,0 +1,41 @@
+&control
+ title='acetic_acid',
+ prefix='acetic_acid',
+ pseudo_dir='.',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+ calculation='relax',
+/
+&system
+ ibrav=1,
+ celldm(1)=30,
+ nat=8,
+ ntyp=3,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+ATOMIC_SPECIES
+c 12.0107000000 c.UPF
+h 1.0079400000 h.UPF
+o 15.9994000000 o.UPF
+
+ATOMIC_POSITIONS angstrom
+c -1.54742 0.04719 -0.00001
+h -1.90088 1.07761 -0.00003
+h -1.92487 -0.47953 -0.88183
+h -1.92489 -0.47952 0.88180
+c -0.04189 0.03178 -0.00002
+o 0.68252 1.00427 -0.00017
+o 0.44824 -1.23641 0.00021
+h 1.41812 -1.16687 0.00020
+
+K_POINTS gamma
+
