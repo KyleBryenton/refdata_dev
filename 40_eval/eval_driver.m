@@ -16,16 +16,20 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Choose the energy reader and name generator
-source("reader_g09.m");
-# source("reader_postg.m");
-# source("reader_orca.m");
-# source("reader_postg_psi4.m");
+# source("reader_g09-simple.m");
+# source("reader_postg-simple.m");
+# source("reader_d3-simple.m");
+source("reader_espresso-simple.m");
+# source("reader_orca-simple.m");
+# source("reader_postg_psi4-simple.m");
  
 data = {...
-        "/home/alberto/git/refdata/30_run/20_ionichb",...
+        "/home/alberto/calc/xdm_opt/15_zerop/b86bpbe-xdm",...
       };
 din = {...
-        "../10_din/ionichb.din",...
+        ## "../10_din/c21.din",...
+        ## "../10_din/c21_revised.din",...
+        "../10_din/x23.din",...
       };
 
 #### Now DO stuff ####
@@ -68,4 +72,3 @@ for i = 1:ndin
   ## printf("| %s | %s | %.3f |\n",data{i},din{i},mad(1));
 
 endfor
-

@@ -22,38 +22,6 @@ function file = namefile(edir,tag)
   file = sprintf("%s/%s.pgout",edir,tag);
 endfunction
 
-## function: read the dispersion coefficients from qe output
-function [c6,c8,c10,rc,c9] = readcij(file,n)
-
-  c6 = zeros(n); c8 = zeros(n); c10 = zeros(n); rc = zeros(n); c9 = zeros(n,n,n);
-
-  fid = fopen(file,"r");
-  line = fgetl(fid);
-  do 
-    if(regexp(line,"coefficients and distances"));
-      line = fgetl(fid);
-      do
-	[ii,jj,ddum,c6dum,c8dum,c10dum,rcdum,rvdw] = sscanf(line,"%d %d %f %f %f %f %f %f","C");
-	c6(jj,ii) = c6(ii,jj) = c6dum; 
-	c8(jj,ii) = c8(ii,jj) = c8dum; 
-	c10(jj,ii) = c10(ii,jj) = c10dum; 
-	rc(jj,ii) = rc(ii,jj) = rcdum;
-	line = fgetl(fid);
-      until (strcmp(deblank(line),"#"));
-    elseif(regexp(line,"three-body dispersion coefficients"));
-      line = fgetl(fid); line = fgetl(fid);
-      do
-	[ii,jj,kk,c9dum] = sscanf(line,"%d %d %d %f","C");
-	c9(ii,jj,kk) = c9(kk,ii,jj) = c9(kk,jj,ii) = ...
-        c9(jj,ii,kk) = c9(kk,jj,ii) = c9(ii,kk,jj) = c9dum; 
-	line = fgetl(fid);
-      until (strcmp(deblank(line),"#"));
-    endif
-    line = fgetl(fid);
-  until (!ischar(line) && (line == -1))
-  fclose(fid);
-endfunction
-
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
   [stat,out] = system(sprintf("grep 'Total Energy =' %s.out | tail -n 1 | awk '{print $NF}' \n",strrep(file,".pgout","")));
