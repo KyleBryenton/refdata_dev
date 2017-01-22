@@ -1,0 +1,53 @@
+data_grace_molxvi_1
+#
+# Structure prediction using Avant-garde Materials Simulation Software
+# GRACE                                                               
+# Calculations by:  
+# Marcus Neumann, Jacco van de Streek, Frank Leusen and John Kendrick
+# Structures have been fully optimised using DFT(D) with the PBE functional
+# Duplicate structures have been removed from consideration
+# 
+# Rank:            1
+# Energy:          -156.592691 kcals/mol/atom
+# Relative energy: 0.000000   kcals/mol/atom
+# Density:         1.373476 g/cm3
+_symmetry_cell_setting orthorhombic
+_symmetry_space_group_name_H-M 'P b c a'
+_symmetry_Int_Tables_number 61
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x+1/2,-y,z+1/2
+3 -x,y+1/2,-z+1/2
+4 x+1/2,-y+1/2,-z
+5 -x,-y,-z
+6 x+1/2,y,-z+1/2
+7 x,-y+1/2,z+1/2
+8 -x+1/2,y+1/2,z
+_cell_length_a 7.509749215703937
+_cell_length_b 16.299323362854057
+_cell_length_c 9.490839712991539
+_cell_angle_alpha 90.000000000000000
+_cell_angle_beta 90.000000000000000
+_cell_angle_gamma 90.000000000000000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C0_0 C 1.091800659910700 0.438695398736886 0.690201075517163
+C1_0 C 1.049384277647536 0.354144990285234 0.719696364837134
+C2_0 C 1.096227123479597 0.291329666383956 0.630666483154101
+C3_0 C 1.188784850199897 0.304861743076869 0.502108128041509
+C4_0 C 1.237926790501739 0.382929253147498 0.464789623115415
+C5_0 C 1.193668845495295 0.448356065966002 0.556984984754991
+O0_0 O 1.048799002739617 0.498313654033908 0.766344054310580
+N0_0 N 1.244440579428804 0.524823097924041 0.531608452502773
+N1_0 N 1.272923798013455 0.593085878746579 0.532774137311635
+H0_0 H 0.976485398612853 0.342302968970320 0.816806431256022
+H1_0 H 1.061449447680416 0.228527252649882 0.659343965477924
+H2_0 H 1.221752755398620 0.253173508798800 0.434564108049551
+H3_0 H 1.310384128262716 0.397664550865451 0.368627462049513
+#END

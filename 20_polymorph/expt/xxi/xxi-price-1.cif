@@ -1,0 +1,66 @@
+
+#######################################################################
+#
+#                 Cambridge Crystallographic Data Centre
+#      Blind Tests of Crystal Structure Prediction 2010 - XXI Form 3
+# 
+#######################################################################
+# 
+#   This CIF contains the entry for XXI Form 3 from the Price group submission, 
+#   by Doris Braun, University College London
+# 
+#######################################################################
+
+data_C2-1607
+_database_code_CSD               UNKNWN
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'C 2/c'
+_symmetry_Int_Tables_number      15
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,1/2-z
+3 1/2+x,1/2+y,z
+4 1/2-x,1/2+y,1/2-z
+5 -x,-y,-z
+6 x,-y,1/2+z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,1/2+z
+_cell_length_a                   19.6425
+_cell_length_b                   3.564
+_cell_length_c                   21.0011
+_cell_angle_alpha                90
+_cell_angle_beta                 87.2237
+_cell_angle_gamma                90
+_cell_volume                     1468.47
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.292781 0.840368 0.632909
+C2 C 0.335816 0.979184 0.583548
+C3 C 0.405663 0.992044 0.591184
+C4 C 0.431771 0.874467 0.648609
+C5 C 0.388188 0.740776 0.697995
+C6 C 0.318671 0.721291 0.690389
+C7 C 0.218179 0.81693 0.627416
+O1 O 0.448233 1.12099 0.543668
+O2 O 0.50007 0.899144 0.654417
+O3 O 0.420064 0.637176 0.751737
+O4 O 0.197485 0.935243 0.570594
+O5 O 0.178354 0.704269 0.669062
+H1 H 0.492237 1.17319 0.560182
+H2 H 0.511146 0.802448 0.695601
+H3 H 0.38783 0.501921 0.779015
+H4 H 0.148338 0.913124 0.572845
+H5 H 0.315759 1.0741 0.539191
+H6 H 0.283498 0.618467 0.727913
+O6 O 0.06483 1.05077 0.0632677
+H7 H 0.0498589 0.868938 0.0947658
+H8 H 0.0644549 0.908515 0.024362
+
+#END
+

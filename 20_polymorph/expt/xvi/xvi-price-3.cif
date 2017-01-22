@@ -1,0 +1,41 @@
+data_57
+_database_code_CSD               UNKNWN
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a                   7.0013
+_cell_length_b                   5.9886
+_cell_length_c                   14.18
+_cell_angle_alpha                90
+_cell_angle_beta                 75.4207
+_cell_angle_gamma                90
+_cell_volume                     575.395
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.677928 0.693979 0.921341
+C2 C 0.779494 0.489026 0.875657
+C3 C 0.824113 0.440088 0.774093
+C4 C 0.770505 0.590929 0.713577
+C5 C 0.671896 0.79238 0.753037
+C6 C 0.627948 0.842152 0.849964
+N1 N 0.828372 0.348119 0.937549
+N2 N 0.861309 0.243846 0.997746
+O1 O 0.642328 0.729538 1.00929
+H1 H 0.899425 0.28466 0.747055
+H2 H 0.80237 0.558757 0.635538
+H3 H 0.63036 0.91082 0.703022
+H4 H 0.552677 0.996773 0.878418
+
+#END
+

@@ -1,0 +1,44 @@
+data_1_mpk_dmacrys_UK_mcm_CB_35_Pbca
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P b c a'
+_symmetry_Int_Tables_number      61
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,z
+8 x,1/2-y,1/2+z
+_cell_length_a                   11.2820(1)
+_cell_length_b                   6.2565(1)
+_cell_length_c                   16.8802(1)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1191.5
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O1 O -0.0931 -0.30633 -0.01805
+N1 N 0.137 -0.21013 0.01408
+N2 N 0.15864 -0.20418 0.07941
+C1 C 0.14916 -0.19433 -0.19949
+H1 H 0.21007 -0.166 -0.24795
+C2 C 0.02789 -0.24504 -0.21575
+H2 H -0.00064 -0.2541 -0.27691
+C3 C -0.05319 -0.28244 -0.15714
+H3 H -0.14473 -0.32076 -0.17026
+C4 C -0.02248 -0.27355 -0.07412
+C5 C 0.1872 -0.18201 -0.12301
+H4 H 0.27804 -0.14418 -0.10774
+C6 C 0.10325 -0.22076 -0.06117
+
+#END
+

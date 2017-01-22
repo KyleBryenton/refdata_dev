@@ -1,0 +1,61 @@
+data_dellavalle.XIX.002
+# Della Valle's submission for compound XIX, choice 2
+
+# Compound  XIX
+# Choice    2
+# Energy    -414509.4027 kJ/mol
+# Filename  00112/D0011202680/D0011202680.min
+
+_symmetry_cell_setting                  Triclinic
+_symmetry_space_group_name_H-M       'P 1'
+_symmetry_Int_Tables_number                  1
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+   1 x,y,z
+
+_cell_length_a         6.57760
+_cell_length_b         6.77120
+_cell_length_c         7.29790
+_cell_angle_alpha      70.7720
+_cell_angle_beta       71.0550
+_cell_angle_gamma      74.5750
+_cell_volume           285.638
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+N16  N   0.60900  0.94249  0.99006
+N17  N   0.75695  0.82817  0.69906
+C1   C   0.48397  0.92476  1.18095
+C2   C   0.36175  0.76079  1.27437
+C3   C   0.66574  0.52684  0.66511
+C4   C   0.77793  0.69887  0.58341
+C5   C   0.36913  0.61703  1.17014
+C6   C   0.53006  0.49399  0.86152
+C7   C   0.62669  0.80241  0.88776
+C8   C   0.50578  0.63537  0.97446
+O25  O  -0.18837  0.16926  1.30432
+O26  O  -0.11601  0.46965  1.22633
+O27  O   0.21264 -0.04035  0.67422
+O28  O   0.28459  0.27775  0.60312
+C18  C  -0.09606  0.30930  1.17584
+C19  C   0.02207  0.29595  0.99024
+C20  C   0.06361  0.12835  0.91340
+C21  C   0.18660  0.11908  0.72880
+H9   H   0.47875  1.03073  1.25567
+H10  H   0.27034  0.74473  1.41936
+H11  H   0.87340  0.72525  0.43748
+H12  H   0.68260  0.42570  0.58155
+H13  H   0.27628  0.49963  1.23756
+H14  H   0.45134  0.36675  0.92067
+H15  H   0.83589  0.94573  0.64559
+H22  H   0.43005  0.21172  0.53658
+H23  H   0.08333  0.42501  0.90224
+H24  H   0.00000  0.00000  1.00000
+
+

@@ -1,0 +1,70 @@
+data_grd.XV.3
+#for CSP2007 there are compounds XII, XIII, XIV, XV
+#this entry represents grds submission for compound XV choice 3
+#Compound XV Choice 3
+#Comment
+#lowest lattice energy structure
+#Comment
+#lowest lattice energy structure
+#E = -45.91 kJ/mol
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a 5.302295
+_cell_length_b 16.251412
+_cell_length_c 14.660113
+_cell_angle_alpha 90.000000
+_cell_angle_beta 77.173748
+_cell_angle_gamma 90.000000
+loop_
+_atom_type_symbol
+_atom_type_radius_bond
+C 0.680000
+O 0.680000
+H 0.230000
+N 0.680000
+_symmetry_space_group_name_H-M 'P21/c'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C -0.250065 0.246872 0.172484
+C2 C -0.020696 0.201117 0.138961
+C3 C 0.097599 0.202192 0.043175
+C4 C -0.005973 0.247517 -0.020158
+C5 C -0.231625 0.292726 0.012200
+C6 C -0.350137 0.291993 0.107068
+C7 C 0.101158 0.151065 0.203060
+O1 O 0.314892 0.112123 0.160071
+O2 O 0.012459 0.146150 0.287955
+H1 H 0.391357 0.078872 0.206156
+H4 H 0.088349 0.247547 -0.093900
+H5 H -0.315608 0.328543 -0.036178
+H6 H -0.525923 0.327402 0.131668
+H8 H 0.272725 0.166691 0.019385
+C12 C -0.391879 0.249806 0.273881
+H9 H -0.453058 0.188533 0.300688
+H10 H -0.268559 0.273337 0.318630
+H11 H -0.562539 0.289221 0.281731
+N1 N 0.527563 0.011867 0.257949
+C8 C 0.520543 0.010270 0.351034
+N2 N 0.700810 -0.025513 0.390623
+C9 C 0.896964 -0.061231 0.331837
+C10 C 0.922736 -0.063105 0.234945
+C11 C 0.728409 -0.024777 0.200165
+N3 N 0.319135 0.047036 0.408494
+H2 H 0.313719 0.045892 0.477516
+H3 H 0.177547 0.074981 0.382490
+H7 H 1.085502 -0.092835 0.189064
+H12 H 1.042210 -0.090056 0.363519
+C13 C 0.730946 -0.022012 0.097355
+H13 H 0.556724 -0.051185 0.083860
+H14 H 0.730376 0.041816 0.073532
+H15 H 0.900628 -0.053199 0.055976
+

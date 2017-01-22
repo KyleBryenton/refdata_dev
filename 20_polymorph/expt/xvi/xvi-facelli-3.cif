@@ -1,0 +1,37 @@
+data_Crystal_007_007
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_H-M   'P -1'
+_symmetry_Int_Tables_number      2
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+_cell_length_a                   25.2857
+_cell_length_b                   6.90798
+_cell_length_c                   10.0545
+_cell_angle_alpha                112.211
+_cell_angle_beta                 15.5801
+_cell_angle_gamma                100.238
+_cell_volume                     289.051
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.09371 0.42981 0.56258
+C2 C -0.09112 0.54921 0.93225
+C3 C -0.15757 0.76782 1.06516
+C4 C -0.03726 0.86875 0.82455
+C5 C 0.14856 0.75207 0.45291
+C6 C 0.21173 0.53309 0.32656
+O1 O 0.14961 0.23004 0.45078
+H1 H -0.18346 0.46906 1.11692
+H2 H -0.30315 0.85934 1.3563
+H3 H -0.08827 1.03951 0.92657
+H4 H 0.24276 0.83179 0.26452
+N1 N 0.39733 0.41077 -0.04467
+N2 N 0.54386 0.31564 -0.33775
+
+#END

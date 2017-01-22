@@ -1,0 +1,38 @@
+data_Crystal_005_005
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21'
+_symmetry_Int_Tables_number      4
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,-z
+_cell_length_a                   7.05927
+_cell_length_b                   6.02409
+_cell_length_c                   27.3118
+_cell_angle_alpha                90.0
+_cell_angle_beta                 166.37601
+_cell_angle_gamma                90.0
+_cell_volume                     273.579
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.59813 0.3267 0.19387
+C2 C 0.28784 0.47654 0.14958
+C3 C 0.22838 0.42232 0.18407
+C4 C 0.48841 0.21514 0.26532
+C5 C 0.79962 0.06177 0.31047
+C6 C 0.8546 0.12058 0.27492
+O1 O 0.65064 0.38161 0.1621
+H1 H 0.08144 0.63665 0.08477
+H2 H -0.02276 0.5402 0.14715
+H3 H 0.43424 0.17282 0.2902
+H4 H 0.99051 -0.10161 0.37117
+N1 N 1.15901 -0.02888 0.31692
+N2 N 1.40249 -0.1462 0.35101
+
+#END
+

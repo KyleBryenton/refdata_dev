@@ -1,0 +1,41 @@
+data_minimum_57_1.ref
+_audit_creation_date              2010-08-20
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P21/C'
+_symmetry_Int_Tables_number       14
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y+1/2,-z+1/2
+  -x,-y,-z
+  x,-y+1/2,z+1/2
+_cell_length_a                    6.8227
+_cell_length_b                    5.8530
+_cell_length_c                    13.8101
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  74.8866
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+H1     H     1.89723   0.27737   0.24026   0.00000  Uiso   1.00
+H2     H     1.79250   0.57216   0.13141   0.00000  Uiso   1.00
+H3     H     1.62885   0.92655   0.20541   0.00000  Uiso   1.00
+H4     H     1.55513   0.00343   0.38908   0.00000  Uiso   1.00
+C5     C     1.68747   0.69111   0.42483   0.00000  Uiso   1.00
+C6     C     1.79012   0.48110   0.37409   0.00000  Uiso   1.00
+C7     C     1.82662   0.43799   0.27006   0.00000  Uiso   1.00
+C8     C     1.77001   0.59977   0.21125   0.00000  Uiso   1.00
+C9     C     1.67409   0.80408   0.25508   0.00000  Uiso   1.00
+C10    C     1.63450   0.84909   0.35581   0.00000  Uiso   1.00
+N11    N     1.83787   0.33781   0.43835   0.00000  Uiso   1.00
+N12    N     1.85290   0.26807  -0.48367   0.00000  Uiso   1.00
+O13    O     1.65307   0.71969  -0.48236   0.00000  Uiso   1.00
+

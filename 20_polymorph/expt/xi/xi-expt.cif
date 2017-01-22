@@ -1,0 +1,321 @@
+data_XI
+_journal_date_recd_electronic     2004-12-08
+_journal_date_accepted     2005-05-24
+_journal_name_full     'Acta Crystallographica, Section B'
+_journal_year     2005
+_journal_volume     61
+_journal_issue      4
+_journal_page_first     511
+_journal_page_last     527
+_journal_paper_category     FA
+_journal_coeditor_code     DE5014
+_publ_contact_author_name     'Dr. Simon Parsons'
+_publ_contact_author_address
+;
+Department of Chemistry
+The University of Edinburgh
+King's Buildings
+West Mains Road
+Edinburgh
+Scotland
+EH9 3JJ
+;
+_chemical_name_systematic
+;
+azetidine
+;
+_chemical_formula_moiety     ' C3 H7 N1 '
+_chemical_formula_sum     ' C3 H7 N1 '
+_chemical_formula_weight     57.10
+_chemical_melting_point     190
+_symmetry_cell_setting     'Monoclinic '
+_symmetry_space_group_name_H-M     P21/c
+_symmetry_space_group_name_Hall     '-P 2ybc'
+loop_
+    _symmetry_equiv_pos_as_xyz
+    'x,y,z'
+    '-x,-y,-z'
+    '-x,y+1/2,-z+1/2'
+    'x,-y+1/2,z+1/2'
+_cell_length_a     9.507(3)
+_cell_length_b     9.122(3)
+_cell_length_c     9.790(3)
+_cell_angle_alpha     90
+_cell_angle_beta     117.469(4)
+_cell_angle_gamma     90
+_cell_volume     753.2(4)
+_cell_formula_units_Z     8
+_cell_measurement_reflns_used     1395
+_cell_measurement_theta_min     2
+_cell_measurement_theta_max     25
+_cell_measurement_temperature     170
+_exptl_crystal_description     ' cylinder '
+_exptl_crystal_colour     ' colourless '
+_exptl_crystal_size_max     1.00
+_exptl_crystal_size_mid     0.66
+_exptl_crystal_size_min     0.66
+_exptl_crystal_density_diffrn     1.007
+_exptl_crystal_density_meas     'not measured'
+_exptl_crystal_F_000     256.000
+_exptl_absorpt_coefficient_mu     0.062
+_exptl_absorpt_correction_type     multi-scan
+_exptl_absorpt_process_details
+;
+ SADABS (Siemens, 1996)
+;
+_exptl_absorpt_correction_T_min     0.717
+_exptl_absorpt_correction_T_max     1.000
+_exptl_special_details
+;
+The following data were produced using XPREP (Sheldrick, 2002)
+INTENSITY STATISTICS FOR DATASET # 1  azetid.hkl
+ Resolution  #Data #Theory %Complete Redundancy Mean I Mean I/s R(int) R(sigma)
+ Inf - 2.10     101    103     98.1     3.23      69.9   18.54  0.0293  0.0457
+2.10 - 1.60     117    117    100.0     3.40      17.4   19.83  0.0199  0.0400
+1.60 - 1.40     103    103    100.0     3.24       9.9   15.93  0.0261  0.0453
+1.40 - 1.25     126    127     99.2     3.10       6.8   14.41  0.0375  0.0479
+1.25 - 1.15     119    119    100.0     2.81       4.8   13.33  0.0479  0.0552
+1.15 - 1.05     177    177    100.0     2.62       2.3    8.23  0.0647  0.0771
+1.05 - 1.00     109    109    100.0     2.54       1.8    8.77  0.0723  0.0886
+1.00 - 0.95     140    140    100.0     2.31       1.7    7.55  0.0942  0.1020
+0.95 - 0.90     164    165     99.4     2.21       1.1    5.21  0.1096  0.1407
+0.90 - 0.85     222    222    100.0     2.14       0.7    3.72  0.1814  0.2229
+0.85 - 0.80     265    268     98.9     1.94       0.3    1.94  0.4053  0.4562
+0.80 - 0.75     247    338     73.1     1.17       0.3    1.55  0.4250  0.5806
+0.75 - 0.74      15     88     17.0     0.18       0.0    0.00         14.2449
+------------------------------------------------------------------------------
+0.85 - 0.74     527    694     75.9     1.34       0.3    1.70  0.4135  0.5361
+ Inf - 0.74    1905   2076     91.8     2.23       6.8    8.02  0.0353  0.0576
+Merged [A],  lowest resolution =  9.12 Angstroms,     67 outliers downweighted
+;
+_diffrn_ambient_temperature     170
+_diffrn_radiation_type     'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_monochromator     graphite
+_diffrn_measurement_device_type
+;
+Bruker SMART APEX diffractometer equipped with an Oxford
+Cryosystems low-temperature device and an OHCD laser-assisted
+crystallisation device (Scientific Consulting, Essen, Germany).
+;
+_diffrn_measurement_method     '\f & \w scans'
+_diffrn_reflns_number     4625
+_diffrn_reflns_av_R_equivalents     0.04
+_diffrn_reflns_theta_min     2.415
+_diffrn_reflns_theta_max     28.720
+_diffrn_reflns_theta_full     27.140
+_diffrn_measured_fraction_theta_max     0.921
+_diffrn_measured_fraction_theta_full     0.995
+_diffrn_reflns_limit_h_min     -10
+_diffrn_reflns_limit_h_max     12
+_diffrn_reflns_limit_k_min     -11
+_diffrn_reflns_limit_k_max     12
+_diffrn_reflns_limit_l_min     -12
+_diffrn_reflns_limit_l_max     13
+_diffrn_standards_number     0
+_diffrn_standards_interval_count     0
+_diffrn_standards_interval_time     0
+_diffrn_standards_decay_%     0.00
+_reflns_number_total     1797
+_reflns_number_gt     1075
+_reflns_threshold_expression     I>2.00u(I)
+_refine_ls_structure_factor_coef     Fsqd
+_refine_ls_matrix_type     full
+_refine_ls_R_factor_all     0.0851
+_refine_ls_R_factor_gt     0.0501
+_refine_ls_wR_factor_all     0.1661
+_refine_ls_wR_factor_gt     0.1257
+_refine_ls_wR_factor_ref     0.1661
+_refine_ls_goodness_of_fit_ref     1.0092
+_refine_ls_number_reflns     1797
+_refine_ls_number_parameters     118
+_refine_ls_hydrogen_treatment
+;
+The positional parameters of the hydrogen atoms were restrained
+subject to the restraint that all chemically equivalent bond
+lengths and angles were similar. Two overall isotropic
+displacement parameters were refined for the methylene
+and amino hydrogen atoms.
+;
+_refine_ls_weighting_scheme     calc
+_refine_ls_weighting_details
+;
+Method = Prince-modified Chebychev polynomial,
+(Carruthers & Watkin, 1979)
+ W = [weight] * [1-(deltaF/6*sigmaF)^2]^2
+ 57.9 95.3 55.5 21.3 4.03
+;
+_atom_sites_solution_hydrogens     difmap
+_atom_sites_solution_primary     direct
+_refine_ls_shift/su_max     0.003412
+_refine_diff_density_max     0.14
+_refine_diff_density_min     -0.14
+_refine_ls_extinction_method     'Larson 1970 Crystallographic Computing eq 22'
+_refine_ls_extinction_coef      22.E1(2)
+_computing_data_collection
+;
+ SMART (Siemens, 1993)
+;
+_computing_cell_refinement
+;
+ SAINT (Siemens ,1995)
+;
+_computing_data_reduction
+;
+ SAINT (Siemens ,1995)
+;
+_computing_structure_solution
+;
+ SIR92 (Altomare et al, 1994)
+;
+_computing_structure_refinement
+;
+ CRYSTALS (Watkin et al 2001)
+;
+_computing_molecular_graphics
+;
+ CAMERON (Watkin et al 1996)
+;
+_computing_publication_material
+;
+ CRYSTALS (Watkin et al 2001)
+;
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_adp_type
+    _atom_site_occupancy
+    _atom_site_type_symbol
+    N1 0.37675(19) 0.53435(17) 0.63871(17) 0.0492 Uani 1.0000 N
+    C2 0.3325(3) 0.5991(3) 0.4863(2) 0.0608 Uani 1.0000 C
+    C3 0.2523(3) 0.7229(3) 0.5267(3) 0.0647 Uani 1.0000 C
+    C4 0.2494(3) 0.6187(3) 0.6462(3) 0.0631 Uani 1.0000 C
+    N5 0.33617(19) 0.19478(18) 0.60288(17) 0.0490 Uani 1.0000 N
+    C6 0.3048(3) 0.1498(3) 0.4472(2) 0.0569 Uani 1.0000 C
+    C7 0.1294(3) 0.1480(3) 0.3995(2) 0.0679 Uani 1.0000 C
+    C8 0.1774(3) 0.1442(3) 0.5700(2) 0.0641 Uani 1.0000 C
+    H1 0.367(2) 0.4438(17) 0.639(2) 0.056(4) Uiso 1.0000 H
+    H5 0.410(2) 0.149(2) 0.674(2) 0.056(4) Uiso 1.0000 H
+    H21 0.417(2) 0.620(3) 0.465(3) 0.080(2) Uiso 1.0000 H
+    H22 0.258(2) 0.536(2) 0.410(2) 0.080(2) Uiso 1.0000 H
+    H31 0.324(2) 0.801(2) 0.577(2) 0.080(2) Uiso 1.0000 H
+    H32 0.154(2) 0.760(3) 0.452(2) 0.080(2) Uiso 1.0000 H
+    H41 0.274(3) 0.657(3) 0.745(2) 0.080(2) Uiso 1.0000 H
+    H42 0.152(2) 0.567(3) 0.608(2) 0.080(2) Uiso 1.0000 H
+    H61 0.343(3) 0.219(2) 0.401(3) 0.080(2) Uiso 1.0000 H
+    H62 0.347(3) 0.0566(18) 0.444(3) 0.080(2) Uiso 1.0000 H
+    H71 0.078(3) 0.2367(18) 0.355(3) 0.080(2) Uiso 1.0000 H
+    H72 0.068(3) 0.0700(19) 0.337(3) 0.080(2) Uiso 1.0000 H
+    H81 0.124(3) 0.208(2) 0.606(3) 0.080(2) Uiso 1.0000 H
+    H82 0.175(3) 0.0471(17) 0.607(3) 0.080(2) Uiso 1.0000 H
+loop_
+    _atom_site_aniso_label
+    _atom_site_aniso_U_11
+    _atom_site_aniso_U_22
+    _atom_site_aniso_U_33
+    _atom_site_aniso_U_12
+    _atom_site_aniso_U_13
+    _atom_site_aniso_U_23
+    N1 0.0574(9) 0.0421(8) 0.0418(8) 0.0021(7) 0.0176(7) -0.0012(6)
+    C2 0.0631(13) 0.0700(14) 0.0536(11) 0.0101(11) 0.0310(10)
+                                                            0.0090(10)
+    C3 0.0633(14) 0.0660(13) 0.0619(13) 0.0171(11) 0.0260(10)
+                                                            0.0160(10)
+    C4 0.0774(15) 0.0647(14) 0.0564(12) 0.0122(11) 0.0388(11) 0.0050(10)
+    N5 0.0524(9) 0.0474(9) 0.0402(8) 0.0023(7) 0.0153(7) -0.0021(6)
+    C6 0.0582(12) 0.0704(14) 0.0440(10)
+                                      -0.0030(10)
+                                                0.0247(9) 0.0008(9)
+    C7 0.0554(13) 0.0967(18) 0.0444(11) -0.0035(12) 0.0170(9) -0.0027(11)
+    C8 0.0586(13) 0.0902(17) 0.0483(11) 0.0017(11) 0.0288(9) -0.0060(10)
+loop_
+    _geom_bond_atom_site_label_1
+    _geom_bond_atom_site_label_2
+    _geom_bond_site_symmetry_1
+    _geom_bond_site_symmetry_2
+    _geom_bond_distance
+    _geom_bond_publ_flag
+    N1 C2 . . 1.474(2) yes
+    N1 C4 . . 1.465(3) yes
+    N1 H1 . . 0.832(15) no
+    C2 C3 . . 1.513(3) yes
+    C2 H21 . . 0.940(15) no
+    C2 H22 . . 0.949(15) no
+    C3 C4 . . 1.518(3) yes
+    C3 H31 . . 0.947(15) no
+    C3 H32 . . 0.943(15) no
+    C4 H41 . . 0.952(15) no
+    C4 H42 . . 0.951(14) no
+    N5 C6 . . 1.470(2) yes
+    N5 C8 . . 1.465(3) yes
+    N5 H5 . . 0.839(15) no
+    C6 C7 . . 1.510(3) yes
+    C6 H61 . . 0.946(15) no
+    C6 H62 . . 0.945(15) no
+    C7 C8 . . 1.514(3) yes
+    C7 H71 . . 0.941(15) no
+    C7 H72 . . 0.943(15) no
+    C8 H81 . . 0.940(14) no
+    C8 H82 . . 0.962(15) no
+    N1 N5 . . 3.121(2) yes
+    N1 N5 . 3_656 3.102(2) yes
+    N1 H5 . 3_656 2.265(15) yes
+    N5 H1 . . 2.297(16) yes
+loop_
+    _geom_angle_atom_site_label_1
+    _geom_angle_atom_site_label_2
+    _geom_angle_atom_site_label_3
+    _geom_angle_site_symmetry_1
+    _geom_angle_site_symmetry_2
+    _geom_angle_site_symmetry_3
+    _geom_angle
+    _geom_angle_publ_flag
+    C2 N1 C4 . . . 89.07(15) yes
+    C2 N1 H1 . . . 115.1(14) no
+    C4 N1 H1 . . . 115.0(14) no
+    N1 C2 C3 . . . 88.72(15) yes
+    N1 C2 H21 . . . 115.7(15) no
+    C3 C2 H21 . . . 119.4(16) no
+    N1 C2 H22 . . . 108.5(15) no
+    C3 C2 H22 . . . 112.2(14) no
+    H21 C2 H22 . . . 110.4(17) no
+    C2 C3 C4 . . . 85.68(16) yes
+    C2 C3 H31 . . . 111.6(15) no
+    C4 C3 H31 . . . 109.3(15) no
+    C2 C3 H32 . . . 119.9(15) no
+    C4 C3 H32 . . . 117.2(15) no
+    H31 C3 H32 . . . 110.7(18) no
+    N1 C4 C3 . . . 88.88(15) yes
+    N1 C4 H41 . . . 115.3(15) no
+    C3 C4 H41 . . . 117.9(15) no
+    N1 C4 H42 . . . 113.6(15) no
+    C3 C4 H42 . . . 111.9(15) no
+    H41 C4 H42 . . . 108.4(16) no
+    C6 N5 C8 . . . 89.35(14) yes
+    C6 N5 H5 . . . 114.6(15) no
+    C8 N5 H5 . . . 113.9(15) no
+    N5 C6 C7 . . . 89.46(15) yes
+    N5 C6 H61 . . . 111.8(15) no
+    C7 C6 H61 . . . 118.4(15) no
+    N5 C6 H62 . . . 113.2(15) no
+    C7 C6 H62 . . . 113.8(15) no
+    H61 C6 H62 . . . 109.0(17) no
+    C6 C7 C8 . . . 86.04(16) yes
+    C6 C7 H71 . . . 113.3(15) no
+    C8 C7 H71 . . . 111.0(15) no
+    C6 C7 H72 . . . 118.0(15) no
+    C8 C7 H72 . . . 118.7(15) no
+    H71 C7 H72 . . . 108.4(17) no
+    N5 C8 C7 . . . 89.48(15) yes
+    N5 C8 H81 . . . 113.7(15) no
+    C7 C8 H81 . . . 117.3(15) no
+    N5 C8 H82 . . . 114.2(15) no
+    C7 C8 H82 . . . 113.0(15) no
+    H81 C8 H82 . . . 108.4(16) no
+    N1 H1 N5 . . . 171.1(19) yes
+    N1 H5 N5 3_646 . . 175.(2)   yes
+
+

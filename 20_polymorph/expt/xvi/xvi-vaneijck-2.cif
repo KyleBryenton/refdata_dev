@@ -1,0 +1,38 @@
+data_vaneijck.002
+# Energy -661.752 kJ/mole
+_cell_length_a  10.15800
+_cell_length_b   7.33500
+_cell_length_c  16.05300
+_cell_angle_alpha    90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma    90.000
+_cell_formula_units_Z   8
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+    x+1/2,-y+1/2,-z                                   
+    -x,y+1/2,-z+1/2                                   
+    -x+1/2,-y,z+1/2                                   
+    -x,-y,-z                                          
+    -x+1/2,y+1/2,z                                    
+    x,-y+1/2,z+1/2                                    
+    x+1/2,y,-z+1/2                                    
+_symmetry_space_group_name_H-M 'P bca    '
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1    0.699190  0.089280  0.063340
+O2    0.778520  0.070850  0.007720
+C3    0.572170  0.178650  0.052640
+N4    0.548960  0.246800 -0.022940
+N5    0.535120  0.300530 -0.085830
+C6    0.475290  0.197600  0.116920
+H7    0.383240  0.262040  0.103020
+C8    0.502520  0.133400  0.193150
+H9    0.432870  0.146340  0.242870
+C10   0.627930  0.046640  0.208150
+H11   0.648450 -0.001710  0.270020
+C12   0.719130  0.024460  0.148560
+H13   0.811680 -0.040260  0.160990

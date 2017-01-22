@@ -1,0 +1,52 @@
+data_dellavalle.XVII.002
+# Della Valle's submission for compound XVII, choice 2
+
+# Compound  XVII
+# Choice    2
+# Energy    -390162.2961 kJ/mol
+# Filename  01441/C0144100567/C0144100567.min
+
+_symmetry_cell_setting                 Monoclinic
+_symmetry_space_group_name_H-M       'P 21/c'
+_symmetry_Int_Tables_number                 14
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+   1 x,y,z
+   2 -x,1/2+y,1/2-z
+   3 -x,-y,-z
+   4 x,1/2-y,1/2+z
+
+_cell_length_a         3.82540
+_cell_length_b        26.51450
+_cell_length_c         7.54660
+_cell_angle_alpha           90
+_cell_angle_beta       90.8760
+_cell_angle_gamma           90
+_cell_volume           765.351
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cl15 Cl  0.29336  0.23274  0.98748
+Cl16 Cl  0.42676  0.18192  1.25572
+O11  O   0.85755  0.01910  0.81576
+O12  O   1.08233  0.13400  0.52214
+O13  O   0.70182  0.08465  0.49842
+O14  O   1.25108  0.05650  0.93614
+N9   N   0.98166  0.05410  0.87392
+N10  N   0.86199  0.11129  0.58432
+C1   C   0.49222  0.18060  0.92096
+C2   C   0.57141  0.15405  1.06720
+C3   C   0.74679  0.11099  1.04809
+C4   C   0.59105  0.16546  0.75703
+C5   C   0.83174  0.09586  0.88466
+C6   C   0.76757  0.12305  0.74076
+H7   H   0.54314  0.18731  0.65146
+H8   H   0.80559  0.09006  1.15487
+
+

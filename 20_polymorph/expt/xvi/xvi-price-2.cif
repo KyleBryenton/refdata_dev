@@ -1,0 +1,44 @@
+data_1
+_database_code_CSD               UNKNWN
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P b c a'
+_symmetry_Int_Tables_number      61
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2+x,1/2-y,-z
+3 -x,1/2+y,1/2-z
+4 1/2-x,-y,1/2+z
+5 -x,-y,-z
+6 1/2-x,1/2+y,z
+7 x,1/2-y,1/2+z
+8 1/2+x,y,1/2-z
+_cell_length_a                   16.5884
+_cell_length_b                   11.7659
+_cell_length_c                   6.0922
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1189.06
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.681499 0.505233 0.75
+C2 C 0.690818 0.379866 0.75
+C3 C 0.62575 0.300759 0.75
+C4 C 0.549014 0.341982 0.75
+C5 C 0.535811 0.462259 0.75
+C6 C 0.597256 0.539257 0.75
+N1 N 0.766466 0.344267 0.75
+N2 N 0.83314 0.325739 0.75
+O1 O 0.739279 0.57039 0.75
+H1 H 0.638461 0.209815 0.75
+H2 H 0.49788 0.283859 0.75
+H3 H 0.473706 0.493263 0.75
+H4 H 0.58577 0.63058 0.75
+
+#END

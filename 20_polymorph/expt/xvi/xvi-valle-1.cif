@@ -1,0 +1,53 @@
+data_dellavalle.XVI.001
+# Della Valle's submission for compound XVI, choice 1
+
+# Compound  XVI
+# Choice    1
+# Energy    -189432.8477 kJ/mol
+# Filename  11681/D1168100048/D1168100048.min
+
+_symmetry_cell_setting                 Tetragonal
+_symmetry_space_group_name_H-M       'P -4 c 2'
+_symmetry_Int_Tables_number                116
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+   1 x,y,z
+   2 y,-x,-z
+   3 -x,-y,z
+   4 -y,x,-z
+   5 -x,y,1/2+z
+   6 y,x,1/2-z
+   7 x,-y,1/2+z
+   8 -y,-x,1/2-z
+
+_cell_length_a        12.34360
+_cell_length_b        12.34360
+_cell_length_c         7.88990
+_cell_angle_alpha           90
+_cell_angle_beta            90
+_cell_angle_gamma           90
+_cell_volume          1202.141
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O13  O   0.51166  0.21835  0.09846
+N11  N   0.47877  0.36503 -0.12188
+N12  N   0.42770  0.30350 -0.05976
+C1   C   0.25634  0.05579  0.15337
+C2   C   0.19723  0.12774  0.04090
+C3   C   0.36972  0.08000  0.18920
+C4   C   0.25104  0.22242 -0.03022
+C5   C   0.42311  0.17012  0.10456
+C6   C   0.36510  0.23681 -0.00216
+H7   H   0.21664 -0.00500  0.21809
+H8   H   0.11645  0.11412  0.01967
+H9   H   0.40918  0.04143  0.28308
+H10  H   0.21222  0.28139 -0.09642
+
+

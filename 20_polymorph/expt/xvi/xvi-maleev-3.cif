@@ -1,0 +1,36 @@
+data_XVI_3
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_H-M   'P -1'
+_symmetry_Int_Tables_number      2
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+_cell_length_a                   14.506
+_cell_length_b                   6.387
+_cell_length_c                   3.537
+_cell_angle_alpha                102.488
+_cell_angle_beta                 91.748
+_cell_angle_gamma                111.445
+_cell_volume                     295.627
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C -0.26371 -0.26522 0.38355
+C2 C -0.182 -0.34562 0.33502
+C3 C -0.21961 -0.60621 0.19358
+C4 C -0.32263 -0.75504 0.11704
+C5 C -0.39287 -0.65878 0.17359
+C6 C -0.36195 -0.4127 0.30746
+O3 O -0.09244 -0.22009 0.39952
+N1 N -0.14852 -0.69006 0.14382
+N2 N -0.07725 -0.72498 0.12086
+H2 H -0.47185 -0.7688 0.11721
+H3 H -0.4194 -0.34014 0.3503
+H1A H -0.24177 -0.07805 0.48535
+H4A H -0.3432 -0.94165 0.01538
+#END

@@ -1,0 +1,37 @@
+data_002xviM2b\P21\-\1
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21'
+_symmetry_Int_Tables_number      4
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,-z
+_cell_length_a                   4.0270
+_cell_length_b                   8.7552
+_cell_length_c                   9.0205
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 114.9180
+_cell_angle_gamma                90.0000
+_cell_volume                     288.432
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C -0.01066 0.07926 0.12478
+C2 C -0.20026 -0.05311 0.15295
+C3 C -0.09738 -0.07662 0.32575
+C4 C 0.14702 0.01593 0.44348
+C5 C 0.31954 0.14262 0.40553
+C6 C 0.24261 0.17545 0.24625
+H7 H -0.22483 -0.17226 0.35780
+H8 H 0.21221 -0.00791 0.57061
+H9 H 0.51110 0.21281 0.50244
+H10 H 0.36712 0.27048 0.21175
+O11 O -0.41841 -0.13187 0.04027
+N12 N -0.09913 0.10442 -0.03354
+N13 N -0.19100 0.11641 -0.17008
+
+#END

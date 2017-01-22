@@ -1,0 +1,45 @@
+data_003XXIA\P21-C\-\1
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a                   3.7066
+_cell_length_b                   17.6805
+_cell_length_c                   15.8729
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 134.9407
+_cell_angle_gamma                90.0000
+_cell_volume                     736.31
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O1 O -0.45310 0.08541 -0.01879
+H2 H -0.58102 0.11179 -0.08852
+O3 O -0.03348 0.02352 0.18717
+H4 H -0.30629 0.00751 0.10531
+O5 O 0.73459 0.09037 0.39748
+H6 H 1.00616 0.11999 0.46629
+O7 O 0.49884 0.33091 0.09140
+H8 H 0.66458 0.37850 0.10610
+O9 O 1.07624 0.33632 0.29098
+C10 C 0.51865 0.22948 0.19226
+C11 C 0.11868 0.19421 0.08316
+H12 H -0.04572 0.22040 0.00068
+C13 C -0.06254 0.12542 0.08259
+C14 C 0.14519 0.09068 0.18834
+C15 C 0.54599 0.12649 0.29723
+C16 C 0.72976 0.19545 0.29854
+H17 H 1.03936 0.22383 0.38199
+C18 C 0.73149 0.30287 0.19977
+O19 O 1.14644 0.96328 0.37888
+H20 H 1.12839 0.99021 0.32346
+H21 H 1.02544 0.99514 0.40363

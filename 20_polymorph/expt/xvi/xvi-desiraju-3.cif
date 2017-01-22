@@ -1,0 +1,59 @@
+data_003xviM2b\P21-C\-\1
+_audit_creation_date              2010-08-16
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P21/C'
+_symmetry_Int_Tables_number       14
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y+1/2,-z+1/2
+  -x,-y,-z
+  x,-y+1/2,z+1/2
+_cell_length_a                    7.4891
+_cell_length_b                    11.7345
+_cell_length_c                    13.6875
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  152.0559
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.84503   0.85629   0.62006   0.00000  Uiso   1.00
+C2     C     0.81318   0.73189   0.59717   0.00000  Uiso   1.00
+C3     C     0.69585   0.69727   0.44339   0.00000  Uiso   1.00
+C4     C     0.62667   0.77400   0.33680   0.00000  Uiso   1.00
+C5     C     0.66447   0.89389   0.36851   0.00000  Uiso   1.00
+C6     C     0.77372   0.93610   0.51007   0.00000  Uiso   1.00
+H7     H     0.66505   0.60652   0.41642   0.00000  Uiso   1.00
+H8     H     0.53970   0.74249   0.22377   0.00000  Uiso   1.00
+H9     H     0.60693   0.95151   0.28087   0.00000  Uiso   1.00
+H10    H     0.80609   1.02648   0.53924   0.00000  Uiso   1.00
+O11    O     0.88036   0.66752   0.69903   0.00000  Uiso   1.00
+N12    N     0.95288   0.89134   0.76089   0.00000  Uiso   1.00
+N13    N     1.04494   0.91261   0.88251   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C2      1.468   .     S
+C1     C6      1.417   .     S
+C1     N12     1.337   .     D
+C2     C3      1.449   .     S
+C2     O11     1.236   .     D
+C3     C4      1.368   .     D
+C3     H7      1.083   .     S
+C4     C5      1.425   .     S
+C4     H8      1.084   .     S
+C5     C6      1.367   .     D
+C5     H9      1.081   .     S
+C6     H10     1.083   .     S
+N12    N13     1.132   .     D

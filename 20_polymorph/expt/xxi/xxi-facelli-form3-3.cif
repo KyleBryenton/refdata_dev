@@ -1,0 +1,73 @@
+#\#CIF1.1
+##########################################################################
+#               Crystallographic Information Format file 
+#               Produced by PyCifRW module
+# 
+#  This is a CIF file.  CIF has been adopted by the International
+#  Union of Crystallography as the standard for data archiving and 
+#  transmission.
+#
+#  For information on this file format, follow the CIF links at
+#  http://www.iucr.org
+##########################################################################
+
+data_Crystal_002_002
+_audit_creation_date  2010-08-18 
+_audit_creation_method  cctbx.molcry.conversions 
+_cell_angle_alpha  90.0 
+_cell_angle_beta  96.1364 
+_cell_angle_gamma  90.0 
+_cell_length_a  21.8165 
+_cell_length_b  3.63671 
+_cell_length_c  18.7993 
+_symmetry_cell_setting  monoclinic 
+_symmetry_space_group_name_H-M 'C 1 2/c 1'
+_symmetry_space_group_name_Hall '-C 2yc'
+
+ loop_
+   _atom_type_description                                                     
+   _atom_type_number_in_cell                                                  
+   _atom_type_symbol                                                          
+   hydrogen   32   H 
+   carbon   28   C 
+   oxygen   24   O 
+
+ loop_
+   _symmetry_equiv_pos_as_xyz                                                 
+   x,y,z 
+   -x,y,-z+1/2 
+   -x,-y,-z 
+   x,-y,z-1/2 
+   x+1/2,y+1/2,z 
+   -x+1/2,y+1/2,-z+1/2 
+   -x+1/2,-y+1/2,-z 
+   x+1/2,-y+1/2,z-1/2 
+
+ loop_
+   _atom_site_fract_x                                                         
+   _atom_site_fract_y                                                         
+   _atom_site_fract_z                                                         
+   _atom_site_label                                                           
+   _atom_site_type_symbol                                                     
+   0.11292   0.36471   0.04254   C1   C 
+   0.16071   0.53249   0.08694   C2   C 
+   0.15297   0.62525   0.15712   C3   C 
+   0.09813   0.54478   0.18578   C4   C 
+   0.0499   0.38557   0.14162   C5   C 
+   0.057   0.30447   0.07097   C6   C 
+   0.20482   0.58869   0.06695   H1   H 
+   0.01884   0.18169   0.0381   H2   H 
+   0.12122   0.23737   -0.03272   C7   C 
+   0.17465   0.286   -0.05464   O1   O 
+   0.16998   0.13758   -0.09939   H3   H 
+   0.20023   0.78923   0.19829   O2   O 
+   0.18386   0.86776   0.24333   H4   H 
+   -0.0041   0.29656   0.16735   O3   O 
+   -0.03035   0.15568   0.12993   H5   H 
+   0.09248   0.61545   0.25644   O4   O 
+   0.05246   0.51771   0.26862   H6   H 
+   0.08202   0.0751   -0.07158   O5   O 
+   0.1827   1.11779   0.32792   O1   O 
+   0.22476   1.22341   0.32503   H1   H 
+   0.15554   1.32984   0.31351   H2   H 
+

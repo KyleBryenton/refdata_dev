@@ -1,0 +1,51 @@
+data_Day.XXI.2
+# this entry represents Day's submission for compound XXI Form 3, choice 2
+# Comment: 2nd lowest energy structure
+# Elatt = -198.99 kJ/mol
+# empirically derived model potential, distributed multipole electrostatics, DFT molecular energies
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a                   10.6111
+_cell_length_b                   3.5409
+_cell_length_c                   28.6652
+_cell_angle_alpha                90
+_cell_angle_beta                 137.12
+_cell_angle_gamma                90
+_cell_volume                     732.886
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.152339 1.01294 0.208811
+C2 C 0.166751 0.906834 0.165842
+C3 C 0.0112276 0.930208 0.0948977
+C4 C -0.158628 1.06031 0.0665706
+C5 C -0.171072 1.16363 0.110452
+C6 C -0.0158607 1.14076 0.181384
+C7 C 0.313744 0.981349 0.283404
+O1 O 0.312271 1.08243 0.323543
+O2 O 0.469082 0.843005 0.304995
+O3 O 0.0169733 0.825432 0.0507298
+O4 O -0.312455 1.06811 -0.00253141
+O5 O -0.338665 1.26481 0.0820518
+H1 H 0.297936 0.806959 0.187711
+H2 H -0.0227065 1.21999 0.216082
+H3 H 0.564126 0.84915 0.354752
+H4 H -0.104774 0.827989 0.00369542
+H5 H -0.420401 1.15037 -0.0146783
+H6 H -0.329937 1.32943 0.117101
+O6 O 0.734305 0.571404 0.931142
+H7 H 0.812369 0.428302 0.931456
+H8 H 0.695857 0.388019 0.943695
+#END
+
