@@ -3,6 +3,7 @@
 # Whittleton et al. J. Chem. Theory Comput. DOI: 10.1021/acs.jctc.6b00679
 # This set contains all structures for all molecules except XIX (organic
 # salt).
+# The energies are b86bpbe-xdm calculated with QE.
 0.25
 i-expt-2
 -0.125

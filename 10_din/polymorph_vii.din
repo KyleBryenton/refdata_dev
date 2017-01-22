@@ -2,6 +2,7 @@
 # Structures from the CCDC blind tests. See:
 # Whittleton et al. J. Chem. Theory Comput. DOI: 10.1021/acs.jctc.6b00679
 # Molecule VII (BT1, 11 atoms, propane)
+# The energies are b86bpbe-xdm calculated with QE.
 0.2500000000
 vii-expt
 -0.2500000000

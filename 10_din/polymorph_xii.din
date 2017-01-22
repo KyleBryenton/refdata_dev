@@ -2,6 +2,7 @@
 # Structures from the CCDC blind tests. See:
 # Whittleton et al. J. Chem. Theory Comput. DOI: 10.1021/acs.jctc.6b00679
 # Molecule XII (BT4, 8 atoms, acrolein)
+# The energies are b86bpbe-xdm calculated with QE.
 0.1250000000
 xii-expt
 -0.1250000000
