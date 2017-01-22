@@ -24,13 +24,13 @@ endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
-  [stat,out] = system(sprintf("grep 'Done' %s.log | tail -n 1 | awk '{print $5}' \n",file));
+  [stat,out] = system(sprintf("grep -a 'Done' %s.log | tail -n 1 | awk '{print $5}' \n",file));
   if (length(out) == 0)
     e = 0;
   else
     e = str2num(out);
   endif
-  [stat,out] = system(sprintf("grep 'Edisp' %s.d3out | tail -n 1 | awk '{print $NF}'\n",file));
+  [stat,out] = system(sprintf("grep -a 'Edisp' %s.d3out | tail -n 1 | awk '{print $NF}'\n",file));
   if (length(out) == 0)
     edisp = 0;
   else
