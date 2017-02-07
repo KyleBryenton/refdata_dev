@@ -27,6 +27,13 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines
     for j = 1:ncomp
       coef(j) = rxn{i}{2 * j - 1};
       mol{j} = rxn{i}{2 * j};
+      if (!exist(namefile(edir,mol{j})))
+        error(sprintf("File : %s does not exist",namefile(edir,mol{j})))
+      endif
+      [o1 o2 o3] = readenergy(namefile(edir,mol{j}));
+      if (isempty(o1) || isempty(o2) || isempty(o3))
+        error(sprintf("File : %s does not have an energy",namefile(edir,mol{j})))
+      endif
       [dum emold(j) emol(j)] = readenergy(namefile(edir,mol{j}));
     endfor
     e(i) = (coef * emol') * hy2kcal;
