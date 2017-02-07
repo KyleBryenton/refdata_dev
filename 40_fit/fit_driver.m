@@ -18,8 +18,8 @@
 ## Reader routines
 #source("reader_vasp.m");
 #source("reader_qe.m");
-#source("reader_postg.m");
-source("reader_postg_psi4.m");
+source("reader_postg.m");
+#source("reader_postg_psi4.m");
 #source("reader_orca.m");
 #source("reader_psi4.m");
 #source("reader_qchem.m");
@@ -49,7 +49,7 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09_wfn"};
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09"};
 ## dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0/"};
-dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0_vol0/"};
+dir_e={"/home/alberto/calc/jake/postg_fitting/6-31Gss_fittingsets/blyp_fitset/70HF_fitset"};
 
 ## xyz structure source
 dir_s="../20_kb65";

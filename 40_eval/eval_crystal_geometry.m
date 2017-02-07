@@ -16,13 +16,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## name generator for reference
-## name_ref = @(edir,tag) sprintf("%s/%s.cif",edir,tag);
-name_ref = @(edir,tag) sprintf("%s/%s/%s.scf.out",edir,tag,tag);
+name_ref = @(edir,tag) sprintf("%s/%s.cif",edir,tag);
+## name_ref = @(edir,tag) sprintf("%s/%s/%s.scf.out",edir,tag,tag);
 
 ## name generator for the sets to compare
-## name_out = @(edir,tag) sprintf("%s/%s/%s.scf.out",edir,tag,tag);
-## name_out = @(edir,tag) sprintf("%s/%s/%s.scf.out",edir,tag,tag);
-name_out = @(edir,tag) sprintf("%s/%s/geo_end.gen",edir,tag);
+## name_out = @(edir,tag) sprintf("%s/%s.cif",edir,tag);
+name_out = @(edir,tag) sprintf("%s/%s/%s.STRUCT_OUT",edir,tag,tag);
+## name_out = @(edir,tag) sprintf("%s/%s/geo_end.gen",edir,tag);
 
 ## din file; first entry in each block is assumed to be a crystal and
 ## used. 
@@ -32,14 +32,14 @@ din = {...
 
 ## reference data
 ref = {...
-         "/home/alberto/calc/xdm_opt/15_zerop/b86bpbe-xdm/",...
+         "/home/alberto/git/refdata/20_x23/expt/",...
+         ## "/home/alberto/calc/xdm_opt/15_x23_zerop/b86bpbe-xdm/",...
       };
 
 ## crystal data to compare
 data = {...
-         "/home/alberto/calc/xdm_opt/15_zerop/dftb3-uffdisp/",...
+         "/home/alberto/calc/xdm_opt/15_x23_zerop_luc/siesta-vdw-df2-dzp/"
        };
-
 #### Now DO stuff ####
 warning("off");
 format long;
