@@ -19,18 +19,18 @@
 
 ## function: give the name of the file
 function file = namefile(edir,tag)
-  file = sprintf("%s/%s",edir,tag);
+  file = sprintf("%s/%s.d3out",edir,tag);
 endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
-  [stat,out] = system(sprintf("grep -a 'Done' %s.log | tail -n 1 | awk '{print $5}' \n",file));
+  [stat,out] = system(sprintf("grep -a 'Done' %s.log | tail -n 1 | awk '{print $5}' \n",strrep(file,".d3out","")));
   if (length(out) == 0)
     e = 0;
   else
     e = str2num(out);
   endif
-  [stat,out] = system(sprintf("grep -a 'Edisp' %s.d3out | tail -n 1 | awk '{print $NF}'\n",file));
+  [stat,out] = system(sprintf("grep -a 'Edisp' %s | tail -n 1 | awk '{print $NF}'\n",file));
   if (length(out) == 0)
     edisp = 0;
   else
