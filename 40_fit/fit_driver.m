@@ -49,7 +49,8 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09_wfn"};
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09"};
 ## dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0/"};
-dir_e={"/home/alberto/calc/jake/postg_fitting/6-31Gss_fittingsets/blyp_fitset/70HF_fitset"};
+## dir_e={"/home/alberto/calc/jake/postg_fitting/6-31Gss_fittingsets/blyp_fitset/70HF_fitset"};
+dir_e={"/home/alberto/git/refdata/30_run/6311+g2d2p-blyp"};
 
 ## xyz structure source
 dir_s="../20_kb65";

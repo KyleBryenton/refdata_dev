@@ -18,6 +18,7 @@
 ## name generator for reference
 ## name_ref = @(edir,tag) sprintf("%s/%s.cif",edir,tag);
 name_ref = @(edir,tag) sprintf("%s/%s/%s.scf.out",edir,tag,tag);
+## name_ref = @(edir,tag) sprintf("%s/%s/%s.STRUCT_OUT",edir,tag,tag);
 
 ## name generator for the sets to compare
 ## name_out = @(edir,tag) sprintf("%s/%s.cif",edir,tag);
@@ -29,17 +30,21 @@ name_out = @(edir,tag) sprintf("%s/%s/%s.out",edir,tag,tag);
 ## used. 
 din = {...
         "../10_din/x23.din",...
+        ## "../10_din/bleh.din",...
       };
 
 ## reference data
 ref = {...
         ##"/home/alberto/git/refdata/20_x23/expt/",...
         "/home/alberto/calc/xdm_opt/15_x23_zerop/b86bpbe-xdm/",...
+        ## "/home/alberto/calc/xdm_opt/15_x23_zerop/vdw-df2/",...
       };
 
 ## crystal data to compare
 data = {...
-         "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip1/"
+         ## "/home/alberto/calc/xdm_opt/15_x23_zerop/siesta-vdw-df2-dzp/"
+         ## "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip4"
+         "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip7"
        };
 #### Now DO stuff ####
 warning("off");
