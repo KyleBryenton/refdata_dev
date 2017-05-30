@@ -2,6 +2,9 @@
 # Sedlak et al., J. Chem. Theory Comput., 2013, 9 (8), pp 3364–3374
 # Accuracy of Quantum Chemical Methods for Large Noncovalent Complexes
 # DOI: 10.1021/ct400036b
+# Reference data: QCISD(T)/CBS. MP2/CBS using scaled two-point
+# cc-pVDZ/cc-pVTZ extrapolation. Delta-QCISD(T) with 6-31G*, polarization
+# exponent = 0.25.
 1
 c2c2pd
 -1
