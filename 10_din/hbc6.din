@@ -2,11 +2,12 @@
 ## This benchmark set is a part of:
 ## Sherill et al, J. Phys. Chem. Lett. (2016), 7, 2197-2203. DOI:10.1021/acs.jpclett.6b00780
 ## 
-## Geometries taken from: Thanthiriwatte, K.S.; Hohenstein, E.G.; Burns, L.A.; Sherill, C.D.; J. Chem. Theory Comput. (2011), 7, 88-96. DOI:10.1021/ct049851d
+## Geometries taken from: Thanthiriwatte, K.S.; Hohenstein, E.G.; Burns, L.A.; Sherill, C.D.; 
+## J. Chem. Theory Comput. (2011), 7, 88-96. DOI:10.1021/ct100469b
 ## Reference data taken from: Marshall, M.S.; Burns, L.A.; Sherill, C.D.; J. Chem. Phys. (2011), 135, 194102. DOI:10.1063/1.3659142  
 ## The reference data was calculated at the CCSD(T)/[aTQZ;δ:aTZ] level of theory.
 ##
-## Reference: J. Chem. Theory Comput. (2011), 7, 88-96. DOI:10.1021/ct049851d
+## Reference: J. Chem. Theory Comput. (2011), 7, 88-96. DOI:10.1021/ct100469b
 ## Reference: J. Chem. Phys. (2011), 135, 194102. DOI:10.1063/1.3659142  
 ##
 ## Level of theory:
