@@ -80,7 +80,6 @@ endfor
 source("collect_for_fit.m");
 pin=[0.0 1.4545];
 source("fit_quiet.m");
-source("fit_report.m");
 fit_report_full(pout,yin,yout);
 
 # # global a1fix
@@ -90,7 +89,6 @@ fit_report_full(pout,yin,yout);
 #   pin=[a1fix 4.0];
 #   source("fit_quiet.m");
 #   ## source("eval_quiet.m");
-#   source("fit_report.m");
 #   fit_report_full(pout,yin,yout);
 # endfor
 

@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-format long
+[];
 
 ## function: give the name of the file
 function file = namefile(edir,tag)
