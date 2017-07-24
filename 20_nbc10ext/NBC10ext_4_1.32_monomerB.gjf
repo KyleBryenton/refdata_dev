@@ -1,0 +1,13 @@
+%nprocs=8
+%mem=4GB
+#p b3lyp aug-cc-pvqz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+S    0.00000000    0.00000000   -3.49983455
+H    0.00000000    0.96172129   -2.57305544
+H    0.00000000   -0.96172129   -2.57305544
+
+NBC10ext_4_1.32_monomerB.wfx
+
