@@ -41,6 +41,7 @@ din="../10_din/kb49.din";
 #din="../10_din/s22.din";
 
 ## data source
+dir_e={"/home/alberto/calc/xdm/erin1"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_pc1_scan6%hf"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/hf-3c"};
 ## dir_e={"../30_run/hf_pc2spd"};
@@ -50,7 +51,9 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09"};
 ## dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0/"};
 ## dir_e={"/home/alberto/calc/jake/postg_fitting/6-31Gss_fittingsets/blyp_fitset/70HF_fitset"};
-dir_e={"/home/alberto/git/refdata/30_run/6311+g2d2p-blyp"};
+## dir_e={"/home/alberto/git/refdata/30_run/6311+g2d2p-blyp"};
+## dir_e={"/home/alberto/calc/erin/pople"};
+## dir_e={"/home/alberto/calc/xdm/psi4-wb86bpbe-0.4"};
 
 ## xyz structure source
 dir_s="../20_kb65";
@@ -75,7 +78,7 @@ endfor
 
 ## run the fit
 source("collect_for_fit.m");
-pin=[0.7564 1.4545];
+pin=[0.0 1.4545];
 source("fit_quiet.m");
 source("fit_report.m");
 fit_report_full(pout,yin,yout);
@@ -92,11 +95,11 @@ fit_report_full(pout,yin,yout);
 # endfor
 
 # # successive fits
-# funs = {"lcwpbe"};
+# funs = {"bpbe"};
 # for iff = 1:length(funs)
 #   fun = funs{iff};
 #   for jj = 0:10
-#     dir_e = {sprintf("data/10_set65_rest_%s_w%2.2d%%pc2",fun,jj)};
+#     dir_e = {sprintf("/home/alberto/calc/erin/%s-%2.2d",fun,jj)};
 #     source("collect_for_fit.m");
 #     pin=[0.1 4.0];
 #     source("fit_quiet.m");
