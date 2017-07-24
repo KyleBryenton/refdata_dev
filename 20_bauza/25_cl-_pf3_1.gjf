@@ -1,0 +1,11 @@
+%nprocs=6
+%mem=2GB
+#p b3lyp aug-cc-pvqz output=wfx scf=(conver=6) int=(grid=ultrafine)
+ 
+title
+ 
+-1 1
+CL 2.2242961210 -0.0634470640 0.0000000000
+
+25_cl-_pf3_1.wfx
+
