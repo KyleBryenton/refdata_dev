@@ -44,7 +44,8 @@ ref = {...
 data = {...
          ## "/home/alberto/calc/xdm_opt/15_x23_zerop/siesta-vdw-df2-dzp/"
          ## "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip4"
-         "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip7"
+         ## "/home/alberto/calc/xdm_opt/15_x23_zerop/crystal-hfd2-minis-bsip7"
+         "/home/alberto/calc/xdm_opt/50_newfit_test/fit1",...
        };
 #### Now DO stuff ####
 warning("off");
