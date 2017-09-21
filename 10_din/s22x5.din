@@ -1,5 +1,12 @@
+# S22x5: small molecular dimers in the S22 with different intermolecular
+# distances.
+# 
 # Grafova et al. JCTC 6 (2010) 2365
-# Note that the '10' values are the same as the old S22 (not revised).
+# (See the S22 din file for the S22 reference.)
+#
+# Note that the reference energies for the '10' values are the same as
+# the old S22 (not revised).
+#
 1
 2pyridoxine2aminopyridin09
 -1

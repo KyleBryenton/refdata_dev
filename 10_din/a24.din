@@ -3,6 +3,7 @@
 # Contains non-covalent dimers of small molecules. Some of them
 # not at equilibrium and non-binding. Taken from begdb.com.
 # The reference data is calcualted at the CCSD(T)/CBS CP level.
+# doi:10.1021/ct400057w
 -1
 01waterammonia
 1

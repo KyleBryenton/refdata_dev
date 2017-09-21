@@ -1,3 +1,5 @@
+# PCONF: tripeptide conformational energies.
+#
 # The PCONF set is part of the GMTKN30, by Grimme et al.  Goerigk, L.;
 # Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J.
 # http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
@@ -6,6 +8,7 @@
 # Abu-Riziq, A.; Crews, B.; de Vries, M. S. Chem. Eur. J. 2005, 11,
 # 6803-6817.  (estimated CCSD(T)/CBS); all values are in kcal/mol.
 #
+# doi:10.1002/chem.200500465
 -1
 99
 1

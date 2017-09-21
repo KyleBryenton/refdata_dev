@@ -1,3 +1,5 @@
+# SCONF: conformational energies of sugars.
+#
 # The SCONF set is part of the GMTKN30, by Grimme et al.  Goerigk, L.;
 # Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J.
 # http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
@@ -6,6 +8,8 @@
 # C. A. J. Chem. Theory. Comput. 2009, 5, 679-692; and Goerigk, L.;
 # Grimme, S. J. Chem. Theory. Comput. 2010, 6, 107-126.  (estimated
 # CCSD(T)/CBS); all values are in kcal/mol.
+#
+# doi:10.1021/ct8004479
 #
 -1
 C1

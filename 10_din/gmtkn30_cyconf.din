@@ -1,3 +1,5 @@
+# CYCONF: conformational energies of cysteine.
+#
 # The CYCONF set is part of the GMTKN30, by Grimme et al.  Goerigk, L.;
 # Grimme, S. Phys. Chem. Chem. Phys. 2011, DOI: 10.1039/C0CP02984J.
 # http://www.thch.uni-bonn.de/tc/downloads/GMTKN/GMTKN30/GMTKN30main.html
@@ -6,6 +8,7 @@
 # A. G.; Allen, W. D. J. Chem. Theory Comput. 2009, 5, 1511-1523.
 # (estimated CCSD(T)/CBS); all values are in kcal/mol.
 #
+# doi:10.1021/ct900005c
 -1
 1
 1
