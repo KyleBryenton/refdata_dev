@@ -28,8 +28,8 @@ source("reader_postg.m");
 #source("reader_g09_critic.m");
 
 ## Damping function
-#source("energy_bj0.m");
-source("energy_bj.m");
+source("energy_bj0.m");
+#source("energy_bj.m");
 #source("energy_bj_only6.m");
 #source("energy_tt.m");
 
@@ -41,7 +41,7 @@ din="../10_din/kb49.din";
 #din="../10_din/s22.din";
 
 ## data source
-dir_e={"/home/alberto/calc/xdm/erin1"};
+dir_e={"/home/alberto/calc/erin/lcblyp-631+gs"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_pc1_scan6%hf"};
 ## dir_e={"/home/alberto/calc/dcp/15_xdm/hf-3c"};
 ## dir_e={"../30_run/hf_pc2spd"};
