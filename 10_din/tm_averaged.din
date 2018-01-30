@@ -1,6 +1,12 @@
 # Bond energies of transition metal complexes, from:
-# Johnson et al. Can. J. Chem. 87 (2009) 1369
-# ... averaged over number of bonds per complex.
+#   Johnson et al. Can. J. Chem. 87 (2009) 1369
+#   https://doi.org/10.1139/V09-102
+# Formation enthalpies used to calculate the refernece are experimental, 
+# from the NIST database. The geometries and vibrational corrections
+# were calculated using B3LYP/6-31G(2df,p). This is the method used in
+# the G3X protocol for thermochemical calculations. It was additionally
+# tested for its ability to reproduce experimental metal-ligand bond
+# lengths; the MAE is 0.02 angstrom.
 0.25
 Ti
 1
