@@ -1,0 +1,129 @@
+# DARC: reaction energies of Diels-Alder reactions.
+#
+# The DARC set is part of the GMTKN*, by Goerigk et al.
+# GMTKN30:
+# Goerigk, L.; Grimme, S. J. Chem. Theory Comput. 7 (2011) 291-309.
+# http://dx.doi.org/10.1021/ct100466k
+# GMTKN55:
+# Goerigk et al., Phys. Chem. Chem. Phys., 19 (2017) 32184-32215.
+# http://dx.doi.org/10.1039/C7CP04913G 
+#
+# The original DARC set from Johnson, E. R.; Mori-Sanchez, P.; Cohen, A. J; Yang,
+# W. J. Chem. Phys. 2008, 129, 204112. (estimated CCSD(T)/CBS); 
+# https://dx.doi.org/10.1063/1.3021474
+#
+# Reference values recalculated using W1-F12 in the GMKTN55 article.
+# All values are in kcal/mol.
+#
+-1
+ethene
+-1
+butadiene
+1
+P1/$A
+0
+-45.4
+-1
+ethine
+-1
+butadiene
+1
+P2/$A
+0
+-60.8
+-1
+ethene
+-1
+cpdiene
+1
+P3/$A
+0
+-29.9
+-1
+ethine
+-1
+cpdiene
+1
+P4/$A
+0
+-33.6
+-1
+ethene
+-1
+chdiene
+1
+P5/$A
+0
+-37.6
+-1
+ethine
+-1
+chdiene
+1
+P6/$A
+0
+-49.0
+-1
+furane
+-1
+malein
+1
+P7/$A
+0
+-14.0
+-1
+furane
+-1
+malein
+1
+P7X/$A
+0
+-15.9
+-1
+furane
+-1
+maleinNH
+1
+P8/$A
+0
+-16.8
+-1
+furane
+-1
+maleinNH
+1
+P8X/$A
+0
+-18.9
+-1
+cpdiene
+-1
+malein
+1
+P9/$A
+0
+-31.7
+-1
+cpdiene
+-1
+malein
+1
+P9X/$A
+0
+-32.2
+-1
+cpdiene
+-1
+maleinNH
+1
+P10/$A
+0
+-34.2
+-1
+cpdiene
+-1
+maleinNH
+1
+P10X/$A
+0
+-34.6
