@@ -13,10 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines] = process_din(n, rxn, edir, verbose=0)
+function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines,errfile] = process_din(n, rxn, edir, verbose=0)
 
   hy2kcal=627.50947;
 
+  errfile = struct();
   lines = cell(n,1);
   e = edisp = eref = elist = zeros(n,1);
   maxad = maxapd = -1;
@@ -27,14 +28,21 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines
     for j = 1:ncomp
       coef(j) = rxn{i}{2 * j - 1};
       mol{j} = rxn{i}{2 * j};
-      if (!exist(namefile(edir,mol{j})))
-        error(sprintf("File : %s does not exist",namefile(edir,mol{j})))
+
+      name = namefile(edir,mol{j});
+      if (!exist(name))
+        emold(j) = emol(j) = NaN;
+        errfile = setfield(errfile,name,"Calc file/directory does not exist.");
+        continue
       endif
-      [o1 o2 o3] = readenergy(namefile(edir,mol{j}));
+      [o1 o2 o3] = readenergy(name);
       if (isempty(o1) || isempty(o2) || isempty(o3))
-        error(sprintf("File : %s does not have an energy",namefile(edir,mol{j})))
+        emold(j) = emol(j) = NaN;
+        errfile = setfield(errfile,name,"Calc file/directory does not contain a valid energy.");
+        continue
       endif
-      [dum emold(j) emol(j)] = readenergy(namefile(edir,mol{j}));
+      emold(j) = o2;
+      emol(j) = o3;
     endfor
     e(i) = (coef * emol') * hy2kcal;
     edisp(i) = coef * emold' * hy2kcal;
