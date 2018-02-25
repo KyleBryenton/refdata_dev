@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-## Choose the energy reader and name generator
+## Choose the file reader
 source("reader_g09-simple.m");
 # source("reader_postg-simple.m");
 # source("reader_d3-simple.m");
@@ -27,6 +27,7 @@ source("reader_g09-simple.m");
 # source("reader_orca-simple.m");
 # source("reader_postg_psi4-simple.m");
  
+## Source directory
 data = {...
          ## "/home/alberto/calc/xdm_opt/15_x23_zerop/b86bpbe-xdm/",... ## x23, b86b result
          ## "/home/alberto/calc/csp_acp/20_x23-pressure",...           ## x23, non-tight result
@@ -51,6 +52,8 @@ data = {...
          "/home/alberto/calc/bsip-add/15_cbs/gmtkn_iso34@blyp",...
          "/home/alberto/calc/bsip-add/15_cbs/pa26@blyp",...
        };
+
+## din files
 din = {...
         ## "../10_din/x23.din",...
         ## "../10_din/x23_cspacp.din",...
@@ -76,6 +79,11 @@ din = {...
         "../10_din/pa26.din",...
       };
 
+## Separator character in the output
+## sep="|";
+## sep=" ";
+sep=",";
+
 #### Now DO stuff ####
 warning("off");
 format long;
@@ -97,30 +105,38 @@ for i = 1:ndin
   [n rxn opts] = load_din(din{i});
   [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines] = process_din(n,rxn,data{i},0);
 
+  ## First pass, reassign the lines based on the fieldasrxn option
+  if (isfield(opts,"fieldasrxn") && !isempty(opts.fieldasrxn) && opts.fieldasrxn != 0)
+    for j = 1:n
+      if (opts.fieldasrxn > 0)
+        str = rxn{j}{2*opts.fieldasrxn};
+      elseif (opts.fieldasrxn < 0)
+        str = rxn{j}{end+1+2*opts.fieldasrxn};
+      endif
+      lines{j} = str;
+    endfor
+  endif
+
+  ## Second pass, calculate the maximum length
+  maxlen = 10;
+  for j = 1:n
+    maxlen = max(maxlen,length(lines{j}));
+  endfor
+
   #### Simple output, whole list
   printf("## din file: %s\n",din{i});
   printf("## data file: %s\n",data{i});
   printf("## All results in kcal/mol.\n",din{i});
-  printf("| name | Ref. | Calc. | \n");
+  printf("%s %*s %s %10s %s %10s %s \n",sep,maxlen,"Name",sep,"Ref.",sep,"Calc.",sep);
   for j = 1:n
     yref = rxn{j}{end};
-    if (!isfield(opts,"fieldasrxn") || isempty(opts.fieldasrxn) || opts.fieldasrxn == 0)
-      str = lines{j};
-    elseif (opts.fieldasrxn > 0)
-      str = rxn{j}{2*opts.fieldasrxn};
-    elseif (opts.fieldasrxn < 0)
-      str = rxn{j}{end+1+2*opts.fieldasrxn};
-    else
-      str = lines{j};
-    endif
-
-    printf("| %25s | %10.3f | %10.3f |\n",str,yref,elist(j));
+    printf("%s %*s %s %10.3f %s %10.3f %s\n",sep,maxlen,lines{j},sep,yref,sep,elist(j),sep);
   endfor
-  printf("| MAE  | -- | %.3f |\n",mad(1));
-  printf("| ME   | -- | %.3f |\n",md(1));
-  printf("| MAPE | -- | %.3f |\n",mapd(1));
-  printf("| MPE  | -- | %.3f |\n",mpd(1));
-  printf("| RMS  | -- | %.3f |\n",rms(1));
-  printf("| RMSP | -- | %.3f |\n",rmsp(1));
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MAE",sep,sep,mad(1),sep);
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"ME",sep,sep,md(1),sep);
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MAPE",sep,sep,mapd(1),sep);
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MPE",sep,sep,mpd(1),sep);
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMS",sep,sep,rms(1),sep);
+  printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMSP",sep,sep,rmsp(1),sep);
   printf("\n");
 endfor
