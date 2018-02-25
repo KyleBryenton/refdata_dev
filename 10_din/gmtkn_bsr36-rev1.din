@@ -16,7 +16,7 @@
 # in the GMTKN55 article.
 # All values are in kcal/mol.
 #
-
+#@ fieldasrxn -2
 5
 c2h6
 -1

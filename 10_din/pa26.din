@@ -10,6 +10,7 @@
 ##
 ## All values are in kcal/mol.
 ## 
+#@ fieldasrxn 1
 1
 p2
 -1

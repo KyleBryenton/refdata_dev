@@ -24,6 +24,7 @@
 # The reference values were recalculated using W2-F12 in the GMTKN55 article.
 # All values are in kcal/mol.
 #
+#@ fieldasrxn 0
 -1
 h
 -1
@@ -303,9 +304,9 @@ hcnts
 -1
 h
 -1
-h
+hcl
 1
-cl
+RKT01
 0
 6.1
 -1

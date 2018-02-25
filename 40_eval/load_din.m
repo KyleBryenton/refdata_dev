@@ -15,15 +15,25 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-function [nrx rr] = load_din(file)
+function [nrx rr opts] = load_din(file)
 
   nrx = 0;
   fid = fopen(file,"r");
+  fieldasrxn = 0;
 
   rr = {};
   while(!feof(fid))
     line = strtrim(fgetl(fid));
-    if (isempty(line) || line(1:1) == "#" || strcmp(line,"KCAL"))
+    if (length(line) > 1 && line(1:2) == "#@")
+      tok = strsplit(line);
+      if (strcmpi(tok{2},"fieldasrxn"))
+        fieldasrxn = str2num(tok{3});
+        if (isempty(fieldasrxn))
+          fieldasrxn = 0;
+        endif
+      endif
+      continue
+    elseif (isempty(line) || line(1:1) == "#" || strcmpi(line,"KCAL"))
       continue
     endif
     if (strcmp(line,"-111"))
@@ -48,6 +58,9 @@ function [nrx rr] = load_din(file)
     rr{end+1} = r;
   endwhile
   fclose(fid);
+
+  opts = struct();
+  opts.fieldasrxn = fieldasrxn;
 
 endfunction
 

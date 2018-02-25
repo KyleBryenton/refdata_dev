@@ -15,7 +15,7 @@
 
 function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines] = process_din(n, rxn, edir, verbose=0)
 
-  hy2kcal=627.51;
+  hy2kcal=627.50947;
 
   lines = cell(n,1);
   e = edisp = eref = elist = zeros(n,1);
@@ -48,7 +48,7 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines
 	if (ifirst == 0)
 	  ifirst = 1;
 	else
-	  line = sprintf("%d %s +",i,line);
+	  line = sprintf("%s +",line);
 	endif
 	line = sprintf("%s %d %s",line,-coef(j),mol{j});
       endif
