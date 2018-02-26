@@ -20,6 +20,7 @@ source("reader_g16-simple.m");
 # source("reader_g09-simple.m");
 # source("reader_postg-simple.m");
 # source("reader_d3-simple.m");
+# source("reader_gcp-simple.m");
 # source("reader_espresso-simple.m");
 # source("reader_crystal-simple.m");
 # source("reader_siesta-simple.m");
