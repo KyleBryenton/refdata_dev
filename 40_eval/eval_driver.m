@@ -31,54 +31,12 @@ source("reader_g16-simple.m");
  
 ## Source directory
 data = {...
-         ## "/home/alberto/calc/xdm_opt/15_x23_zerop/b86bpbe-xdm/",... ## x23, b86b result
-         ## "/home/alberto/calc/csp_acp/20_x23-pressure",...           ## x23, non-tight result
-         ## "/home/alberto/calc/csp_acp/50_eval/prod-20-x",...  ## ACP, sp, b86b
-         ## "/home/alberto/calc/csp_acp/50_eval/prod-20-x",...  ## ACP, sp, ref
-         ## "/home/alberto/calc/csp_acp/70_opt",... ## ACP, opt, b86b
-         ## "/home/alberto/calc/csp_acp/70_opt",... ## ACP, opt, ref
-
-         ## "/home/alberto/calc/xdm_opt/15_ee",... ## ee, b86b results
-         ## "/home/alberto/calc/csp_acp/20_ee-pressure",... ## ee, b86b non-tight result
-         ## "/home/alberto/calc/csp_acp/50_eval/prod-20-x",...  ## ACP, sp, b86b
-         ## "/home/alberto/calc/csp_acp/50_eval/prod-20-x",...  ## ACP, sp, ref
-         ## "/home/alberto/calc/csp_acp/70_opt",... ## ACP, opt, b86b
-         ## "/home/alberto/calc/csp_acp/70_opt",... ## ACP, opt, ref
-
-         ## "/home/alberto/calc/bsip-add/15_cbs/w4-11@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_bsr36@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_darc@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_bhperi@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_bh76@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_bh76@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/gmtkn_iso34@blyp",...
-         ## "/home/alberto/calc/bsip-add/15_cbs/pa26@blyp",...
+         "../darc-blyp",...
        };
 
 ## din files
 din = {...
-        ## "../10_din/x23.din",...
-        ## "../10_din/x23_cspacp.din",...
-        ## "../10_din/x23_cspacp-b86b.din",...
-        ## "../10_din/x23_cspacp.din",...
-        ## "../10_din/x23_cspacp-b86b_no21.din",...
-        ## "../10_din/x23_cspacp_no21.din",...
-
-        ## "../10_din/ee_cspacp.din",...
-        ## "../10_din/ee_cspacp_no21.din",...
-        ## "../10_din/ee_cspacp-b86b_no21.din",...
-        ## "../10_din/ee_cspacp_no21.din",...
-        ## "../10_din/ee_cspacp-b86b.din",...
-        ## "../10_din/ee_cspacp.din",...
-
-        ## "../10_din/w4-11.din",...
-        ## "../10_din/gmtkn_bsr36-rev1.din",...
-        ## "../10_din/gmtkn_darc-rev1.din",...
-        ## "../10_din/gmtkn_bhperi-rev1.din",...
-        ## "../10_din/gmtkn_bh76-rev1.din",...
-        ## "../10_din/gmtkn_bh76rc-rev1.din",...
-        ## "../10_din/gmtkn_iso34-rev1.din",...
-        ## "../10_din/pa26.din",...
+        "../10_din/gmtkn_darc-rev1.din",...
       };
 
 ## Separator character in the output
@@ -108,7 +66,7 @@ for i = 1:ndin
 
   ## Process the outputs
   [n rxn opts] = load_din(din{i});
-  [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines,errfile] = process_din(n,rxn,data{i},0);
+  [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,lines,errfile] = process_din(n,rxn,data{i},0);
 
   ## First pass, reassign the lines based on the fieldasrxn option
   if (isfield(opts,"fieldasrxn") && !isempty(opts.fieldasrxn) && opts.fieldasrxn != 0)
@@ -123,14 +81,14 @@ for i = 1:ndin
   endif
 
   ## Second pass, calculate the maximum length
-  maxlen = 10;
+  maxlen = 12;
   for j = 1:n
     maxlen = max(maxlen,length(lines{j}));
   endfor
 
   #### Simple output, whole list
   printf("## din file: %s\n",din{i});
-  printf("## data file: %s\n",data{i});
+  printf("## data dir: %s\n",data{i});
   printf("## All results in kcal/mol.\n",din{i});
   printf("%s %*s %s %10s %s %10s %s \n",sep,maxlen,"Name",sep,"Ref.",sep,"Calc.",sep);
   for j = 1:n
@@ -144,9 +102,24 @@ for i = 1:ndin
   printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMS",sep,sep,rms(1),sep);
   printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMSP",sep,sep,rmsp(1),sep);
 
-  ## List error files
+  ## List error files and partial MAE
   names = fieldnames(errfile);
   if (length(names) > 0)
+    idx = find(!isnan(elist) & !isnan(eref));
+    mad = mean(abs(elist(idx)-eref(idx)));
+    md = mean(elist(idx)-eref(idx));
+    rms = sqrt(mean((elist(idx)-eref(idx)).^2));
+    mapd = mean(abs((elist(idx)-eref(idx))./eref(idx))) * 100;
+    mpd = mean((elist(idx)-eref(idx))./eref(idx)) * 100;
+    rmsp = sqrt(mean(((elist(idx)-eref(idx))./eref(idx)).^2)) * 100;
+
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MAE(part)",sep,sep,mad,sep);
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"ME(part)",sep,sep,md,sep);
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MAPE(part)",sep,sep,mapd,sep);
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"MPE(part)",sep,sep,mpd,sep);
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMS(part)",sep,sep,rms,sep);
+    printf("%s %*s %s      ---   %s %10.3f %s\n",sep,maxlen,"RMSP(part)",sep,sep,rmsp,sep);
+
     printf("## There were some errors:\n");
     for i = 1:length(names)
       printf("## %s : %s\n",names{i},getfield(errfile,names{i}));

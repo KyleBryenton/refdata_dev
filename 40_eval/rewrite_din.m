@@ -74,7 +74,7 @@ for i = 1:ndin
 
   ## Process the outputs
   [n rxn opts] = load_din(din{i});
-  [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,lines,errfile] = process_din(n,rxn,data{i},0);
+  [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,lines,errfile] = process_din(n,rxn,data{i},0);
 
   ## Rewrite the din file header
   tok = strsplit(din{i},"/");
