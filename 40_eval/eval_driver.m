@@ -16,27 +16,30 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Choose the file reader
-source("reader_g16-simple.m");
-# source("reader_g09-simple.m");
-# source("reader_postg-simple.m");
-# source("reader_d3-simple.m");
-# source("reader_gcp-simple.m");
-# source("reader_espresso-simple.m");
-# source("reader_crystal-simple.m");
-# source("reader_siesta-simple.m");
-# source("reader_dftb+-simple.m");
-# source("reader_sqm-simple.m");
-# source("reader_orca-simple.m");
-# source("reader_postg_psi4-simple.m");
+reader = {
+          "reader_g16-simple.m",...
+## reader_g16-simple.m
+## reader_g09-simple.m
+## reader_postg-simple.m
+## reader_d3-simple.m
+## reader_gcp-simple.m
+## reader_espresso-simple.m
+## reader_crystal-simple.m
+## reader_siesta-simple.m
+## reader_dftb+-simple.m
+## reader_sqm-simple.m
+## reader_orca-simple.m
+## reader_postg_psi4-simple.m
+};
  
 ## Source directory
 data = {...
-         "../darc-blyp",...
+         "/home/alberto/temp/bh76",...
        };
 
 ## din files
 din = {...
-        "../10_din/gmtkn_darc-rev1.din",...
+        "../10_din/gmtkn_bh76-rev1.din",...
       };
 
 ## Separator character in the output
@@ -52,6 +55,9 @@ format long;
 if (length(din) != length(data))
   error("Inconsistent lengths of the data and din cell arrays.")
 endif
+if (length(reader) != length(din))
+  error("Inconsistent lengths of the reader and din cell arrays.")
+endif
 ndin = length(din);
 
 for i = 1:ndin
@@ -63,6 +69,11 @@ for i = 1:ndin
     printf("Error! data directory does not exist: %s\n",data{i})
     continue
   endif
+  if (!exist(reader{i},"file"))
+    printf("Error! reader script does not exist: %s\n",reader{i})
+    continue
+  endif
+  source(reader{i});
 
   ## Process the outputs
   [n rxn opts] = load_din(din{i});
