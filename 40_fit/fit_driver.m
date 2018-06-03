@@ -28,8 +28,8 @@ source("reader_postg.m");
 #source("reader_g09_critic.m");
 
 ## Damping function
-source("energy_bj0.m");
-#source("energy_bj.m");
+# source("energy_bj0.m");
+source("energy_bj.m");
 #source("energy_bj_only6.m");
 #source("energy_tt.m");
 
@@ -41,18 +41,7 @@ din="../10_din/kb49.din";
 #din="../10_din/s22.din";
 
 ## data source
-dir_e={"/home/alberto/calc/erin/lcblyp-631+gs"};
-## dir_e={"/home/alberto/calc/dcp/15_xdm/chon_pc1_scan6%hf"};
-## dir_e={"/home/alberto/calc/dcp/15_xdm/hf-3c"};
-## dir_e={"../30_run/hf_pc2spd"};
-## dir_e={"/home/alberto/calc/psi4/kb49_b86bpbe"};
-## dir_e={"/home/alberto/calc/ncifun/kb49_wb86bpbe_0.6"};
-## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09_wfn"};
-## dir_e={"/home/alberto/calc/critic2/dftb_fits/dftb_g09"};
-## dir_e={"/home/alberto/calc/ncifun/10_kb49/kb49_lcwb86b_0.0/"};
-## dir_e={"/home/alberto/calc/jake/postg_fitting/6-31Gss_fittingsets/blyp_fitset/70HF_fitset"};
-## dir_e={"/home/alberto/git/refdata/30_run/6311+g2d2p-blyp"};
-## dir_e={"/home/alberto/calc/erin/pople"};
+dir_e={"/home/alberto/calc/00_programs/postg/631++g_2d_p"};
 ## dir_e={"/home/alberto/calc/xdm/psi4-wb86bpbe-0.4"};
 
 ## xyz structure source
