@@ -17,13 +17,13 @@
 
 ## Choose the file reader
 reader = {
-          "reader_g16-simple.m",...
+## "reader_g16-simple.m",...
 ## reader_g16-simple.m
 ## reader_g09-simple.m
 ## reader_postg-simple.m
 ## reader_d3-simple.m
 ## reader_gcp-simple.m
-## reader_espresso-simple.m
+          "reader_espresso-simple.m",...
 ## reader_crystal-simple.m
 ## reader_siesta-simple.m
 ## reader_dftb+-simple.m
@@ -34,12 +34,12 @@ reader = {
  
 ## Source directory
 data = {...
-         "/home/alberto/calc/00_programs/postg/631++g_2d_p",...
+         "/home/alberto/calc/00_crystals/x23/b86bpbe-xdm",...
        };
 
 ## din files
 din = {...
-        "../10_din/gmtkn_bh76-rev1.din",...
+        "../10_din/x23.din",...
       };
 
 ## Separator character in the output
