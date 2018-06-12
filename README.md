@@ -121,7 +121,7 @@ parameters, and is exactly the same as the equivalent file in the
 | SIE11      | 20_gmtkn_sie11/    |                                                           |                                 |                                                              |
 | W4-08      | 20_gmtkn_w4-08/    |                                                           |                                 |                                                              |
 | WATER27    | 20_gmtkn_water27/  |                                                           |                                 |                                                              |
-| HBC6       | 20_hbc6/           | Dissociation curves double-hydrogen-bonded dimers         | CCSD(T)/CBS                     | [thanthiriwatte2011][marshall2011b]                          |
+| HBC6       | 20_hbc6/           | Dissociation curves double-hydrogen-bonded dimers         | CCSD(T)/CBS                     | [thanthiriwatte2011],[marshall2011b]                         |
 | HSG        | 20_hsg/            |                                                           |                                 |                                                              |
 | IONICHB    | 20_ionichb/        |                                                           |                                 |                                                              |
 | ISOM       | 20_isom/           |                                                           |                                 |                                                              |
@@ -145,7 +145,7 @@ parameters, and is exactly the same as the equivalent file in the
 | TM         | 20_tm/             | Ligand-removal energies of transiton metal complexes      | Back-corrected experimental     | [johnson2009]                                                |
 | W4-11      | 20_w4-11/          | Atomization energies (small molecules and radicals)       | W4                              | [karton2011]                                                 |
 | WATER      | 20_water/          | Binding energies (water clusters)                         | CCSD(T)/CBS                     | [temelso2011]                                                |
-| WATER25x10 | 20_water2510/      | Dimer binding energies (water dimer PES)                  | CCSD(T)/CBS                     | [mas2000][bukowski2007][bukowski2008][smith2016]             |
+| WATER25x10 | 20_water2510/      | Dimer binding energies (water dimer PES)                  | CCSD(T)/CBS                     | [mas2000],[bukowski2007],[bukowski2008],[smith2016]          |
 | X40        | 20_x40/            | Dimer binding energies (halogen-containing molecules)     | CCSD(T)/CBS                     | [rezac2012]                                                  |
 | X40x10     | 20_x40x10/         | X40 with varying intermolecular distances                 | CCSD(T)/CBS                     | [rezac2012]                                                  |
 | XB18       | 20_xb18/           | Dimer binding energies (halogen-bonded systems)           | CCSD(T)/CBS                     | [kozuch2013]                                                 |
