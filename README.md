@@ -83,13 +83,13 @@ parameters, and is exactly the same as the equivalent file in the
 ## Manifest (molecules)
 
 | Set        | Directory          | Contents                                                       | Level                               | Refs                                                        |
-|------------|--------------------|----------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------|
-| A24        | 20_a24/            |                                                                |                                     |                                                             |
-| ACHC       | 20_achc/           |                                                                |                                     |                                                             |
-| BAUZA      | 20_bauza/          |                                                                |                                     |                                                             |
+|------------+--------------------+----------------------------------------------------------------+-------------------------------------+-------------------------------------------------------------|
+| A24        | 20_a24/            | Dimer binding energies (small molecules, non-equilibrium)      | CCSD(T)/CBS                         | [rezac2013]                                                 |
+| ACHC       | 20_achc/           | Dimer binding energies (adenine-cytosine steps)                | DW-CCSD(T**)-F12/aDZ                | [parker2015],[smith2016]                                    |
+| BAUZA      | 20_bauza/          | Dimer binding energies (halogen-bonded systems)                | CCSD(T)/CBS                         | [bauza2013],[aor2014b]                                      |
 | BBI        | 20_bbi/            | Dimer binding energies (backbone-backbone interactions)        | CCSD(T)-F12/CBS                     | [smith2016],[burns2017]                                     |
-| BDES       | 20_bdes/           |                                                                |                                     |                                                             |
-| BH         | 20_bh/             |                                                                |                                     |                                                             |
+| BDES       | 20_bdes/           | Bond dissociation energies                                     | Back-corrected experimental         | [johnson2003]                                               |
+| BH         | 20_bh/             | Barrier heights                                                | QCISD(T)/MG3, CCSD(T)/MG3           | [lynch2001]                                                 |
 | CT         | 20_ct/             | Dimer binding energies (charge transfer complexes)             | W1/W2                               | [zhao2005]                                                  |
 | G3         | 20_g3/             | Atomization energies                                           | G3                                  | [curtiss2000]                                               |
 | ACONF      | 20_gmtkn_aconf/    |                                                                |                                     |                                                             |
@@ -153,12 +153,15 @@ parameters, and is exactly the same as the equivalent file in the
 
 [curtiss2000]: https://dx.doi.org/10.1063/1.481336
 [mas2000]: https://dx.doi.org/10.1063/1.1311289
+[lynch2001]: https://dx.doi.org/10.1021/jp004262z
 [parthiban2001]: https://dx.doi.org/10.1063/1.1356014
+[johnson2003]: https://dx.doi.org/10.1021/jp035315q
 [zhao2005]: https://dx.doi.org/10.1021/ct049851d
 [jurecka2006]: http://dx.doi.org/10.1039/B600027D
 [bukowski2007]: http://dx.doi.org/10.1126/science.1136371
 [grimme2007]: http://dx.doi.org/10.1021/jo062446p
 [bukowski2008]: https://dx.doi.org/10.1063/1.2832746
+[valdes2008]: https://dx.doi.org/10.1039/b719294k
 [johnson2009]: https://dx.doi.org/10.1139/V09-102
 [kannemann2010]: https://dx.doi.org/10.1021/ct900699r
 [grafova2010]: https://dx.doi.org/10.1021/ct1002253
@@ -175,12 +178,16 @@ parameters, and is exactly the same as the equivalent file in the
 [mintz2012]: https://dx.doi.org/10.1021/jp209536e
 [rezac2012a]: https://dx.doi.org/10.1021/ct300647k
 [rezac2012b]: https://dx.doi.org/10.1021/ct200751e
+[bauza2013]: https://dx.doi.org/10.1021/ct400818v
 [dilabio2013]: https://dx.doi.org/10.1039/C3CP51559A
 [kozuch2013]: https://dx.doi.org/10.1021/ct301064t
+[rezac2013]: https://dx.doi.org/10.1021/ct400057w
 [risthaus2013]: https://dx.doi.org/10.1021/ct301081n
 [sedlak2013]: https://dx.doi.org/10.1021/ct400036b
+[aor2014b]: https://dx.doi.org/10.1021/ct500899h
 [ambrosetti2015]: https://dx.doi.org/10.1021/jz402663k
 [mckechnie2015]: https://dx.doi.org/10.1063/1.4921037
+[parker2015]: https://dx.doi.org/10.1021/acs.jctc.5b00588
 [sure2015]: https://dx.doi.org/10.1021/acs.jctc.5b00296
 [brauer2016]: http://dx.doi.org/10.1039/c6cp00688d
 [smith2016]: http://dx.doi.org/10.1021/acs.jpclett.6b00780
@@ -188,14 +195,11 @@ parameters, and is exactly the same as the equivalent file in the
 [goerigk2017]: https://dx.doi.org/10.1039/C7CP04913G
 [schooner]: http://schooner.chem.dal.ca/
 
-[valdes2008]: https://dx.doi.org/10.1039/b719294k
-
-
 ## Manifest (crystals)
 
 | Set       | Directory     | Contents                                                            | Level                       | Refs                   |
 |-----------|---------------|---------------------------------------------------------------------|-----------------------------|------------------------|
-| EE        | 25_ee/        | Enantiomeric excess in solution at the triple point                 | B86bPBE-XDM or experimental | [aor2014],[aor2016]    |
+| EE        | 25_ee/        | Enantiomeric excess in solution at the triple point                 | B86bPBE-XDM or experimental | [aor2014a],[aor2016]   |
 | POLYMORPH | 25_polymorph/ | First three candidates from all groups for first 5 CCDC blind tests | B86bPBE-XDM                 | [aor2017a],[aor2017b]  |
 | X23       | 25_x23/       | Lattice energies of small molecular crystals                        | Back-corrected experimental | [aor2012],[reilly2013] |
 
