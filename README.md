@@ -83,7 +83,7 @@ parameters, and is exactly the same as the equivalent file in the
 ## Manifest (molecules)
 
 | Set        | Directory          | Contents                                                       | Level                               | Refs                                                        |
-|------------+--------------------+----------------------------------------------------------------+-------------------------------------+-------------------------------------------------------------|
+|------------|--------------------|----------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------|
 | A24        | 20_a24/            | Dimer binding energies (small molecules, non-equilibrium)      | CCSD(T)/CBS                         | [rezac2013]                                                 |
 | ACHC       | 20_achc/           | Dimer binding energies (adenine-cytosine steps)                | DW-CCSD(T**)-F12/aDZ                | [parker2015],[smith2016]                                    |
 | BAUZA      | 20_bauza/          | Dimer binding energies (halogen-bonded systems)                | CCSD(T)/CBS                         | [bauza2013],[aor2014b]                                      |
