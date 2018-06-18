@@ -92,8 +92,8 @@ parameters, and is exactly the same as the equivalent file in the
 | BH         | 20_bh/             | Barrier heights                                                | QCISD(T)/MG3, CCSD(T)/MG3           | [lynch2001]                                                 |
 | CT         | 20_ct/             | Dimer binding energies (charge transfer complexes)             | W1/W2                               | [zhao2005]                                                  |
 | G3         | 20_g3/             | Atomization energies                                           | G3                                  | [curtiss2000]                                               |
-| ACONF      | 20_gmtkn_aconf/    |                                                                |                                     |                                                             |
-| ADIM6      | 20_gmtkn_adim6/    |                                                                |                                     |                                                             |
+| ACONF      | 20_gmtkn_aconf/    | Conformational energies of alkanes                             | CCSD(T)/CBS                         | [gruzman2009],[goerigk2017]                                 |
+| ADIM6      | 20_gmtkn_adim6/    | Dimer binding energies (n-alkane molecules)                    | CCSD(T)/CBS                         | [grimme2010],[goerigk2017]                                  |
 | AL2X       | 20_gmtkn_al2x/     |                                                                |                                     |                                                             |
 | ALK6       | 20_gmtkn_alk6/     |                                                                |                                     |                                                             |
 | BH76       | 20_gmtkn_bh76/     |                                                                |                                     |                                                             |
@@ -162,9 +162,11 @@ parameters, and is exactly the same as the equivalent file in the
 [grimme2007]: http://dx.doi.org/10.1021/jo062446p
 [bukowski2008]: https://dx.doi.org/10.1063/1.2832746
 [valdes2008]: https://dx.doi.org/10.1039/b719294k
+[gruzman2009]: https://dx.doi.org/10.1021/jp903640h
 [johnson2009]: https://dx.doi.org/10.1139/V09-102
-[kannemann2010]: https://dx.doi.org/10.1021/ct900699r
 [grafova2010]: https://dx.doi.org/10.1021/ct1002253
+[grimme2010]: https://dx.doi.org/10.1063/1.3382344
+[kannemann2010]: https://dx.doi.org/10.1021/ct900699r
 [podeszwa2010]: http://dx.doi.org/10.1039/B926808A
 [burns2011]: https://dx.doi.org/10.1063/1.3545971
 [faver2011]: https://dx.doi.org/10.1021/ct100563b
