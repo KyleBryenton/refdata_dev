@@ -50,13 +50,13 @@ endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp] = readenergy(file)
-  [stat,out] = system(sprintf("grep '^!' %s | awk '{print $5}'\n",file));
+  [stat,out] = system(sprintf("grep '^!' %s | tail -n 1 | awk '{print $5}'\n",file));
   if (length(out) == 0)
     e = 0;
   else
     e = str2num(out) / 2; # to hartree
   endif
-  [stat,out] = system(sprintf("grep 'Dispersion XDM' %s | awk '{print $5}'\n",file));
+  [stat,out] = system(sprintf("grep 'Dispersion XDM' %s | tail -n 1 | awk '{print $5}'\n",file));
   if (length(out) != 0)
     edisp = str2num(out) / 2;
     e = e - edisp; # to hartree
