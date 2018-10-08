@@ -34,7 +34,7 @@ reader = {
  
 ## Source directory
 data = {...
-         "/home/alberto/calc/00_crystals/x23/b86bpbe-xdm",...
+         "/home/alberto/calc/00_programs/xdmeval/b3lyp-xdm_nc"
        };
 
 ## din files

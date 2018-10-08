@@ -82,4 +82,3 @@ endfor
 
 ywt = 1./yin;
 [yout pout cvg iter corp covp covr stdresid Z r2] = leasqr(xin,yin,pin,@f,1e-11,2000,ywt);
-
