@@ -41,7 +41,7 @@ din="../10_din/kb49.din";
 #din="../10_din/s22.din";
 
 ## data source
-dir_e={"/home/alberto/calc/00_programs/xdmfit_qe/pbe-nc"};
+dir_e={"/home/alberto/calc/00_programs/xdmfit_qe/b86bpbex-25"};
 ## dir_e={"/home/alberto/calc/00_programs/postg/def2svp"};
 ## dir_e={"/home/alberto/calc/xdm/psi4-wb86bpbe-0.4"};
 

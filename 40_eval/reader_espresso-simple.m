@@ -22,9 +22,9 @@ function file = namefile(edir,tag)
   file = sprintf("%s/%s/%s.scf.out",edir,tag,tag);
 endfunction
 
-## function readenergy: read energy from nwchem output
+## function readenergy: read energy from espresso output
 function [e edisp etotal] = readenergy(file)
-  [stat,out] = system(sprintf("grep -a ! %s | tail -n 1 | awk '{print $5}' \n",file));
+  [stat,out] = system(sprintf("grep -a '^!' %s | tail -n 1 | awk '{print $5}' \n",file));
   if (length(out) == 0)
     e = 0;
   else
