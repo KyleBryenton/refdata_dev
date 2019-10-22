@@ -2,6 +2,9 @@
 ##   McKechnie te al., J. Chem. Phys. 142 (2015) 194114.
 ## The reference data comes from experimental (photoelectron
 ## spectroscopy) and computational (CCSD(T) delta-SCF) results.
+##
+## title: On the accuracy of density functional theory and wave function methods for calculating vertical ionization energies
+## ref: https://doi.org/10.1063/1.4921037
 1
 CH3+.xyz
 -1
