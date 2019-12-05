@@ -21,6 +21,7 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,
   lines = cell(n,1);
   e = edisp = eref = elist = zeros(n,1);
   maxad = maxapd = -1;
+  mad = md = rms = mapd = mpd = rmsp = maxadline = maxapdline = 0;
   for i = 1:n
     ncomp = (length(rxn{i})-1)/2;
     coef = emol = emold = zeros(1,ncomp);
