@@ -30,12 +30,21 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,
       coef(j) = rxn{i}{2 * j - 1};
       mol{j} = rxn{i}{2 * j};
 
-      name = namefile(edir,mol{j});
-      if (!exist(name))
-        emold(j) = emol(j) = NaN;
-        errfile = setfield(errfile,name,"Calc file/directory does not exist.");
-        continue
+      if (exist("namefile_req"))
+        name = namefile_req(edir,mol{j});
+      else
+        name = {namefile(edir,mol{j})};
       endif
+
+      for ifil = 1:length(name)
+        if (!exist(name{ifil}))
+          emold(j) = emol(j) = NaN;
+          errfile = setfield(errfile,name{ifil},"Calc file/directory does not exist.");
+          continue
+        endif
+      endfor
+
+      name = namefile(edir,mol{j});
       [o1 o2 o3] = readenergy(name);
       if (isempty(o1) || isempty(o2) || isempty(o3))
         emold(j) = emol(j) = NaN;
