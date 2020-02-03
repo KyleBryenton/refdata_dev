@@ -45,7 +45,7 @@ function [c6,c8,c10,rc,c9] = readcij(file,n)
       line = fgetl(fid); line = fgetl(fid);
       do
 	[ii,jj,kk,c9dum] = sscanf(line,"%d %d %d %f","C");
-	c9(ii,jj,kk) = c9(kk,ii,jj) = c9(kk,jj,ii) = ...
+	c9(ii,jj,kk) = c9(kk,ii,jj) = c9(jj,kk,ii) = ...
         c9(jj,ii,kk) = c9(kk,jj,ii) = c9(ii,kk,jj) = c9dum; 
 	line = fgetl(fid);
       until (strcmp(deblank(line),"#"));

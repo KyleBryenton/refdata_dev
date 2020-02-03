@@ -28,8 +28,8 @@ source("reader_postg.m");
 #source("reader_g09_critic.m");
 
 ## Damping function
-source("energy_bj0.m");
-#source("energy_bj.m");
+#source("energy_bj0.m");
+source("energy_bj.m");
 #source("energy_bj_only6.m");
 #source("energy_tt.m");
 
@@ -41,7 +41,8 @@ din="../10_din/kb49.din";
 #din="../10_din/s22.din";
 
 ## data source
-dir_e={"/home/alberto/calc/00_programs/xdmfit/bhahlyp_mixed"};
+dir_e={"/home/alberto/calc/00_programs/xdmfit/pbe-pc4"};
+#dir_e={"/home/alberto/calc/00_programs/xdmfit/bhahlyp_mixed"};
 ## dir_e={"/home/alberto/calc/00_programs/postg/def2svp"};
 ## dir_e={"/home/alberto/calc/xdm/psi4-wb86bpbe-0.4"};
 
