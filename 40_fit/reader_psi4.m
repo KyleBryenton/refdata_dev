@@ -19,7 +19,7 @@
 
 ## function: give the name of the file
 function file = namefile(edir,tag)
-  file = sprintf("%s/%s.pgout",edir,tag);
+  file = sprintf("%s/%s.dat",edir,tag);
 endfunction
 
 ## function: read the dispersion coefficients from qe output
@@ -56,7 +56,7 @@ endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
-  [stat,out] = system(sprintf("grep '^ *Total Energy *=' %s | tail -n 1 | awk '{print $NF}' \n",strrep(file,".pgout",".out")));
+  [stat,out] = system(sprintf("grep '^ *Total Energy *=' %s | tail -n 1 | awk '{print $NF}' \n",file));
   if (length(out) == 0)
     e = 0;
   else
@@ -68,7 +68,8 @@ function [e edisp etotal] = readenergy(file)
   else
     edisp = str2num(out);
   endif
-  etotal = e + edisp;
+  etotal = e;
+  e = etotal - edisp;
 endfunction
 
 

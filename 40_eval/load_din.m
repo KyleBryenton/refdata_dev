@@ -49,7 +49,7 @@ function [nrx rr opts] = load_din(file)
       r{nm} = str2num(line);
       line = fgetl(fid);
       nm = nm + 1;
-      r{nm} = line;
+      r{nm} = strtrim(line);
       line = fgetl(fid);
     endwhile
     line = fgetl(fid);

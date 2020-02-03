@@ -22,6 +22,11 @@ function file = namefile(edir,tag)
   file = sprintf("%s/%s.d3out",edir,tag);
 endfunction
 
+## function: give the required file names
+function file = namefile_req(edir,tag)
+  file = {sprintf("%s/%s.d3out",edir,tag), sprintf("%s/%s.log",edir,tag)};
+endfunction
+
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
   [stat,out] = system(sprintf("grep -a 'Done' %s.log | tail -n 1 | awk '{print $5}' \n",strrep(file,".d3out","")));
