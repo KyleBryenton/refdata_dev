@@ -1,0 +1,13 @@
+%nprocs=4
+%mem=2GB
+#p b3lyp aug-cc-pvtz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+ O        4.422945000    -0.026001000    -0.007200000
+ H        4.446575000    -0.955128000     0.320950000
+ H        4.445532000    -0.084110000    -0.991960000
+
+01a_water_mon2.wfx
+

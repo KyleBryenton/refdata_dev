@@ -1,5 +1,5 @@
  18
-# merged:  Fragment[ 1 2 3 5 7 4 8 9 6] of 13b. Triazine trimer, 3B-69 Test set                Fragment[ 10 11 12 14 16 13 17 18 15] of 13b. Triazine trimer, 3B-69 Test set               
+# merged:  Fragment[ 1 2 3 5 7 4 8 9 6] of Triazine #2, B3LYP-D*/TZP geometry                Fragment[ 10 11 12 14 16 13 17 18 15] of Triazine #2, B3LYP-D*/TZP geometry               
  C       -3.523470000     8.354547000     9.101250000
  N       -4.139624000     7.170039000     9.101250000
  H       -2.441366000     8.354547000     9.101250000

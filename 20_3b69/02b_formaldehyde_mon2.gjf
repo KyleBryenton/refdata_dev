@@ -1,0 +1,14 @@
+%nprocs=4
+%mem=2GB
+#p b3lyp aug-cc-pvtz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+ O        9.239955000    15.408112000     7.312480000
+ C        8.895380000    15.312746000     6.154840000
+ H        8.218033000    14.511974000     5.823760000
+ H        9.244063000    16.011860000     5.383700000
+
+02b_formaldehyde_mon2.wfx
+
