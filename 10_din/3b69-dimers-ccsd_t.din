@@ -4,6 +4,7 @@
 # extracted from crystal geometries.
 # CCSD(T)/CBS two-body energies (focal point with aXZ, X=D,T,Q).
 # doi:10.1021/acs.jctc.5b00281
+#@ fieldasrxn 1
 1
 01a_water_di12
 -1
