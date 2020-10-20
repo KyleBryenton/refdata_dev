@@ -34,12 +34,12 @@ reader = {
  
 ## Source directory
 data = {...
-         "/home/alberto/calc/checkrefdata/20_hb375x10"
+         "/home/alberto/calc/checkrefdata/20_hb300spx10"
        };
 
 ## din files
 din = {...
-        "../10_din/hb375x10.din",...
+        "../10_din/hb300spx.din",...
       };
 
 ## Separator character in the output
