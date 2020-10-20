@@ -1,10 +1,10 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
--1 0
+-1 1
   C    3.755731830  -0.940607550   0.039806116
   O    3.614006326  -0.914256298   1.248939312
   O    2.862841721  -0.618955711  -0.858060317
@@ -28,5 +28,6 @@ title
   H   -4.030674417   3.166400632   2.649115252
   H   -1.943666232   2.129985189   1.757547642
 
-05.002_OH-Oa__aceticacid--benzoate_200.wfx
+05.002_aceticacid--benzoate_200.wfx
+
 

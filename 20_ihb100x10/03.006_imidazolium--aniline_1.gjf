@@ -1,10 +1,10 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
-1 1
+0 1
   C   -2.897408581   0.261633526  -0.718519220
   C   -1.577160834   0.138131615  -0.426053981
   N   -1.451426279   0.291134433   0.938368950
@@ -16,5 +16,6 @@ title
   H   -2.861465852   0.655607644   2.512227048
   H   -4.532884286   0.621828862   0.599987882
 
-03.006_NHk-N__imidazolium--aniline_1.wfx
+03.006_imidazolium--aniline_1.wfx
+
 

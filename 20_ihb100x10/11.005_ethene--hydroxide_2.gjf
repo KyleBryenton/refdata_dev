@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
@@ -8,5 +8,6 @@ title
   O   -0.072415358  -1.337356970   1.578994901
   H   -0.214607204  -2.214401829   1.208381275
 
-11.005_CH-Oa__ethene--hydroxide_2.wfx
+11.005_ethene--hydroxide_2.wfx
+
 

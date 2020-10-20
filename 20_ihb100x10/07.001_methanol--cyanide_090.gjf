@@ -1,10 +1,10 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
--1 0
+-1 1
   O    0.679371003  -1.382309636   0.100133184
   H    0.571468069  -0.383993132   0.078073590
   C   -0.607682953  -1.927592746   0.024192146
@@ -14,5 +14,6 @@ title
   C    0.162857919   1.215872388  -0.025034917
   N   -0.142299665   2.338120456  -0.097909721
 
-07.001_OH-Ca__methanol--cyanide_090.wfx
+07.001_methanol--cyanide_090.wfx
+
 

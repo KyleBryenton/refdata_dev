@@ -1,10 +1,10 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
-1 0
+-1 1
   O   -1.521483378  -1.716488413   0.495043660
   H   -1.062363600  -2.447333837   0.942523180
   H   -0.926219885  -0.836209544   0.371590833
@@ -17,5 +17,6 @@ title
   C    0.981400653   0.287405427  -0.592023917
   N    1.882249153   0.110307722  -1.284580847
 
-01.001_OHk-O__oxonium--methylcyanate_110.wfx
+01.001_oxonium--methylcyanate_110.wfx
+
 

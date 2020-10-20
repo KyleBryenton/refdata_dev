@@ -1,6 +1,6 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
@@ -19,5 +19,6 @@ title
   C    2.306257141   0.958144513  -0.548790722
   O   -0.360449697  -1.530242201  -0.317426047
 
-05.010_OH-Oa__phenol--nitrate_1.wfx
+05.010_phenol--nitrate_1.wfx
+
 

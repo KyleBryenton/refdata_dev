@@ -1,10 +1,10 @@
 %nprocs=4
 %mem=2GB
-#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+#p b3lyp 6-31+G* output=wfx scf=(conver=6) int=(grid=ultrafine)
 
 title
 
-1 0
+-1 1
   C   -2.103775765   1.137940534  -0.015751126
   N   -1.467579522  -0.210559984  -0.001787963
   H   -0.435899413  -0.062039432  -0.000318246
@@ -26,5 +26,6 @@ title
   C    3.335949074   0.479163012   0.004351514
   N    2.200757093   0.317008178   0.003466228
 
-03.007_NHk-N__trimethylammonium--acetonitrile_150.wfx
+03.007_trimethylammonium--acetonitrile_150.wfx
+
 
