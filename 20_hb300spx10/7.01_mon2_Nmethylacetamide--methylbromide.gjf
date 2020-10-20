@@ -1,0 +1,16 @@
+%nprocs=4
+%mem=2GB
+#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+  H    0.939305603  -1.243030171  -0.438431376
+  H    2.699342097  -0.962631360  -0.620381578
+  H    1.990993621  -1.180475100   1.007333394
+  C    1.828126254  -0.811248305   0.003270447
+ Br    1.531307202   1.123422020   0.131645283
+
+7.01_mon2_Nmethylacetamide--methylbromide.wfx
+
+

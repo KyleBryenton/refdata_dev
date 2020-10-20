@@ -1,0 +1,13 @@
+%nprocs=4
+%mem=2GB
+#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+  H   -0.092966836  -0.971772838   0.278420076
+ Cl    0.763202035  -1.756078545   0.845935265
+
+6.22_mon1_hydrogenchloride--methylchloride.wfx
+
+

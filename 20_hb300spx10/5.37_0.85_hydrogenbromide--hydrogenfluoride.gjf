@@ -1,0 +1,15 @@
+%nprocs=4
+%mem=2GB
+#p hf aug-cc-pvdz output=wfx scf=(conver=6) int=(grid=ultrafine)
+
+title
+
+0 1
+  H   -0.262410292  -0.031032367   0.675994838
+ Br    0.055754988  -0.019611785  -0.716815364
+  H    0.573216419   0.264321995   2.821310301
+  F   -0.250334817   0.053400453   2.460474227
+
+5.37_0.85_hydrogenbromide--hydrogenfluoride.wfx
+
+
