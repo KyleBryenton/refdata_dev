@@ -3,6 +3,7 @@
 # S22 set from Jurecka et al. PCCP 8 (2006) 1985
 # ... but with revised S22B values from: 
 #     Marshall et al. J. Chem. Phys. 135 (2011) 194102.
+#@ fieldasrxn 1
 1
 nh3_nh3
 -1
