@@ -1,5 +1,6 @@
 # Johnson et al. J. Phys. Chem. A 107 (2003) 9953
 # Bond dissociation energies database
+#@ fieldasrxn 0
 1
 bde03_benzene
 -1
