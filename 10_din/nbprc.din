@@ -1,6 +1,8 @@
 # NBPRC: oligomerizations and H2 fragmentations of NH3/BH3 systems. H2
 # activation reactions with PH3/BH3 systems.
 #
+# refs: curtiss1991 goerigk2011 grimme2010 goerigk2017
+#
 # This set is part of the GMTKN55, Goerigk et al.
 # http://dx.doi.org/10.1039/C7CP04913G
 # https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55

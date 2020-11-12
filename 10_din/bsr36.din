@@ -1,5 +1,7 @@
 # BSR36: bond separation reaction energies of saturated hydrocarbons.
 #
+# refs: steinmann2009 krieg2010 goerigk2017
+#
 # This set is part of the GMTKN55, Goerigk et al.
 # http://dx.doi.org/10.1039/C7CP04913G
 # https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55

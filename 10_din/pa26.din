@@ -1,5 +1,7 @@
 # PA26: proton affinities. 
 #
+# refs: parthiban2001 zhao2006 goerigk2017
+#
 # Reference values are a mixture of W2-F12, CCSD(T)/CBS, W1-F12, and
 # CCSD(T)/CBS(def2-TZVPP/def2-QZVPP)//PBEh-3c116
 # 

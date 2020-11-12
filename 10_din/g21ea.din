@@ -1,5 +1,7 @@
 # G21EA: adiabatic electron affinities.
 #
+# refs: curtiss1991 goerigk2010 goerigk2017
+#
 # This set is part of the GMTKN55, Goerigk et al.
 # http://dx.doi.org/10.1039/C7CP04913G
 # https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55

@@ -2,10 +2,7 @@
 #
 # Reference values are from the W4 composite method.
 # 
-# A. Karton, S. Daon, J. M. L. Martin and B. Ruscic, Chem. Phys. Lett. 510 (2011) 165-178.
-# https://doi.org/10.1016/j.cplett.2011.05.007
-# From the GMTKN55 set by Goerigk et al., Phys. Chem. Chem. Phys., 19 (2017) 32184-32215.
-# http://dx.doi.org/10.1039/C7CP04913G 
+# refs: karton2011 goerigk2017
 # 
 # This set is part of the GMTKN55, Goerigk et al.
 # http://dx.doi.org/10.1039/C7CP04913G
