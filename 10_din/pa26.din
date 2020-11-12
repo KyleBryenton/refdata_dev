@@ -1,15 +1,15 @@
-## PA26 set of proton affinities. Reference values are a mixture of
-## W2-F12, CCSD(T)/CBS, W1-F12, and
-## CCSD(T)/CBS(def2-TZVPP/def2-QZVPP)//PBEh-3c116
-## 
-## From the GMTKN55 set by Goerigk et al., Phys. Chem. Chem. Phys., 19 (2017) 32184-32215.
-## http://dx.doi.org/10.1039/C7CP04913G 
-## 
-## Parthiban and Martin, J. Chem. Phys. 114 (2001) 6014
-## https://doi.org/10.1063/1.1356014
-##
-## All values are in kcal/mol.
-## 
+# PA26: proton affinities. 
+#
+# Reference values are a mixture of W2-F12, CCSD(T)/CBS, W1-F12, and
+# CCSD(T)/CBS(def2-TZVPP/def2-QZVPP)//PBEh-3c116
+# 
+# This set is part of the GMTKN55, Goerigk et al.
+# http://dx.doi.org/10.1039/C7CP04913G
+# https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55
+# 
+# Parthiban and Martin, J. Chem. Phys. 114 (2001) 6014
+# https://doi.org/10.1063/1.1356014
+#
 #@ fieldasrxn 1
 1
 pa26_p2
