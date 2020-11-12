@@ -4,6 +4,7 @@
 # http://dx.doi.org/10.1039/C7CP04913G
 # https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55
 #
+#@ fieldasrxn 0
 -1
 bh76_h
 -1
@@ -21,14 +22,6 @@ bh76_n2ohts
 0
 82.6
 -1
-bh76_h
--1
-bh76_hf
-1
-bh76_hfhts
-0
-42.1
--1
 bh76_hf
 -1
 bh76_h
@@ -36,14 +29,6 @@ bh76_h
 bh76_hfhts
 0
 42.1
--1
-bh76_h
--1
-bh76_hcl
-1
-bh76_hclhts
-0
-17.8
 -1
 bh76_hcl
 -1
@@ -101,14 +86,6 @@ bh76_ch3fclts
 0
 59.8
 -1
-bh76_f-
--1
-bh76_ch3f
-1
-bh76_fch3fts
-0
--0.6
--1
 bh76_ch3f
 -1
 bh76_f-
@@ -123,20 +100,6 @@ bh76_fch3fts
 0
 13.4
 -1
-bh76_fch3fcomp
-1
-bh76_fch3fts
-0
-13.4
--1
-bh76_cl-
--1
-bh76_ch3cl
-1
-bh76_clch3clts
-0
-2.5
--1
 bh76_ch3cl
 -1
 bh76_cl-
@@ -144,12 +107,6 @@ bh76_cl-
 bh76_clch3clts
 0
 2.5
--1
-bh76_clch3clcomp
-1
-bh76_clch3clts
-0
-13.5
 -1
 bh76_clch3clcomp
 1
@@ -344,14 +301,6 @@ bh76_ch3
 bh76_RKT04
 0
 19.5
--1
-bh76_h
--1
-bh76_H2
-1
-bh76_RKT06
-0
-9.7
 -1
 bh76_h
 -1
@@ -568,12 +517,6 @@ bh76_ch3
 bh76_RKT21
 0
 16.9
--1
-bh76_C5H8
-1
-bh76_RKT22
-0
-39.7
 -1
 bh76_C5H8
 1
