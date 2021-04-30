@@ -46,7 +46,7 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,
 
       name = namefile(edir,mol{j});
       [o1 o2 o3] = readenergy(name);
-      if (isempty(o1) || isempty(o2) || isempty(o3))
+      if (isempty(o1) || isempty(o2) || isempty(o3) || isnan(o1) || isnan(o2) || isnan(o3))
         emold(j) = emol(j) = NaN;
         errfile = setfield(errfile,name,"Calc file/directory does not contain a valid energy.");
         continue
