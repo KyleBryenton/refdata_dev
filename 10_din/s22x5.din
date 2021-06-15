@@ -7,6 +7,7 @@
 # Note that the reference energies for the '10' values are the same as
 # the old S22 (not revised).
 #
+#@ fieldasrxn 1
 1
 2pyridoxine2aminopyridin09
 -1
