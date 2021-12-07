@@ -26,10 +26,11 @@ source("reader_postg.m");
 #source("reader_nwchem.m");
 #source("reader_dftbp_critic.m");
 #source("reader_g09_critic.m");
+#source("reader_fhiaims.m");
 
 ## Damping function
-source("energy_bj0.m");
-#source("energy_bj.m");
+#source("energy_bj0.m");
+source("energy_bj.m");
 #source("energy_bj_only6.m");
 #source("energy_tt.m");
 
@@ -47,7 +48,8 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/00_programs/xdmfit_psi/b86bh-b97"};
 ## dir_e={"/home/alberto/calc/edward-sn/20_xdmfit/def2tzvpp"};
 ## dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-pcseg2"};
-dir_e={"/home/alberto/calc/threebody/08_xdmfit/lcblyp"};
+## dir_e={"/home/alberto/calc/threebody/08_xdmfit/lcblyp"};
+dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-def2svp"};
 
 ## xyz structure source
 dir_s="../20_kb65";
