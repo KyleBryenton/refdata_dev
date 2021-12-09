@@ -18,7 +18,7 @@
 ## Reader routines
 #source("reader_vasp.m");
 #source("reader_qe.m");
-source("reader_postg.m");
+#source("reader_postg.m");
 #source("reader_postg_psi4.m");
 #source("reader_orca.m");
 #source("reader_psi4.m");
@@ -26,11 +26,11 @@ source("reader_postg.m");
 #source("reader_nwchem.m");
 #source("reader_dftbp_critic.m");
 #source("reader_g09_critic.m");
-#source("reader_fhiaims.m");
+source("reader_fhiaims.m");
 
 ## Damping function
-#source("energy_bj0.m");
-source("energy_bj.m");
+source("energy_bj0.m");
+#source("energy_bj.m");
 #source("energy_bj_only6.m");
 #source("energy_tt.m");
 
@@ -49,7 +49,20 @@ din="../10_din/kb49.din";
 ## dir_e={"/home/alberto/calc/edward-sn/20_xdmfit/def2tzvpp"};
 ## dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-pcseg2"};
 ## dir_e={"/home/alberto/calc/threebody/08_xdmfit/lcblyp"};
-dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-def2svp"};
+## dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-def2svp"};
+
+dir_e_list={...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_25X_light/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_25X_tight/",...
+             "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_50X_light/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_50X_tight/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_light/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/B86bPBE_tight/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/PBE0_light/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/PBE0_tight/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/PBE_light/",...
+             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/PBE_tight/",...
+           };
 
 ## xyz structure source
 dir_s="../20_kb65";
@@ -73,10 +86,14 @@ for i = 1:length(rr)
 endfor
 
 ## run the fit
-source("collect_for_fit.m");
-pin=[0.0 1.4545];
-source("fit_quiet.m");
-fit_report_full(pout,yin,yout);
+for id = 1:length(dir_e_list)
+  dir_e = {dir_e_list{id}};
+  printf("## FIT for: %s\n",dir_e{1});
+  source("collect_for_fit.m");
+  pin=[0.0 1.4545];
+  source("fit_quiet.m");
+  fit_report_full(pout,yin,yout);
+endfor
 
 # # global a1fix
 # alist = linspace(-1.0,2.0,21);
