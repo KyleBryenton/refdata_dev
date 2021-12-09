@@ -56,7 +56,7 @@ function [e edisp] = readenergy(file)
   else
     e = str2num(out); # in hartree
   endif
-  [stat,out] = system(sprintf("grep 'Evdw(total' %s | tail -n 1 | awk '{print $3}'\n",file));
+  [stat,out] = system(sprintf("grep '| XDM dispersion energy' %s | tail -n 1 | awk '{print $6}'\n",file));
   if (length(out) != 0)
     edisp = str2num(out);
     e = e - edisp; # to hartree
