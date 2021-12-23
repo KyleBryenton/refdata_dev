@@ -29,18 +29,18 @@ function [c6,c8,c10,rc,c9] = readcij(file,n)
 
   fid = fopen(file,"r");
   line = fgetl(fid);
-  do 
+  do
     if(regexp(line,"Dispersion coefficients"));
       line = fgetl(fid);
       line = fgetl(fid);
       line = fgetl(fid);
       do
-	[ii,jj,c6dum,c8dum,c10dum,rcdum,rvdw] = sscanf(line,"%d %d %f %f %f %f %f","C");
-	c6(jj,ii) = c6(ii,jj) = c6dum; 
-	c8(jj,ii) = c8(ii,jj) = c8dum; 
-	c10(jj,ii) = c10(ii,jj) = c10dum; 
-	rc(jj,ii) = rc(ii,jj) = rcdum;
-	line = fgetl(fid);
+        [ii,jj,c6dum,c8dum,c10dum,rcdum,rvdw] = sscanf(line,"%d %d %f %f %f %f %f","C");
+        c6(jj,ii) = c6(ii,jj) = c6dum;
+        c8(jj,ii) = c8(ii,jj) = c8dum;
+        c10(jj,ii) = c10(ii,jj) = c10dum;
+        rc(jj,ii) = rc(ii,jj) = rcdum;
+        line = fgetl(fid);
       until (strcmp(deblank(line),""));
     endif
     line = fgetl(fid);
@@ -62,4 +62,3 @@ function [e edisp] = readenergy(file)
     e = e - edisp; # to hartree
   endif
 endfunction
-

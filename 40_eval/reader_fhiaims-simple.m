@@ -19,23 +19,18 @@
 
 ## function: give the name of the file
 function file = namefile(edir,tag)
-  file = sprintf("%s/%s/%s.aims.out",edir,tag,tag);
+  file = sprintf("%s/%s/%s.out",edir,tag,tag);
 endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
-  [stat out] = system(sprintf("grep 'Total energy   ' %s | tail -n 1  | awk '{print $5}'",file));
+  [stat out] = system(sprintf("grep '| Electronic free energy' %s | tail -n 1  | awk '{print $(NF-1)}'",file));
   if (stat != 0 || length(out) == 0)
     e = NaN;
   else
-    e = str2num(out);
+    e = str2num(out) / 27.211386;
   endif
-  [stat out] = system(sprintf("grep 'XDM ENERGY ' %s | tail -n 1  | awk '{print $4}'",file));
-  if (stat != 0 || length(out) == 0)
-    edisp = NaN;
-  else
-    edisp = str2num(out);
-  endif
+  edisp = 0;
   etotal = e + edisp;
 endfunction
 

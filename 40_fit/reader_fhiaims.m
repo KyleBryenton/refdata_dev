@@ -50,11 +50,11 @@ endfunction
 
 ## function readenergy: read energy from fhiaims output
 function [e edisp] = readenergy(file)
-  [stat,out] = system(sprintf("grep 'Total energy   ' %s | tail -n 1 | awk '{print $5}'\n",file));
+  [stat out] = system(sprintf("grep '| Electronic free energy' %s | tail -n 1  | awk '{print $(NF-1)}'",file));
   if (length(out) == 0)
     e = 0;
   else
-    e = str2num(out); # in hartree
+    e = str2num(out) / 27.211386; # in hartree
   endif
   [stat,out] = system(sprintf("grep '| XDM dispersion energy' %s | tail -n 1 | awk '{print $6}'\n",file));
   if (length(out) != 0)
