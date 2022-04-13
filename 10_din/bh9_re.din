@@ -1,3 +1,12 @@
+# BH9: barrier heights and reaction energies for relatively large
+# molecular systems of relevance in organic and biological chemistry.
+#
+# Only reaction energies.
+#
+# Prasad et al., J. Chem. Theory Comput., 18, 151–166 (2021)
+# http://dx.doi.org/10.1021/acs.jctc.1c00694
+# (see correction as well)
+#
 #@ fieldasrxn 999
 1
 BH9_01_1P
