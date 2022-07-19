@@ -5,7 +5,7 @@
 # The data except HB systems comes from Rezac et al. JCTC 7 (2011) 2427. 
 # The HB data comes from DiLabio et al. PCCP 15 (2013) 12821.
 #
-#@ fieldasrxn -1
+#@ fieldasrxn 3
 ## hydrogen bonds (23) ##
 1
 WaterWater-1

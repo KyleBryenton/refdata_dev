@@ -1,6 +1,6 @@
 # Johnson et al. J. Phys. Chem. A 107 (2003) 9953
 # Bond dissociation energies database
-#@ fieldasrxn 0
+#@ fieldasrxn 999
 1
 bde03_benzene
 -1
@@ -8,7 +8,7 @@ bde03_phenyl-radical
 -1
 bde03_H
 0
--120.0
+-120.0 benzene->phenyl-radical
 1
 bde03_c2h4
 -1
@@ -16,7 +16,7 @@ bde03_c2h3
 -1
 bde03_H
 0
--118.2
+-118.2 c2h4->c2h3
 1
 bde03_chf3
 -1
@@ -24,7 +24,7 @@ bde03_trifluoromethane_rad
 -1
 bde03_H
 0
--113.1
+-113.1 chf3->trifluoromethane_rad
 1
 bde03_cyclopropane
 -1
@@ -32,7 +32,7 @@ bde03_cyclopropane_rad
 -1
 bde03_H
 0
--113.9
+-113.9 cyclopropane->cyclopropane_rad
 1
 bde03_ch4
 -1
@@ -40,7 +40,7 @@ bde03_ch3
 -1
 bde03_H
 0
--112.7
+-112.7 ch4->ch3
 1
 bde03_c2h6
 -1
@@ -48,7 +48,7 @@ bde03_c2h5
 -1
 bde03_H
 0
--108.4
+-108.4 c2h6->c2h5
 1
 bde03_propane
 -1
@@ -56,7 +56,7 @@ bde03_propane_rad
 -1
 bde03_H
 0
--108.8
+-108.8 propane->propane_rad
 1
 bde03_h3coh
 -1
@@ -64,7 +64,7 @@ bde03_h2coh
 -1
 bde03_H
 0
--105.3
+-105.3 h3coh->h2coh
 1
 bde03_chcl3
 -1
@@ -72,7 +72,7 @@ bde03_trichloromethane_rad
 -1
 bde03_H
 0
--102.3
+-102.3 chcl3->trichloromethane_rad
 1
 bde03_acetaldehyde
 -1
@@ -80,7 +80,7 @@ bde03_acetaldehyde_rad
 -1
 bde03_H
 0
--101.2
+-101.2 acetaldehyde->acetaldehyde_rad
 1
 bde03_cyanomethane
 -1
@@ -88,7 +88,7 @@ bde03_cyanomethane_rad
 -1
 bde03_H
 0
--102.2
+-102.2 cyanomethane->cyanomethane_rad
 1
 bde03_h2co
 -1
@@ -96,7 +96,7 @@ bde03_hco
 -1
 bde03_H
 0
--97.3
+-97.3 h2co->hco
 1
 bde03_toluene
 -1
@@ -104,7 +104,7 @@ bde03_toluene_rad
 -1
 bde03_H
 0
--96.8
+-96.8 toluene->toluene_rad
 1
 bde03_pentadiene
 -1
@@ -112,7 +112,7 @@ bde03_pentadiene_rad
 -1
 bde03_H
 0
--90.0
+-90.0 pentadiene->pentadiene_rad
 1
 bde03_skipdiene
 -1
@@ -120,7 +120,7 @@ bde03_pentadiene_rad
 -1
 bde03_H
 0
--83.0
+-83.0 skipdiene->pentadiene_rad
 1
 bde03_nh3
 -1
@@ -128,7 +128,7 @@ bde03_nh2
 -1
 bde03_H
 0
--116.8
+-116.8 nh3->nh2
 1
 bde03_methylamine
 -1
@@ -136,7 +136,7 @@ bde03_methylamine_rad
 -1
 bde03_H
 0
--108.1
+-108.1 methylamine->methylamine_rad
 1
 bde03_aniline
 -1
@@ -144,7 +144,7 @@ bde03_aniline_rad
 -1
 bde03_H
 0
--96.8
+-96.8 aniline->aniline_rad
 1
 bde03_h2nnh2
 -1
@@ -152,7 +152,7 @@ bde03_hydrazine_rad
 -1
 bde03_H
 0
--89.4
+-89.4 h2nnh2->hydrazine_rad
 1
 bde03_h2o
 -1
@@ -160,7 +160,7 @@ bde03_oh
 -1
 bde03_H
 0
--125.7
+-125.7 h2o->oh
 1
 bde03_ethanol
 -1
@@ -168,7 +168,7 @@ bde03_ch3ch2o_2
 -1
 bde03_H
 0
--112.1
+-112.1 ethanol->ch3ch2o_2
 1
 bde03_pyrimidinol
 -1
@@ -176,7 +176,7 @@ bde03_pyrimidinol_rad
 -1
 bde03_H
 0
--98.0
+-98.0 pyrimidinol->pyrimidinol_rad
 1
 bde03_phenol
 -1
@@ -184,7 +184,7 @@ bde03_phenol_rad
 -1
 bde03_H
 0
--94.4
+-94.4 phenol->phenol_rad
 1
 bde03_hooh
 -1
@@ -192,7 +192,7 @@ bde03_hydrogenperoxide_rad
 -1
 bde03_H
 0
--94.3
+-94.3 hooh->hydrogenperoxide_rad
 1
 bde03_trifluorosilane
 -1
@@ -200,7 +200,7 @@ bde03_trifluorosilane_rad
 -1
 bde03_H
 0
--107.8
+-107.8 trifluorosilane->trifluorosilane_rad
 1
 bde03_trimethylsilane
 -1
@@ -208,7 +208,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_H
 0
--99.3
+-99.3 trimethylsilane->trimethylsilane_rad
 1
 bde03_trichlorosilane
 -1
@@ -216,7 +216,7 @@ bde03_trichlorosilane_rad
 -1
 bde03_H
 0
--98.7
+-98.7 trichlorosilane->trichlorosilane_rad
 1
 bde03_dimethylsilane
 -1
@@ -224,7 +224,7 @@ bde03_dimethylsilane_rad
 -1
 bde03_H
 0
--98.0
+-98.0 dimethylsilane->dimethylsilane_rad
 1
 bde03_methylsilane
 -1
@@ -232,7 +232,7 @@ bde03_methylsilane_rad
 -1
 bde03_H
 0
--97.4
+-97.4 methylsilane->methylsilane_rad
 1
 bde03_sih4
 -1
@@ -240,7 +240,7 @@ bde03_sih3
 -1
 bde03_H
 0
--96.5
+-96.5 sih4->sih3
 1
 bde03_phenylsilane
 -1
@@ -248,7 +248,7 @@ bde03_phenylsilane_rad_2
 -1
 bde03_H
 0
--96.0
+-96.0 phenylsilane->phenylsilane_rad_2
 1
 bde03_si2h6
 -1
@@ -256,7 +256,7 @@ bde03_disilane_rad
 -1
 bde03_H
 0
--93.4
+-93.4 si2h6->disilane_rad
 1
 bde03_sh2
 -1
@@ -264,7 +264,7 @@ bde03_sh
 -1
 bde03_H
 0
--94.6
+-94.6 sh2->sh
 1
 bde03_ArSH
 -1
@@ -272,7 +272,7 @@ bde03_ArS_3
 -1
 bde03_H
 0
--88.0
+-88.0 ArSH->ArS_3
 1
 bde03_cyanomethane
 -1
@@ -280,7 +280,7 @@ bde03_cn_2
 -1
 bde03_ch3
 0
--126.8
+-126.8 cyanomethane->cn_2
 1
 bde03_trifluoroethane
 -1
@@ -288,7 +288,7 @@ bde03_trifluoromethane_rad
 -1
 bde03_ch3
 0
--106.3
+-106.3 trifluoroethane->trifluoromethane_rad
 1
 bde03_c2h6
 -1
@@ -296,7 +296,7 @@ bde03_ch3
 -1
 bde03_ch3
 0
--97.0
+-97.0 c2h6->ch3
 1
 bde03_propane
 -1
@@ -304,7 +304,7 @@ bde03_c2h5
 -1
 bde03_ch3
 0
--95.1
+-95.1 propane->c2h5
 1
 bde03_ArCH2CH3
 -1
@@ -312,7 +312,7 @@ bde03_toluene_rad
 -1
 bde03_ch3
 0
--83.9
+-83.9 ArCH2CH3->toluene_rad
 1
 bde03_methylamine
 -1
@@ -320,7 +320,7 @@ bde03_ch3
 -1
 bde03_nh2
 0
--92.4
+-92.4 methylamine->ch3
 1
 bde03_dimethylamine
 -1
@@ -328,7 +328,7 @@ bde03_methylamine_rad
 -1
 bde03_ch3
 0
--89.0
+-89.0 dimethylamine->methylamine_rad
 1
 bde03_ArCH2NH2
 -1
@@ -336,7 +336,7 @@ bde03_toluene_rad
 -1
 bde03_nh2
 0
--80.3
+-80.3 ArCH2NH2->toluene_rad
 1
 bde03_ArNHCH3
 -1
@@ -344,7 +344,7 @@ bde03_aniline_rad
 -1
 bde03_ch3
 0
--77.4
+-77.4 ArNHCH3->aniline_rad
 1
 bde03_nitromethane
 -1
@@ -352,7 +352,7 @@ bde03_no2
 -1
 bde03_ch3
 0
--67.5
+-67.5 nitromethane->no2
 1
 bde03_h3coh
 -1
@@ -360,7 +360,7 @@ bde03_ch3
 -1
 bde03_oh
 0
--98.3
+-98.3 h3coh->ch3
 1
 bde03_ethylmethylether
 -1
@@ -368,7 +368,7 @@ bde03_ch3ch2o_2
 -1
 bde03_ch3
 0
--88.7
+-88.7 ethylmethylether->ch3ch2o_2
 1
 bde03_ArCH2OH
 -1
@@ -376,7 +376,7 @@ bde03_toluene_rad
 -1
 bde03_oh
 0
--86.1
+-86.1 ArCH2OH->toluene_rad
 1
 bde03_ArOCH3
 -1
@@ -384,7 +384,7 @@ bde03_phenol_rad
 -1
 bde03_ch3
 0
--69.4
+-69.4 ArOCH3->phenol_rad
 1
 bde03_h3csh
 -1
@@ -392,7 +392,7 @@ bde03_sh
 -1
 bde03_ch3
 0
--78.2
+-78.2 h3csh->sh
 1
 bde03_ethylSmethyl
 -1
@@ -400,7 +400,7 @@ bde03_EtS
 -1
 bde03_ch3
 0
--77.7
+-77.7 ethylSmethyl->EtS
 1
 bde03_c2f6
 -1
@@ -408,7 +408,7 @@ bde03_C2F5
 -1
 bde03_F
 0
--128.7
+-128.7 c2f6->C2F5
 1
 bde03_ch3f
 -1
@@ -416,7 +416,7 @@ bde03_ch3
 -1
 bde03_F
 0
--114.2
+-114.2 ch3f->ch3
 1
 bde03_ArCH2F
 -1
@@ -424,7 +424,7 @@ bde03_toluene_rad
 -1
 bde03_F
 0
--101.9
+-101.9 ArCH2F->toluene_rad
 1
 bde03_ch3cl
 -1
@@ -432,7 +432,7 @@ bde03_ch3
 -1
 bde03_Cl
 0
--87.3
+-87.3 ch3cl->ch3
 1
 bde03_C2F5Cl
 -1
@@ -440,7 +440,7 @@ bde03_C2F5
 -1
 bde03_Cl
 0
--87.3
+-87.3 C2F5Cl->C2F5
 1
 bde03_ArCH2Cl
 -1
@@ -448,7 +448,7 @@ bde03_toluene_rad
 -1
 bde03_Cl
 0
--74.7
+-74.7 ArCH2Cl->toluene_rad
 1
 bde03_bromomethane
 -1
@@ -456,7 +456,7 @@ bde03_ch3
 -1
 bde03_Br
 0
--75.3
+-75.3 bromomethane->ch3
 1
 bde03_C2F5Br
 -1
@@ -464,7 +464,7 @@ bde03_C2F5
 -1
 bde03_Br
 0
--69.4
+-69.4 C2F5Br->C2F5
 1
 bde03_ArCH2Br
 -1
@@ -472,7 +472,7 @@ bde03_toluene_rad
 -1
 bde03_Br
 0
--59.8
+-59.8 ArCH2Br->toluene_rad
 1
 bde03_hooh
 -1
@@ -480,7 +480,7 @@ bde03_oh
 -1
 bde03_oh
 0
--55.0
+-55.0 hooh->oh
 1
 bde03_HSSH
 -1
@@ -488,7 +488,7 @@ bde03_sh
 -1
 bde03_sh
 0
--68.4
+-68.4 HSSH->sh
 1
 bde03_h2nnh2
 -1
@@ -496,7 +496,7 @@ bde03_nh2
 -1
 bde03_nh2
 0
--75.7
+-75.7 h2nnh2->nh2
 1
 bde03_methylsilane
 -1
@@ -504,7 +504,7 @@ bde03_ch3
 -1
 bde03_sih3
 0
--94.1
+-94.1 methylsilane->ch3
 1
 bde03_dimethylsilane
 -1
@@ -512,7 +512,7 @@ bde03_methylsilane_rad
 -1
 bde03_ch3
 0
--95.3
+-95.3 dimethylsilane->methylsilane_rad
 1
 bde03_trimethylsilane
 -1
@@ -520,7 +520,7 @@ bde03_dimethylsilane_rad
 -1
 bde03_ch3
 0
--96.4
+-96.4 trimethylsilane->dimethylsilane_rad
 1
 bde03_tetramethylsilane
 -1
@@ -528,7 +528,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_ch3
 0
--97.8
+-97.8 tetramethylsilane->trimethylsilane_rad
 1
 bde03_trimethylhydroxysilane
 -1
@@ -536,7 +536,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_oh
 0
--135.6
+-135.6 trimethylhydroxysilane->trimethylsilane_rad
 1
 bde03_trimethylethoxysilane
 -1
@@ -544,7 +544,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_ch3ch2o_2
 0
--125.7
+-125.7 trimethylethoxysilane->trimethylsilane_rad
 1
 bde03_trimethylNmethylsilane
 -1
@@ -552,7 +552,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_methylamine_rad
 0
--103.6
+-103.6 trimethylNmethylsilane->trimethylsilane_rad
 1
 bde03_trimethylNNdimethylsilane
 -1
@@ -560,7 +560,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_dimethylamine_rad
 0
--101.0
+-101.0 trimethylNNdimethylsilane->trimethylsilane_rad
 1
 bde03_si2h6
 -1
@@ -568,7 +568,7 @@ bde03_sih3
 -1
 bde03_sih3
 0
--79.6
+-79.6 si2h6->sih3
 1
 bde03_hexamethyldisilane
 -1
@@ -576,7 +576,7 @@ bde03_trimethylsilane_rad
 -1
 bde03_trimethylsilane_rad
 0
--81.2
+-81.2 hexamethyldisilane->trimethylsilane_rad
 1
 bde03_skipdiene
 -1
@@ -584,7 +584,7 @@ bde03_allyl
 -1
 bde03_c2h3
 0
--92.9
+-92.9 skipdiene->allyl
 1
 bde03_butene
 -1
@@ -592,7 +592,7 @@ bde03_allyl
 -1
 bde03_ch3
 0
--82.7
+-82.7 butene->allyl
 1
 bde03_dibenzyl
 -1
@@ -600,7 +600,7 @@ bde03_toluene_rad
 -1
 bde03_toluene_rad
 0
--69.9
+-69.9 dibenzyl->toluene_rad
 1
 bde03_hexadiene
 -1
@@ -608,4 +608,4 @@ bde03_allyl
 -1
 bde03_allyl
 0
--68.0
+-68.0 hexadiene->allyl
