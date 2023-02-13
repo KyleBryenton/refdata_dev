@@ -1,3 +1,8 @@
+# Relative energies between enantiopure (1nd entry) and racemate
+# (2nd entry) crystals. These structures have been used in:
+#  Otero-de-la-Roza et al. Angew. Chem. Intl. Ed. 53 (2014) 7879.
+#  Otero-de-la-Roza et al. Crys. Growth & Des. 16 (2016) 6055.
+# The energies come from experimental enantiomeric excess measurements.
 0.2500000000
 ala_l
 -0.2500000000

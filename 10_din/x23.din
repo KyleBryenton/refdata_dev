@@ -1,4 +1,7 @@
 # X23 set - lattice energies of molecular crystals.
+#
+# This din file contains the X23b refference data.
+#
 # C21 = AOR and Johsnon, J. Chem. Phys. 137, 054103 (2012).
 # X23 = Revised and extended (hexamine, succinic acid), Reilly and Tkatchenko, J. Chem. Phys. 139 (2013) 024705.
 # X23b = new data proposed by Dolgonos et al., PCCP 21 (2019) 24333.
