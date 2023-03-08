@@ -125,8 +125,8 @@ parameters, and is exactly the same as the equivalent file in the
 | HSG        | 20_hsg/            | Dimer binding energies (protein reaction site)                 | CCSD(T)/CBS                         | [faver2011]                                                 |
 | IONICHB    | 20_ionichb/        | Dimer binding energies (charged systems)                       | CCSD(T)/CBS                         | [rezac2012b]                                                |
 | ISOM       | 20_isom/           | Isomerization reaction energies                                | Back-corrected experimental/CCSD(T) | [grimme2007]                                                |
-| KB49       | 20_kb49/           | Dimer binding energies (small molecules)                       | Various (see ref. & schooner)       | [kannemann2010],[schooner]                                  |
-| KB65       | 20_kb65/           | Dimer binding energies (small molecules)                       | Various (see ref. & schooner)       | [kannemann2010],[schooner]                                  |
+| KB49       | 20_kb49/           | Dimer binding energies (small molecules)                       | Various (see ref. & web)            | [kannemann2010],[erin-web]                                  |
+| KB65       | 20_kb65/           | Dimer binding energies (small molecules)                       | Various (see ref. & web)            | [kannemann2010],[erin-web]                                  |
 | L7         | 20_l7/             | Dimer binding energies (large-ish molecules)                   | QCISD(T)/CBS                        | [sedlak2013]                                                |
 | MBCC-VIE   | 20_mbcc_vie/       | Vertical ionization energies                                   | Experimental/CCSD(T) delta-SCF      | [mckechnie2015]                                             |
 | NBC10EXT   | 20_nbc10ext/       | Dissociation curves (dispersion-bound molecules)               | CCSD(T)/CBS                         | [burns2011],[smith2016],[marshall2011]                      |
@@ -195,7 +195,7 @@ parameters, and is exactly the same as the equivalent file in the
 [smith2016]: http://dx.doi.org/10.1021/acs.jpclett.6b00780
 [burns2017]: https://dx.doi.org/10.1063/1.5001028
 [goerigk2017]: https://dx.doi.org/10.1039/C7CP04913G
-[schooner]: http://schooner.chem.dal.ca/
+[erin-web]: https://erin-r-johnson.github.io/
 
 ## Manifest (crystals)
 
