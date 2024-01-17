@@ -9,6 +9,7 @@
 # - CHAL-pi: chalcogen-pi
 # - CHAL-X: chalcogen-halogen
 # - CHAL-N: chalcogen-nitrogen
+#@ fieldasrxn 999
 1
 CHAL-CHAL-1
 -1
