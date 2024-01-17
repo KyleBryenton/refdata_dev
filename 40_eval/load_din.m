@@ -54,7 +54,7 @@ function [nrx rr opts] = load_din(file)
     endwhile
     line = fgetl(fid);
     nm = nm + 1;
-    r{nm} = str2num(line);
+    r{nm} = sscanf(line,"%f","C");
     rr{end+1} = r;
   endwhile
   fclose(fid);
