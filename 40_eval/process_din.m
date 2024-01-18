@@ -23,7 +23,7 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,
   maxad = maxapd = -1;
   mad = md = rms = mapd = mpd = rmsp = maxadline = maxapdline = 0;
   for i = 1:n
-    ncomp = (length(rxn{i})-1)/2;
+    ncomp = floor((length(rxn{i})-1)/ 2);
     coef = emol = emold = zeros(1,ncomp);
     mol = cell(1,ncomp);
     for j = 1:ncomp
@@ -56,7 +56,7 @@ function [mad,md,rms,mapd,mpd,rmsp,maxad,maxadline,maxapd,maxapdline,elist,eref,
     endfor
     e(i) = (coef * emol') * hy2kcal;
     edisp(i) = coef * emold' * hy2kcal;
-    eref(i) = rxn{i}{end};
+    eref(i) = rxn{i}{2*ncomp+1};
 
     ## print line
     ifirst = 0;

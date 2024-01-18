@@ -24,9 +24,13 @@ endfunction
 
 ## function readenergy: read energy from nwchem output
 function [e edisp etotal] = readenergy(file)
+  if (!exist(file,"file"))
+    e = edisp = etotal = [];
+    return
+  endif
   [stat,out] = system(sprintf("grep -a 'Done' %s | tail -n 1 | awk '{print $5}' \n",file));
   if (length(out) == 0)
-    e = edisp = [];
+    e = edisp = etotal = [];
     return
   else
     e = str2num(out);
