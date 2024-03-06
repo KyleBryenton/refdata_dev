@@ -53,15 +53,15 @@ function [e edisp] = readenergy(file)
 
   [stat,out] = system(sprintf("grep 'Dispersion corrected final energy' %s | tail -n 1 | awk '{print $7}'",file));
   if (length(out) == 0)
-    e = 0;
-  else
-    e = str2num(out) / 27.211386; # to hartree
-  endif
-  [stat,out] = system(sprintf("grep 'Final energy, E' %s | tail -n 1 | awk '{print $5}'",file));
-  if (length(out) == 0)
     etot = 0;
   else
     etot = str2num(out) / 27.211386; # to hartree
+  endif
+  [stat,out] = system(sprintf("grep 'Final energy, E' %s | tail -n 1 | awk '{print $5}'",file));
+  if (length(out) == 0)
+    e = 0;
+  else
+    e = str2num(out) / 27.211386; # to hartree
   endif
   edisp = etot - e;
 
