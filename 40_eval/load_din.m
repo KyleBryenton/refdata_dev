@@ -19,7 +19,7 @@ function [nrx rr opts] = load_din(file)
 
   nrx = 0;
   fid = fopen(file,"r");
-  fieldasrxn = 0;
+  fieldasrxn = 999;
 
   rr = {};
   while(!feof(fid))
@@ -53,8 +53,16 @@ function [nrx rr opts] = load_din(file)
       line = fgetl(fid);
     endwhile
     line = fgetl(fid);
-    nm = nm + 1;
-    r{nm} = str2num(line);
+    if (fieldasrxn == 999)
+      [faux saux] = sscanf(line,"%f %s","C");
+      nm = nm + 1;
+      r{nm} = faux;
+      nm = nm + 1;
+      r{nm} = saux;
+    else
+      nm = nm + 1;
+      r{nm} = sscanf(line,"%f","C");
+    endif
     rr{end+1} = r;
   endwhile
   fclose(fid);

@@ -1,7 +1,10 @@
-# X23 set - lattice energies of molecular crystals.  
+# X23 set - lattice energies of molecular crystals.
 # AOR and Johsnon, J. Chem. Phys. 137, 054103 (2012).
-# Revised and extended (hexamine, succinic acid) in 
+# Revised and extended (hexamine, succinic acid) in
 # Reilly and Tkatchenko, J. Chem. Phys. 139 (2013) 024705.
+#
+# See x23.din for newer reference data.
+#
 -0.5
 14-cyclohexanedione
 1
@@ -25,7 +28,7 @@ ammonia
 1
 mol_ammonia
 0
-8.8910 
+8.8910
 -0.5
 anthracene
 1
@@ -43,7 +46,7 @@ co2
 1
 mol_co2
 0
-6.7878 
+6.7878
 -0.125
 cyanamide
 1

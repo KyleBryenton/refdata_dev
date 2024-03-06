@@ -54,4 +54,3 @@ function y = f_for_fit(x,p)
     y(i) = (getfield(e,mol1{i}) + evdw1 + getfield(e,mol2{i}) + evdw2 - getfield(e,dimers{i}) - evdwd) * hy2kcal;
   endfor
 endfunction
-
