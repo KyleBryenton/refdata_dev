@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## globals
-global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 be_ref active
+global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 be_ref active usec9
 
 ## molecule components of the dimers
 mol1 = cell(length(dimers),1);
@@ -94,7 +94,9 @@ for i = 1:length(dimers);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
-      c9 = setfield(c9,s,cc9);
+      if (usec9)
+        c9 = setfield(c9,s,cc9);
+      endif
       s = mol1{i};
       nn = getfield(n,s);
       [cc6,cc8,cc10,rrc,cc9] = readcij(namefile(ddir,s),nn);
@@ -102,7 +104,9 @@ for i = 1:length(dimers);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
-      c9 = setfield(c9,s,cc9);
+      if (usec9)
+        c9 = setfield(c9,s,cc9);
+      endif
       s = mol2{i};
       nn = getfield(n,s);
       [cc6,cc8,cc10,rrc,cc9] = readcij(namefile(ddir,s),nn);
@@ -110,7 +114,9 @@ for i = 1:length(dimers);
       c8 = setfield(c8,s,cc8);
       c10 = setfield(c10,s,cc10);
       rc = setfield(rc,s,rrc);
-      c9 = setfield(c9,s,cc9);
+      if (usec9)
+        c9 = setfield(c9,s,cc9);
+      endif
       break
     endif
   endfor

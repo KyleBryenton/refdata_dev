@@ -18,7 +18,8 @@ function [x,z,n] = readxyz(file)
   fid = fopen(file,"r");
   n = fscanf(fid,"%d","C");
   x = zeros(3,n); z = zeros(1,n);
-  line = fscanf(fid,"%s %s","C");
+  line = fgetl(fid);
+  line = fgetl(fid);
   for i = 1:n
     [ss,x(1,i),x(2,i),x(3,i)] = fscanf(fid,"%s %f %f %f","C");
     z(i) = atom2z(ss);

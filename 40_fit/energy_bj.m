@@ -25,9 +25,8 @@ function e = energy(n,z,x,c6,c8,c10,rc,coef)
       a1 = coef(1);
       a2 = coef(2) / .52917720859;
       rvdw = a1 * rc(i,j) + a2;
-      
+
       e -= c6(i,j) / (rvdw^6 + d^6) + c8(i,j) / (rvdw^8 + d^8) + c10(i,j) / (rvdw^10 + d^10);
     endfor
   endfor
 endfunction
-
