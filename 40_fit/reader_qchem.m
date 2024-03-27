@@ -23,9 +23,9 @@ function file = namefile(edir,tag)
 endfunction
 
 ## function: read the dispersion coefficients from qe output
-function [c6,c8,c10,rc] = readcij(file,n)
+function [c6,c8,c10,rc,c9] = readcij(file,n)
 
-  c6 = zeros(n); c8 = zeros(n); c10 = zeros(n); rc = zeros(n);
+  c6 = zeros(n); c8 = zeros(n); c10 = zeros(n); rc = zeros(n); c9 = zeros(n,n,n);
 
   fid = fopen(file,"r");
   num = 0;
