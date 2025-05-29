@@ -1,0 +1,91 @@
+# ICE13 Relative Energies
+#
+# Relative lattice energies of ice polymorphs
+# using diffusion Monte Carlo (DMC) reference data.
+# ICE13 requires geometry optimizations for all systems
+# except the isolated water molecule, which uses a fixed
+# geometry.
+#
+# Energies are reported in kcal/mol
+#
+# Originally Studied:
+# 73J. G. Brandenburg, T. Maas, and S. Grimme, J.
+# Chem. Phys. 142 (2015), 10.1063/1.4916070.
+#
+# Updated Reference Data:
+# F. Della Pia, A. Zen, D. Alf`e, and A. Michaelides, J.
+# Chem. Phys. 157 (2022), 10.1063/5.0102645.
+
+-0.083333
+ice_Ih
+0.083333
+ice_II
+0
+0.074
+-0.083333
+ice_Ih
+0.083333
+ice_III
+0
+0.299
+-0.083333
+ice_Ih
+0.0625
+ice_IV
+0
+0.915
+-0.083333
+ice_Ih
+0.1
+ice_VI
+0
+0.425
+-0.083333
+ice_Ih
+0.083333
+ice_VII
+0
+1.193
+-0.083333
+ice_Ih
+0.125
+ice_VIII
+0
+1.011
+-0.083333
+ice_Ih
+0.125
+ice_XI
+0
+0.143
+-0.083333
+ice_Ih
+0.125
+ice_XI
+0
+0.036
+-0.083333
+ice_Ih
+0.035714
+ice_XIII
+0
+0.507
+-0.083333
+ice_Ih
+0.083333
+ice_XIV
+0
+0.406
+-0.083333
+ice_Ih
+0.1
+ice_XV
+0
+0.416
+-0.083333
+ice_Ih
+0.166666
+ice_XVII
+0
+0.418
+
