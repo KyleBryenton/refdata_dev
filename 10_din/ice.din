@@ -1,0 +1,97 @@
+# ICE13 Absolute Energies
+# 
+# Absolute lattice energies of ice polymorphs
+# using diffusion Monte Carlo (DMC) reference data.
+# ICE13 requires geometry optimizations for all systems
+# except the isolated water molecule, which uses a fixed
+# geometry.
+# 
+# Energies are reported in kcal/mol 
+#
+# Originally Studied:
+# 73J. G. Brandenburg, T. Maas, and S. Grimme, J.
+# Chem. Phys. 142 (2015), 10.1063/1.4916070.
+# 
+# Updated Reference Data:
+# F. Della Pia, A. Zen, D. Alf`e, and A. Michaelides, J.
+# Chem. Phys. 157 (2022), 10.1063/5.0102645.
+
+-0.083333
+ice_Ih
+1
+water_mol_SP
+0
+14.209
+-0.083333
+ice_II
+1
+water_mol_SP
+0
+14.135
+-0.083333
+ice_III
+1
+water_mol_SP
+0
+13.910
+-0.0625
+ice_IV
+1
+water_mol_SP
+0
+13.294
+-0.1
+ice_VI
+1
+water_mol_SP
+0
+13.784
+-0.083333
+ice_VII
+1
+water_mol_SP
+0
+13.016
+-0.125
+ice_VIII
+1
+water_mol_SP
+0
+13.198
+-0.125
+ice_XI
+1
+water_mol_SP
+0
+14.066
+-0.125
+ice_XI
+1
+water_mol_SP
+0
+14.066
+-0.035714
+ice_XIII
+1
+water_mol_SP
+0
+13.702
+-0.083333
+ice_XIV
+1
+water_mol_SP
+0
+13.803
+-0.1
+ice_XV
+1
+water_mol_SP
+0
+13.793
+-0.166666
+ice_XVII
+1
+water_mol_SP
+0
+13.791
+
