@@ -1,0 +1,185 @@
+xc                 pbe
+spin               none
+charge             0
+output_level       MD_light
+xdm z lightdenser
+
+sc_accuracy_rho 1e-7
+
+relativistic atomic_zora scalar
+override_kgrid_checks .true.
+
+k_grid 12 12 4
+k_offset 0.5 0.5 0.5
+
+################################################################################
+#
+#  FHI-aims code project
+#  VB, Fritz-Haber Institut, 2009
+#
+#  Suggested "light_denser" defaults for Se atom (to be pasted into control.in file)
+#  These settings use a light basis set with a dense angular integration grid.
+#  Be sure to double-check any results obtained with these settings for post-processing,
+#  e.g., with the "tight" defaults and larger basis sets.
+#
+################################################################################
+  species        Se
+#     global species definitions
+    nucleus             34
+    mass                78.96
+#
+    l_hartree            8
+#
+    cut_pot             3.5          1.5  1.0
+    basis_dep_cutoff    1e-4
+#
+    radial_base         55 7.0
+    radial_multiplier   2
+    angular_grids       specified
+      division   0.0830  110
+      division   0.1357  194
+      division   0.7377  302
+      division   0.8610  434
+#      division   0.9640  590
+#      division   1.0773  770
+#      division   2.5539  974
+#      outer_grid  974
+      outer_grid  434
+################################################################################
+#
+#  Definition of "minimal" basis
+#
+################################################################################
+#     valence basis states
+    valence      4  s   2.
+    valence      4  p   4.
+    valence      3  d  10.
+#     ion occupancy
+    ion_occ      4  s   1.
+    ion_occ      4  p   3.
+    ion_occ      3  d  10.
+################################################################################
+#
+#  Suggested additional basis functions. For production calculations, 
+#  uncomment them one after another (the most important basis functions are
+#  listed first).
+#
+#  Constructed for dimers: 1.85 A, 2.15 A, 2.50 A, 3.00 A, 4.00 A
+#
+################################################################################
+#  "First tier" - improvements: -336.21 meV to -36.85 meV 
+     hydro 3 d 4.3
+     hydro 2 p 1.6
+#     hydro 4 f 7.2
+     ionic 4 s auto
+#  "Second tier" - improvements: -14.39 meV to -1.49 meV
+#     hydro 5 g 10.4  
+#     hydro 4 p 4.5
+#     hydro 4 d 6.2
+#     hydro 4 f 11.2
+#     hydro 1 s 0.65
+#     hydro 6 h 15.2
+#  "Third tier" - improvements: -0.46 meV and below
+#     hydro 5 g 14.4
+#     ionic 4 d auto
+#     hydro 4 f 22.4
+#     hydro 5 f 7.4
+#     hydro 5 p 8
+#     hydro 5 s 9.4    
+#  "Fourth tier" - improvements: -0.12 meV and below
+#     hydro 5 d 11.6
+#     hydro 6 h 18
+#     hydro 4 p 4
+#     hydro 5 f 16
+#     hydro 4 s 3.9    
+
+
+################################################################################
+#
+#  FHI-aims code project
+#  VB, Fritz-Haber Institut, 2009
+#
+#  Suggested "light_denser" defaults for Ta atom (to be pasted into control.in file)
+#  These settings use a light basis set with a dense angular integration grid.
+#  Be sure to double-check any results obtained with these settings for post-processing,
+#  e.g., with the "tight" defaults and larger basis sets.
+#
+################################################################################
+  species          Ta
+#     global species definitions
+    nucleus        73
+    mass           180.94788
+#
+    l_hartree       8
+#
+    cut_pot        3.5  1.5  1.0
+    basis_dep_cutoff    1e-4
+#
+    radial_base    71  7.0
+    radial_multiplier  2
+    angular_grids specified
+#      division   0.2960   50
+      division   0.7533  110
+      division   1.1144  194
+      division   1.3207  302
+      division   1.5443  434
+#      division   1.8111  590
+#      division   2.0726  770
+#      division   2.1374  974
+#      division   2.9879 1202
+#      outer_grid  974
+      outer_grid  434
+################################################################################
+#
+#  Definition of "minimal" basis
+#
+################################################################################
+#     valence basis states
+    valence      6  s   2.
+    valence      5  p   6.
+    valence      5  d   3.
+    valence      4  f  14.
+#     ion occupancy
+    ion_occ      6  s   1.
+    ion_occ      5  p   6.
+    ion_occ      5  d   2.
+    ion_occ      4  f  14.
+################################################################################
+#
+#  Suggested additional basis functions. For production calculations, 
+#  uncomment them one after another (the most important basis functions are
+#  listed first).
+#
+#  Constructed for dimers: 1.85, 2.12, 2.625, 3.25, 4.50 AA
+#
+################################################################################
+#
+#  "First tier" - improvements: -461.64 meV to -31.84 meV
+     hydro 4 f 7
+     hydro 4 d 5.6
+     ionic 6 p auto
+#     hydro 5 g 11.6
+     ionic 6 s auto
+#  "Second tier" - improvements: -26.62 meV to -1.73 meV
+#     ionic 5 d auto
+#     hydro 6 h 15.2
+#     hydro 4 f 9.2
+#     hydro 5 g 17.6
+#     hydro 4 p 4.7
+#     hydro 1 s 0.5  
+#  "Third tier" - max. impr. -6.67 meV, min. impr. -0.18 meV
+#     hydro 5 d 8  
+#     hydro 6 h 20
+#     hydro 5 g 38
+#     hydro 5 f 8.4
+#     hydro 2 p 1.3
+#     hydro 5 s 9.4  
+#  "Fourth tier" - max. impr. -0.76 meV, min. impr. -0.13 meV
+#     hydro 5 g 10.8
+#     hydro 6 p 14.8
+#     hydro 6 h 20.4
+#     hydro 5 f 21.2
+#     hydro 4 p 11.6
+#     hydro 4 f 3.9
+#     hydro 6 d 13.6
+#     hydro 4 s 4.6
