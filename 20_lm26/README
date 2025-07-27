@@ -1,0 +1,123 @@
+Kyle R Bryenton - 2025-07-26
+
+## Description
+
+Exfoliation energies of 26 layered materials, predominantly transition-metal dichalcogenides, 
+but also including graphite and hexagonal boron nitride.\cite{bjorkman2014testing} We also 
+provide statistics for the LM11 subset studied by Tawfik.\cite{tawfik2018evaluation} Reference 
+data was obtained using the random-phase approximation (RPA), and geometries may be obtained 
+from the Inorganic Crystal Structure Database.\cite{zagorac2019recent} Since small deviations 
+in the in-plane lattice constant, $a$, do not significantly affect the equilibrium interlayer 
+separation and binding energy, the in-plane lattice constants are fixed to their experimental 
+values. The binding energies and $c$ lattice constant are determined by unit-cell 
+relaxation\cite{tawfik2018evaluation} or interpolation.\cite{bjorkman2014testing, bryenton2023many} 
+
+LM11 is the subset containing: BN, graphite, HfS2, HfSe2, HfTe2, MoS2, MoSe2, MoTe2, PdTe2, TaS2, WS2
+
+The following bash code can be used to generate the inputs for the `LM26Analyzer.nb` Mathematica script
+(
+for syst in */ ; do 
+  cd $syst ; 
+  for geom in *_-0.8 *_-0.7 *_-0.6 *_-0.5 *_-0.4 *_-0.3 *_-0.2 *_-0.1 *_0.0 *_0.1 *_0.2 *_0.3 *_0.5 *_0.7 *_0.9 *_1.5 *_2.0 *_3.0 *_4.0 *_15.0 ; do 
+    cd $geom ; 
+    echo -en "$geom\t" | sed "s/_/\t/" ; 
+    grep "uncorrected" *.out | awk '{print $(NF-1)}' ; 
+    cd .. ; 
+  done ; 
+  cd .. ; 
+done 
+) > LM26_Results.dat
+
+## Reference Data
+- ERef is in meV/A^2
+- Area is in A^2
+- Layers is how many layers are in the cell
+
+Errors are calculated with: `Error = (Abs[RelativeMinimum]/(Layers*Area)*1000)`
+
+Name      Eref    Area      Layers
+BN        21.6    5.456047  2
+graphite  19.7    5.283534  2
+HfS2      16.1   11.442989  1
+HfSe2     17.1   12.165495  1
+HfTe2     18.7   13.560095  1
+MoS2      20.5    8.661472  2
+MoSe2     19.6    9.362552  2
+MoTe2     20.8   10.724305  2
+NbSe2     19.6   10.260118  2
+NbTe2     23.0   11.728062  1
+PbO       20.2   15.776784  1
+PdTe2     40.2   14.051075  1
+PtS2      20.6   10.871700  1
+PtSe2     19.1   12.034716  1
+TaS2      17.7    9.777080  1
+TaSe2     19.4   10.669520  1
+TiS2      18.9    9.952451  1
+TiSe2     17.4   10.852684  1
+TiTe2     19.8   12.243521  1
+VS2       25.6    8.962574  1
+VSe2      22.3    9.689980  1
+WS2       20.2    8.610605  2
+WSe2      20.0    9.328413  2
+ZrS2      17.0   11.613612  1
+ZrSe2     18.5   12.308732  1
+ZrTe2     16.3   13.525848  1
+
+The included `Ref.dat` file contains the above information and is read by `LM26Analyzer.nb`.
+
+## References
+%LM26
+@article{bjorkman2014testing,
+  title={Testing several recent van der Waals density functionals for layered structures},
+  author={Bj{\"o}rkman, Torbj{\"o}rn},
+  journal={J. Chem. Phys.},
+  volume={141},
+  number={7},
+  pages={074708},
+  year={2014},
+  publisher={American Institute of Physics},
+  doi={10.1063/1.4893329}
+}
+
+% LM11
+@article{tawfik2018evaluation,
+  title={Evaluation of van der Waals density functionals for layered materials},
+  author={Tawfik, Sherif Abdulkader and Gould, Tim and Stampfl, Catherine and Ford, Michael J},
+  journal={Phys. Rev. Mater.},
+  volume={2},
+  number={3},
+  pages={034005},
+  year={2018},
+  publisher={APS},
+  doi={10.1103/PhysRevMaterials.2.034005}
+}
+
+% LM26 geometries
+% Notes: a is kept fixed to experimental geometries
+%        c is determined via opts (Tawfik) or interpolation (Bjorkman / Johnson)
+@article{zagorac2019recent,
+  title={Recent developments in the Inorganic Crystal Structure Database: theoretical crystal structure data and related features},
+  author={Zagorac, Dejan and M{\"u}ller, H and Ruehl, S and Zagorac, J and Rehme, Silke},
+  journal={J. Appl. Crystallogr.},
+  volume={52},
+  number={5},
+  pages={918--925},
+  year={2019},
+  publisher={International Union of Crystallography},
+  doi={10.1107/S160057671900997X}
+}
+
+% Oscillators
+@article{bryenton2023many,
+  title={Many-body dispersion in model systems and the sensitivity of self-consistent screening},
+  author={Bryenton, Kyle R and Johnson, Erin R},
+  journal={J. Chem. Phys.},
+  volume={158},
+  number={20},
+  pages={204110},
+  year={2023},
+  publisher={AIP Publishing},
+  doi={10.1063/5.0142465}
+}
+
+
