@@ -1,15 +1,15 @@
-# PA26: proton affinities. 
+# PA26: proton affinities.
 #
 # refs: parthiban2001 zhao2006 goerigk2010 goerigk2017
 #
-# Reference values are a mixture of W2-F12, CCSD(T)/CBS, W1-F12, and
+# Reference values are a mixture of W2-F12, W1-F12, and
 # CCSD(T)/CBS(def2-TZVPP/def2-QZVPP)//PBEh-3c116
-# 
+#
 # This set is part of the GMTKN55, Goerigk et al.
 # http://dx.doi.org/10.1039/C7CP04913G
 # https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55
 # Please also look up and cite the original refeference if you use this set.
-# 
+#
 # Parthiban and Martin, J. Chem. Phys. 114 (2001) 6014
 # https://doi.org/10.1063/1.1356014
 #
