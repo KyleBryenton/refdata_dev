@@ -14,58 +14,76 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# ----
+# Edited 2026-05-16 by K. R. Bryenton <kyle.bryenton@gmail.com>
+# - Added support for Z damping
+# - Added support for BJa20 damping (Niche cases where a2<0 in normal BJ routine)
+# - Updated interface and now supports new output format for Z damping
+# - Added ProcessFitDriver.sh shell script, which summarizes results and merges BJ/BJ0 entries.
+#
+# Useful script to collect outputs for dir_e_list:
+#     find $(pwd) -type d -name "h2o_h2o" | sed 's/\/h2o_h2o/",.../g' | sed 's/\/home/     "\/home/g' | sort --version-sort
+#
+# After setting `reader`, `f_damp`, and populating `dir_e_list`, run using:
+#     ./fit_driver.m > kb49_bj.results
+#
+# ProcessFitDriver.m can process these results into a table. 
+#   If you generate energy_bj, energy_bj0, and energy_bja20 results, it will automatically merge these for you
+#   It will reject a1<0 or a2<0, and replace with the bj0/bja20 result with the lowest RMSP. Run using:
+#     ./ProcessFitDriver.sh kb49_bj.results kb49_bj0.results kb49_bja20.results
 
-## Reader routines
-#source("reader_vasp.m");
-#source("reader_qe.m");
-#source("reader_castep.m");
-#source("reader_postg.m");
-#source("reader_postg_psi4.m");
-#source("reader_orca.m");
-#source("reader_psi4.m");
-#source("reader_qchem.m");
-#source("reader_nwchem.m");
-#source("reader_dftbp_critic.m");
-#source("reader_g09_critic.m");
-#source("reader_fhiaims.m");
-#source("reader_qe_manual_energy.m");
 
-## Damping function
-#source("energy_bj0.m");
-source("energy_bj.m");
-#source("energy_bj_only6.m");
-#source("energy_tt.m");
+## Reader routines - Select one by uncommenting.
+# reader="reader_castep.m";
+# reader="reader_dftbp_critic.m";
+ reader="reader_fhiaims.m";
+# reader="reader_g09_critic.m";
+# reader="reader_g09.m";
+# reader="reader_nwchem.m";
+# reader="reader_orca.m";
+# reader="reader_postg.m";
+# reader="reader_postg_orca.m";
+# reader="reader_postg_psi4_dhybrid.m";
+# reader="reader_postg_psi4.m";
+# reader="reader_psi4.m";
+# reader="reader_qchem.m";
+# reader="reader_qe.m";
+# reader="reader_qe_manual_energy.m";
+# reader="reader_vasp.m";
+source(reader);
 
-## din file
-#din="../10_din/temp.din";
+## Damping function - Select one by uncommenting.
+# f_damp="energy_z.m";
+ f_damp="energy_bj.m";
+# f_damp="energy_bj0.m";
+# f_damp="energy_bja20.m";
+# f_damp="energy_bj_atm.m";
+# f_damp="energy_bj_only68.m";
+# f_damp="energy_bj_only6_atm.m";
+# f_damp="energy_bj_only6.m";
+# f_damp="energy_tt.m";
+source(f_damp);
+
+## din file - Source of benchmark reference energies.
 din="../10_din/kb49.din";
 #din="../10_din/kb65.din";
-#din="../10_din/bleh.din";
 #din="../10_din/s22.din";
 
-## data source
-## dir_e={"/home/alberto/calc/00_programs/postg/def2svp"};
-## dir_e={"/home/alberto/calc/xdm/psi4-wb86bpbe-0.4"};
-## dir_e={"/home/alberto/calc/xdmhybridx/08_xdmfit/b86bpbex-25"};
-## dir_e={"/home/alberto/calc/00_programs/xdmfit_psi/b86bh-b97"};
-## dir_e={"/home/alberto/calc/edward-sn/20_xdmfit/def2tzvpp"};
-## dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-pcseg2"};
-## dir_e={"/home/alberto/calc/threebody/08_xdmfit/lcblyp"};
-## dir_e={"/home/alberto/calc/00_programs/xdmfit/lcwpbe-def2svp"};
-
+## data source - List paths (as strings) to your benchmarks to fit XDM to. `...` continues the array to the next line.
 dir_e_list={...
-             ##"/home/alberto/calc/00_programs/xdmfit/wb97x-pc1",...
-             ## "/home/alberto/temp2/castep/kb49/wc",...
-             "/home/alberto/temp2/pKB49_CASTEPb86bpbe-otfu1090-xdm",...
-             ##"/home/alberto/calc/blind7/30_stage2_prep/KB49/HSE06_0.11_tight/",...
-             ## "/home/alberto/calc/blind7/30_stage2_prep/KB49/QE/",...
-           };
+#     "/home/kyle/KB49_FitDriver_Testing/BJ_Tight_B86bPBE",...
+     "/home/kyle/KB49_FitDriver_Testing/Z_Tight_B86bPBE",...
+
+};
 
 ## xyz structure source
 dir_s="../20_kb65";
 
-## use c9?
-usec9 = 0; ## 1
+## use c9? False=0, True=1
+usec9 = 0; 
+
+
+
 
 #### End of input block ####
 
@@ -85,14 +103,31 @@ for i = 1:length(rr)
   be_ref = setfield(be_ref,rr{i}{2},abs(rr{i}{7}));
 endfor
 
+## Choose damping parameter starting points for fit
+# For XDM(Z), use z_damp = 100000.0 as the starting point
+if (strcmp(f_damp,"energy_z.m"))
+  pin=[0.0 100000.0];
+# For BJ0, use a1 = 0.0, a2 = 1.4545 A
+elseif (strcmp(f_damp,"energy_bj0.m"))
+  pin=[0.0 1.4545];
+# For BJa20, use a1 = 1.4545, a2 = 0 A
+elseif (strcmp(f_damp,"energy_bja20.m"))
+  pin=[1.4545 0.0];
+# Otherwise, use a1 = 1.0, a2 = 1.4545 A
+else
+  pin=[1.0 1.4545];
+endif
+
 ## run the fit
 for id = 1:length(dir_e_list)
   dir_e = {dir_e_list{id}};
   printf("## FIT for: %s\n",dir_e{1});
+  # collect_for_fit.m will use the reader selected above to collect info
   source("collect_for_fit.m");
-  pin=[0.0 1.4545];
+  # fit_quiet.m will run the least squares routine to fit XDM
   source("fit_quiet.m");
-  fit_report_full(pout,yin,yout);
+  # fit_report_full.m will generate the report for the selected f_damp type.
+  fit_report_full(pout,yin,yout,f_damp);
 endfor
 
 # # global a1fix
