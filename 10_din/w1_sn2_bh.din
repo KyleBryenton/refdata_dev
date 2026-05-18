@@ -1,0 +1,15056 @@
+# W1-SN2-BH: barrier heights for SN2 reactions with anionic nucleophiles.
+#
+# A. Karton, J. Phys. Chem. A 130 (2026) 2929.
+# https://doi.org/10.1021/acs.jpca.6c00424?urlappend=%3Fref%3DPDF&jav=VoR&rel=cite-as
+#
+# Reference level: W1w, which gives CCSD(T)/CBS quality energies.
+#
+#@ fieldasrxn 999
+-1
+F_minus
+-1
+SH-Br-Br-Cl-C_reactant
+1
+F_Br-Br-Cl-C_SH_TS
+0
+11.33 # F_SH-Br-Br-Cl-C
+-1
+SH_minus
+-1
+F-Br-Br-Cl-C_reactant
+1
+F_Br-Br-Cl-C_SH_TS
+0
+26.54 # SH_F-Br-Br-Cl-C
+-1
+F_minus
+-1
+SH-Br-Br-F-C_reactant
+1
+F_Br-Br-F-C_SH_TS
+0
+8.53 # F_SH-Br-Br-F-C
+-1
+SH_minus
+-1
+F-Br-Br-F-C_reactant
+1
+F_Br-Br-F-C_SH_TS
+0
+29.31 # SH_F-Br-Br-F-C
+-1
+F_minus
+-1
+SH-Br-Br-H-C_reactant
+1
+F_Br-Br-H-C_SH_TS
+0
+8.57 # F_SH-Br-Br-H-C
+-1
+SH_minus
+-1
+F-Br-Br-H-C_reactant
+1
+F_Br-Br-H-C_SH_TS
+0
+21.75 # SH_F-Br-Br-H-C
+-1
+F_minus
+-1
+F-Br-CCH-Cl-C_reactant
+1
+F_Br-CCH-Cl-C_F_TS
+0
+2.92 # F_F-Br-CCH-Cl-C
+-1
+F_minus
+-1
+OH-Br-CCH-Cl-C_reactant
+1
+F_Br-CCH-Cl-C_OH_TS
+0
+24.03 # F_OH-Br-CCH-Cl-C
+-1
+F_minus
+-1
+OH-Br-CCH-F-C_reactant
+1
+F_Br-CCH-F-C_OH_TS
+0
+23.31 # F_OH-Br-CCH-F-C
+-1
+OH_minus
+-1
+F-Br-CCH-F-C_reactant
+1
+F_Br-CCH-F-C_OH_TS
+0
+0.04 # OH_F-Br-CCH-F-C
+-1
+F_minus
+-1
+OH-Br-CCH-H-C_reactant
+1
+F_Br-CCH-H-C_OH_TS
+0
+19.88 # F_OH-Br-CCH-H-C
+-1
+F_minus
+-1
+F-Br-CCH-Me-C_reactant
+1
+F_Br-CCH-Me-C_F_TS
+0
+5.73 # F_F-Br-CCH-Me-C
+-1
+F_minus
+-1
+F-Br-CCH-NH2-C_reactant
+1
+F_Br-CCH-NH2-C_F_TS
+0
+1.63 # F_F-Br-CCH-NH2-C
+-1
+F_minus
+-1
+SH-Br-CCH-OH-C_reactant
+1
+F_Br-CCH-OH-C_SH_TS
+0
+4.49 # F_SH-Br-CCH-OH-C
+-1
+SH_minus
+-1
+F-Br-CCH-OH-C_reactant
+1
+F_Br-CCH-OH-C_SH_TS
+0
+22.10 # SH_F-Br-CCH-OH-C
+-1
+F_minus
+-1
+OH-Br-CN-Cl-C_reactant
+1
+F_Br-CN-Cl-C_OH_TS
+0
+9.64 # F_OH-Br-CN-Cl-C
+-1
+F_minus
+-1
+OH-Br-CN-H-C_reactant
+1
+F_Br-CN-H-C_OH_TS
+0
+9.09 # F_OH-Br-CN-H-C
+-1
+F_minus
+-1
+OH-Br-CN-Me-C_reactant
+1
+F_Br-CN-Me-C_OH_TS
+0
+13.51 # F_OH-Br-CN-Me-C
+-1
+F_minus
+-1
+OH-Br-CN-NH2-C_reactant
+1
+F_Br-CN-NH2-C_OH_TS
+0
+8.88 # F_OH-Br-CN-NH2-C
+-1
+SH_minus
+-1
+F-Br-CN-OH-C_reactant
+1
+F_Br-CN-OH-C_SH_TS
+0
+13.03 # SH_F-Br-CN-OH-C
+-1
+F_minus
+-1
+PH2-Br-F-H-C_reactant
+1
+F_Br-F-H-C_PH2_TS
+0
+23.68 # F_PH2-Br-F-H-C
+-1
+PH2_minus
+-1
+F-Br-F-H-C_reactant
+1
+F_Br-F-H-C_PH2_TS
+0
+21.95 # PH2_F-Br-F-H-C
+-1
+F_minus
+-1
+F-Br-H-Me-C_reactant
+1
+F_Br-H-Me-C_F_TS
+0
+3.91 # F_F-Br-H-Me-C
+-1
+F_minus
+-1
+OH-Br-H-Me-C_reactant
+1
+F_Br-H-Me-C_OH_TS
+0
+25.65 # F_OH-Br-H-Me-C
+-1
+OH_minus
+-1
+F-Br-H-Me-C_reactant
+1
+F_Br-H-Me-C_OH_TS
+0
+2.51 # OH_F-Br-H-Me-C
+-1
+F_minus
+-1
+F-Br-H-NH2-C_reactant
+1
+F_Br-H-NH2-C_F_TS
+0
+0.57 # F_F-Br-H-NH2-C
+-1
+F_minus
+-1
+PH2-Br-H-OH-C_reactant
+1
+F_Br-H-OH-C_PH2_TS
+0
+20.41 # F_PH2-Br-H-OH-C
+-1
+PH2_minus
+-1
+F-Br-H-OH-C_reactant
+1
+F_Br-H-OH-C_PH2_TS
+0
+19.29 # PH2_F-Br-H-OH-C
+-1
+F_minus
+-1
+SH-Br-H-OH-C_reactant
+1
+F_Br-H-OH-C_SH_TS
+0
+0.13 # F_SH-Br-H-OH-C
+-1
+SH_minus
+-1
+F-Br-H-OH-C_reactant
+1
+F_Br-H-OH-C_SH_TS
+0
+21.64 # SH_F-Br-H-OH-C
+-1
+F_minus
+-1
+F-Br-Me-Me-C_reactant
+1
+F_Br-Me-Me-C_F_TS
+0
+11.25 # F_F-Br-Me-Me-C
+-1
+F_minus
+-1
+OH-Br-Me-Me-C_reactant
+1
+F_Br-Me-Me-C_OH_TS
+0
+33.29 # F_OH-Br-Me-Me-C
+-1
+OH_minus
+-1
+F-Br-Me-Me-C_reactant
+1
+F_Br-Me-Me-C_OH_TS
+0
+10.70 # OH_F-Br-Me-Me-C
+-1
+F_minus
+-1
+F-Br-Me-NH2-C_reactant
+1
+F_Br-Me-NH2-C_F_TS
+0
+7.01 # F_F-Br-Me-NH2-C
+-1
+F_minus
+-1
+OH-Br-Me-NH2-C_reactant
+1
+F_Br-Me-NH2-C_OH_TS
+0
+27.62 # F_OH-Br-Me-NH2-C
+-1
+OH_minus
+-1
+F-Br-Me-NH2-C_reactant
+1
+F_Br-Me-NH2-C_OH_TS
+0
+4.82 # OH_F-Br-Me-NH2-C
+-1
+F_minus
+-1
+PH2-Br-Me-OH-C_reactant
+1
+F_Br-Me-OH-C_PH2_TS
+0
+24.82 # F_PH2-Br-Me-OH-C
+-1
+PH2_minus
+-1
+F-Br-Me-OH-C_reactant
+1
+F_Br-Me-OH-C_PH2_TS
+0
+23.55 # PH2_F-Br-Me-OH-C
+-1
+F_minus
+-1
+OH-Br-NH2-NH2-C_reactant
+1
+F_Br-NH2-NH2-C_OH_TS
+0
+22.81 # F_OH-Br-NH2-NH2-C
+-1
+OH_minus
+-1
+F-Br-NH2-NH2-C_reactant
+1
+F_Br-NH2-NH2-C_OH_TS
+0
+2.11 # OH_F-Br-NH2-NH2-C
+-1
+F_minus
+-1
+PH2-Br-NH2-NH2-C_reactant
+1
+F_Br-NH2-NH2-C_PH2_TS
+0
+27.63 # F_PH2-Br-NH2-NH2-C
+-1
+PH2_minus
+-1
+F-Br-NH2-NH2-C_reactant
+1
+F_Br-NH2-NH2-C_PH2_TS
+0
+27.79 # PH2_F-Br-NH2-NH2-C
+-1
+F_minus
+-1
+SH-Br-NH2-OH-C_reactant
+1
+F_Br-NH2-OH-C_SH_TS
+0
+2.76 # F_SH-Br-NH2-OH-C
+-1
+SH_minus
+-1
+F-Br-NH2-OH-C_reactant
+1
+F_Br-NH2-OH-C_SH_TS
+0
+27.76 # SH_F-Br-NH2-OH-C
+-1
+F_minus
+-1
+PH2-Br-OH-SH-C_reactant
+1
+F_Br-OH-SH-C_PH2_TS
+0
+18.77 # F_PH2-Br-OH-SH-C
+-1
+PH2_minus
+-1
+F-Br-OH-SH-C_reactant
+1
+F_Br-OH-SH-C_PH2_TS
+0
+14.05 # PH2_F-Br-OH-SH-C
+-1
+SH_minus
+-1
+F-Br-OH-SH-C_reactant
+1
+F_Br-OH-SH-C_SH_TS
+0
+19.78 # SH_F-Br-OH-SH-C
+-1
+F_minus
+-1
+OH-Br-SH-SH-C_reactant
+1
+F_Br-SH-SH-C_OH_TS
+0
+13.28 # F_OH-Br-SH-SH-C
+-1
+F_minus
+-1
+NH2-CCH-CCH-H-C_reactant
+1
+F_CCH-CCH-H-C_NH2_TS
+0
+30.71 # F_NH2-CCH-CCH-H-C
+-1
+F_minus
+-1
+SH-CCH-CCH-H-C_reactant
+1
+F_CCH-CCH-H-C_SH_TS
+0
+1.16 # F_SH-CCH-CCH-H-C
+-1
+SH_minus
+-1
+F-CCH-CCH-H-C_reactant
+1
+F_CCH-CCH-H-C_SH_TS
+0
+12.30 # SH_F-CCH-CCH-H-C
+-1
+F_minus
+-1
+F-CCH-Cl-Cl-C_reactant
+1
+F_CCH-Cl-Cl-C_F_TS
+0
+4.63 # F_F-CCH-Cl-Cl-C
+-1
+F_minus
+-1
+NH2-CCH-Cl-Cl-C_reactant
+1
+F_CCH-Cl-Cl-C_NH2_TS
+0
+41.32 # F_NH2-CCH-Cl-Cl-C
+-1
+F_minus
+-1
+SH-CCH-Cl-Cl-C_reactant
+1
+F_CCH-Cl-Cl-C_SH_TS
+0
+11.01 # F_SH-CCH-Cl-Cl-C
+-1
+SH_minus
+-1
+F-CCH-Cl-Cl-C_reactant
+1
+F_CCH-Cl-Cl-C_SH_TS
+0
+26.58 # SH_F-CCH-Cl-Cl-C
+-1
+F_minus
+-1
+F-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_F_TS
+0
+6.07 # F_F-CCH-Cl-F-C
+-1
+F_minus
+-1
+NH2-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_NH2_TS
+0
+42.25 # F_NH2-CCH-Cl-F-C
+-1
+NH2_minus
+-1
+F-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_NH2_TS
+0
+0.24 # NH2_F-CCH-Cl-F-C
+-1
+F_minus
+-1
+OH-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_OH_TS
+0
+26.98 # F_OH-CCH-Cl-F-C
+-1
+OH_minus
+-1
+F-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_OH_TS
+0
+2.31 # OH_F-CCH-Cl-F-C
+-1
+F_minus
+-1
+SH-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_SH_TS
+0
+8.05 # F_SH-CCH-Cl-F-C
+-1
+SH_minus
+-1
+F-CCH-Cl-F-C_reactant
+1
+F_CCH-Cl-F-C_SH_TS
+0
+29.58 # SH_F-CCH-Cl-F-C
+-1
+F_minus
+-1
+F-CCH-Cl-H-C_reactant
+1
+F_CCH-Cl-H-C_F_TS
+0
+0.42 # F_F-CCH-Cl-H-C
+-1
+F_minus
+-1
+NH2-CCH-Cl-H-C_reactant
+1
+F_CCH-Cl-H-C_NH2_TS
+0
+38.36 # F_NH2-CCH-Cl-H-C
+-1
+F_minus
+-1
+OH-CCH-Cl-H-C_reactant
+1
+F_CCH-Cl-H-C_OH_TS
+0
+19.31 # F_OH-CCH-Cl-H-C
+-1
+F_minus
+-1
+SH-CCH-Cl-H-C_reactant
+1
+F_CCH-Cl-H-C_SH_TS
+0
+5.16 # F_SH-CCH-Cl-H-C
+-1
+SH_minus
+-1
+F-CCH-Cl-H-C_reactant
+1
+F_CCH-Cl-H-C_SH_TS
+0
+18.28 # SH_F-CCH-Cl-H-C
+-1
+F_minus
+-1
+F-CCH-Cl-Me-C_reactant
+1
+F_CCH-Cl-Me-C_F_TS
+0
+6.97 # F_F-CCH-Cl-Me-C
+-1
+F_minus
+-1
+NH2-CCH-Cl-Me-C_reactant
+1
+F_CCH-Cl-Me-C_NH2_TS
+0
+42.98 # F_NH2-CCH-Cl-Me-C
+-1
+NH2_minus
+-1
+F-CCH-Cl-Me-C_reactant
+1
+F_CCH-Cl-Me-C_NH2_TS
+0
+0.24 # NH2_F-CCH-Cl-Me-C
+-1
+F_minus
+-1
+SH-CCH-Cl-Me-C_reactant
+1
+F_CCH-Cl-Me-C_SH_TS
+0
+10.28 # F_SH-CCH-Cl-Me-C
+-1
+SH_minus
+-1
+F-CCH-Cl-Me-C_reactant
+1
+F_CCH-Cl-Me-C_SH_TS
+0
+26.69 # SH_F-CCH-Cl-Me-C
+-1
+F_minus
+-1
+F-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_F_TS
+0
+3.49 # F_F-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_NH2_TS
+0
+34.37 # F_NH2-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+PH2-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_PH2_TS
+0
+23.22 # F_PH2-CCH-Cl-NH2-C
+-1
+PH2_minus
+-1
+F-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_PH2_TS
+0
+17.14 # PH2_F-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+SH-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_SH_TS
+0
+6.70 # F_SH-CCH-Cl-NH2-C
+-1
+SH_minus
+-1
+F-CCH-Cl-NH2-C_reactant
+1
+F_CCH-Cl-NH2-C_SH_TS
+0
+23.84 # SH_F-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-CN-H-C_reactant
+1
+F_CCH-CN-H-C_NH2_TS
+0
+21.26 # F_NH2-CCH-CN-H-C
+-1
+F_minus
+-1
+F-CCH-F-F-C_reactant
+1
+F_CCH-F-F-C_F_TS
+0
+7.90 # F_F-CCH-F-F-C
+-1
+F_minus
+-1
+NH2-CCH-F-F-C_reactant
+1
+F_CCH-F-F-C_NH2_TS
+0
+42.98 # F_NH2-CCH-F-F-C
+-1
+NH2_minus
+-1
+F-CCH-F-F-C_reactant
+1
+F_CCH-F-F-C_NH2_TS
+0
+4.07 # NH2_F-CCH-F-F-C
+-1
+F_minus
+-1
+F-CCH-F-H-C_reactant
+1
+F_CCH-F-H-C_F_TS
+0
+0.51 # F_F-CCH-F-H-C
+-1
+F_minus
+-1
+NH2-CCH-F-H-C_reactant
+1
+F_CCH-F-H-C_NH2_TS
+0
+35.09 # F_NH2-CCH-F-H-C
+-1
+F_minus
+-1
+OH-CCH-F-H-C_reactant
+1
+F_CCH-F-H-C_OH_TS
+0
+19.19 # F_OH-CCH-F-H-C
+-1
+F_minus
+-1
+F-CCH-F-Me-C_reactant
+1
+F_CCH-F-Me-C_F_TS
+0
+7.74 # F_F-CCH-F-Me-C
+-1
+F_minus
+-1
+NH2-CCH-F-Me-C_reactant
+1
+F_CCH-F-Me-C_NH2_TS
+0
+39.98 # F_NH2-CCH-F-Me-C
+-1
+NH2_minus
+-1
+F-CCH-F-Me-C_reactant
+1
+F_CCH-F-Me-C_NH2_TS
+0
+3.12 # NH2_F-CCH-F-Me-C
+-1
+F_minus
+-1
+OH-CCH-F-Me-C_reactant
+1
+F_CCH-F-Me-C_OH_TS
+0
+26.82 # F_OH-CCH-F-Me-C
+-1
+OH_minus
+-1
+F-CCH-F-Me-C_reactant
+1
+F_CCH-F-Me-C_OH_TS
+0
+3.84 # OH_F-CCH-F-Me-C
+-1
+F_minus
+-1
+F-CCH-F-NH2-C_reactant
+1
+F_CCH-F-NH2-C_F_TS
+0
+2.66 # F_F-CCH-F-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-F-NH2-C_reactant
+1
+F_CCH-F-NH2-C_NH2_TS
+0
+34.31 # F_NH2-CCH-F-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-H-H-C_reactant
+1
+F_CCH-H-H-C_NH2_TS
+0
+33.30 # F_NH2-CCH-H-H-C
+-1
+F_minus
+-1
+SH-CCH-H-H-C_reactant
+1
+F_CCH-H-H-C_SH_TS
+0
+2.16 # F_SH-CCH-H-H-C
+-1
+SH_minus
+-1
+F-CCH-H-H-C_reactant
+1
+F_CCH-H-H-C_SH_TS
+0
+12.72 # SH_F-CCH-H-H-C
+-1
+F_minus
+-1
+F-CCH-H-Me-C_reactant
+1
+F_CCH-H-Me-C_F_TS
+0
+1.08 # F_F-CCH-H-Me-C
+-1
+F_minus
+-1
+SH-CCH-H-Me-C_reactant
+1
+F_CCH-H-Me-C_SH_TS
+0
+4.15 # F_SH-CCH-H-Me-C
+-1
+SH_minus
+-1
+F-CCH-H-Me-C_reactant
+1
+F_CCH-H-Me-C_SH_TS
+0
+17.42 # SH_F-CCH-H-Me-C
+-1
+F_minus
+-1
+F-CCH-H-NH2-C_reactant
+1
+F_CCH-H-NH2-C_F_TS
+0
+1.81 # F_F-CCH-H-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-H-NH2-C_reactant
+1
+F_CCH-H-NH2-C_NH2_TS
+0
+32.08 # F_NH2-CCH-H-NH2-C
+-1
+F_minus
+-1
+OH-CCH-H-NH2-C_reactant
+1
+F_CCH-H-NH2-C_OH_TS
+0
+17.56 # F_OH-CCH-H-NH2-C
+-1
+F_minus
+-1
+PH2-CCH-H-NH2-C_reactant
+1
+F_CCH-H-NH2-C_PH2_TS
+0
+17.17 # F_PH2-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+F-CCH-H-NH2-C_reactant
+1
+F_CCH-H-NH2-C_PH2_TS
+0
+15.89 # PH2_F-CCH-H-NH2-C
+-1
+F_minus
+-1
+F-CCH-Me-Me-C_reactant
+1
+F_CCH-Me-Me-C_F_TS
+0
+6.69 # F_F-CCH-Me-Me-C
+-1
+F_minus
+-1
+NH2-CCH-Me-Me-C_reactant
+1
+F_CCH-Me-Me-C_NH2_TS
+0
+37.76 # F_NH2-CCH-Me-Me-C
+-1
+NH2_minus
+-1
+F-CCH-Me-Me-C_reactant
+1
+F_CCH-Me-Me-C_NH2_TS
+0
+1.35 # NH2_F-CCH-Me-Me-C
+-1
+F_minus
+-1
+SH-CCH-Me-Me-C_reactant
+1
+F_CCH-Me-Me-C_SH_TS
+0
+9.46 # F_SH-CCH-Me-Me-C
+-1
+SH_minus
+-1
+F-CCH-Me-Me-C_reactant
+1
+F_CCH-Me-Me-C_SH_TS
+0
+24.95 # SH_F-CCH-Me-Me-C
+-1
+F_minus
+-1
+F-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_F_TS
+0
+3.10 # F_F-CCH-Me-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_NH2_TS
+0
+36.25 # F_NH2-CCH-Me-NH2-C
+-1
+F_minus
+-1
+PH2-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_PH2_TS
+0
+21.10 # F_PH2-CCH-Me-NH2-C
+-1
+PH2_minus
+-1
+F-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_PH2_TS
+0
+18.60 # PH2_F-CCH-Me-NH2-C
+-1
+F_minus
+-1
+SH-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_SH_TS
+0
+4.46 # F_SH-CCH-Me-NH2-C
+-1
+SH_minus
+-1
+F-CCH-Me-NH2-C_reactant
+1
+F_CCH-Me-NH2-C_SH_TS
+0
+22.35 # SH_F-CCH-Me-NH2-C
+-1
+F_minus
+-1
+NH2-CCH-Me-OH-C_reactant
+1
+F_CCH-Me-OH-C_NH2_TS
+0
+39.29 # F_NH2-CCH-Me-OH-C
+-1
+NH2_minus
+-1
+F-CCH-Me-OH-C_reactant
+1
+F_CCH-Me-OH-C_NH2_TS
+0
+3.55 # NH2_F-CCH-Me-OH-C
+-1
+F_minus
+-1
+SH-CCH-Me-OH-C_reactant
+1
+F_CCH-Me-OH-C_SH_TS
+0
+3.24 # F_SH-CCH-Me-OH-C
+-1
+SH_minus
+-1
+F-CCH-Me-OH-C_reactant
+1
+F_CCH-Me-OH-C_SH_TS
+0
+25.00 # SH_F-CCH-Me-OH-C
+-1
+F_minus
+-1
+F-CCH-NH2-NH2-C_reactant
+1
+F_CCH-NH2-NH2-C_F_TS
+0
+5.77 # F_F-CCH-NH2-NH2-C
+-1
+SH_minus
+-1
+F-CCH-OH-SH-C_reactant
+1
+F_CCH-OH-SH-C_SH_TS
+0
+15.84 # SH_F-CCH-OH-SH-C
+-1
+F_minus
+-1
+PH2-CCH-SH-SH-C_reactant
+1
+F_CCH-SH-SH-C_PH2_TS
+0
+13.74 # F_PH2-CCH-SH-SH-C
+-1
+PH2_minus
+-1
+F-CCH-SH-SH-C_reactant
+1
+F_CCH-SH-SH-C_PH2_TS
+0
+2.27 # PH2_F-CCH-SH-SH-C
+-1
+F_minus
+-1
+SH-Cl-Cl-Cl-C_reactant
+1
+F_Cl-Cl-Cl-C_SH_TS
+0
+14.89 # F_SH-Cl-Cl-Cl-C
+-1
+SH_minus
+-1
+F-Cl-Cl-Cl-C_reactant
+1
+F_Cl-Cl-Cl-C_SH_TS
+0
+32.00 # SH_F-Cl-Cl-Cl-C
+-1
+F_minus
+-1
+F-Cl-Cl-H-C_reactant
+1
+F_Cl-Cl-H-C_F_TS
+0
+3.78 # F_F-Cl-Cl-H-C
+-1
+F_minus
+-1
+NH2-Cl-Cl-H-C_reactant
+1
+F_Cl-Cl-H-C_NH2_TS
+0
+43.32 # F_NH2-Cl-Cl-H-C
+-1
+F_minus
+-1
+SH-Cl-Cl-H-C_reactant
+1
+F_Cl-Cl-H-C_SH_TS
+0
+8.66 # F_SH-Cl-Cl-H-C
+-1
+SH_minus
+-1
+F-Cl-Cl-H-C_reactant
+1
+F_Cl-Cl-H-C_SH_TS
+0
+24.54 # SH_F-Cl-Cl-H-C
+-1
+F_minus
+-1
+F-Cl-Cl-Me-C_reactant
+1
+F_Cl-Cl-Me-C_F_TS
+0
+12.07 # F_F-Cl-Cl-Me-C
+-1
+F_minus
+-1
+F-Cl-Cl-NH2-C_reactant
+1
+F_Cl-Cl-NH2-C_F_TS
+0
+5.80 # F_F-Cl-Cl-NH2-C
+-1
+F_minus
+-1
+F-Cl-Cl-OH-C_reactant
+1
+F_Cl-Cl-OH-C_F_TS
+0
+7.94 # F_F-Cl-Cl-OH-C
+-1
+F_minus
+-1
+F-Cl-F-H-C_reactant
+1
+F_Cl-F-H-C_F_TS
+0
+4.43 # F_F-Cl-F-H-C
+-1
+F_minus
+-1
+NH2-Cl-F-H-C_reactant
+1
+F_Cl-F-H-C_NH2_TS
+0
+43.05 # F_NH2-Cl-F-H-C
+-1
+NH2_minus
+-1
+F-Cl-F-H-C_reactant
+1
+F_Cl-F-H-C_NH2_TS
+0
+2.10 # NH2_F-Cl-F-H-C
+-1
+F_minus
+-1
+OH-Cl-F-H-C_reactant
+1
+F_Cl-F-H-C_OH_TS
+0
+26.36 # F_OH-Cl-F-H-C
+-1
+OH_minus
+-1
+F-Cl-F-H-C_reactant
+1
+F_Cl-F-H-C_OH_TS
+0
+1.61 # OH_F-Cl-F-H-C
+-1
+F_minus
+-1
+OH-Cl-F-Me-C_reactant
+1
+F_Cl-F-Me-C_OH_TS
+0
+34.65 # F_OH-Cl-F-Me-C
+-1
+OH_minus
+-1
+F-Cl-F-Me-C_reactant
+1
+F_Cl-F-Me-C_OH_TS
+0
+10.53 # OH_F-Cl-F-Me-C
+-1
+F_minus
+-1
+OH-Cl-F-NH2-C_reactant
+1
+F_Cl-F-NH2-C_OH_TS
+0
+27.17 # F_OH-Cl-F-NH2-C
+-1
+OH_minus
+-1
+F-Cl-F-NH2-C_reactant
+1
+F_Cl-F-NH2-C_OH_TS
+0
+4.23 # OH_F-Cl-F-NH2-C
+-1
+F_minus
+-1
+PH2-Cl-F-NH2-C_reactant
+1
+F_Cl-F-NH2-C_PH2_TS
+0
+25.05 # F_PH2-Cl-F-NH2-C
+-1
+PH2_minus
+-1
+F-Cl-F-NH2-C_reactant
+1
+F_Cl-F-NH2-C_PH2_TS
+0
+27.32 # PH2_F-Cl-F-NH2-C
+-1
+F_minus
+-1
+F-Cl-F-SH-C_reactant
+1
+F_Cl-F-SH-C_F_TS
+0
+0.87 # F_F-Cl-F-SH-C
+-1
+F_minus
+-1
+NH2-Cl-H-H-C_reactant
+1
+F_Cl-H-H-C_NH2_TS
+0
+41.88 # F_NH2-Cl-H-H-C
+-1
+F_minus
+-1
+OH-Cl-H-H-C_reactant
+1
+F_Cl-H-H-C_OH_TS
+0
+22.42 # F_OH-Cl-H-H-C
+-1
+F_minus
+-1
+F-Cl-H-Me-C_reactant
+1
+F_Cl-H-Me-C_F_TS
+0
+4.91 # F_F-Cl-H-Me-C
+-1
+F_minus
+-1
+NH2-Cl-H-Me-C_reactant
+1
+F_Cl-H-Me-C_NH2_TS
+0
+44.73 # F_NH2-Cl-H-Me-C
+-1
+NH2_minus
+-1
+F-Cl-H-Me-C_reactant
+1
+F_Cl-H-Me-C_NH2_TS
+0
+2.63 # NH2_F-Cl-H-Me-C
+-1
+F_minus
+-1
+OH-Cl-H-Me-C_reactant
+1
+F_Cl-H-Me-C_OH_TS
+0
+26.26 # F_OH-Cl-H-Me-C
+-1
+OH_minus
+-1
+F-Cl-H-Me-C_reactant
+1
+F_Cl-H-Me-C_OH_TS
+0
+3.71 # OH_F-Cl-H-Me-C
+-1
+F_minus
+-1
+F-Cl-H-NH2-C_reactant
+1
+F_Cl-H-NH2-C_F_TS
+0
+2.02 # F_F-Cl-H-NH2-C
+-1
+F_minus
+-1
+NH2-Cl-H-NH2-C_reactant
+1
+F_Cl-H-NH2-C_NH2_TS
+0
+36.24 # F_NH2-Cl-H-NH2-C
+-1
+SH_minus
+-1
+F-Cl-H-OH-C_reactant
+1
+F_Cl-H-OH-C_SH_TS
+0
+22.64 # SH_F-Cl-H-OH-C
+-1
+F_minus
+-1
+F-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_F_TS
+0
+12.46 # F_F-Cl-Me-Me-C
+-1
+F_minus
+-1
+NH2-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_NH2_TS
+0
+50.63 # F_NH2-Cl-Me-Me-C
+-1
+NH2_minus
+-1
+F-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_NH2_TS
+0
+10.12 # NH2_F-Cl-Me-Me-C
+-1
+F_minus
+-1
+OH-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_OH_TS
+0
+34.14 # F_OH-Cl-Me-Me-C
+-1
+OH_minus
+-1
+F-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_OH_TS
+0
+12.16 # OH_F-Cl-Me-Me-C
+-1
+F_minus
+-1
+PH2-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_PH2_TS
+0
+31.32 # F_PH2-Cl-Me-Me-C
+-1
+PH2_minus
+-1
+F-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_PH2_TS
+0
+28.62 # PH2_F-Cl-Me-Me-C
+-1
+F_minus
+-1
+SH-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_SH_TS
+0
+13.97 # F_SH-Cl-Me-Me-C
+-1
+SH_minus
+-1
+F-Cl-Me-Me-C_reactant
+1
+F_Cl-Me-Me-C_SH_TS
+0
+33.05 # SH_F-Cl-Me-Me-C
+-1
+F_minus
+-1
+F-Cl-Me-NH2-C_reactant
+1
+F_Cl-Me-NH2-C_F_TS
+0
+8.59 # F_F-Cl-Me-NH2-C
+-1
+F_minus
+-1
+NH2-Cl-Me-NH2-C_reactant
+1
+F_Cl-Me-NH2-C_NH2_TS
+0
+44.85 # F_NH2-Cl-Me-NH2-C
+-1
+NH2_minus
+-1
+F-Cl-Me-NH2-C_reactant
+1
+F_Cl-Me-NH2-C_NH2_TS
+0
+6.81 # NH2_F-Cl-Me-NH2-C
+-1
+F_minus
+-1
+OH-Cl-Me-NH2-C_reactant
+1
+F_Cl-Me-NH2-C_OH_TS
+0
+26.94 # F_OH-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+F-Cl-Me-NH2-C_reactant
+1
+F_Cl-Me-NH2-C_OH_TS
+0
+6.57 # OH_F-Cl-Me-NH2-C
+-1
+F_minus
+-1
+PH2-Cl-Me-OH-C_reactant
+1
+F_Cl-Me-OH-C_PH2_TS
+0
+24.71 # F_PH2-Cl-Me-OH-C
+-1
+PH2_minus
+-1
+F-Cl-Me-OH-C_reactant
+1
+F_Cl-Me-OH-C_PH2_TS
+0
+24.84 # PH2_F-Cl-Me-OH-C
+-1
+F_minus
+-1
+SH-Cl-Me-OH-C_reactant
+1
+F_Cl-Me-OH-C_SH_TS
+0
+6.61 # F_SH-Cl-Me-OH-C
+-1
+SH_minus
+-1
+F-Cl-Me-OH-C_reactant
+1
+F_Cl-Me-OH-C_SH_TS
+0
+27.94 # SH_F-Cl-Me-OH-C
+-1
+F_minus
+-1
+F-Cl-Me-SH-C_reactant
+1
+F_Cl-Me-SH-C_F_TS
+0
+1.96 # F_F-Cl-Me-SH-C
+-1
+F_minus
+-1
+OH-Cl-NH2-OH-C_reactant
+1
+F_Cl-NH2-OH-C_OH_TS
+0
+25.01 # F_OH-Cl-NH2-OH-C
+-1
+OH_minus
+-1
+F-Cl-NH2-OH-C_reactant
+1
+F_Cl-NH2-OH-C_OH_TS
+0
+4.85 # OH_F-Cl-NH2-OH-C
+-1
+F_minus
+-1
+PH2-Cl-NH2-OH-C_reactant
+1
+F_Cl-NH2-OH-C_PH2_TS
+0
+24.98 # F_PH2-Cl-NH2-OH-C
+-1
+PH2_minus
+-1
+F-Cl-NH2-OH-C_reactant
+1
+F_Cl-NH2-OH-C_PH2_TS
+0
+26.89 # PH2_F-Cl-NH2-OH-C
+-1
+F_minus
+-1
+PH2-Cl-OH-SH-C_reactant
+1
+F_Cl-OH-SH-C_PH2_TS
+0
+18.96 # F_PH2-Cl-OH-SH-C
+-1
+PH2_minus
+-1
+F-Cl-OH-SH-C_reactant
+1
+F_Cl-OH-SH-C_PH2_TS
+0
+15.75 # PH2_F-Cl-OH-SH-C
+-1
+F_minus
+-1
+PH2-Cl-SH-SH-C_reactant
+1
+F_Cl-SH-SH-C_PH2_TS
+0
+16.44 # F_PH2-Cl-SH-SH-C
+-1
+PH2_minus
+-1
+F-Cl-SH-SH-C_reactant
+1
+F_Cl-SH-SH-C_PH2_TS
+0
+8.00 # PH2_F-Cl-SH-SH-C
+-1
+F_minus
+-1
+NH2-CN-Cl-Cl-C_reactant
+1
+F_CN-Cl-Cl-C_NH2_TS
+0
+28.21 # F_NH2-CN-Cl-Cl-C
+-1
+F_minus
+-1
+PH2-CN-Cl-Cl-C_reactant
+1
+F_CN-Cl-Cl-C_PH2_TS
+0
+16.42 # F_PH2-CN-Cl-Cl-C
+-1
+PH2_minus
+-1
+F-CN-Cl-Cl-C_reactant
+1
+F_CN-Cl-Cl-C_PH2_TS
+0
+4.18 # PH2_F-CN-Cl-Cl-C
+-1
+F_minus
+-1
+SH-CN-Cl-Cl-C_reactant
+1
+F_CN-Cl-Cl-C_SH_TS
+0
+0.13 # F_SH-CN-Cl-Cl-C
+-1
+SH_minus
+-1
+F-CN-Cl-Cl-C_reactant
+1
+F_CN-Cl-Cl-C_SH_TS
+0
+13.95 # SH_F-CN-Cl-Cl-C
+-1
+F_minus
+-1
+NH2-CN-Cl-F-C_reactant
+1
+F_CN-Cl-F-C_NH2_TS
+0
+30.15 # F_NH2-CN-Cl-F-C
+-1
+F_minus
+-1
+OH-CN-Cl-F-C_reactant
+1
+F_CN-Cl-F-C_OH_TS
+0
+12.07 # F_OH-CN-Cl-F-C
+-1
+SH_minus
+-1
+F-CN-Cl-F-C_reactant
+1
+F_CN-Cl-F-C_SH_TS
+0
+16.66 # SH_F-CN-Cl-F-C
+-1
+F_minus
+-1
+NH2-CN-Cl-H-C_reactant
+1
+F_CN-Cl-H-C_NH2_TS
+0
+27.57 # F_NH2-CN-Cl-H-C
+-1
+F_minus
+-1
+OH-CN-Cl-H-C_reactant
+1
+F_CN-Cl-H-C_OH_TS
+0
+8.56 # F_OH-CN-Cl-H-C
+-1
+SH_minus
+-1
+F-CN-Cl-H-C_reactant
+1
+F_CN-Cl-H-C_SH_TS
+0
+6.93 # SH_F-CN-Cl-H-C
+-1
+F_minus
+-1
+NH2-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_NH2_TS
+0
+32.04 # F_NH2-CN-Cl-Me-C
+-1
+F_minus
+-1
+OH-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_OH_TS
+0
+12.55 # F_OH-CN-Cl-Me-C
+-1
+F_minus
+-1
+PH2-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_PH2_TS
+0
+16.68 # F_PH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+F-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_PH2_TS
+0
+7.81 # PH2_F-CN-Cl-Me-C
+-1
+F_minus
+-1
+SH-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_SH_TS
+0
+0.49 # F_SH-CN-Cl-Me-C
+-1
+SH_minus
+-1
+F-CN-Cl-Me-C_reactant
+1
+F_CN-Cl-Me-C_SH_TS
+0
+15.46 # SH_F-CN-Cl-Me-C
+-1
+F_minus
+-1
+NH2-CN-Cl-NH2-C_reactant
+1
+F_CN-Cl-NH2-C_NH2_TS
+0
+18.98 # F_NH2-CN-Cl-NH2-C
+-1
+F_minus
+-1
+OH-CN-Cl-NH2-C_reactant
+1
+F_CN-Cl-NH2-C_OH_TS
+0
+7.17 # F_OH-CN-Cl-NH2-C
+-1
+F_minus
+-1
+PH2-CN-Cl-NH2-C_reactant
+1
+F_CN-Cl-NH2-C_PH2_TS
+0
+12.21 # F_PH2-CN-Cl-NH2-C
+-1
+PH2_minus
+-1
+F-CN-Cl-NH2-C_reactant
+1
+F_CN-Cl-NH2-C_PH2_TS
+0
+4.82 # PH2_F-CN-Cl-NH2-C
+-1
+SH_minus
+-1
+F-CN-Cl-NH2-C_reactant
+1
+F_CN-Cl-NH2-C_SH_TS
+0
+11.37 # SH_F-CN-Cl-NH2-C
+-1
+F_minus
+-1
+NH2-CN-F-F-C_reactant
+1
+F_CN-F-F-C_NH2_TS
+0
+30.36 # F_NH2-CN-F-F-C
+-1
+F_minus
+-1
+OH-CN-F-F-C_reactant
+1
+F_CN-F-F-C_OH_TS
+0
+14.55 # F_OH-CN-F-F-C
+-1
+F_minus
+-1
+PH2-CN-F-F-C_reactant
+1
+F_CN-F-F-C_PH2_TS
+0
+11.17 # F_PH2-CN-F-F-C
+-1
+PH2_minus
+-1
+F-CN-F-F-C_reactant
+1
+F_CN-F-F-C_PH2_TS
+0
+13.36 # PH2_F-CN-F-F-C
+-1
+SH_minus
+-1
+F-CN-F-F-C_reactant
+1
+F_CN-F-F-C_SH_TS
+0
+20.45 # SH_F-CN-F-F-C
+-1
+F_minus
+-1
+NH2-CN-F-H-C_reactant
+1
+F_CN-F-H-C_NH2_TS
+0
+24.36 # F_NH2-CN-F-H-C
+-1
+SH_minus
+-1
+F-CN-F-H-C_reactant
+1
+F_CN-F-H-C_SH_TS
+0
+9.56 # SH_F-CN-F-H-C
+-1
+F_minus
+-1
+NH2-CN-F-Me-C_reactant
+1
+F_CN-F-Me-C_NH2_TS
+0
+29.45 # F_NH2-CN-F-Me-C
+-1
+F_minus
+-1
+PH2-CN-F-Me-C_reactant
+1
+F_CN-F-Me-C_PH2_TS
+0
+12.44 # F_PH2-CN-F-Me-C
+-1
+PH2_minus
+-1
+F-CN-F-Me-C_reactant
+1
+F_CN-F-Me-C_PH2_TS
+0
+11.71 # PH2_F-CN-F-Me-C
+-1
+SH_minus
+-1
+F-CN-F-Me-C_reactant
+1
+F_CN-F-Me-C_SH_TS
+0
+18.34 # SH_F-CN-F-Me-C
+-1
+F_minus
+-1
+NH2-CN-F-NH2-C_reactant
+1
+F_CN-F-NH2-C_NH2_TS
+0
+24.28 # F_NH2-CN-F-NH2-C
+-1
+F_minus
+-1
+PH2-CN-F-NH2-C_reactant
+1
+F_CN-F-NH2-C_PH2_TS
+0
+6.42 # F_PH2-CN-F-NH2-C
+-1
+PH2_minus
+-1
+F-CN-F-NH2-C_reactant
+1
+F_CN-F-NH2-C_PH2_TS
+0
+9.07 # PH2_F-CN-F-NH2-C
+-1
+SH_minus
+-1
+F-CN-F-NH2-C_reactant
+1
+F_CN-F-NH2-C_SH_TS
+0
+14.77 # SH_F-CN-F-NH2-C
+-1
+F_minus
+-1
+NH2-CN-H-Me-C_reactant
+1
+F_CN-H-Me-C_NH2_TS
+0
+24.59 # F_NH2-CN-H-Me-C
+-1
+F_minus
+-1
+OH-CN-H-Me-C_reactant
+1
+F_CN-H-Me-C_OH_TS
+0
+7.75 # F_OH-CN-H-Me-C
+-1
+F_minus
+-1
+PH2-CN-H-Me-C_reactant
+1
+F_CN-H-Me-C_PH2_TS
+0
+13.45 # F_PH2-CN-H-Me-C
+-1
+PH2_minus
+-1
+F-CN-H-Me-C_reactant
+1
+F_CN-H-Me-C_PH2_TS
+0
+2.55 # PH2_F-CN-H-Me-C
+-1
+SH_minus
+-1
+F-CN-H-Me-C_reactant
+1
+F_CN-H-Me-C_SH_TS
+0
+7.49 # SH_F-CN-H-Me-C
+-1
+F_minus
+-1
+NH2-CN-H-NH2-C_reactant
+1
+F_CN-H-NH2-C_NH2_TS
+0
+20.62 # F_NH2-CN-H-NH2-C
+-1
+SH_minus
+-1
+F-CN-H-OH-C_reactant
+1
+F_CN-H-OH-C_SH_TS
+0
+7.12 # SH_F-CN-H-OH-C
+-1
+F_minus
+-1
+NH2-CN-Me-Me-C_reactant
+1
+F_CN-Me-Me-C_NH2_TS
+0
+27.79 # F_NH2-CN-Me-Me-C
+-1
+F_minus
+-1
+OH-CN-Me-Me-C_reactant
+1
+F_CN-Me-Me-C_OH_TS
+0
+10.61 # F_OH-CN-Me-Me-C
+-1
+F_minus
+-1
+PH2-CN-Me-Me-C_reactant
+1
+F_CN-Me-Me-C_PH2_TS
+0
+16.81 # F_PH2-CN-Me-Me-C
+-1
+PH2_minus
+-1
+F-CN-Me-Me-C_reactant
+1
+F_CN-Me-Me-C_PH2_TS
+0
+9.50 # PH2_F-CN-Me-Me-C
+-1
+SH_minus
+-1
+F-CN-Me-Me-C_reactant
+1
+F_CN-Me-Me-C_SH_TS
+0
+14.97 # SH_F-CN-Me-Me-C
+-1
+F_minus
+-1
+NH2-CN-Me-NH2-C_reactant
+1
+F_CN-Me-NH2-C_NH2_TS
+0
+26.11 # F_NH2-CN-Me-NH2-C
+-1
+F_minus
+-1
+PH2-CN-Me-NH2-C_reactant
+1
+F_CN-Me-NH2-C_PH2_TS
+0
+14.82 # F_PH2-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+F-CN-Me-NH2-C_reactant
+1
+F_CN-Me-NH2-C_PH2_TS
+0
+10.21 # PH2_F-CN-Me-NH2-C
+-1
+SH_minus
+-1
+F-CN-Me-OH-C_reactant
+1
+F_CN-Me-OH-C_SH_TS
+0
+13.21 # SH_F-CN-Me-OH-C
+-1
+F_minus
+-1
+NH2-CN-NH2-NH2-C_reactant
+1
+F_CN-NH2-NH2-C_NH2_TS
+0
+23.32 # F_NH2-CN-NH2-NH2-C
+-1
+SH_minus
+-1
+F-CN-NH2-OH-C_reactant
+1
+F_CN-NH2-OH-C_SH_TS
+0
+12.23 # SH_F-CN-NH2-OH-C
+-1
+F_minus
+-1
+PH2-CN-OH-OH-C_reactant
+1
+F_CN-OH-OH-C_PH2_TS
+0
+3.25 # F_PH2-CN-OH-OH-C
+-1
+PH2_minus
+-1
+F-CN-OH-OH-C_reactant
+1
+F_CN-OH-OH-C_PH2_TS
+0
+7.82 # PH2_F-CN-OH-OH-C
+-1
+F_minus
+-1
+NH2-F-F-F-C_reactant
+1
+F_F-F-F-C_NH2_TS
+0
+52.76 # F_NH2-F-F-F-C
+-1
+NH2_minus
+-1
+F-F-F-F-C_reactant
+1
+F_F-F-F-C_NH2_TS
+0
+14.10 # NH2_F-F-F-F-C
+-1
+F_minus
+-1
+OH-F-F-F-C_reactant
+1
+F_F-F-F-C_OH_TS
+0
+36.48 # F_OH-F-F-F-C
+-1
+OH_minus
+-1
+F-F-F-F-C_reactant
+1
+F_F-F-F-C_OH_TS
+0
+13.62 # OH_F-F-F-F-C
+-1
+F_minus
+-1
+PH2-F-F-F-C_reactant
+1
+F_F-F-F-C_PH2_TS
+0
+30.55 # F_PH2-F-F-F-C
+-1
+PH2_minus
+-1
+F-F-F-F-C_reactant
+1
+F_F-F-F-C_PH2_TS
+0
+37.66 # PH2_F-F-F-F-C
+-1
+F_minus
+-1
+F-F-F-H-C_reactant
+1
+F_F-F-H-C_F_TS
+0
+5.26 # F_F-F-F-H-C
+-1
+F_minus
+-1
+NH2-F-F-H-C_reactant
+1
+F_F-F-H-C_NH2_TS
+0
+42.79 # F_NH2-F-F-H-C
+-1
+NH2_minus
+-1
+F-F-F-H-C_reactant
+1
+F_F-F-H-C_NH2_TS
+0
+5.42 # NH2_F-F-F-H-C
+-1
+F_minus
+-1
+F-F-F-Me-C_reactant
+1
+F_F-F-Me-C_F_TS
+0
+15.27 # F_F-F-F-Me-C
+-1
+F_minus
+-1
+NH2-F-F-Me-C_reactant
+1
+F_F-F-Me-C_NH2_TS
+0
+51.11 # F_NH2-F-F-Me-C
+-1
+NH2_minus
+-1
+F-F-F-Me-C_reactant
+1
+F_F-F-Me-C_NH2_TS
+0
+14.98 # NH2_F-F-F-Me-C
+-1
+F_minus
+-1
+PH2-F-F-Me-C_reactant
+1
+F_F-F-Me-C_PH2_TS
+0
+27.87 # F_PH2-F-F-Me-C
+-1
+PH2_minus
+-1
+F-F-F-Me-C_reactant
+1
+F_F-F-Me-C_PH2_TS
+0
+36.96 # PH2_F-F-F-Me-C
+-1
+F_minus
+-1
+SH-F-F-Me-C_reactant
+1
+F_F-F-Me-C_SH_TS
+0
+13.46 # F_SH-F-F-Me-C
+-1
+SH_minus
+-1
+F-F-F-Me-C_reactant
+1
+F_F-F-Me-C_SH_TS
+0
+40.93 # SH_F-F-F-Me-C
+-1
+F_minus
+-1
+F-F-F-NH2-C_reactant
+1
+F_F-F-NH2-C_F_TS
+0
+10.45 # F_F-F-F-NH2-C
+-1
+F_minus
+-1
+NH2-F-F-NH2-C_reactant
+1
+F_F-F-NH2-C_NH2_TS
+0
+47.08 # F_NH2-F-F-NH2-C
+-1
+NH2_minus
+-1
+F-F-F-NH2-C_reactant
+1
+F_F-F-NH2-C_NH2_TS
+0
+7.89 # NH2_F-F-F-NH2-C
+-1
+F_minus
+-1
+F-F-F-SH-C_reactant
+1
+F_F-F-SH-C_F_TS
+0
+2.61 # F_F-F-F-SH-C
+-1
+F_minus
+-1
+NH2-F-H-H-C_reactant
+1
+F_F-H-H-C_NH2_TS
+0
+40.61 # F_NH2-F-H-H-C
+-1
+F_minus
+-1
+SH-F-H-H-C_reactant
+1
+F_F-H-H-C_SH_TS
+0
+2.37 # F_SH-F-H-H-C
+-1
+SH_minus
+-1
+F-F-H-H-C_reactant
+1
+F_F-H-H-C_SH_TS
+0
+20.97 # SH_F-F-H-H-C
+-1
+F_minus
+-1
+F-F-H-Me-C_reactant
+1
+F_F-H-Me-C_F_TS
+0
+5.21 # F_F-F-H-Me-C
+-1
+F_minus
+-1
+OH-F-H-Me-C_reactant
+1
+F_F-H-Me-C_OH_TS
+0
+26.28 # F_OH-F-H-Me-C
+-1
+OH_minus
+-1
+F-F-H-Me-C_reactant
+1
+F_F-H-Me-C_OH_TS
+0
+5.23 # OH_F-F-H-Me-C
+-1
+F_minus
+-1
+PH2-F-H-Me-C_reactant
+1
+F_F-H-Me-C_PH2_TS
+0
+20.02 # F_PH2-F-H-Me-C
+-1
+PH2_minus
+-1
+F-F-H-Me-C_reactant
+1
+F_F-H-Me-C_PH2_TS
+0
+23.62 # PH2_F-F-H-Me-C
+-1
+F_minus
+-1
+F-F-H-NH2-C_reactant
+1
+F_F-H-NH2-C_F_TS
+0
+2.98 # F_F-F-H-NH2-C
+-1
+F_minus
+-1
+NH2-F-H-NH2-C_reactant
+1
+F_F-H-NH2-C_NH2_TS
+0
+36.48 # F_NH2-F-H-NH2-C
+-1
+NH2_minus
+-1
+F-F-H-NH2-C_reactant
+1
+F_F-H-NH2-C_NH2_TS
+0
+1.71 # NH2_F-F-H-NH2-C
+-1
+F_minus
+-1
+F-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_F_TS
+0
+13.08 # F_F-F-Me-Me-C
+-1
+F_minus
+-1
+NH2-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_NH2_TS
+0
+45.84 # F_NH2-F-Me-Me-C
+-1
+NH2_minus
+-1
+F-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_NH2_TS
+0
+12.71 # NH2_F-F-Me-Me-C
+-1
+F_minus
+-1
+PH2-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_PH2_TS
+0
+26.34 # F_PH2-F-Me-Me-C
+-1
+PH2_minus
+-1
+F-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_PH2_TS
+0
+31.80 # PH2_F-F-Me-Me-C
+-1
+F_minus
+-1
+SH-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_SH_TS
+0
+9.63 # F_SH-F-Me-Me-C
+-1
+SH_minus
+-1
+F-F-Me-Me-C_reactant
+1
+F_F-Me-Me-C_SH_TS
+0
+34.93 # SH_F-F-Me-Me-C
+-1
+F_minus
+-1
+NH2-F-Me-NH2-C_reactant
+1
+F_F-Me-NH2-C_NH2_TS
+0
+44.65 # F_NH2-F-Me-NH2-C
+-1
+NH2_minus
+-1
+F-F-Me-NH2-C_reactant
+1
+F_F-Me-NH2-C_NH2_TS
+0
+9.34 # NH2_F-F-Me-NH2-C
+-1
+F_minus
+-1
+SH-F-Me-OH-C_reactant
+1
+F_F-Me-OH-C_SH_TS
+0
+4.69 # F_SH-F-Me-OH-C
+-1
+SH_minus
+-1
+F-F-Me-OH-C_reactant
+1
+F_F-Me-OH-C_SH_TS
+0
+31.52 # SH_F-F-Me-OH-C
+-1
+F_minus
+-1
+F-F-Me-SH-C_reactant
+1
+F_F-Me-SH-C_F_TS
+0
+3.31 # F_F-F-Me-SH-C
+-1
+F_minus
+-1
+F-F-NH2-NH2-C_reactant
+1
+F_F-NH2-NH2-C_F_TS
+0
+7.34 # F_F-F-NH2-NH2-C
+-1
+F_minus
+-1
+PH2-F-NH2-NH2-C_reactant
+1
+F_F-NH2-NH2-C_PH2_TS
+0
+20.06 # F_PH2-F-NH2-NH2-C
+-1
+PH2_minus
+-1
+F-F-NH2-NH2-C_reactant
+1
+F_F-NH2-NH2-C_PH2_TS
+0
+25.42 # PH2_F-F-NH2-NH2-C
+-1
+F_minus
+-1
+PH2-F-OH-SH-C_reactant
+1
+F_F-OH-SH-C_PH2_TS
+0
+13.86 # F_PH2-F-OH-SH-C
+-1
+PH2_minus
+-1
+F-F-OH-SH-C_reactant
+1
+F_F-OH-SH-C_PH2_TS
+0
+18.30 # PH2_F-F-OH-SH-C
+-1
+SH_minus
+-1
+F-F-OH-SH-C_reactant
+1
+F_F-OH-SH-C_SH_TS
+0
+22.65 # SH_F-F-OH-SH-C
+-1
+F_minus
+-1
+NH2-F-SH-SH-C_reactant
+1
+F_F-SH-SH-C_NH2_TS
+0
+29.95 # F_NH2-F-SH-SH-C
+-1
+F_minus
+-1
+OH-F-SH-SH-C_reactant
+1
+F_F-SH-SH-C_OH_TS
+0
+14.61 # F_OH-F-SH-SH-C
+-1
+F_minus
+-1
+PH2-H-H-H-C_reactant
+1
+F_H-H-H-C_PH2_TS
+0
+22.11 # F_PH2-H-H-H-C
+-1
+PH2_minus
+-1
+F-H-H-H-C_reactant
+1
+F_H-H-H-C_PH2_TS
+0
+10.07 # PH2_F-H-H-H-C
+-1
+F_minus
+-1
+SH-H-H-H-C_reactant
+1
+F_H-H-H-C_SH_TS
+0
+3.60 # F_SH-H-H-H-C
+-1
+SH_minus
+-1
+F-H-H-H-C_reactant
+1
+F_H-H-H-C_SH_TS
+0
+14.22 # SH_F-H-H-H-C
+-1
+F_minus
+-1
+F-H-H-Me-C_reactant
+1
+F_H-H-Me-C_F_TS
+0
+2.22 # F_F-H-H-Me-C
+-1
+F_minus
+-1
+NH2-H-H-Me-C_reactant
+1
+F_H-H-Me-C_NH2_TS
+0
+37.17 # F_NH2-H-H-Me-C
+-1
+NH2_minus
+-1
+F-H-H-Me-C_reactant
+1
+F_H-H-Me-C_NH2_TS
+0
+0.25 # NH2_F-H-H-Me-C
+-1
+F_minus
+-1
+PH2-H-H-Me-C_reactant
+1
+F_H-H-Me-C_PH2_TS
+0
+22.49 # F_PH2-H-H-Me-C
+-1
+PH2_minus
+-1
+F-H-H-Me-C_reactant
+1
+F_H-H-Me-C_PH2_TS
+0
+14.56 # PH2_F-H-H-Me-C
+-1
+F_minus
+-1
+F-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_F_TS
+0
+4.06 # F_F-H-H-NH2-C
+-1
+F_minus
+-1
+NH2-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_NH2_TS
+0
+34.01 # F_NH2-H-H-NH2-C
+-1
+NH2_minus
+-1
+F-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_NH2_TS
+0
+1.41 # NH2_F-H-H-NH2-C
+-1
+F_minus
+-1
+OH-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_OH_TS
+0
+18.10 # F_OH-H-H-NH2-C
+-1
+OH_minus
+-1
+F-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_OH_TS
+0
+1.28 # OH_F-H-H-NH2-C
+-1
+F_minus
+-1
+PH2-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_PH2_TS
+0
+17.58 # F_PH2-H-H-NH2-C
+-1
+PH2_minus
+-1
+F-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_PH2_TS
+0
+18.03 # PH2_F-H-H-NH2-C
+-1
+SH_minus
+-1
+F-H-H-NH2-C_reactant
+1
+F_H-H-NH2-C_SH_TS
+0
+20.49 # SH_F-H-H-NH2-C
+-1
+F_minus
+-1
+F-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_F_TS
+0
+4.69 # F_F-H-Me-Me-C
+-1
+F_minus
+-1
+NH2-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_NH2_TS
+0
+38.33 # F_NH2-H-Me-Me-C
+-1
+NH2_minus
+-1
+F-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_NH2_TS
+0
+3.14 # NH2_F-H-Me-Me-C
+-1
+F_minus
+-1
+PH2-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_PH2_TS
+0
+23.03 # F_PH2-H-Me-Me-C
+-1
+PH2_minus
+-1
+F-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_PH2_TS
+0
+18.96 # PH2_F-H-Me-Me-C
+-1
+F_minus
+-1
+SH-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_SH_TS
+0
+5.96 # F_SH-H-Me-Me-C
+-1
+SH_minus
+-1
+F-H-Me-Me-C_reactant
+1
+F_H-Me-Me-C_SH_TS
+0
+21.89 # SH_F-H-Me-Me-C
+-1
+F_minus
+-1
+F-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_F_TS
+0
+5.80 # F_F-H-Me-NH2-C
+-1
+F_minus
+-1
+NH2-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_NH2_TS
+0
+36.19 # F_NH2-H-Me-NH2-C
+-1
+NH2_minus
+-1
+F-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_NH2_TS
+0
+4.62 # NH2_F-H-Me-NH2-C
+-1
+F_minus
+-1
+PH2-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_PH2_TS
+0
+15.81 # F_PH2-H-Me-NH2-C
+-1
+PH2_minus
+-1
+F-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_PH2_TS
+0
+20.21 # PH2_F-H-Me-NH2-C
+-1
+F_minus
+-1
+SH-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_SH_TS
+0
+0.46 # F_SH-H-Me-NH2-C
+-1
+SH_minus
+-1
+F-H-Me-NH2-C_reactant
+1
+F_H-Me-NH2-C_SH_TS
+0
+21.74 # SH_F-H-Me-NH2-C
+-1
+SH_minus
+-1
+F-H-Me-OH-C_reactant
+1
+F_H-Me-OH-C_SH_TS
+0
+20.97 # SH_F-H-Me-OH-C
+-1
+F_minus
+-1
+F-H-NH2-NH2-C_reactant
+1
+F_H-NH2-NH2-C_F_TS
+0
+2.75 # F_F-H-NH2-NH2-C
+-1
+F_minus
+-1
+NH2-H-NH2-NH2-C_reactant
+1
+F_H-NH2-NH2-C_NH2_TS
+0
+35.37 # F_NH2-H-NH2-NH2-C
+-1
+NH2_minus
+-1
+F-H-NH2-NH2-C_reactant
+1
+F_H-NH2-NH2-C_NH2_TS
+0
+0.79 # NH2_F-H-NH2-NH2-C
+-1
+F_minus
+-1
+OH-H-NH2-NH2-C_reactant
+1
+F_H-NH2-NH2-C_OH_TS
+0
+19.13 # F_OH-H-NH2-NH2-C
+-1
+F_minus
+-1
+PH2-H-SH-SH-C_reactant
+1
+F_H-SH-SH-C_PH2_TS
+0
+12.48 # F_PH2-H-SH-SH-C
+-1
+PH2_minus
+-1
+F-H-SH-SH-C_reactant
+1
+F_H-SH-SH-C_PH2_TS
+0
+3.22 # PH2_F-H-SH-SH-C
+-1
+F_minus
+-1
+F-Me-Me-Me-C_reactant
+1
+F_Me-Me-Me-C_F_TS
+0
+10.54 # F_F-Me-Me-Me-C
+-1
+F_minus
+-1
+SH-Me-Me-Me-C_reactant
+1
+F_Me-Me-Me-C_SH_TS
+0
+12.00 # F_SH-Me-Me-Me-C
+-1
+SH_minus
+-1
+F-Me-Me-Me-C_reactant
+1
+F_Me-Me-Me-C_SH_TS
+0
+29.90 # SH_F-Me-Me-Me-C
+-1
+F_minus
+-1
+F-Me-Me-NH2-C_reactant
+1
+F_Me-Me-NH2-C_F_TS
+0
+11.93 # F_F-Me-Me-NH2-C
+-1
+F_minus
+-1
+NH2-Me-Me-NH2-C_reactant
+1
+F_Me-Me-NH2-C_NH2_TS
+0
+41.81 # F_NH2-Me-Me-NH2-C
+-1
+NH2_minus
+-1
+F-Me-Me-NH2-C_reactant
+1
+F_Me-Me-NH2-C_NH2_TS
+0
+11.34 # NH2_F-Me-Me-NH2-C
+-1
+SH_minus
+-1
+F-Me-Me-NH2-C_reactant
+1
+F_Me-Me-NH2-C_SH_TS
+0
+22.50 # SH_F-Me-Me-NH2-C
+-1
+F_minus
+-1
+F-Me-NH2-NH2-C_reactant
+1
+F_Me-NH2-NH2-C_F_TS
+0
+9.07 # F_F-Me-NH2-NH2-C
+-1
+F_minus
+-1
+NH2-Me-NH2-NH2-C_reactant
+1
+F_Me-NH2-NH2-C_NH2_TS
+0
+38.63 # F_NH2-Me-NH2-NH2-C
+-1
+NH2_minus
+-1
+F-Me-NH2-NH2-C_reactant
+1
+F_Me-NH2-NH2-C_NH2_TS
+0
+7.05 # NH2_F-Me-NH2-NH2-C
+-1
+F_minus
+-1
+OH-Me-SH-SH-C_reactant
+1
+F_Me-SH-SH-C_OH_TS
+0
+14.14 # F_OH-Me-SH-SH-C
+-1
+F_minus
+-1
+PH2-NH2-NH2-SH-C_reactant
+1
+F_NH2-NH2-SH-C_PH2_TS
+0
+12.05 # F_PH2-NH2-NH2-SH-C
+-1
+PH2_minus
+-1
+F-NH2-NH2-SH-C_reactant
+1
+F_NH2-NH2-SH-C_PH2_TS
+0
+14.48 # PH2_F-NH2-NH2-SH-C
+-1
+SH_minus
+-1
+NH2-Br-Br-CCH-C_reactant
+1
+NH2_Br-Br-CCH-C_SH_TS
+0
+55.46 # SH_NH2-Br-Br-CCH-C
+-1
+SH_minus
+-1
+NH2-Br-Br-CN-C_reactant
+1
+NH2_Br-Br-CN-C_SH_TS
+0
+47.24 # SH_NH2-Br-Br-CN-C
+-1
+NH2_minus
+-1
+SH-Br-Br-H-C_reactant
+1
+NH2_Br-Br-H-C_SH_TS
+0
+1.21 # NH2_SH-Br-Br-H-C
+-1
+SH_minus
+-1
+NH2-Br-Br-H-C_reactant
+1
+NH2_Br-Br-H-C_SH_TS
+0
+59.64 # SH_NH2-Br-Br-H-C
+-1
+NH2_minus
+-1
+SH-Br-Br-Me-C_reactant
+1
+NH2_Br-Br-Me-C_SH_TS
+0
+8.08 # NH2_SH-Br-Br-Me-C
+-1
+SH_minus
+-1
+NH2-Br-Br-Me-C_reactant
+1
+NH2_Br-Br-Me-C_SH_TS
+0
+67.56 # SH_NH2-Br-Br-Me-C
+-1
+SH_minus
+-1
+NH2-Br-CCH-Cl-C_reactant
+1
+NH2_Br-CCH-Cl-C_SH_TS
+0
+58.44 # SH_NH2-Br-CCH-Cl-C
+-1
+SH_minus
+-1
+NH2-Br-CCH-F-C_reactant
+1
+NH2_Br-CCH-F-C_SH_TS
+0
+62.13 # SH_NH2-Br-CCH-F-C
+-1
+F_minus
+-1
+NH2-Br-CCH-H-C_reactant
+1
+NH2_Br-CCH-H-C_F_TS
+0
+40.13 # F_NH2-Br-CCH-H-C
+-1
+NH2_minus
+-1
+SH-Br-Cl-Cl-C_reactant
+1
+NH2_Br-Cl-Cl-C_SH_TS
+0
+6.06 # NH2_SH-Br-Cl-Cl-C
+-1
+SH_minus
+-1
+NH2-Br-Cl-Cl-C_reactant
+1
+NH2_Br-Cl-Cl-C_SH_TS
+0
+66.73 # SH_NH2-Br-Cl-Cl-C
+-1
+SH_minus
+-1
+NH2-Br-CN-Cl-C_reactant
+1
+NH2_Br-CN-Cl-C_SH_TS
+0
+47.84 # SH_NH2-Br-CN-Cl-C
+-1
+SH_minus
+-1
+NH2-Br-CN-F-C_reactant
+1
+NH2_Br-CN-F-C_SH_TS
+0
+51.05 # SH_NH2-Br-CN-F-C
+-1
+F_minus
+-1
+NH2-Br-CN-H-C_reactant
+1
+NH2_Br-CN-H-C_F_TS
+0
+29.74 # F_NH2-Br-CN-H-C
+-1
+F_minus
+-1
+NH2-Br-CN-Me-C_reactant
+1
+NH2_Br-CN-Me-C_F_TS
+0
+35.24 # F_NH2-Br-CN-Me-C
+-1
+NH2_minus
+-1
+SH-Br-F-Me-C_reactant
+1
+NH2_Br-F-Me-C_SH_TS
+0
+10.95 # NH2_SH-Br-F-Me-C
+-1
+SH_minus
+-1
+NH2-Br-F-Me-C_reactant
+1
+NH2_Br-F-Me-C_SH_TS
+0
+72.64 # SH_NH2-Br-F-Me-C
+-1
+F_minus
+-1
+NH2-Br-H-H-C_reactant
+1
+NH2_Br-H-H-C_F_TS
+0
+41.95 # F_NH2-Br-H-H-C
+-1
+NH2_minus
+-1
+SH-Br-H-H-C_reactant
+1
+NH2_Br-H-H-C_SH_TS
+0
+0.78 # NH2_SH-Br-H-H-C
+-1
+SH_minus
+-1
+NH2-Br-H-H-C_reactant
+1
+NH2_Br-H-H-C_SH_TS
+0
+58.07 # SH_NH2-Br-H-H-C
+-1
+F_minus
+-1
+NH2-Br-H-Me-C_reactant
+1
+NH2_Br-H-Me-C_F_TS
+0
+44.48 # F_NH2-Br-H-Me-C
+-1
+NH2_minus
+-1
+F-Br-H-Me-C_reactant
+1
+NH2_Br-H-Me-C_F_TS
+0
+1.15 # NH2_F-Br-H-Me-C
+-1
+NH2_minus
+-1
+SH-Br-H-Me-C_reactant
+1
+NH2_Br-H-Me-C_SH_TS
+0
+2.59 # NH2_SH-Br-H-Me-C
+-1
+SH_minus
+-1
+NH2-Br-H-Me-C_reactant
+1
+NH2_Br-H-Me-C_SH_TS
+0
+60.67 # SH_NH2-Br-H-Me-C
+-1
+NH2_minus
+-1
+PH2-Br-H-NH2-C_reactant
+1
+NH2_Br-H-NH2-C_PH2_TS
+0
+13.69 # NH2_PH2-Br-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-Br-H-NH2-C_reactant
+1
+NH2_Br-H-NH2-C_PH2_TS
+0
+49.73 # PH2_NH2-Br-H-NH2-C
+-1
+F_minus
+-1
+NH2-Br-Me-Me-C_reactant
+1
+NH2_Br-Me-Me-C_F_TS
+0
+51.80 # F_NH2-Br-Me-Me-C
+-1
+NH2_minus
+-1
+F-Br-Me-Me-C_reactant
+1
+NH2_Br-Me-Me-C_F_TS
+0
+10.11 # NH2_F-Br-Me-Me-C
+-1
+F_minus
+-1
+NH2-Br-Me-NH2-C_reactant
+1
+NH2_Br-Me-NH2-C_F_TS
+0
+46.27 # F_NH2-Br-Me-NH2-C
+-1
+NH2_minus
+-1
+F-Br-Me-NH2-C_reactant
+1
+NH2_Br-Me-NH2-C_F_TS
+0
+6.27 # NH2_F-Br-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Br-Me-NH2-C_reactant
+1
+NH2_Br-Me-NH2-C_PH2_TS
+0
+20.40 # NH2_PH2-Br-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-Br-Me-NH2-C_reactant
+1
+NH2_Br-Me-NH2-C_PH2_TS
+0
+56.83 # PH2_NH2-Br-Me-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-CCH-H-C_reactant
+1
+NH2_CCH-CCH-H-C_NH2_TS
+0
+18.70 # NH2_NH2-CCH-CCH-H-C
+-1
+NH2_minus
+-1
+OH-CCH-CCH-H-C_reactant
+1
+NH2_CCH-CCH-H-C_OH_TS
+0
+2.95 # NH2_OH-CCH-CCH-H-C
+-1
+OH_minus
+-1
+NH2-CCH-CCH-H-C_reactant
+1
+NH2_CCH-CCH-H-C_OH_TS
+0
+23.27 # OH_NH2-CCH-CCH-H-C
+-1
+NH2_minus
+-1
+PH2-CCH-CCH-H-C_reactant
+1
+NH2_CCH-CCH-H-C_PH2_TS
+0
+5.04 # NH2_PH2-CCH-CCH-H-C
+-1
+PH2_minus
+-1
+NH2-CCH-CCH-H-C_reactant
+1
+NH2_CCH-CCH-H-C_PH2_TS
+0
+33.55 # PH2_NH2-CCH-CCH-H-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-H-C_reactant
+1
+NH2_CCH-Cl-H-C_PH2_TS
+0
+10.06 # NH2_PH2-CCH-Cl-H-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-H-C_reactant
+1
+NH2_CCH-Cl-H-C_PH2_TS
+0
+44.66 # PH2_NH2-CCH-Cl-H-C
+-1
+SH_minus
+-1
+NH2-CCH-Cl-H-C_reactant
+1
+NH2_CCH-Cl-H-C_SH_TS
+0
+53.52 # SH_NH2-CCH-Cl-H-C
+-1
+NH2_minus
+-1
+SH-CCH-Cl-Me-C_reactant
+1
+NH2_CCH-Cl-Me-C_SH_TS
+0
+0.09 # NH2_SH-CCH-Cl-Me-C
+-1
+SH_minus
+-1
+NH2-CCH-Cl-Me-C_reactant
+1
+NH2_CCH-Cl-Me-C_SH_TS
+0
+59.24 # SH_NH2-CCH-Cl-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-NH2-C_reactant
+1
+NH2_CCH-Cl-NH2-C_PH2_TS
+0
+8.78 # NH2_PH2-CCH-Cl-NH2-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-NH2-C_reactant
+1
+NH2_CCH-Cl-NH2-C_PH2_TS
+0
+41.87 # PH2_NH2-CCH-Cl-NH2-C
+-1
+SH_minus
+-1
+NH2-CCH-Cl-NH2-C_reactant
+1
+NH2_CCH-Cl-NH2-C_SH_TS
+0
+51.35 # SH_NH2-CCH-Cl-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-OH-C_reactant
+1
+NH2_CCH-Cl-OH-C_PH2_TS
+0
+3.61 # NH2_PH2-CCH-Cl-OH-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-OH-C_reactant
+1
+NH2_CCH-Cl-OH-C_PH2_TS
+0
+42.26 # PH2_NH2-CCH-Cl-OH-C
+-1
+NH2_minus
+-1
+NH2-CCH-CN-H-C_reactant
+1
+NH2_CCH-CN-H-C_NH2_TS
+0
+8.92 # NH2_NH2-CCH-CN-H-C
+-1
+OH_minus
+-1
+NH2-CCH-CN-H-C_reactant
+1
+NH2_CCH-CN-H-C_OH_TS
+0
+13.42 # OH_NH2-CCH-CN-H-C
+-1
+NH2_minus
+-1
+NH2-CCH-F-F-C_reactant
+1
+NH2_CCH-F-F-C_NH2_TS
+0
+34.67 # NH2_NH2-CCH-F-F-C
+-1
+NH2_minus
+-1
+NH2-CCH-F-H-C_reactant
+1
+NH2_CCH-F-H-C_NH2_TS
+0
+26.87 # NH2_NH2-CCH-F-H-C
+-1
+NH2_minus
+-1
+PH2-CCH-F-H-C_reactant
+1
+NH2_CCH-F-H-C_PH2_TS
+0
+8.94 # NH2_PH2-CCH-F-H-C
+-1
+PH2_minus
+-1
+NH2-CCH-F-H-C_reactant
+1
+NH2_CCH-F-H-C_PH2_TS
+0
+46.24 # PH2_NH2-CCH-F-H-C
+-1
+NH2_minus
+-1
+NH2-CCH-F-Me-C_reactant
+1
+NH2_CCH-F-Me-C_NH2_TS
+0
+32.11 # NH2_NH2-CCH-F-Me-C
+-1
+SH_minus
+-1
+NH2-CCH-F-Me-C_reactant
+1
+NH2_CCH-F-Me-C_SH_TS
+0
+59.33 # SH_NH2-CCH-F-Me-C
+-1
+NH2_minus
+-1
+NH2-CCH-F-NH2-C_reactant
+1
+NH2_CCH-F-NH2-C_NH2_TS
+0
+24.08 # NH2_NH2-CCH-F-NH2-C
+-1
+NH2_minus
+-1
+OH-CCH-F-NH2-C_reactant
+1
+NH2_CCH-F-NH2-C_OH_TS
+0
+13.56 # NH2_OH-CCH-F-NH2-C
+-1
+OH_minus
+-1
+NH2-CCH-F-NH2-C_reactant
+1
+NH2_CCH-F-NH2-C_OH_TS
+0
+28.17 # OH_NH2-CCH-F-NH2-C
+-1
+SH_minus
+-1
+NH2-CCH-F-NH2-C_reactant
+1
+NH2_CCH-F-NH2-C_SH_TS
+0
+54.41 # SH_NH2-CCH-F-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-H-H-C_reactant
+1
+NH2_CCH-H-H-C_NH2_TS
+0
+23.75 # NH2_NH2-CCH-H-H-C
+-1
+F_minus
+-1
+NH2-CCH-H-Me-C_reactant
+1
+NH2_CCH-H-Me-C_F_TS
+0
+34.30 # F_NH2-CCH-H-Me-C
+-1
+NH2_minus
+-1
+NH2-CCH-H-Me-C_reactant
+1
+NH2_CCH-H-Me-C_NH2_TS
+0
+25.66 # NH2_NH2-CCH-H-Me-C
+-1
+NH2_minus
+-1
+OH-CCH-H-Me-C_reactant
+1
+NH2_CCH-H-Me-C_OH_TS
+0
+13.15 # NH2_OH-CCH-H-Me-C
+-1
+OH_minus
+-1
+NH2-CCH-H-Me-C_reactant
+1
+NH2_CCH-H-Me-C_OH_TS
+0
+30.18 # OH_NH2-CCH-H-Me-C
+-1
+SH_minus
+-1
+NH2-CCH-H-Me-C_reactant
+1
+NH2_CCH-H-Me-C_SH_TS
+0
+48.51 # SH_NH2-CCH-H-Me-C
+-1
+NH2_minus
+-1
+NH2-CCH-H-NH2-C_reactant
+1
+NH2_CCH-H-NH2-C_NH2_TS
+0
+22.43 # NH2_NH2-CCH-H-NH2-C
+-1
+NH2_minus
+-1
+OH-CCH-H-NH2-C_reactant
+1
+NH2_CCH-H-NH2-C_OH_TS
+0
+9.86 # NH2_OH-CCH-H-NH2-C
+-1
+OH_minus
+-1
+NH2-CCH-H-NH2-C_reactant
+1
+NH2_CCH-H-NH2-C_OH_TS
+0
+26.58 # OH_NH2-CCH-H-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-H-OH-C_reactant
+1
+NH2_CCH-H-OH-C_NH2_TS
+0
+21.20 # NH2_NH2-CCH-H-OH-C
+-1
+NH2_minus
+-1
+NH2-CCH-Me-Me-C_reactant
+1
+NH2_CCH-Me-Me-C_NH2_TS
+0
+27.90 # NH2_NH2-CCH-Me-Me-C
+-1
+NH2_minus
+-1
+OH-CCH-Me-Me-C_reactant
+1
+NH2_CCH-Me-Me-C_OH_TS
+0
+19.09 # NH2_OH-CCH-Me-Me-C
+-1
+OH_minus
+-1
+NH2-CCH-Me-Me-C_reactant
+1
+NH2_CCH-Me-Me-C_OH_TS
+0
+35.17 # OH_NH2-CCH-Me-Me-C
+-1
+NH2_minus
+-1
+SH-CCH-Me-Me-C_reactant
+1
+NH2_CCH-Me-Me-C_SH_TS
+0
+1.53 # NH2_SH-CCH-Me-Me-C
+-1
+SH_minus
+-1
+NH2-CCH-Me-Me-C_reactant
+1
+NH2_CCH-Me-Me-C_SH_TS
+0
+53.43 # SH_NH2-CCH-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-CCH-Me-NH2-C_reactant
+1
+NH2_CCH-Me-NH2-C_NH2_TS
+0
+28.49 # NH2_NH2-CCH-Me-NH2-C
+-1
+NH2_minus
+-1
+OH-CCH-Me-NH2-C_reactant
+1
+NH2_CCH-Me-NH2-C_OH_TS
+0
+15.94 # NH2_OH-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-CCH-Me-NH2-C_reactant
+1
+NH2_CCH-Me-NH2-C_OH_TS
+0
+32.02 # OH_NH2-CCH-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-Me-NH2-C_reactant
+1
+NH2_CCH-Me-NH2-C_PH2_TS
+0
+11.65 # NH2_PH2-CCH-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-CCH-Me-NH2-C_reactant
+1
+NH2_CCH-Me-NH2-C_PH2_TS
+0
+46.77 # PH2_NH2-CCH-Me-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-Me-OH-C_reactant
+1
+NH2_CCH-Me-OH-C_NH2_TS
+0
+30.69 # NH2_NH2-CCH-Me-OH-C
+-1
+SH_minus
+-1
+NH2-CCH-Me-OH-C_reactant
+1
+NH2_CCH-Me-OH-C_SH_TS
+0
+52.66 # SH_NH2-CCH-Me-OH-C
+-1
+F_minus
+-1
+NH2-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_F_TS
+0
+34.01 # F_NH2-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+F-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_F_TS
+0
+0.15 # NH2_F-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_NH2_TS
+0
+25.97 # NH2_NH2-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+OH-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_OH_TS
+0
+11.17 # NH2_OH-CCH-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_OH_TS
+0
+29.50 # OH_NH2-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_PH2_TS
+0
+7.23 # NH2_PH2-CCH-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-CCH-NH2-NH2-C_reactant
+1
+NH2_CCH-NH2-NH2-C_PH2_TS
+0
+45.54 # PH2_NH2-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+NH2-CCH-NH2-OH-C_reactant
+1
+NH2_CCH-NH2-OH-C_NH2_TS
+0
+24.69 # NH2_NH2-CCH-NH2-OH-C
+-1
+NH2_minus
+-1
+NH2-CCH-SH-SH-C_reactant
+1
+NH2_CCH-SH-SH-C_NH2_TS
+0
+13.71 # NH2_NH2-CCH-SH-SH-C
+-1
+NH2_minus
+-1
+SH-Cl-Cl-Cl-C_reactant
+1
+NH2_Cl-Cl-Cl-C_SH_TS
+0
+7.41 # NH2_SH-Cl-Cl-Cl-C
+-1
+SH_minus
+-1
+NH2-Cl-Cl-Cl-C_reactant
+1
+NH2_Cl-Cl-Cl-C_SH_TS
+0
+68.61 # SH_NH2-Cl-Cl-Cl-C
+-1
+NH2_minus
+-1
+SH-Cl-Cl-F-C_reactant
+1
+NH2_Cl-Cl-F-C_SH_TS
+0
+8.84 # NH2_SH-Cl-Cl-F-C
+-1
+SH_minus
+-1
+NH2-Cl-Cl-F-C_reactant
+1
+NH2_Cl-Cl-F-C_SH_TS
+0
+73.12 # SH_NH2-Cl-Cl-F-C
+-1
+NH2_minus
+-1
+PH2-Cl-Cl-H-C_reactant
+1
+NH2_Cl-Cl-H-C_PH2_TS
+0
+16.87 # NH2_PH2-Cl-Cl-H-C
+-1
+PH2_minus
+-1
+NH2-Cl-Cl-H-C_reactant
+1
+NH2_Cl-Cl-H-C_PH2_TS
+0
+53.36 # PH2_NH2-Cl-Cl-H-C
+-1
+NH2_minus
+-1
+SH-Cl-Cl-H-C_reactant
+1
+NH2_Cl-Cl-H-C_SH_TS
+0
+2.05 # NH2_SH-Cl-Cl-H-C
+-1
+SH_minus
+-1
+NH2-Cl-Cl-H-C_reactant
+1
+NH2_Cl-Cl-H-C_SH_TS
+0
+61.50 # SH_NH2-Cl-Cl-H-C
+-1
+F_minus
+-1
+NH2-Cl-Cl-Me-C_reactant
+1
+NH2_Cl-Cl-Me-C_F_TS
+0
+52.04 # F_NH2-Cl-Cl-Me-C
+-1
+NH2_minus
+-1
+F-Cl-Cl-Me-C_reactant
+1
+NH2_Cl-Cl-Me-C_F_TS
+0
+10.02 # NH2_F-Cl-Cl-Me-C
+-1
+F_minus
+-1
+NH2-Cl-Cl-NH2-C_reactant
+1
+NH2_Cl-Cl-NH2-C_F_TS
+0
+48.82 # F_NH2-Cl-Cl-NH2-C
+-1
+NH2_minus
+-1
+F-Cl-Cl-NH2-C_reactant
+1
+NH2_Cl-Cl-NH2-C_F_TS
+0
+4.72 # NH2_F-Cl-Cl-NH2-C
+-1
+NH2_minus
+-1
+PH2-Cl-F-F-C_reactant
+1
+NH2_Cl-F-F-C_PH2_TS
+0
+19.41 # NH2_PH2-Cl-F-F-C
+-1
+PH2_minus
+-1
+NH2-Cl-F-F-C_reactant
+1
+NH2_Cl-F-F-C_PH2_TS
+0
+62.66 # PH2_NH2-Cl-F-F-C
+-1
+F_minus
+-1
+NH2-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_F_TS
+0
+52.53 # F_NH2-Cl-F-Me-C
+-1
+NH2_minus
+-1
+F-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_F_TS
+0
+13.41 # NH2_F-Cl-F-Me-C
+-1
+NH2_minus
+-1
+PH2-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_PH2_TS
+0
+22.62 # NH2_PH2-Cl-F-Me-C
+-1
+PH2_minus
+-1
+NH2-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_PH2_TS
+0
+64.01 # PH2_NH2-Cl-F-Me-C
+-1
+NH2_minus
+-1
+SH-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_SH_TS
+0
+12.16 # NH2_SH-Cl-F-Me-C
+-1
+SH_minus
+-1
+NH2-Cl-F-Me-C_reactant
+1
+NH2_Cl-F-Me-C_SH_TS
+0
+73.85 # SH_NH2-Cl-F-Me-C
+-1
+F_minus
+-1
+NH2-Cl-F-NH2-C_reactant
+1
+NH2_Cl-F-NH2-C_F_TS
+0
+49.41 # F_NH2-Cl-F-NH2-C
+-1
+NH2_minus
+-1
+F-Cl-F-NH2-C_reactant
+1
+NH2_Cl-F-NH2-C_F_TS
+0
+7.62 # NH2_F-Cl-F-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-H-H-C_reactant
+1
+NH2_Cl-H-H-C_SH_TS
+0
+1.10 # NH2_SH-Cl-H-H-C
+-1
+SH_minus
+-1
+NH2-Cl-H-H-C_reactant
+1
+NH2_Cl-H-H-C_SH_TS
+0
+58.57 # SH_NH2-Cl-H-H-C
+-1
+NH2_minus
+-1
+NH2-Cl-H-Me-C_reactant
+1
+NH2_Cl-H-Me-C_NH2_TS
+0
+36.99 # NH2_NH2-Cl-H-Me-C
+-1
+NH2_minus
+-1
+OH-Cl-H-NH2-C_reactant
+1
+NH2_Cl-H-NH2-C_OH_TS
+0
+14.72 # NH2_OH-Cl-H-NH2-C
+-1
+OH_minus
+-1
+NH2-Cl-H-NH2-C_reactant
+1
+NH2_Cl-H-NH2-C_OH_TS
+0
+30.61 # OH_NH2-Cl-H-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-Me-OH-C_reactant
+1
+NH2_Cl-Me-OH-C_SH_TS
+0
+10.11 # NH2_SH-Cl-Me-OH-C
+-1
+SH_minus
+-1
+NH2-Cl-Me-OH-C_reactant
+1
+NH2_Cl-Me-OH-C_SH_TS
+0
+70.18 # SH_NH2-Cl-Me-OH-C
+-1
+NH2_minus
+-1
+PH2-Cl-NH2-NH2-C_reactant
+1
+NH2_Cl-NH2-NH2-C_PH2_TS
+0
+19.28 # NH2_PH2-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-Cl-NH2-NH2-C_reactant
+1
+NH2_Cl-NH2-NH2-C_PH2_TS
+0
+56.37 # PH2_NH2-Cl-NH2-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-NH2-NH2-C_reactant
+1
+NH2_Cl-NH2-NH2-C_SH_TS
+0
+4.70 # NH2_SH-Cl-NH2-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-NH2-NH2-C_reactant
+1
+NH2_Cl-NH2-NH2-C_SH_TS
+0
+61.67 # SH_NH2-Cl-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-CN-Cl-H-C_reactant
+1
+NH2_CN-Cl-H-C_PH2_TS
+0
+0.35 # NH2_PH2-CN-Cl-H-C
+-1
+PH2_minus
+-1
+NH2-CN-Cl-H-C_reactant
+1
+NH2_CN-Cl-H-C_PH2_TS
+0
+34.53 # PH2_NH2-CN-Cl-H-C
+-1
+SH_minus
+-1
+NH2-CN-Cl-H-C_reactant
+1
+NH2_CN-Cl-H-C_SH_TS
+0
+43.54 # SH_NH2-CN-Cl-H-C
+-1
+NH2_minus
+-1
+PH2-CN-Cl-Me-C_reactant
+1
+NH2_CN-Cl-Me-C_PH2_TS
+0
+2.90 # NH2_PH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-Cl-Me-C_reactant
+1
+NH2_CN-Cl-Me-C_PH2_TS
+0
+38.81 # PH2_NH2-CN-Cl-Me-C
+-1
+SH_minus
+-1
+NH2-CN-Cl-Me-C_reactant
+1
+NH2_CN-Cl-Me-C_SH_TS
+0
+48.93 # SH_NH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-Cl-NH2-C_reactant
+1
+NH2_CN-Cl-NH2-C_PH2_TS
+0
+27.00 # PH2_NH2-CN-Cl-NH2-C
+-1
+SH_minus
+-1
+NH2-CN-Cl-NH2-C_reactant
+1
+NH2_CN-Cl-NH2-C_SH_TS
+0
+36.49 # SH_NH2-CN-Cl-NH2-C
+-1
+F_minus
+-1
+NH2-CN-Cl-OH-C_reactant
+1
+NH2_CN-Cl-OH-C_F_TS
+0
+30.60 # F_NH2-CN-Cl-OH-C
+-1
+NH2_minus
+-1
+NH2-CN-F-F-C_reactant
+1
+NH2_CN-F-F-C_NH2_TS
+0
+20.55 # NH2_NH2-CN-F-F-C
+-1
+NH2_minus
+-1
+NH2-CN-F-H-C_reactant
+1
+NH2_CN-F-H-C_NH2_TS
+0
+15.41 # NH2_NH2-CN-F-H-C
+-1
+NH2_minus
+-1
+OH-CN-F-H-C_reactant
+1
+NH2_CN-F-H-C_OH_TS
+0
+1.18 # NH2_OH-CN-F-H-C
+-1
+OH_minus
+-1
+NH2-CN-F-H-C_reactant
+1
+NH2_CN-F-H-C_OH_TS
+0
+17.78 # OH_NH2-CN-F-H-C
+-1
+PH2_minus
+-1
+NH2-CN-F-H-C_reactant
+1
+NH2_CN-F-H-C_PH2_TS
+0
+36.23 # PH2_NH2-CN-F-H-C
+-1
+SH_minus
+-1
+NH2-CN-F-H-C_reactant
+1
+NH2_CN-F-H-C_SH_TS
+0
+44.27 # SH_NH2-CN-F-H-C
+-1
+NH2_minus
+-1
+NH2-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_NH2_TS
+0
+21.48 # NH2_NH2-CN-F-Me-C
+-1
+NH2_minus
+-1
+OH-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_OH_TS
+0
+6.15 # NH2_OH-CN-F-Me-C
+-1
+OH_minus
+-1
+NH2-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_OH_TS
+0
+23.25 # OH_NH2-CN-F-Me-C
+-1
+NH2_minus
+-1
+PH2-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_PH2_TS
+0
+2.66 # NH2_PH2-CN-F-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_PH2_TS
+0
+41.54 # PH2_NH2-CN-F-Me-C
+-1
+SH_minus
+-1
+NH2-CN-F-Me-C_reactant
+1
+NH2_CN-F-Me-C_SH_TS
+0
+49.62 # SH_NH2-CN-F-Me-C
+-1
+NH2_minus
+-1
+NH2-CN-F-NH2-C_reactant
+1
+NH2_CN-F-NH2-C_NH2_TS
+0
+13.30 # NH2_NH2-CN-F-NH2-C
+-1
+OH_minus
+-1
+NH2-CN-F-NH2-C_reactant
+1
+NH2_CN-F-NH2-C_OH_TS
+0
+17.43 # OH_NH2-CN-F-NH2-C
+-1
+SH_minus
+-1
+NH2-CN-F-NH2-C_reactant
+1
+NH2_CN-F-NH2-C_SH_TS
+0
+45.11 # SH_NH2-CN-F-NH2-C
+-1
+F_minus
+-1
+NH2-CN-H-H-C_reactant
+1
+NH2_CN-H-H-C_F_TS
+0
+23.76 # F_NH2-CN-H-H-C
+-1
+NH2_minus
+-1
+NH2-CN-H-H-C_reactant
+1
+NH2_CN-H-H-C_NH2_TS
+0
+13.61 # NH2_NH2-CN-H-H-C
+-1
+OH_minus
+-1
+NH2-CN-H-H-C_reactant
+1
+NH2_CN-H-H-C_OH_TS
+0
+17.17 # OH_NH2-CN-H-H-C
+-1
+NH2_minus
+-1
+NH2-CN-H-Me-C_reactant
+1
+NH2_CN-H-Me-C_NH2_TS
+0
+15.83 # NH2_NH2-CN-H-Me-C
+-1
+OH_minus
+-1
+NH2-CN-H-Me-C_reactant
+1
+NH2_CN-H-Me-C_OH_TS
+0
+17.76 # OH_NH2-CN-H-Me-C
+-1
+SH_minus
+-1
+NH2-CN-H-Me-C_reactant
+1
+NH2_CN-H-Me-C_SH_TS
+0
+39.66 # SH_NH2-CN-H-Me-C
+-1
+NH2_minus
+-1
+NH2-CN-H-NH2-C_reactant
+1
+NH2_CN-H-NH2-C_NH2_TS
+0
+10.84 # NH2_NH2-CN-H-NH2-C
+-1
+OH_minus
+-1
+NH2-CN-H-NH2-C_reactant
+1
+NH2_CN-H-NH2-C_OH_TS
+0
+15.08 # OH_NH2-CN-H-NH2-C
+-1
+NH2_minus
+-1
+NH2-CN-H-OH-C_reactant
+1
+NH2_CN-H-OH-C_NH2_TS
+0
+11.50 # NH2_NH2-CN-H-OH-C
+-1
+NH2_minus
+-1
+NH2-CN-H-SH-C_reactant
+1
+NH2_CN-H-SH-C_NH2_TS
+0
+7.39 # NH2_NH2-CN-H-SH-C
+-1
+NH2_minus
+-1
+NH2-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_NH2_TS
+0
+17.56 # NH2_NH2-CN-Me-Me-C
+-1
+NH2_minus
+-1
+OH-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_OH_TS
+0
+2.51 # NH2_OH-CN-Me-Me-C
+-1
+OH_minus
+-1
+NH2-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_OH_TS
+0
+21.19 # OH_NH2-CN-Me-Me-C
+-1
+NH2_minus
+-1
+PH2-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_PH2_TS
+0
+4.86 # NH2_PH2-CN-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_PH2_TS
+0
+35.95 # PH2_NH2-CN-Me-Me-C
+-1
+SH_minus
+-1
+NH2-CN-Me-Me-C_reactant
+1
+NH2_CN-Me-Me-C_SH_TS
+0
+44.07 # SH_NH2-CN-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_NH2_TS
+0
+18.14 # NH2_NH2-CN-Me-NH2-C
+-1
+NH2_minus
+-1
+OH-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_OH_TS
+0
+4.82 # NH2_OH-CN-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_OH_TS
+0
+21.78 # OH_NH2-CN-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_PH2_TS
+0
+2.70 # NH2_PH2-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_PH2_TS
+0
+37.45 # PH2_NH2-CN-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-CN-Me-NH2-C_reactant
+1
+NH2_CN-Me-NH2-C_SH_TS
+0
+43.37 # SH_NH2-CN-Me-NH2-C
+-1
+NH2_minus
+-1
+NH2-CN-Me-OH-C_reactant
+1
+NH2_CN-Me-OH-C_NH2_TS
+0
+19.39 # NH2_NH2-CN-Me-OH-C
+-1
+SH_minus
+-1
+NH2-CN-Me-OH-C_reactant
+1
+NH2_CN-Me-OH-C_SH_TS
+0
+42.67 # SH_NH2-CN-Me-OH-C
+-1
+NH2_minus
+-1
+NH2-CN-NH2-NH2-C_reactant
+1
+NH2_CN-NH2-NH2-C_NH2_TS
+0
+14.97 # NH2_NH2-CN-NH2-NH2-C
+-1
+NH2_minus
+-1
+OH-CN-NH2-NH2-C_reactant
+1
+NH2_CN-NH2-NH2-C_OH_TS
+0
+3.77 # NH2_OH-CN-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-CN-NH2-NH2-C_reactant
+1
+NH2_CN-NH2-NH2-C_OH_TS
+0
+18.58 # OH_NH2-CN-NH2-NH2-C
+-1
+SH_minus
+-1
+NH2-CN-NH2-NH2-C_reactant
+1
+NH2_CN-NH2-NH2-C_SH_TS
+0
+42.07 # SH_NH2-CN-NH2-NH2-C
+-1
+NH2_minus
+-1
+NH2-CN-NH2-OH-C_reactant
+1
+NH2_CN-NH2-OH-C_NH2_TS
+0
+7.95 # NH2_NH2-CN-NH2-OH-C
+-1
+NH2_minus
+-1
+NH2-CN-SH-SH-C_reactant
+1
+NH2_CN-SH-SH-C_NH2_TS
+0
+2.45 # NH2_NH2-CN-SH-SH-C
+-1
+NH2_minus
+-1
+OH-F-F-F-C_reactant
+1
+NH2_F-F-F-C_OH_TS
+0
+28.23 # NH2_OH-F-F-F-C
+-1
+OH_minus
+-1
+NH2-F-F-F-C_reactant
+1
+NH2_F-F-F-C_OH_TS
+0
+44.04 # OH_NH2-F-F-F-C
+-1
+NH2_minus
+-1
+NH2-F-F-H-C_reactant
+1
+NH2_F-F-H-C_NH2_TS
+0
+36.27 # NH2_NH2-F-F-H-C
+-1
+NH2_minus
+-1
+NH2-F-F-Me-C_reactant
+1
+NH2_F-F-Me-C_NH2_TS
+0
+44.88 # NH2_NH2-F-F-Me-C
+-1
+NH2_minus
+-1
+OH-F-F-Me-C_reactant
+1
+NH2_F-F-Me-C_OH_TS
+0
+32.66 # NH2_OH-F-F-Me-C
+-1
+OH_minus
+-1
+NH2-F-F-Me-C_reactant
+1
+NH2_F-F-Me-C_OH_TS
+0
+46.30 # OH_NH2-F-F-Me-C
+-1
+NH2_minus
+-1
+SH-F-F-Me-C_reactant
+1
+NH2_F-F-Me-C_SH_TS
+0
+14.00 # NH2_SH-F-F-Me-C
+-1
+SH_minus
+-1
+NH2-F-F-Me-C_reactant
+1
+NH2_F-F-Me-C_SH_TS
+0
+77.59 # SH_NH2-F-F-Me-C
+-1
+NH2_minus
+-1
+NH2-F-F-NH2-C_reactant
+1
+NH2_F-F-NH2-C_NH2_TS
+0
+37.01 # NH2_NH2-F-F-NH2-C
+-1
+NH2_minus
+-1
+OH-F-F-NH2-C_reactant
+1
+NH2_F-F-NH2-C_OH_TS
+0
+24.83 # NH2_OH-F-F-NH2-C
+-1
+OH_minus
+-1
+NH2-F-F-NH2-C_reactant
+1
+NH2_F-F-NH2-C_OH_TS
+0
+41.33 # OH_NH2-F-F-NH2-C
+-1
+NH2_minus
+-1
+SH-F-F-NH2-C_reactant
+1
+NH2_F-F-NH2-C_SH_TS
+0
+7.41 # NH2_SH-F-F-NH2-C
+-1
+SH_minus
+-1
+NH2-F-F-NH2-C_reactant
+1
+NH2_F-F-NH2-C_SH_TS
+0
+73.42 # SH_NH2-F-F-NH2-C
+-1
+NH2_minus
+-1
+NH2-F-H-H-C_reactant
+1
+NH2_F-H-H-C_NH2_TS
+0
+35.45 # NH2_NH2-F-H-H-C
+-1
+NH2_minus
+-1
+OH-F-H-H-C_reactant
+1
+NH2_F-H-H-C_OH_TS
+0
+18.51 # NH2_OH-F-H-H-C
+-1
+OH_minus
+-1
+NH2-F-H-H-C_reactant
+1
+NH2_F-H-H-C_OH_TS
+0
+37.34 # OH_NH2-F-H-H-C
+-1
+F_minus
+-1
+NH2-F-H-Me-C_reactant
+1
+NH2_F-H-Me-C_F_TS
+0
+43.93 # F_NH2-F-H-Me-C
+-1
+NH2_minus
+-1
+F-F-H-Me-C_reactant
+1
+NH2_F-H-Me-C_F_TS
+0
+5.05 # NH2_F-F-H-Me-C
+-1
+NH2_minus
+-1
+NH2-F-H-Me-C_reactant
+1
+NH2_F-H-Me-C_NH2_TS
+0
+39.51 # NH2_NH2-F-H-Me-C
+-1
+NH2_minus
+-1
+OH-F-H-Me-C_reactant
+1
+NH2_F-H-Me-C_OH_TS
+0
+22.20 # NH2_OH-F-H-Me-C
+-1
+OH_minus
+-1
+NH2-F-H-Me-C_reactant
+1
+NH2_F-H-Me-C_OH_TS
+0
+40.02 # OH_NH2-F-H-Me-C
+-1
+NH2_minus
+-1
+NH2-F-H-NH2-C_reactant
+1
+NH2_F-H-NH2-C_NH2_TS
+0
+29.38 # NH2_NH2-F-H-NH2-C
+-1
+NH2_minus
+-1
+OH-F-H-NH2-C_reactant
+1
+NH2_F-H-NH2-C_OH_TS
+0
+18.34 # NH2_OH-F-H-NH2-C
+-1
+OH_minus
+-1
+NH2-F-H-NH2-C_reactant
+1
+NH2_F-H-NH2-C_OH_TS
+0
+31.82 # OH_NH2-F-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-F-H-NH2-C_reactant
+1
+NH2_F-H-NH2-C_PH2_TS
+0
+13.25 # NH2_PH2-F-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-F-H-NH2-C_reactant
+1
+NH2_F-H-NH2-C_PH2_TS
+0
+52.33 # PH2_NH2-F-H-NH2-C
+-1
+NH2_minus
+-1
+NH2-F-Me-Me-C_reactant
+1
+NH2_F-Me-Me-C_NH2_TS
+0
+42.07 # NH2_NH2-F-Me-Me-C
+-1
+NH2_minus
+-1
+OH-F-Me-Me-C_reactant
+1
+NH2_F-Me-Me-C_OH_TS
+0
+31.86 # NH2_OH-F-Me-Me-C
+-1
+OH_minus
+-1
+NH2-F-Me-Me-C_reactant
+1
+NH2_F-Me-Me-C_OH_TS
+0
+44.56 # OH_NH2-F-Me-Me-C
+-1
+NH2_minus
+-1
+SH-F-Me-Me-C_reactant
+1
+NH2_F-Me-Me-C_SH_TS
+0
+9.36 # NH2_SH-F-Me-Me-C
+-1
+SH_minus
+-1
+NH2-F-Me-Me-C_reactant
+1
+NH2_F-Me-Me-C_SH_TS
+0
+67.79 # SH_NH2-F-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-F-Me-NH2-C_reactant
+1
+NH2_F-Me-NH2-C_NH2_TS
+0
+40.35 # NH2_NH2-F-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-F-Me-NH2-C_reactant
+1
+NH2_F-Me-NH2-C_PH2_TS
+0
+22.42 # NH2_PH2-F-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-F-Me-NH2-C_reactant
+1
+NH2_F-Me-NH2-C_PH2_TS
+0
+62.46 # PH2_NH2-F-Me-NH2-C
+-1
+NH2_minus
+-1
+SH-F-Me-NH2-C_reactant
+1
+NH2_F-Me-NH2-C_SH_TS
+0
+7.26 # NH2_SH-F-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-F-Me-NH2-C_reactant
+1
+NH2_F-Me-NH2-C_SH_TS
+0
+66.98 # SH_NH2-F-Me-NH2-C
+-1
+F_minus
+-1
+NH2-F-NH2-NH2-C_reactant
+1
+NH2_F-NH2-NH2-C_F_TS
+0
+42.20 # F_NH2-F-NH2-NH2-C
+-1
+NH2_minus
+-1
+F-F-NH2-NH2-C_reactant
+1
+NH2_F-NH2-NH2-C_F_TS
+0
+6.40 # NH2_F-F-NH2-NH2-C
+-1
+NH2_minus
+-1
+NH2-F-NH2-NH2-C_reactant
+1
+NH2_F-NH2-NH2-C_NH2_TS
+0
+36.25 # NH2_NH2-F-NH2-NH2-C
+-1
+F_minus
+-1
+NH2-H-H-H-C_reactant
+1
+NH2_H-H-H-C_F_TS
+0
+36.03 # F_NH2-H-H-H-C
+-1
+NH2_minus
+-1
+NH2-H-H-H-C_reactant
+1
+NH2_H-H-H-C_NH2_TS
+0
+29.30 # NH2_NH2-H-H-H-C
+-1
+NH2_minus
+-1
+PH2-H-H-H-C_reactant
+1
+NH2_H-H-H-C_PH2_TS
+0
+16.18 # NH2_PH2-H-H-H-C
+-1
+PH2_minus
+-1
+NH2-H-H-H-C_reactant
+1
+NH2_H-H-H-C_PH2_TS
+0
+42.96 # PH2_NH2-H-H-H-C
+-1
+NH2_minus
+-1
+NH2-H-H-Me-C_reactant
+1
+NH2_H-H-Me-C_NH2_TS
+0
+31.13 # NH2_NH2-H-H-Me-C
+-1
+NH2_minus
+-1
+OH-H-H-Me-C_reactant
+1
+NH2_H-H-Me-C_OH_TS
+0
+16.24 # NH2_OH-H-H-Me-C
+-1
+OH_minus
+-1
+NH2-H-H-Me-C_reactant
+1
+NH2_H-H-Me-C_OH_TS
+0
+33.84 # OH_NH2-H-H-Me-C
+-1
+NH2_minus
+-1
+NH2-H-H-NH2-C_reactant
+1
+NH2_H-H-NH2-C_NH2_TS
+0
+26.68 # NH2_NH2-H-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-H-H-NH2-C_reactant
+1
+NH2_H-H-NH2-C_PH2_TS
+0
+11.99 # NH2_PH2-H-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-H-H-NH2-C_reactant
+1
+NH2_H-H-NH2-C_PH2_TS
+0
+45.03 # PH2_NH2-H-H-NH2-C
+-1
+SH_minus
+-1
+NH2-H-H-NH2-C_reactant
+1
+NH2_H-H-NH2-C_SH_TS
+0
+50.84 # SH_NH2-H-H-NH2-C
+-1
+NH2_minus
+-1
+NH2-H-H-OH-C_reactant
+1
+NH2_H-H-OH-C_NH2_TS
+0
+23.93 # NH2_NH2-H-H-OH-C
+-1
+NH2_minus
+-1
+NH2-H-Me-Me-C_reactant
+1
+NH2_H-Me-Me-C_NH2_TS
+0
+33.94 # NH2_NH2-H-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-H-Me-NH2-C_reactant
+1
+NH2_H-Me-NH2-C_NH2_TS
+0
+31.43 # NH2_NH2-H-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-H-Me-NH2-C_reactant
+1
+NH2_H-Me-NH2-C_PH2_TS
+0
+13.09 # NH2_PH2-H-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-H-Me-NH2-C_reactant
+1
+NH2_H-Me-NH2-C_PH2_TS
+0
+49.06 # PH2_NH2-H-Me-NH2-C
+-1
+NH2_minus
+-1
+NH2-H-Me-OH-C_reactant
+1
+NH2_H-Me-OH-C_NH2_TS
+0
+31.00 # NH2_NH2-H-Me-OH-C
+-1
+NH2_minus
+-1
+NH2-H-NH2-NH2-C_reactant
+1
+NH2_H-NH2-NH2-C_NH2_TS
+0
+29.24 # NH2_NH2-H-NH2-NH2-C
+-1
+F_minus
+-1
+NH2-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_F_TS
+0
+45.28 # F_NH2-Me-Me-Me-C
+-1
+NH2_minus
+-1
+F-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_F_TS
+0
+11.22 # NH2_F-Me-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_NH2_TS
+0
+41.13 # NH2_NH2-Me-Me-Me-C
+-1
+NH2_minus
+-1
+PH2-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_PH2_TS
+0
+25.67 # NH2_PH2-Me-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_PH2_TS
+0
+58.29 # PH2_NH2-Me-Me-Me-C
+-1
+NH2_minus
+-1
+SH-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_SH_TS
+0
+12.10 # NH2_SH-Me-Me-Me-C
+-1
+SH_minus
+-1
+NH2-Me-Me-Me-C_reactant
+1
+NH2_Me-Me-Me-C_SH_TS
+0
+64.05 # SH_NH2-Me-Me-Me-C
+-1
+NH2_minus
+-1
+NH2-Me-Me-NH2-C_reactant
+1
+NH2_Me-Me-NH2-C_NH2_TS
+0
+36.71 # NH2_NH2-Me-Me-NH2-C
+-1
+NH2_minus
+-1
+OH-Me-Me-NH2-C_reactant
+1
+NH2_Me-Me-NH2-C_OH_TS
+0
+23.07 # NH2_OH-Me-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-Me-Me-NH2-C_reactant
+1
+NH2_Me-Me-NH2-C_OH_TS
+0
+37.32 # OH_NH2-Me-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Me-Me-NH2-C_reactant
+1
+NH2_Me-Me-NH2-C_PH2_TS
+0
+21.64 # NH2_PH2-Me-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-Me-Me-NH2-C_reactant
+1
+NH2_Me-Me-NH2-C_PH2_TS
+0
+56.94 # PH2_NH2-Me-Me-NH2-C
+-1
+NH2_minus
+-1
+NH2-Me-NH2-NH2-C_reactant
+1
+NH2_Me-NH2-NH2-C_NH2_TS
+0
+36.05 # NH2_NH2-Me-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-Me-OH-SH-C_reactant
+1
+NH2_Me-OH-SH-C_PH2_TS
+0
+15.30 # NH2_PH2-Me-OH-SH-C
+-1
+PH2_minus
+-1
+NH2-Me-OH-SH-C_reactant
+1
+NH2_Me-OH-SH-C_PH2_TS
+0
+52.03 # PH2_NH2-Me-OH-SH-C
+-1
+NH2_minus
+-1
+NH2-Me-SH-SH-C_reactant
+1
+NH2_Me-SH-SH-C_NH2_TS
+0
+22.70 # NH2_NH2-Me-SH-SH-C
+-1
+NH2_minus
+-1
+NH2-NH2-NH2-NH2-C_reactant
+1
+NH2_NH2-NH2-NH2-C_NH2_TS
+0
+33.35 # NH2_NH2-NH2-NH2-NH2-C
+-1
+NH2_minus
+-1
+OH-NH2-NH2-NH2-C_reactant
+1
+NH2_NH2-NH2-NH2-C_OH_TS
+0
+22.45 # NH2_OH-NH2-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-NH2-NH2-NH2-C_reactant
+1
+NH2_NH2-NH2-NH2-C_OH_TS
+0
+34.08 # OH_NH2-NH2-NH2-NH2-C
+-1
+NH2_minus
+-1
+NH2-NH2-NH2-OH-C_reactant
+1
+NH2_NH2-NH2-OH-C_NH2_TS
+0
+39.52 # NH2_NH2-NH2-NH2-OH-C
+-1
+NH2_minus
+-1
+NH2-NH2-NH2-SH-C_reactant
+1
+NH2_NH2-NH2-SH-C_NH2_TS
+0
+24.90 # NH2_NH2-NH2-NH2-SH-C
+-1
+NH2_minus
+-1
+PH2-NH2-OH-SH-C_reactant
+1
+NH2_NH2-OH-SH-C_PH2_TS
+0
+9.27 # NH2_PH2-NH2-OH-SH-C
+-1
+PH2_minus
+-1
+NH2-NH2-OH-SH-C_reactant
+1
+NH2_NH2-OH-SH-C_PH2_TS
+0
+47.82 # PH2_NH2-NH2-OH-SH-C
+-1
+NH2_minus
+-1
+NH2-SH-SH-SH-C_reactant
+1
+NH2_SH-SH-SH-C_NH2_TS
+0
+12.54 # NH2_NH2-SH-SH-SH-C
+-1
+SH_minus
+-1
+OH-Br-Br-CN-C_reactant
+1
+OH_Br-Br-CN-C_SH_TS
+0
+29.95 # SH_OH-Br-Br-CN-C
+-1
+OH_minus
+-1
+SH-Br-Br-H-C_reactant
+1
+OH_Br-Br-H-C_SH_TS
+0
+4.14 # OH_SH-Br-Br-H-C
+-1
+SH_minus
+-1
+OH-Br-Br-H-C_reactant
+1
+OH_Br-Br-H-C_SH_TS
+0
+44.06 # SH_OH-Br-Br-H-C
+-1
+OH_minus
+-1
+SH-Br-CCH-Cl-C_reactant
+1
+OH_Br-CCH-Cl-C_SH_TS
+0
+4.82 # OH_SH-Br-CCH-Cl-C
+-1
+SH_minus
+-1
+OH-Br-CCH-Cl-C_reactant
+1
+OH_Br-CCH-Cl-C_SH_TS
+0
+45.33 # SH_OH-Br-CCH-Cl-C
+-1
+OH_minus
+-1
+PH2-Br-CCH-H-C_reactant
+1
+OH_Br-CCH-H-C_PH2_TS
+0
+16.19 # OH_PH2-Br-CCH-H-C
+-1
+PH2_minus
+-1
+OH-Br-CCH-H-C_reactant
+1
+OH_Br-CCH-H-C_PH2_TS
+0
+29.49 # PH2_OH-Br-CCH-H-C
+-1
+OH_minus
+-1
+SH-Br-CCH-H-C_reactant
+1
+OH_Br-CCH-H-C_SH_TS
+0
+0.55 # OH_SH-Br-CCH-H-C
+-1
+SH_minus
+-1
+OH-Br-CCH-H-C_reactant
+1
+OH_Br-CCH-H-C_SH_TS
+0
+37.68 # SH_OH-Br-CCH-H-C
+-1
+F_minus
+-1
+OH-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_F_TS
+0
+25.22 # F_OH-Br-CCH-Me-C
+-1
+OH_minus
+-1
+F-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_F_TS
+0
+0.58 # OH_F-Br-CCH-Me-C
+-1
+OH_minus
+-1
+PH2-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_PH2_TS
+0
+18.71 # OH_PH2-Br-CCH-Me-C
+-1
+PH2_minus
+-1
+OH-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_PH2_TS
+0
+34.44 # PH2_OH-Br-CCH-Me-C
+-1
+OH_minus
+-1
+SH-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_SH_TS
+0
+4.47 # OH_SH-Br-CCH-Me-C
+-1
+SH_minus
+-1
+OH-Br-CCH-Me-C_reactant
+1
+OH_Br-CCH-Me-C_SH_TS
+0
+44.15 # SH_OH-Br-CCH-Me-C
+-1
+F_minus
+-1
+OH-Br-CCH-NH2-C_reactant
+1
+OH_Br-CCH-NH2-C_F_TS
+0
+20.80 # F_OH-Br-CCH-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-CCH-NH2-C_reactant
+1
+OH_Br-CCH-NH2-C_PH2_TS
+0
+16.61 # OH_PH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+OH-Br-CCH-NH2-C_reactant
+1
+OH_Br-CCH-NH2-C_PH2_TS
+0
+32.83 # PH2_OH-Br-CCH-NH2-C
+-1
+OH_minus
+-1
+SH-Br-CCH-NH2-C_reactant
+1
+OH_Br-CCH-NH2-C_SH_TS
+0
+1.33 # OH_SH-Br-CCH-NH2-C
+-1
+SH_minus
+-1
+OH-Br-CCH-NH2-C_reactant
+1
+OH_Br-CCH-NH2-C_SH_TS
+0
+41.04 # SH_OH-Br-CCH-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-CCH-OH-C_reactant
+1
+OH_Br-CCH-OH-C_PH2_TS
+0
+10.22 # OH_PH2-Br-CCH-OH-C
+-1
+PH2_minus
+-1
+OH-Br-CCH-OH-C_reactant
+1
+OH_Br-CCH-OH-C_PH2_TS
+0
+30.06 # PH2_OH-Br-CCH-OH-C
+-1
+SH_minus
+-1
+OH-Br-CCH-OH-C_reactant
+1
+OH_Br-CCH-OH-C_SH_TS
+0
+39.41 # SH_OH-Br-CCH-OH-C
+-1
+OH_minus
+-1
+SH-Br-Cl-H-C_reactant
+1
+OH_Br-Cl-H-C_SH_TS
+0
+4.40 # OH_SH-Br-Cl-H-C
+-1
+SH_minus
+-1
+OH-Br-Cl-H-C_reactant
+1
+OH_Br-Cl-H-C_SH_TS
+0
+45.25 # SH_OH-Br-Cl-H-C
+-1
+SH_minus
+-1
+OH-Br-CN-Cl-C_reactant
+1
+OH_Br-CN-Cl-C_SH_TS
+0
+32.41 # SH_OH-Br-CN-Cl-C
+-1
+F_minus
+-1
+OH-Br-CN-F-C_reactant
+1
+OH_Br-CN-F-C_F_TS
+0
+11.95 # F_OH-Br-CN-F-C
+-1
+SH_minus
+-1
+OH-Br-CN-H-C_reactant
+1
+OH_Br-CN-H-C_SH_TS
+0
+27.68 # SH_OH-Br-CN-H-C
+-1
+OH_minus
+-1
+OH-Br-CN-Me-C_reactant
+1
+OH_Br-CN-Me-C_OH_TS
+0
+6.73 # OH_OH-Br-CN-Me-C
+-1
+OH_minus
+-1
+PH2-Br-CN-Me-C_reactant
+1
+OH_Br-CN-Me-C_PH2_TS
+0
+10.18 # OH_PH2-Br-CN-Me-C
+-1
+PH2_minus
+-1
+OH-Br-CN-Me-C_reactant
+1
+OH_Br-CN-Me-C_PH2_TS
+0
+24.32 # PH2_OH-Br-CN-Me-C
+-1
+OH_minus
+-1
+PH2-Br-CN-NH2-C_reactant
+1
+OH_Br-CN-NH2-C_PH2_TS
+0
+6.80 # OH_PH2-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+OH-Br-CN-NH2-C_reactant
+1
+OH_Br-CN-NH2-C_PH2_TS
+0
+21.90 # PH2_OH-Br-CN-NH2-C
+-1
+SH_minus
+-1
+OH-Br-CN-NH2-C_reactant
+1
+OH_Br-CN-NH2-C_SH_TS
+0
+29.65 # SH_OH-Br-CN-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-CN-OH-C_reactant
+1
+OH_Br-CN-OH-C_PH2_TS
+0
+1.11 # OH_PH2-Br-CN-OH-C
+-1
+PH2_minus
+-1
+OH-Br-CN-OH-C_reactant
+1
+OH_Br-CN-OH-C_PH2_TS
+0
+19.92 # PH2_OH-Br-CN-OH-C
+-1
+OH_minus
+-1
+SH-Br-F-H-C_reactant
+1
+OH_Br-F-H-C_SH_TS
+0
+3.97 # OH_SH-Br-F-H-C
+-1
+SH_minus
+-1
+OH-Br-F-H-C_reactant
+1
+OH_Br-F-H-C_SH_TS
+0
+48.94 # SH_OH-Br-F-H-C
+-1
+OH_minus
+-1
+SH-Br-F-Me-C_reactant
+1
+OH_Br-F-Me-C_SH_TS
+0
+11.62 # OH_SH-Br-F-Me-C
+-1
+SH_minus
+-1
+OH-Br-F-Me-C_reactant
+1
+OH_Br-F-Me-C_SH_TS
+0
+57.75 # SH_OH-Br-F-Me-C
+-1
+OH_minus
+-1
+SH-Br-F-NH2-C_reactant
+1
+OH_Br-F-NH2-C_SH_TS
+0
+4.94 # OH_SH-Br-F-NH2-C
+-1
+SH_minus
+-1
+OH-Br-F-NH2-C_reactant
+1
+OH_Br-F-NH2-C_SH_TS
+0
+51.29 # SH_OH-Br-F-NH2-C
+-1
+F_minus
+-1
+OH-Br-H-H-C_reactant
+1
+OH_Br-H-H-C_F_TS
+0
+21.89 # F_OH-Br-H-H-C
+-1
+OH_minus
+-1
+PH2-Br-H-H-C_reactant
+1
+OH_Br-H-H-C_PH2_TS
+0
+19.51 # OH_PH2-Br-H-H-C
+-1
+PH2_minus
+-1
+OH-Br-H-H-C_reactant
+1
+OH_Br-H-H-C_PH2_TS
+0
+33.53 # PH2_OH-Br-H-H-C
+-1
+OH_minus
+-1
+SH-Br-H-H-C_reactant
+1
+OH_Br-H-H-C_SH_TS
+0
+3.01 # OH_SH-Br-H-H-C
+-1
+SH_minus
+-1
+OH-Br-H-H-C_reactant
+1
+OH_Br-H-H-C_SH_TS
+0
+39.10 # SH_OH-Br-H-H-C
+-1
+OH_minus
+-1
+OH-Br-H-Me-C_reactant
+1
+OH_Br-H-Me-C_OH_TS
+0
+20.91 # OH_OH-Br-H-Me-C
+-1
+F_minus
+-1
+OH-Br-H-NH2-C_reactant
+1
+OH_Br-H-NH2-C_F_TS
+0
+20.18 # F_OH-Br-H-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-H-OH-C_reactant
+1
+OH_Br-H-OH-C_PH2_TS
+0
+14.67 # OH_PH2-Br-H-OH-C
+-1
+PH2_minus
+-1
+OH-Br-H-OH-C_reactant
+1
+OH_Br-H-OH-C_PH2_TS
+0
+36.18 # PH2_OH-Br-H-OH-C
+-1
+OH_minus
+-1
+OH-Br-Me-Me-C_reactant
+1
+OH_Br-Me-Me-C_OH_TS
+0
+29.45 # OH_OH-Br-Me-Me-C
+-1
+OH_minus
+-1
+PH2-Br-Me-Me-C_reactant
+1
+OH_Br-Me-Me-C_PH2_TS
+0
+28.74 # OH_PH2-Br-Me-Me-C
+-1
+PH2_minus
+-1
+OH-Br-Me-Me-C_reactant
+1
+OH_Br-Me-Me-C_PH2_TS
+0
+46.93 # PH2_OH-Br-Me-Me-C
+-1
+OH_minus
+-1
+PH2-Br-Me-OH-C_reactant
+1
+OH_Br-Me-OH-C_PH2_TS
+0
+19.93 # OH_PH2-Br-Me-OH-C
+-1
+PH2_minus
+-1
+OH-Br-Me-OH-C_reactant
+1
+OH_Br-Me-OH-C_PH2_TS
+0
+43.76 # PH2_OH-Br-Me-OH-C
+-1
+F_minus
+-1
+OH-Br-NH2-OH-C_reactant
+1
+OH_Br-NH2-OH-C_F_TS
+0
+22.90 # F_OH-Br-NH2-OH-C
+-1
+OH_minus
+-1
+F-Br-NH2-OH-C_reactant
+1
+OH_Br-NH2-OH-C_F_TS
+0
+2.27 # OH_F-Br-NH2-OH-C
+-1
+OH_minus
+-1
+PH2-Br-NH2-OH-C_reactant
+1
+OH_Br-NH2-OH-C_PH2_TS
+0
+18.43 # OH_PH2-Br-NH2-OH-C
+-1
+PH2_minus
+-1
+OH-Br-NH2-OH-C_reactant
+1
+OH_Br-NH2-OH-C_PH2_TS
+0
+38.90 # PH2_OH-Br-NH2-OH-C
+-1
+OH_minus
+-1
+PH2-Br-NH2-SH-C_reactant
+1
+OH_Br-NH2-SH-C_PH2_TS
+0
+14.48 # OH_PH2-Br-NH2-SH-C
+-1
+PH2_minus
+-1
+OH-Br-NH2-SH-C_reactant
+1
+OH_Br-NH2-SH-C_PH2_TS
+0
+31.36 # PH2_OH-Br-NH2-SH-C
+-1
+OH_minus
+-1
+PH2-Br-SH-SH-C_reactant
+1
+OH_Br-SH-SH-C_PH2_TS
+0
+7.01 # OH_PH2-Br-SH-SH-C
+-1
+PH2_minus
+-1
+OH-Br-SH-SH-C_reactant
+1
+OH_Br-SH-SH-C_PH2_TS
+0
+24.37 # PH2_OH-Br-SH-SH-C
+-1
+F_minus
+-1
+OH-CCH-CCH-H-C_reactant
+1
+OH_CCH-CCH-H-C_F_TS
+0
+13.19 # F_OH-CCH-CCH-H-C
+-1
+OH_minus
+-1
+OH-CCH-CCH-H-C_reactant
+1
+OH_CCH-CCH-H-C_OH_TS
+0
+6.71 # OH_OH-CCH-CCH-H-C
+-1
+SH_minus
+-1
+OH-CCH-CCH-H-C_reactant
+1
+OH_CCH-CCH-H-C_SH_TS
+0
+28.26 # SH_OH-CCH-CCH-H-C
+-1
+F_minus
+-1
+OH-CCH-Cl-Cl-C_reactant
+1
+OH_CCH-Cl-Cl-C_F_TS
+0
+25.48 # F_OH-CCH-Cl-Cl-C
+-1
+OH_minus
+-1
+SH-CCH-Cl-Cl-C_reactant
+1
+OH_CCH-Cl-Cl-C_SH_TS
+0
+6.17 # OH_SH-CCH-Cl-Cl-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-Cl-C_reactant
+1
+OH_CCH-Cl-Cl-C_SH_TS
+0
+47.35 # SH_OH-CCH-Cl-Cl-C
+-1
+OH_minus
+-1
+PH2-CCH-Cl-F-C_reactant
+1
+OH_CCH-Cl-F-C_PH2_TS
+0
+17.39 # OH_PH2-CCH-Cl-F-C
+-1
+PH2_minus
+-1
+OH-CCH-Cl-F-C_reactant
+1
+OH_CCH-Cl-F-C_PH2_TS
+0
+39.81 # PH2_OH-CCH-Cl-F-C
+-1
+OH_minus
+-1
+SH-CCH-Cl-F-C_reactant
+1
+OH_CCH-Cl-F-C_SH_TS
+0
+3.62 # OH_SH-CCH-Cl-F-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-F-C_reactant
+1
+OH_CCH-Cl-F-C_SH_TS
+0
+49.83 # SH_OH-CCH-Cl-F-C
+-1
+OH_minus
+-1
+OH-CCH-Cl-H-C_reactant
+1
+OH_CCH-Cl-H-C_OH_TS
+0
+13.19 # OH_OH-CCH-Cl-H-C
+-1
+OH_minus
+-1
+PH2-CCH-Cl-H-C_reactant
+1
+OH_CCH-Cl-H-C_PH2_TS
+0
+15.41 # OH_PH2-CCH-Cl-H-C
+-1
+PH2_minus
+-1
+OH-CCH-Cl-H-C_reactant
+1
+OH_CCH-Cl-H-C_PH2_TS
+0
+28.89 # PH2_OH-CCH-Cl-H-C
+-1
+F_minus
+-1
+OH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_F_TS
+0
+26.20 # F_OH-CCH-Cl-Me-C
+-1
+OH_minus
+-1
+F-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_F_TS
+0
+2.04 # OH_F-CCH-Cl-Me-C
+-1
+NH2_minus
+-1
+OH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_NH2_TS
+0
+17.03 # NH2_OH-CCH-Cl-Me-C
+-1
+OH_minus
+-1
+NH2-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_NH2_TS
+0
+35.62 # OH_NH2-CCH-Cl-Me-C
+-1
+OH_minus
+-1
+OH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_OH_TS
+0
+20.01 # OH_OH-CCH-Cl-Me-C
+-1
+OH_minus
+-1
+PH2-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_PH2_TS
+0
+18.62 # OH_PH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+OH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_PH2_TS
+0
+35.63 # PH2_OH-CCH-Cl-Me-C
+-1
+OH_minus
+-1
+SH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_SH_TS
+0
+4.31 # OH_SH-CCH-Cl-Me-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-Me-C_reactant
+1
+OH_CCH-Cl-Me-C_SH_TS
+0
+44.88 # SH_OH-CCH-Cl-Me-C
+-1
+F_minus
+-1
+OH-CCH-Cl-NH2-C_reactant
+1
+OH_CCH-Cl-NH2-C_F_TS
+0
+21.30 # F_OH-CCH-Cl-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-Cl-NH2-C_reactant
+1
+OH_CCH-Cl-NH2-C_PH2_TS
+0
+17.52 # OH_PH2-CCH-Cl-NH2-C
+-1
+PH2_minus
+-1
+OH-CCH-Cl-NH2-C_reactant
+1
+OH_CCH-Cl-NH2-C_PH2_TS
+0
+33.56 # PH2_OH-CCH-Cl-NH2-C
+-1
+OH_minus
+-1
+SH-CCH-Cl-NH2-C_reactant
+1
+OH_CCH-Cl-NH2-C_SH_TS
+0
+0.39 # OH_SH-CCH-Cl-NH2-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-NH2-C_reactant
+1
+OH_CCH-Cl-NH2-C_SH_TS
+0
+39.64 # SH_OH-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+OH-CCH-CN-H-C_reactant
+1
+OH_CCH-CN-H-C_F_TS
+0
+2.31 # F_OH-CCH-CN-H-C
+-1
+OH_minus
+-1
+PH2-CCH-CN-H-C_reactant
+1
+OH_CCH-CN-H-C_PH2_TS
+0
+2.18 # OH_PH2-CCH-CN-H-C
+-1
+PH2_minus
+-1
+OH-CCH-CN-H-C_reactant
+1
+OH_CCH-CN-H-C_PH2_TS
+0
+9.43 # PH2_OH-CCH-CN-H-C
+-1
+SH_minus
+-1
+OH-CCH-CN-H-C_reactant
+1
+OH_CCH-CN-H-C_SH_TS
+0
+18.77 # SH_OH-CCH-CN-H-C
+-1
+F_minus
+-1
+OH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_F_TS
+0
+29.42 # F_OH-CCH-F-F-C
+-1
+OH_minus
+-1
+F-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_F_TS
+0
+6.23 # OH_F-CCH-F-F-C
+-1
+NH2_minus
+-1
+OH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_NH2_TS
+0
+22.42 # NH2_OH-CCH-F-F-C
+-1
+OH_minus
+-1
+NH2-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_NH2_TS
+0
+38.13 # OH_NH2-CCH-F-F-C
+-1
+OH_minus
+-1
+OH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_OH_TS
+0
+24.90 # OH_OH-CCH-F-F-C
+-1
+OH_minus
+-1
+PH2-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_PH2_TS
+0
+17.51 # OH_PH2-CCH-F-F-C
+-1
+PH2_minus
+-1
+OH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_PH2_TS
+0
+45.54 # PH2_OH-CCH-F-F-C
+-1
+OH_minus
+-1
+SH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_SH_TS
+0
+4.78 # OH_SH-CCH-F-F-C
+-1
+SH_minus
+-1
+OH-CCH-F-F-C_reactant
+1
+OH_CCH-F-F-C_SH_TS
+0
+53.76 # SH_OH-CCH-F-F-C
+-1
+NH2_minus
+-1
+OH-CCH-F-H-C_reactant
+1
+OH_CCH-F-H-C_NH2_TS
+0
+12.67 # NH2_OH-CCH-F-H-C
+-1
+OH_minus
+-1
+NH2-CCH-F-H-C_reactant
+1
+OH_CCH-F-H-C_NH2_TS
+0
+29.23 # OH_NH2-CCH-F-H-C
+-1
+OH_minus
+-1
+OH-CCH-F-H-C_reactant
+1
+OH_CCH-F-H-C_OH_TS
+0
+14.34 # OH_OH-CCH-F-H-C
+-1
+SH_minus
+-1
+OH-CCH-F-H-C_reactant
+1
+OH_CCH-F-H-C_SH_TS
+0
+39.87 # SH_OH-CCH-F-H-C
+-1
+NH2_minus
+-1
+OH-CCH-F-Me-C_reactant
+1
+OH_CCH-F-Me-C_NH2_TS
+0
+20.25 # NH2_OH-CCH-F-Me-C
+-1
+OH_minus
+-1
+NH2-CCH-F-Me-C_reactant
+1
+OH_CCH-F-Me-C_NH2_TS
+0
+34.13 # OH_NH2-CCH-F-Me-C
+-1
+OH_minus
+-1
+OH-CCH-F-Me-C_reactant
+1
+OH_CCH-F-Me-C_OH_TS
+0
+21.99 # OH_OH-CCH-F-Me-C
+-1
+OH_minus
+-1
+SH-CCH-F-Me-C_reactant
+1
+OH_CCH-F-Me-C_SH_TS
+0
+2.11 # OH_SH-CCH-F-Me-C
+-1
+SH_minus
+-1
+OH-CCH-F-Me-C_reactant
+1
+OH_CCH-F-Me-C_SH_TS
+0
+47.74 # SH_OH-CCH-F-Me-C
+-1
+F_minus
+-1
+OH-CCH-F-NH2-C_reactant
+1
+OH_CCH-F-NH2-C_F_TS
+0
+21.96 # F_OH-CCH-F-NH2-C
+-1
+OH_minus
+-1
+OH-CCH-F-NH2-C_reactant
+1
+OH_CCH-F-NH2-C_OH_TS
+0
+17.13 # OH_OH-CCH-F-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-F-NH2-C_reactant
+1
+OH_CCH-F-NH2-C_PH2_TS
+0
+14.94 # OH_PH2-CCH-F-NH2-C
+-1
+PH2_minus
+-1
+OH-CCH-F-NH2-C_reactant
+1
+OH_CCH-F-NH2-C_PH2_TS
+0
+38.01 # PH2_OH-CCH-F-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-F-OH-C_reactant
+1
+OH_CCH-F-OH-C_PH2_TS
+0
+10.00 # OH_PH2-CCH-F-OH-C
+-1
+PH2_minus
+-1
+OH-CCH-F-OH-C_reactant
+1
+OH_CCH-F-OH-C_PH2_TS
+0
+36.67 # PH2_OH-CCH-F-OH-C
+-1
+SH_minus
+-1
+OH-CCH-F-OH-C_reactant
+1
+OH_CCH-F-OH-C_SH_TS
+0
+43.75 # SH_OH-CCH-F-OH-C
+-1
+F_minus
+-1
+OH-CCH-H-H-C_reactant
+1
+OH_CCH-H-H-C_F_TS
+0
+17.12 # F_OH-CCH-H-H-C
+-1
+NH2_minus
+-1
+OH-CCH-H-H-C_reactant
+1
+OH_CCH-H-H-C_NH2_TS
+0
+9.05 # NH2_OH-CCH-H-H-C
+-1
+OH_minus
+-1
+NH2-CCH-H-H-C_reactant
+1
+OH_CCH-H-H-C_NH2_TS
+0
+28.61 # OH_NH2-CCH-H-H-C
+-1
+OH_minus
+-1
+OH-CCH-H-H-C_reactant
+1
+OH_CCH-H-H-C_OH_TS
+0
+9.93 # OH_OH-CCH-H-H-C
+-1
+SH_minus
+-1
+OH-CCH-H-H-C_reactant
+1
+OH_CCH-H-H-C_SH_TS
+0
+29.97 # SH_OH-CCH-H-H-C
+-1
+F_minus
+-1
+OH-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_F_TS
+0
+20.48 # F_OH-CCH-H-Me-C
+-1
+OH_minus
+-1
+OH-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_OH_TS
+0
+15.14 # OH_OH-CCH-H-Me-C
+-1
+OH_minus
+-1
+PH2-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_PH2_TS
+0
+15.31 # OH_PH2-CCH-H-Me-C
+-1
+PH2_minus
+-1
+OH-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_PH2_TS
+0
+27.34 # PH2_OH-CCH-H-Me-C
+-1
+OH_minus
+-1
+SH-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_SH_TS
+0
+1.93 # OH_SH-CCH-H-Me-C
+-1
+SH_minus
+-1
+OH-CCH-H-Me-C_reactant
+1
+OH_CCH-H-Me-C_SH_TS
+0
+36.08 # SH_OH-CCH-H-Me-C
+-1
+OH_minus
+-1
+OH-CCH-H-NH2-C_reactant
+1
+OH_CCH-H-NH2-C_OH_TS
+0
+10.78 # OH_OH-CCH-H-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-H-OH-C_reactant
+1
+OH_CCH-H-OH-C_PH2_TS
+0
+8.57 # OH_PH2-CCH-H-OH-C
+-1
+PH2_minus
+-1
+OH-CCH-H-OH-C_reactant
+1
+OH_CCH-H-OH-C_PH2_TS
+0
+27.53 # PH2_OH-CCH-H-OH-C
+-1
+SH_minus
+-1
+OH-CCH-H-OH-C_reactant
+1
+OH_CCH-H-OH-C_SH_TS
+0
+33.18 # SH_OH-CCH-H-OH-C
+-1
+F_minus
+-1
+OH-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_F_TS
+0
+23.02 # F_OH-CCH-Me-Me-C
+-1
+OH_minus
+-1
+F-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_F_TS
+0
+2.69 # OH_F-CCH-Me-Me-C
+-1
+OH_minus
+-1
+OH-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_OH_TS
+0
+17.72 # OH_OH-CCH-Me-Me-C
+-1
+OH_minus
+-1
+PH2-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_PH2_TS
+0
+23.11 # OH_PH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+OH-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_PH2_TS
+0
+37.70 # PH2_OH-CCH-Me-Me-C
+-1
+OH_minus
+-1
+SH-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_SH_TS
+0
+9.11 # OH_SH-CCH-Me-Me-C
+-1
+SH_minus
+-1
+OH-CCH-Me-Me-C_reactant
+1
+OH_CCH-Me-Me-C_SH_TS
+0
+44.93 # SH_OH-CCH-Me-Me-C
+-1
+F_minus
+-1
+OH-CCH-Me-NH2-C_reactant
+1
+OH_CCH-Me-NH2-C_F_TS
+0
+22.92 # F_OH-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+F-CCH-Me-NH2-C_reactant
+1
+OH_CCH-Me-NH2-C_F_TS
+0
+1.38 # OH_F-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+OH-CCH-Me-NH2-C_reactant
+1
+OH_CCH-Me-NH2-C_OH_TS
+0
+17.39 # OH_OH-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-Me-NH2-C_reactant
+1
+OH_CCH-Me-NH2-C_PH2_TS
+0
+17.19 # OH_PH2-CCH-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-CCH-Me-NH2-C_reactant
+1
+OH_CCH-Me-NH2-C_PH2_TS
+0
+36.23 # PH2_OH-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-Me-OH-C_reactant
+1
+OH_CCH-Me-OH-C_PH2_TS
+0
+11.60 # OH_PH2-CCH-Me-OH-C
+-1
+PH2_minus
+-1
+OH-CCH-Me-OH-C_reactant
+1
+OH_CCH-Me-OH-C_PH2_TS
+0
+34.74 # PH2_OH-CCH-Me-OH-C
+-1
+F_minus
+-1
+OH-CCH-NH2-NH2-C_reactant
+1
+OH_CCH-NH2-NH2-C_F_TS
+0
+19.24 # F_OH-CCH-NH2-NH2-C
+-1
+OH_minus
+-1
+F-CCH-NH2-NH2-C_reactant
+1
+OH_CCH-NH2-NH2-C_F_TS
+0
+3.71 # OH_F-CCH-NH2-NH2-C
+-1
+OH_minus
+-1
+OH-CCH-NH2-NH2-C_reactant
+1
+OH_CCH-NH2-NH2-C_OH_TS
+0
+12.09 # OH_OH-CCH-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-NH2-NH2-C_reactant
+1
+OH_CCH-NH2-NH2-C_PH2_TS
+0
+15.12 # OH_PH2-CCH-NH2-NH2-C
+-1
+PH2_minus
+-1
+OH-CCH-NH2-NH2-C_reactant
+1
+OH_CCH-NH2-NH2-C_PH2_TS
+0
+35.10 # PH2_OH-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+OH-CCH-SH-SH-C_reactant
+1
+OH_CCH-SH-SH-C_NH2_TS
+0
+2.06 # NH2_OH-CCH-SH-SH-C
+-1
+OH_minus
+-1
+NH2-CCH-SH-SH-C_reactant
+1
+OH_CCH-SH-SH-C_NH2_TS
+0
+21.05 # OH_NH2-CCH-SH-SH-C
+-1
+F_minus
+-1
+OH-Cl-Cl-H-C_reactant
+1
+OH_Cl-Cl-H-C_F_TS
+0
+25.92 # F_OH-Cl-Cl-H-C
+-1
+OH_minus
+-1
+F-Cl-Cl-H-C_reactant
+1
+OH_Cl-Cl-H-C_F_TS
+0
+0.08 # OH_F-Cl-Cl-H-C
+-1
+F_minus
+-1
+OH-Cl-Cl-Me-C_reactant
+1
+OH_Cl-Cl-Me-C_F_TS
+0
+33.33 # F_OH-Cl-Cl-Me-C
+-1
+OH_minus
+-1
+F-Cl-Cl-Me-C_reactant
+1
+OH_Cl-Cl-Me-C_F_TS
+0
+8.06 # OH_F-Cl-Cl-Me-C
+-1
+OH_minus
+-1
+SH-Cl-Cl-Me-C_reactant
+1
+OH_Cl-Cl-Me-C_SH_TS
+0
+11.87 # OH_SH-Cl-Cl-Me-C
+-1
+SH_minus
+-1
+OH-Cl-Cl-Me-C_reactant
+1
+OH_Cl-Cl-Me-C_SH_TS
+0
+55.41 # SH_OH-Cl-Cl-Me-C
+-1
+OH_minus
+-1
+SH-Cl-Cl-NH2-C_reactant
+1
+OH_Cl-Cl-NH2-C_SH_TS
+0
+4.22 # OH_SH-Cl-Cl-NH2-C
+-1
+SH_minus
+-1
+OH-Cl-Cl-NH2-C_reactant
+1
+OH_Cl-Cl-NH2-C_SH_TS
+0
+50.40 # SH_OH-Cl-Cl-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-F-H-C_reactant
+1
+OH_Cl-F-H-C_PH2_TS
+0
+19.73 # OH_PH2-Cl-F-H-C
+-1
+PH2_minus
+-1
+OH-Cl-F-H-C_reactant
+1
+OH_Cl-F-H-C_PH2_TS
+0
+44.60 # PH2_OH-Cl-F-H-C
+-1
+OH_minus
+-1
+SH-Cl-F-Me-C_reactant
+1
+OH_Cl-F-Me-C_SH_TS
+0
+12.65 # OH_SH-Cl-F-Me-C
+-1
+SH_minus
+-1
+OH-Cl-F-Me-C_reactant
+1
+OH_Cl-F-Me-C_SH_TS
+0
+59.34 # SH_OH-Cl-F-Me-C
+-1
+OH_minus
+-1
+PH2-Cl-F-NH2-C_reactant
+1
+OH_Cl-F-NH2-C_PH2_TS
+0
+20.76 # OH_PH2-Cl-F-NH2-C
+-1
+PH2_minus
+-1
+OH-Cl-F-NH2-C_reactant
+1
+OH_Cl-F-NH2-C_PH2_TS
+0
+45.96 # PH2_OH-Cl-F-NH2-C
+-1
+OH_minus
+-1
+SH-Cl-F-NH2-C_reactant
+1
+OH_Cl-F-NH2-C_SH_TS
+0
+7.23 # OH_SH-Cl-F-NH2-C
+-1
+SH_minus
+-1
+OH-Cl-F-NH2-C_reactant
+1
+OH_Cl-F-NH2-C_SH_TS
+0
+53.04 # SH_OH-Cl-F-NH2-C
+-1
+NH2_minus
+-1
+OH-Cl-H-H-C_reactant
+1
+OH_Cl-H-H-C_NH2_TS
+0
+16.37 # NH2_OH-Cl-H-H-C
+-1
+OH_minus
+-1
+NH2-Cl-H-H-C_reactant
+1
+OH_Cl-H-H-C_NH2_TS
+0
+36.92 # OH_NH2-Cl-H-H-C
+-1
+OH_minus
+-1
+OH-Cl-H-H-C_reactant
+1
+OH_Cl-H-H-C_OH_TS
+0
+17.65 # OH_OH-Cl-H-H-C
+-1
+OH_minus
+-1
+PH2-Cl-H-H-C_reactant
+1
+OH_Cl-H-H-C_PH2_TS
+0
+18.97 # OH_PH2-Cl-H-H-C
+-1
+PH2_minus
+-1
+OH-Cl-H-H-C_reactant
+1
+OH_Cl-H-H-C_PH2_TS
+0
+34.50 # PH2_OH-Cl-H-H-C
+-1
+NH2_minus
+-1
+OH-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_NH2_TS
+0
+21.13 # NH2_OH-Cl-H-Me-C
+-1
+OH_minus
+-1
+NH2-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_NH2_TS
+0
+40.70 # OH_NH2-Cl-H-Me-C
+-1
+OH_minus
+-1
+OH-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_OH_TS
+0
+21.81 # OH_OH-Cl-H-Me-C
+-1
+OH_minus
+-1
+PH2-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_PH2_TS
+0
+21.77 # OH_PH2-Cl-H-Me-C
+-1
+PH2_minus
+-1
+OH-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_PH2_TS
+0
+39.35 # PH2_OH-Cl-H-Me-C
+-1
+OH_minus
+-1
+SH-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_SH_TS
+0
+5.51 # OH_SH-Cl-H-Me-C
+-1
+SH_minus
+-1
+OH-Cl-H-Me-C_reactant
+1
+OH_Cl-H-Me-C_SH_TS
+0
+44.12 # SH_OH-Cl-H-Me-C
+-1
+F_minus
+-1
+OH-Cl-H-NH2-C_reactant
+1
+OH_Cl-H-NH2-C_F_TS
+0
+21.62 # F_OH-Cl-H-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-H-NH2-C_reactant
+1
+OH_Cl-H-NH2-C_PH2_TS
+0
+18.28 # OH_PH2-Cl-H-NH2-C
+-1
+PH2_minus
+-1
+OH-Cl-H-NH2-C_reactant
+1
+OH_Cl-H-NH2-C_PH2_TS
+0
+37.26 # PH2_OH-Cl-H-NH2-C
+-1
+SH_minus
+-1
+OH-Cl-H-NH2-C_reactant
+1
+OH_Cl-H-NH2-C_SH_TS
+0
+40.96 # SH_OH-Cl-H-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-H-OH-C_reactant
+1
+OH_Cl-H-OH-C_PH2_TS
+0
+14.56 # OH_PH2-Cl-H-OH-C
+-1
+PH2_minus
+-1
+OH-Cl-H-OH-C_reactant
+1
+OH_Cl-H-OH-C_PH2_TS
+0
+37.07 # PH2_OH-Cl-H-OH-C
+-1
+NH2_minus
+-1
+OH-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_NH2_TS
+0
+29.42 # NH2_OH-Cl-Me-Me-C
+-1
+OH_minus
+-1
+NH2-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_NH2_TS
+0
+47.94 # OH_NH2-Cl-Me-Me-C
+-1
+OH_minus
+-1
+OH-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_OH_TS
+0
+30.66 # OH_OH-Cl-Me-Me-C
+-1
+OH_minus
+-1
+PH2-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_PH2_TS
+0
+28.78 # OH_PH2-Cl-Me-Me-C
+-1
+PH2_minus
+-1
+OH-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_PH2_TS
+0
+48.06 # PH2_OH-Cl-Me-Me-C
+-1
+OH_minus
+-1
+SH-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_SH_TS
+0
+13.32 # OH_SH-Cl-Me-Me-C
+-1
+SH_minus
+-1
+OH-Cl-Me-Me-C_reactant
+1
+OH_Cl-Me-Me-C_SH_TS
+0
+54.39 # SH_OH-Cl-Me-Me-C
+-1
+NH2_minus
+-1
+OH-Cl-Me-NH2-C_reactant
+1
+OH_Cl-Me-NH2-C_NH2_TS
+0
+21.55 # NH2_OH-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-Cl-Me-NH2-C_reactant
+1
+OH_Cl-Me-NH2-C_NH2_TS
+0
+39.22 # OH_NH2-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+OH-Cl-Me-NH2-C_reactant
+1
+OH_Cl-Me-NH2-C_OH_TS
+0
+22.24 # OH_OH-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+SH-Cl-Me-NH2-C_reactant
+1
+OH_Cl-Me-NH2-C_SH_TS
+0
+8.88 # OH_SH-Cl-Me-NH2-C
+-1
+SH_minus
+-1
+OH-Cl-Me-NH2-C_reactant
+1
+OH_Cl-Me-NH2-C_SH_TS
+0
+48.43 # SH_OH-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-Me-OH-C_reactant
+1
+OH_Cl-Me-OH-C_PH2_TS
+0
+20.17 # OH_PH2-Cl-Me-OH-C
+-1
+PH2_minus
+-1
+OH-Cl-Me-OH-C_reactant
+1
+OH_Cl-Me-OH-C_PH2_TS
+0
+44.80 # PH2_OH-Cl-Me-OH-C
+-1
+F_minus
+-1
+OH-Cl-NH2-NH2-C_reactant
+1
+OH_Cl-NH2-NH2-C_F_TS
+0
+26.35 # F_OH-Cl-NH2-NH2-C
+-1
+OH_minus
+-1
+F-Cl-NH2-NH2-C_reactant
+1
+OH_Cl-NH2-NH2-C_F_TS
+0
+8.00 # OH_F-Cl-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-NH2-NH2-C_reactant
+1
+OH_Cl-NH2-NH2-C_PH2_TS
+0
+20.82 # OH_PH2-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+OH-Cl-NH2-NH2-C_reactant
+1
+OH_Cl-NH2-NH2-C_PH2_TS
+0
+41.89 # PH2_OH-Cl-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-NH2-OH-C_reactant
+1
+OH_Cl-NH2-OH-C_PH2_TS
+0
+18.79 # OH_PH2-Cl-NH2-OH-C
+-1
+PH2_minus
+-1
+OH-Cl-NH2-OH-C_reactant
+1
+OH_Cl-NH2-OH-C_PH2_TS
+0
+40.86 # PH2_OH-Cl-NH2-OH-C
+-1
+OH_minus
+-1
+PH2-Cl-NH2-SH-C_reactant
+1
+OH_Cl-NH2-SH-C_PH2_TS
+0
+11.32 # OH_PH2-Cl-NH2-SH-C
+-1
+PH2_minus
+-1
+OH-Cl-NH2-SH-C_reactant
+1
+OH_Cl-NH2-SH-C_PH2_TS
+0
+33.29 # PH2_OH-Cl-NH2-SH-C
+-1
+OH_minus
+-1
+OH-Cl-SH-SH-C_reactant
+1
+OH_Cl-SH-SH-C_OH_TS
+0
+7.53 # OH_OH-Cl-SH-SH-C
+-1
+OH_minus
+-1
+PH2-Cl-SH-SH-C_reactant
+1
+OH_Cl-SH-SH-C_PH2_TS
+0
+9.49 # OH_PH2-Cl-SH-SH-C
+-1
+PH2_minus
+-1
+OH-Cl-SH-SH-C_reactant
+1
+OH_Cl-SH-SH-C_PH2_TS
+0
+25.62 # PH2_OH-Cl-SH-SH-C
+-1
+SH_minus
+-1
+OH-Cl-SH-SH-C_reactant
+1
+OH_Cl-SH-SH-C_SH_TS
+0
+35.30 # SH_OH-Cl-SH-SH-C
+-1
+F_minus
+-1
+OH-CN-Cl-Cl-C_reactant
+1
+OH_CN-Cl-Cl-C_F_TS
+0
+11.05 # F_OH-CN-Cl-Cl-C
+-1
+OH_minus
+-1
+OH-CN-Cl-H-C_reactant
+1
+OH_CN-Cl-H-C_OH_TS
+0
+3.05 # OH_OH-CN-Cl-H-C
+-1
+OH_minus
+-1
+PH2-CN-Cl-H-C_reactant
+1
+OH_CN-Cl-H-C_PH2_TS
+0
+5.97 # OH_PH2-CN-Cl-H-C
+-1
+PH2_minus
+-1
+OH-CN-Cl-H-C_reactant
+1
+OH_CN-Cl-H-C_PH2_TS
+0
+19.26 # PH2_OH-CN-Cl-H-C
+-1
+SH_minus
+-1
+OH-CN-Cl-H-C_reactant
+1
+OH_CN-Cl-H-C_SH_TS
+0
+27.26 # SH_OH-CN-Cl-H-C
+-1
+NH2_minus
+-1
+OH-CN-Cl-Me-C_reactant
+1
+OH_CN-Cl-Me-C_NH2_TS
+0
+3.19 # NH2_OH-CN-Cl-Me-C
+-1
+OH_minus
+-1
+NH2-CN-Cl-Me-C_reactant
+1
+OH_CN-Cl-Me-C_NH2_TS
+0
+24.43 # OH_NH2-CN-Cl-Me-C
+-1
+OH_minus
+-1
+OH-CN-Cl-Me-C_reactant
+1
+OH_CN-Cl-Me-C_OH_TS
+0
+6.14 # OH_OH-CN-Cl-Me-C
+-1
+OH_minus
+-1
+PH2-CN-Cl-NH2-C_reactant
+1
+OH_CN-Cl-NH2-C_PH2_TS
+0
+5.77 # OH_PH2-CN-Cl-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-Cl-NH2-C_reactant
+1
+OH_CN-Cl-NH2-C_PH2_TS
+0
+20.75 # PH2_OH-CN-Cl-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-Cl-OH-C_reactant
+1
+OH_CN-Cl-OH-C_PH2_TS
+0
+0.67 # OH_PH2-CN-Cl-OH-C
+-1
+PH2_minus
+-1
+OH-CN-Cl-OH-C_reactant
+1
+OH_CN-Cl-OH-C_PH2_TS
+0
+19.76 # PH2_OH-CN-Cl-OH-C
+-1
+SH_minus
+-1
+OH-CN-Cl-OH-C_reactant
+1
+OH_CN-Cl-OH-C_SH_TS
+0
+28.44 # SH_OH-CN-Cl-OH-C
+-1
+OH_minus
+-1
+NH2-CN-CN-H-C_reactant
+1
+OH_CN-CN-H-C_NH2_TS
+0
+2.10 # OH_NH2-CN-CN-H-C
+-1
+NH2_minus
+-1
+OH-CN-F-F-C_reactant
+1
+OH_CN-F-F-C_NH2_TS
+0
+7.83 # NH2_OH-CN-F-F-C
+-1
+OH_minus
+-1
+NH2-CN-F-F-C_reactant
+1
+OH_CN-F-F-C_NH2_TS
+0
+24.49 # OH_NH2-CN-F-F-C
+-1
+F_minus
+-1
+OH-CN-F-H-C_reactant
+1
+OH_CN-F-H-C_F_TS
+0
+8.32 # F_OH-CN-F-H-C
+-1
+OH_minus
+-1
+OH-CN-F-H-C_reactant
+1
+OH_CN-F-H-C_OH_TS
+0
+2.81 # OH_OH-CN-F-H-C
+-1
+SH_minus
+-1
+OH-CN-F-H-C_reactant
+1
+OH_CN-F-H-C_SH_TS
+0
+30.46 # SH_OH-CN-F-H-C
+-1
+F_minus
+-1
+OH-CN-F-Me-C_reactant
+1
+OH_CN-F-Me-C_F_TS
+0
+13.03 # F_OH-CN-F-Me-C
+-1
+OH_minus
+-1
+OH-CN-F-Me-C_reactant
+1
+OH_CN-F-Me-C_OH_TS
+0
+7.99 # OH_OH-CN-F-Me-C
+-1
+SH_minus
+-1
+OH-CN-F-Me-C_reactant
+1
+OH_CN-F-Me-C_SH_TS
+0
+35.31 # SH_OH-CN-F-Me-C
+-1
+F_minus
+-1
+OH-CN-F-NH2-C_reactant
+1
+OH_CN-F-NH2-C_F_TS
+0
+6.71 # F_OH-CN-F-NH2-C
+-1
+OH_minus
+-1
+OH-CN-F-NH2-C_reactant
+1
+OH_CN-F-NH2-C_OH_TS
+0
+1.28 # OH_OH-CN-F-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-F-OH-C_reactant
+1
+OH_CN-F-OH-C_PH2_TS
+0
+24.50 # PH2_OH-CN-F-OH-C
+-1
+SH_minus
+-1
+OH-CN-F-OH-C_reactant
+1
+OH_CN-F-OH-C_SH_TS
+0
+31.99 # SH_OH-CN-F-OH-C
+-1
+PH2_minus
+-1
+OH-CN-F-SH-C_reactant
+1
+OH_CN-F-SH-C_PH2_TS
+0
+16.95 # PH2_OH-CN-F-SH-C
+-1
+F_minus
+-1
+OH-CN-H-H-C_reactant
+1
+OH_CN-H-H-C_F_TS
+0
+4.37 # F_OH-CN-H-H-C
+-1
+OH_minus
+-1
+PH2-CN-H-H-C_reactant
+1
+OH_CN-H-H-C_PH2_TS
+0
+6.20 # OH_PH2-CN-H-H-C
+-1
+PH2_minus
+-1
+OH-CN-H-H-C_reactant
+1
+OH_CN-H-H-C_PH2_TS
+0
+13.51 # PH2_OH-CN-H-H-C
+-1
+SH_minus
+-1
+OH-CN-H-H-C_reactant
+1
+OH_CN-H-H-C_SH_TS
+0
+20.61 # SH_OH-CN-H-H-C
+-1
+OH_minus
+-1
+OH-CN-H-Me-C_reactant
+1
+OH_CN-H-Me-C_OH_TS
+0
+2.29 # OH_OH-CN-H-Me-C
+-1
+OH_minus
+-1
+PH2-CN-H-Me-C_reactant
+1
+OH_CN-H-Me-C_PH2_TS
+0
+6.67 # OH_PH2-CN-H-Me-C
+-1
+PH2_minus
+-1
+OH-CN-H-Me-C_reactant
+1
+OH_CN-H-Me-C_PH2_TS
+0
+18.05 # PH2_OH-CN-H-Me-C
+-1
+SH_minus
+-1
+OH-CN-H-Me-C_reactant
+1
+OH_CN-H-Me-C_SH_TS
+0
+24.36 # SH_OH-CN-H-Me-C
+-1
+F_minus
+-1
+OH-CN-H-NH2-C_reactant
+1
+OH_CN-H-NH2-C_F_TS
+0
+6.70 # F_OH-CN-H-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-H-NH2-C_reactant
+1
+OH_CN-H-NH2-C_PH2_TS
+0
+1.12 # OH_PH2-CN-H-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-H-NH2-C_reactant
+1
+OH_CN-H-NH2-C_PH2_TS
+0
+18.37 # PH2_OH-CN-H-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-H-OH-C_reactant
+1
+OH_CN-H-OH-C_PH2_TS
+0
+15.06 # PH2_OH-CN-H-OH-C
+-1
+SH_minus
+-1
+OH-CN-H-OH-C_reactant
+1
+OH_CN-H-OH-C_SH_TS
+0
+23.39 # SH_OH-CN-H-OH-C
+-1
+OH_minus
+-1
+OH-CN-Me-Me-C_reactant
+1
+OH_CN-Me-Me-C_OH_TS
+0
+5.39 # OH_OH-CN-Me-Me-C
+-1
+F_minus
+-1
+OH-CN-Me-NH2-C_reactant
+1
+OH_CN-Me-NH2-C_F_TS
+0
+9.93 # F_OH-CN-Me-NH2-C
+-1
+OH_minus
+-1
+OH-CN-Me-NH2-C_reactant
+1
+OH_CN-Me-NH2-C_OH_TS
+0
+6.83 # OH_OH-CN-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-Me-NH2-C_reactant
+1
+OH_CN-Me-NH2-C_PH2_TS
+0
+9.08 # OH_PH2-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-Me-NH2-C_reactant
+1
+OH_CN-Me-NH2-C_PH2_TS
+0
+26.88 # PH2_OH-CN-Me-NH2-C
+-1
+SH_minus
+-1
+OH-CN-Me-NH2-C_reactant
+1
+OH_CN-Me-NH2-C_SH_TS
+0
+33.03 # SH_OH-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-Me-OH-C_reactant
+1
+OH_CN-Me-OH-C_PH2_TS
+0
+21.74 # PH2_OH-CN-Me-OH-C
+-1
+F_minus
+-1
+OH-CN-NH2-NH2-C_reactant
+1
+OH_CN-NH2-NH2-C_F_TS
+0
+12.88 # F_OH-CN-NH2-NH2-C
+-1
+OH_minus
+-1
+OH-CN-NH2-NH2-C_reactant
+1
+OH_CN-NH2-NH2-C_OH_TS
+0
+5.45 # OH_OH-CN-NH2-NH2-C
+-1
+SH_minus
+-1
+OH-CN-NH2-NH2-C_reactant
+1
+OH_CN-NH2-NH2-C_SH_TS
+0
+31.83 # SH_OH-CN-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-NH2-OH-C_reactant
+1
+OH_CN-NH2-OH-C_PH2_TS
+0
+1.89 # OH_PH2-CN-NH2-OH-C
+-1
+PH2_minus
+-1
+OH-CN-NH2-OH-C_reactant
+1
+OH_CN-NH2-OH-C_PH2_TS
+0
+26.60 # PH2_OH-CN-NH2-OH-C
+-1
+PH2_minus
+-1
+OH-CN-OH-SH-C_reactant
+1
+OH_CN-OH-SH-C_PH2_TS
+0
+13.69 # PH2_OH-CN-OH-SH-C
+-1
+PH2_minus
+-1
+OH-CN-SH-SH-C_reactant
+1
+OH_CN-SH-SH-C_PH2_TS
+0
+7.59 # PH2_OH-CN-SH-SH-C
+-1
+OH_minus
+-1
+PH2-F-F-F-C_reactant
+1
+OH_F-F-F-C_PH2_TS
+0
+25.95 # OH_PH2-F-F-F-C
+-1
+PH2_minus
+-1
+OH-F-F-F-C_reactant
+1
+OH_F-F-F-C_PH2_TS
+0
+55.92 # PH2_OH-F-F-F-C
+-1
+F_minus
+-1
+OH-F-F-H-C_reactant
+1
+OH_F-F-H-C_F_TS
+0
+26.85 # F_OH-F-F-H-C
+-1
+OH_minus
+-1
+F-F-F-H-C_reactant
+1
+OH_F-F-H-C_F_TS
+0
+3.80 # OH_F-F-F-H-C
+-1
+NH2_minus
+-1
+OH-F-F-H-C_reactant
+1
+OH_F-F-H-C_NH2_TS
+0
+24.77 # NH2_OH-F-F-H-C
+-1
+OH_minus
+-1
+NH2-F-F-H-C_reactant
+1
+OH_F-F-H-C_NH2_TS
+0
+39.09 # OH_NH2-F-F-H-C
+-1
+OH_minus
+-1
+OH-F-F-H-C_reactant
+1
+OH_F-F-H-C_OH_TS
+0
+23.59 # OH_OH-F-F-H-C
+-1
+OH_minus
+-1
+SH-F-F-H-C_reactant
+1
+OH_F-F-H-C_SH_TS
+0
+2.63 # OH_SH-F-F-H-C
+-1
+SH_minus
+-1
+OH-F-F-H-C_reactant
+1
+OH_F-F-H-C_SH_TS
+0
+52.46 # SH_OH-F-F-H-C
+-1
+F_minus
+-1
+OH-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_F_TS
+0
+35.99 # F_OH-F-F-Me-C
+-1
+OH_minus
+-1
+F-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_F_TS
+0
+13.51 # OH_F-F-F-Me-C
+-1
+OH_minus
+-1
+OH-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_OH_TS
+0
+32.94 # OH_OH-F-F-Me-C
+-1
+OH_minus
+-1
+PH2-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_PH2_TS
+0
+24.99 # OH_PH2-F-F-Me-C
+-1
+PH2_minus
+-1
+OH-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_PH2_TS
+0
+56.56 # PH2_OH-F-F-Me-C
+-1
+OH_minus
+-1
+SH-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_SH_TS
+0
+12.42 # OH_SH-F-F-Me-C
+-1
+SH_minus
+-1
+OH-F-F-Me-C_reactant
+1
+OH_F-F-Me-C_SH_TS
+0
+62.37 # SH_OH-F-F-Me-C
+-1
+F_minus
+-1
+OH-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_F_TS
+0
+31.05 # F_OH-F-F-NH2-C
+-1
+OH_minus
+-1
+F-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_F_TS
+0
+8.36 # OH_F-F-F-NH2-C
+-1
+OH_minus
+-1
+OH-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_OH_TS
+0
+27.31 # OH_OH-F-F-NH2-C
+-1
+OH_minus
+-1
+PH2-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_PH2_TS
+0
+21.87 # OH_PH2-F-F-NH2-C
+-1
+PH2_minus
+-1
+OH-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_PH2_TS
+0
+52.96 # PH2_OH-F-F-NH2-C
+-1
+OH_minus
+-1
+SH-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_SH_TS
+0
+8.36 # OH_SH-F-F-NH2-C
+-1
+SH_minus
+-1
+OH-F-F-NH2-C_reactant
+1
+OH_F-F-NH2-C_SH_TS
+0
+57.87 # SH_OH-F-F-NH2-C
+-1
+F_minus
+-1
+OH-F-H-H-C_reactant
+1
+OH_F-H-H-C_F_TS
+0
+22.31 # F_OH-F-H-H-C
+-1
+OH_minus
+-1
+F-F-H-H-C_reactant
+1
+OH_F-H-H-C_F_TS
+0
+0.01 # OH_F-F-H-H-C
+-1
+OH_minus
+-1
+OH-F-H-H-C_reactant
+1
+OH_F-H-H-C_OH_TS
+0
+19.19 # OH_OH-F-H-H-C
+-1
+OH_minus
+-1
+OH-F-H-Me-C_reactant
+1
+OH_F-H-Me-C_OH_TS
+0
+23.45 # OH_OH-F-H-Me-C
+-1
+OH_minus
+-1
+PH2-F-H-Me-C_reactant
+1
+OH_F-H-Me-C_PH2_TS
+0
+18.56 # OH_PH2-F-H-Me-C
+-1
+PH2_minus
+-1
+OH-F-H-Me-C_reactant
+1
+OH_F-H-Me-C_PH2_TS
+0
+43.22 # PH2_OH-F-H-Me-C
+-1
+F_minus
+-1
+OH-F-H-NH2-C_reactant
+1
+OH_F-H-NH2-C_F_TS
+0
+22.45 # F_OH-F-H-NH2-C
+-1
+OH_minus
+-1
+F-F-H-NH2-C_reactant
+1
+OH_F-H-NH2-C_F_TS
+0
+1.15 # OH_F-F-H-NH2-C
+-1
+OH_minus
+-1
+OH-F-H-NH2-C_reactant
+1
+OH_F-H-NH2-C_OH_TS
+0
+18.37 # OH_OH-F-H-NH2-C
+-1
+F_minus
+-1
+OH-F-Me-Me-C_reactant
+1
+OH_F-Me-Me-C_F_TS
+0
+34.39 # F_OH-F-Me-Me-C
+-1
+OH_minus
+-1
+F-F-Me-Me-C_reactant
+1
+OH_F-Me-Me-C_F_TS
+0
+13.95 # OH_F-F-Me-Me-C
+-1
+OH_minus
+-1
+OH-F-Me-Me-C_reactant
+1
+OH_F-Me-Me-C_OH_TS
+0
+32.27 # OH_OH-F-Me-Me-C
+-1
+OH_minus
+-1
+SH-F-Me-Me-C_reactant
+1
+OH_F-Me-Me-C_SH_TS
+0
+11.14 # OH_SH-F-Me-Me-C
+-1
+SH_minus
+-1
+OH-F-Me-Me-C_reactant
+1
+OH_F-Me-Me-C_SH_TS
+0
+56.87 # SH_OH-F-Me-Me-C
+-1
+F_minus
+-1
+OH-F-Me-NH2-C_reactant
+1
+OH_F-Me-NH2-C_F_TS
+0
+28.36 # F_OH-F-Me-NH2-C
+-1
+OH_minus
+-1
+F-F-Me-NH2-C_reactant
+1
+OH_F-Me-NH2-C_F_TS
+0
+9.09 # OH_F-F-Me-NH2-C
+-1
+NH2_minus
+-1
+OH-F-Me-NH2-C_reactant
+1
+OH_F-Me-NH2-C_NH2_TS
+0
+25.92 # NH2_OH-F-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-F-Me-NH2-C_reactant
+1
+OH_F-Me-NH2-C_NH2_TS
+0
+41.96 # OH_NH2-F-Me-NH2-C
+-1
+OH_minus
+-1
+OH-F-Me-NH2-C_reactant
+1
+OH_F-Me-NH2-C_OH_TS
+0
+23.50 # OH_OH-F-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-F-Me-OH-C_reactant
+1
+OH_F-Me-OH-C_PH2_TS
+0
+17.95 # OH_PH2-F-Me-OH-C
+-1
+PH2_minus
+-1
+OH-F-Me-OH-C_reactant
+1
+OH_F-Me-OH-C_PH2_TS
+0
+47.86 # PH2_OH-F-Me-OH-C
+-1
+F_minus
+-1
+OH-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_F_TS
+0
+29.17 # F_OH-F-NH2-NH2-C
+-1
+OH_minus
+-1
+F-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_F_TS
+0
+6.66 # OH_F-F-NH2-NH2-C
+-1
+NH2_minus
+-1
+OH-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_NH2_TS
+0
+25.65 # NH2_OH-F-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_NH2_TS
+0
+38.95 # OH_NH2-F-NH2-NH2-C
+-1
+OH_minus
+-1
+OH-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_OH_TS
+0
+23.52 # OH_OH-F-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_PH2_TS
+0
+21.99 # OH_PH2-F-NH2-NH2-C
+-1
+PH2_minus
+-1
+OH-F-NH2-NH2-C_reactant
+1
+OH_F-NH2-NH2-C_PH2_TS
+0
+49.85 # PH2_OH-F-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-F-OH-SH-C_reactant
+1
+OH_F-OH-SH-C_PH2_TS
+0
+9.30 # OH_PH2-F-OH-SH-C
+-1
+PH2_minus
+-1
+OH-F-OH-SH-C_reactant
+1
+OH_F-OH-SH-C_PH2_TS
+0
+36.41 # PH2_OH-F-OH-SH-C
+-1
+OH_minus
+-1
+PH2-F-SH-SH-C_reactant
+1
+OH_F-SH-SH-C_PH2_TS
+0
+7.53 # OH_PH2-F-SH-SH-C
+-1
+PH2_minus
+-1
+OH-F-SH-SH-C_reactant
+1
+OH_F-SH-SH-C_PH2_TS
+0
+30.24 # PH2_OH-F-SH-SH-C
+-1
+F_minus
+-1
+OH-H-H-H-C_reactant
+1
+OH_H-H-H-C_F_TS
+0
+17.89 # F_OH-H-H-H-C
+-1
+NH2_minus
+-1
+OH-H-H-H-C_reactant
+1
+OH_H-H-H-C_NH2_TS
+0
+12.97 # NH2_OH-H-H-H-C
+-1
+OH_minus
+-1
+NH2-H-H-H-C_reactant
+1
+OH_H-H-H-C_NH2_TS
+0
+31.59 # OH_NH2-H-H-H-C
+-1
+OH_minus
+-1
+OH-H-H-H-C_reactant
+1
+OH_H-H-H-C_OH_TS
+0
+14.59 # OH_OH-H-H-H-C
+-1
+OH_minus
+-1
+PH2-H-H-H-C_reactant
+1
+OH_H-H-H-C_PH2_TS
+0
+18.49 # OH_PH2-H-H-H-C
+-1
+PH2_minus
+-1
+OH-H-H-H-C_reactant
+1
+OH_H-H-H-C_PH2_TS
+0
+26.64 # PH2_OH-H-H-H-C
+-1
+F_minus
+-1
+OH-H-H-Me-C_reactant
+1
+OH_H-H-Me-C_F_TS
+0
+20.26 # F_OH-H-H-Me-C
+-1
+OH_minus
+-1
+F-H-H-Me-C_reactant
+1
+OH_H-H-Me-C_F_TS
+0
+0.94 # OH_F-H-H-Me-C
+-1
+OH_minus
+-1
+OH-H-H-Me-C_reactant
+1
+OH_H-H-Me-C_OH_TS
+0
+16.60 # OH_OH-H-H-Me-C
+-1
+OH_minus
+-1
+PH2-H-H-Me-C_reactant
+1
+OH_H-H-Me-C_PH2_TS
+0
+18.29 # OH_PH2-H-H-Me-C
+-1
+PH2_minus
+-1
+OH-H-H-Me-C_reactant
+1
+OH_H-H-Me-C_PH2_TS
+0
+29.68 # PH2_OH-H-H-Me-C
+-1
+NH2_minus
+-1
+OH-H-H-NH2-C_reactant
+1
+OH_H-H-NH2-C_NH2_TS
+0
+13.04 # NH2_OH-H-H-NH2-C
+-1
+OH_minus
+-1
+NH2-H-H-NH2-C_reactant
+1
+OH_H-H-NH2-C_NH2_TS
+0
+28.81 # OH_NH2-H-H-NH2-C
+-1
+OH_minus
+-1
+OH-H-H-NH2-C_reactant
+1
+OH_H-H-NH2-C_OH_TS
+0
+14.61 # OH_OH-H-H-NH2-C
+-1
+SH_minus
+-1
+OH-H-H-NH2-C_reactant
+1
+OH_H-H-NH2-C_SH_TS
+0
+35.12 # SH_OH-H-H-NH2-C
+-1
+OH_minus
+-1
+PH2-H-H-OH-C_reactant
+1
+OH_H-H-OH-C_PH2_TS
+0
+7.93 # OH_PH2-H-H-OH-C
+-1
+PH2_minus
+-1
+OH-H-H-OH-C_reactant
+1
+OH_H-H-OH-C_PH2_TS
+0
+28.27 # PH2_OH-H-H-OH-C
+-1
+SH_minus
+-1
+OH-H-H-OH-C_reactant
+1
+OH_H-H-OH-C_SH_TS
+0
+31.93 # SH_OH-H-H-OH-C
+-1
+F_minus
+-1
+OH-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_F_TS
+0
+21.89 # F_OH-H-Me-Me-C
+-1
+OH_minus
+-1
+F-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_F_TS
+0
+3.10 # OH_F-H-Me-Me-C
+-1
+NH2_minus
+-1
+OH-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_NH2_TS
+0
+19.43 # NH2_OH-H-Me-Me-C
+-1
+OH_minus
+-1
+NH2-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_NH2_TS
+0
+35.84 # OH_NH2-H-Me-Me-C
+-1
+OH_minus
+-1
+OH-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_OH_TS
+0
+18.92 # OH_OH-H-Me-Me-C
+-1
+OH_minus
+-1
+PH2-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_PH2_TS
+0
+19.41 # OH_PH2-H-Me-Me-C
+-1
+PH2_minus
+-1
+OH-H-Me-Me-C_reactant
+1
+OH_H-Me-Me-C_PH2_TS
+0
+34.12 # PH2_OH-H-Me-Me-C
+-1
+F_minus
+-1
+OH-H-Me-NH2-C_reactant
+1
+OH_H-Me-NH2-C_F_TS
+0
+22.39 # F_OH-H-Me-NH2-C
+-1
+OH_minus
+-1
+F-H-Me-NH2-C_reactant
+1
+OH_H-Me-NH2-C_F_TS
+0
+5.70 # OH_F-H-Me-NH2-C
+-1
+NH2_minus
+-1
+OH-H-Me-NH2-C_reactant
+1
+OH_H-Me-NH2-C_NH2_TS
+0
+17.70 # NH2_OH-H-Me-NH2-C
+-1
+OH_minus
+-1
+NH2-H-Me-NH2-C_reactant
+1
+OH_H-Me-NH2-C_NH2_TS
+0
+32.58 # OH_NH2-H-Me-NH2-C
+-1
+OH_minus
+-1
+OH-H-Me-NH2-C_reactant
+1
+OH_H-Me-NH2-C_OH_TS
+0
+18.49 # OH_OH-H-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-H-Me-OH-C_reactant
+1
+OH_H-Me-OH-C_PH2_TS
+0
+11.03 # OH_PH2-H-Me-OH-C
+-1
+PH2_minus
+-1
+OH-H-Me-OH-C_reactant
+1
+OH_H-Me-OH-C_PH2_TS
+0
+35.96 # PH2_OH-H-Me-OH-C
+-1
+SH_minus
+-1
+OH-H-Me-OH-C_reactant
+1
+OH_H-Me-OH-C_SH_TS
+0
+38.85 # SH_OH-H-Me-OH-C
+-1
+NH2_minus
+-1
+OH-H-NH2-NH2-C_reactant
+1
+OH_H-NH2-NH2-C_NH2_TS
+0
+16.85 # NH2_OH-H-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-H-NH2-NH2-C_reactant
+1
+OH_H-NH2-NH2-C_NH2_TS
+0
+31.13 # OH_NH2-H-NH2-NH2-C
+-1
+OH_minus
+-1
+OH-H-NH2-NH2-C_reactant
+1
+OH_H-NH2-NH2-C_OH_TS
+0
+18.13 # OH_OH-H-NH2-NH2-C
+-1
+F_minus
+-1
+OH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_F_TS
+0
+28.02 # F_OH-Me-Me-Me-C
+-1
+OH_minus
+-1
+F-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_F_TS
+0
+9.94 # OH_F-Me-Me-Me-C
+-1
+NH2_minus
+-1
+OH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_NH2_TS
+0
+26.40 # NH2_OH-Me-Me-Me-C
+-1
+OH_minus
+-1
+NH2-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_NH2_TS
+0
+42.38 # OH_NH2-Me-Me-Me-C
+-1
+OH_minus
+-1
+OH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_OH_TS
+0
+26.39 # OH_OH-Me-Me-Me-C
+-1
+OH_minus
+-1
+PH2-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_PH2_TS
+0
+26.61 # OH_PH2-Me-Me-Me-C
+-1
+PH2_minus
+-1
+OH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_PH2_TS
+0
+43.25 # PH2_OH-Me-Me-Me-C
+-1
+OH_minus
+-1
+SH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_SH_TS
+0
+11.60 # OH_SH-Me-Me-Me-C
+-1
+SH_minus
+-1
+OH-Me-Me-Me-C_reactant
+1
+OH_Me-Me-Me-C_SH_TS
+0
+47.59 # SH_OH-Me-Me-Me-C
+-1
+F_minus
+-1
+OH-Me-Me-NH2-C_reactant
+1
+OH_Me-Me-NH2-C_F_TS
+0
+26.08 # F_OH-Me-Me-NH2-C
+-1
+OH_minus
+-1
+F-Me-Me-NH2-C_reactant
+1
+OH_Me-Me-NH2-C_F_TS
+0
+9.85 # OH_F-Me-Me-NH2-C
+-1
+OH_minus
+-1
+OH-Me-Me-NH2-C_reactant
+1
+OH_Me-Me-NH2-C_OH_TS
+0
+24.35 # OH_OH-Me-Me-NH2-C
+-1
+OH_minus
+-1
+OH-Me-Me-OH-C_reactant
+1
+OH_Me-Me-OH-C_OH_TS
+0
+25.27 # OH_OH-Me-Me-OH-C
+-1
+OH_minus
+-1
+PH2-Me-Me-SH-C_reactant
+1
+OH_Me-Me-SH-C_PH2_TS
+0
+18.83 # OH_PH2-Me-Me-SH-C
+-1
+PH2_minus
+-1
+OH-Me-Me-SH-C_reactant
+1
+OH_Me-Me-SH-C_PH2_TS
+0
+36.23 # PH2_OH-Me-Me-SH-C
+-1
+NH2_minus
+-1
+OH-Me-NH2-NH2-C_reactant
+1
+OH_Me-NH2-NH2-C_NH2_TS
+0
+24.48 # NH2_OH-Me-NH2-NH2-C
+-1
+OH_minus
+-1
+NH2-Me-NH2-NH2-C_reactant
+1
+OH_Me-NH2-NH2-C_NH2_TS
+0
+36.92 # OH_NH2-Me-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-NH2-SH-SH-C_reactant
+1
+OH_NH2-SH-SH-C_PH2_TS
+0
+9.36 # OH_PH2-NH2-SH-SH-C
+-1
+PH2_minus
+-1
+OH-NH2-SH-SH-C_reactant
+1
+OH_NH2-SH-SH-C_PH2_TS
+0
+26.13 # PH2_OH-NH2-SH-SH-C
+-1
+NH2_minus
+-1
+OH-OH-SH-SH-C_reactant
+1
+OH_OH-SH-SH-C_NH2_TS
+0
+8.20 # NH2_OH-OH-SH-SH-C
+-1
+OH_minus
+-1
+NH2-OH-SH-SH-C_reactant
+1
+OH_OH-SH-SH-C_NH2_TS
+0
+24.00 # OH_NH2-OH-SH-SH-C
+-1
+PH2_minus
+-1
+PH2-Br-Br-CCH-C_reactant
+1
+PH2_Br-Br-CCH-C_PH2_TS
+0
+25.77 # PH2_PH2-Br-Br-CCH-C
+-1
+PH2_minus
+-1
+SH-Br-Br-CCH-C_reactant
+1
+PH2_Br-Br-CCH-C_SH_TS
+0
+12.38 # PH2_SH-Br-Br-CCH-C
+-1
+SH_minus
+-1
+PH2-Br-Br-CCH-C_reactant
+1
+PH2_Br-Br-CCH-C_SH_TS
+0
+38.38 # SH_PH2-Br-Br-CCH-C
+-1
+PH2_minus
+-1
+SH-Br-Br-Cl-C_reactant
+1
+PH2_Br-Br-Cl-C_SH_TS
+0
+21.18 # PH2_SH-Br-Br-Cl-C
+-1
+SH_minus
+-1
+PH2-Br-Br-Cl-C_reactant
+1
+PH2_Br-Br-Cl-C_SH_TS
+0
+46.71 # SH_PH2-Br-Br-Cl-C
+-1
+PH2_minus
+-1
+PH2-Br-Br-CN-C_reactant
+1
+PH2_Br-Br-CN-C_PH2_TS
+0
+16.50 # PH2_PH2-Br-Br-CN-C
+-1
+PH2_minus
+-1
+PH2-Br-Br-H-C_reactant
+1
+PH2_Br-Br-H-C_PH2_TS
+0
+31.58 # PH2_PH2-Br-Br-H-C
+-1
+PH2_minus
+-1
+PH2-Br-Br-Me-C_reactant
+1
+PH2_Br-Br-Me-C_PH2_TS
+0
+37.93 # PH2_PH2-Br-Br-Me-C
+-1
+PH2_minus
+-1
+SH-Br-Br-NH2-C_reactant
+1
+PH2_Br-Br-NH2-C_SH_TS
+0
+17.79 # PH2_SH-Br-Br-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-Br-NH2-C_reactant
+1
+PH2_Br-Br-NH2-C_SH_TS
+0
+44.29 # SH_PH2-Br-Br-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-CCH-Cl-C_reactant
+1
+PH2_Br-CCH-Cl-C_PH2_TS
+0
+25.88 # PH2_PH2-Br-CCH-Cl-C
+-1
+PH2_minus
+-1
+PH2-Br-CCH-F-C_reactant
+1
+PH2_Br-CCH-F-C_PH2_TS
+0
+29.09 # PH2_PH2-Br-CCH-F-C
+-1
+F_minus
+-1
+PH2-Br-CCH-H-C_reactant
+1
+PH2_Br-CCH-H-C_F_TS
+0
+21.59 # F_PH2-Br-CCH-H-C
+-1
+PH2_minus
+-1
+F-Br-CCH-H-C_reactant
+1
+PH2_Br-CCH-H-C_F_TS
+0
+9.59 # PH2_F-Br-CCH-H-C
+-1
+NH2_minus
+-1
+PH2-Br-CCH-H-C_reactant
+1
+PH2_Br-CCH-H-C_NH2_TS
+0
+10.24 # NH2_PH2-Br-CCH-H-C
+-1
+PH2_minus
+-1
+NH2-Br-CCH-H-C_reactant
+1
+PH2_Br-CCH-H-C_NH2_TS
+0
+43.99 # PH2_NH2-Br-CCH-H-C
+-1
+PH2_minus
+-1
+PH2-Br-CCH-H-C_reactant
+1
+PH2_Br-CCH-H-C_PH2_TS
+0
+24.07 # PH2_PH2-Br-CCH-H-C
+-1
+F_minus
+-1
+PH2-Br-CCH-Me-C_reactant
+1
+PH2_Br-CCH-Me-C_F_TS
+0
+26.56 # F_PH2-Br-CCH-Me-C
+-1
+PH2_minus
+-1
+F-Br-CCH-Me-C_reactant
+1
+PH2_Br-CCH-Me-C_F_TS
+0
+17.65 # PH2_F-Br-CCH-Me-C
+-1
+NH2_minus
+-1
+PH2-Br-CCH-Me-C_reactant
+1
+PH2_Br-CCH-Me-C_NH2_TS
+0
+13.29 # NH2_PH2-Br-CCH-Me-C
+-1
+PH2_minus
+-1
+NH2-Br-CCH-Me-C_reactant
+1
+PH2_Br-CCH-Me-C_NH2_TS
+0
+48.17 # PH2_NH2-Br-CCH-Me-C
+-1
+PH2_minus
+-1
+PH2-Br-CCH-Me-C_reactant
+1
+PH2_Br-CCH-Me-C_PH2_TS
+0
+27.83 # PH2_PH2-Br-CCH-Me-C
+-1
+F_minus
+-1
+PH2-Br-CCH-NH2-C_reactant
+1
+PH2_Br-CCH-NH2-C_F_TS
+0
+23.46 # F_PH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+F-Br-CCH-NH2-C_reactant
+1
+PH2_Br-CCH-NH2-C_F_TS
+0
+15.57 # PH2_F-Br-CCH-NH2-C
+-1
+NH2_minus
+-1
+PH2-Br-CCH-NH2-C_reactant
+1
+PH2_Br-CCH-NH2-C_NH2_TS
+0
+8.47 # NH2_PH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+NH2-Br-CCH-NH2-C_reactant
+1
+PH2_Br-CCH-NH2-C_NH2_TS
+0
+41.45 # PH2_NH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-CCH-NH2-C_reactant
+1
+PH2_Br-CCH-NH2-C_PH2_TS
+0
+27.38 # PH2_PH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-Cl-Cl-C_reactant
+1
+PH2_Br-Cl-Cl-C_SH_TS
+0
+22.38 # PH2_SH-Br-Cl-Cl-C
+-1
+SH_minus
+-1
+PH2-Br-Cl-Cl-C_reactant
+1
+PH2_Br-Cl-Cl-C_SH_TS
+0
+47.75 # SH_PH2-Br-Cl-Cl-C
+-1
+PH2_minus
+-1
+PH2-Br-Cl-H-C_reactant
+1
+PH2_Br-Cl-H-C_PH2_TS
+0
+32.18 # PH2_PH2-Br-Cl-H-C
+-1
+PH2_minus
+-1
+SH-Br-Cl-H-C_reactant
+1
+PH2_Br-Cl-H-C_SH_TS
+0
+16.41 # PH2_SH-Br-Cl-H-C
+-1
+SH_minus
+-1
+PH2-Br-Cl-H-C_reactant
+1
+PH2_Br-Cl-H-C_SH_TS
+0
+39.92 # SH_PH2-Br-Cl-H-C
+-1
+PH2_minus
+-1
+PH2-Br-Cl-Me-C_reactant
+1
+PH2_Br-Cl-Me-C_PH2_TS
+0
+38.75 # PH2_PH2-Br-Cl-Me-C
+-1
+PH2_minus
+-1
+SH-Br-Cl-Me-C_reactant
+1
+PH2_Br-Cl-Me-C_SH_TS
+0
+25.34 # PH2_SH-Br-Cl-Me-C
+-1
+SH_minus
+-1
+PH2-Br-Cl-Me-C_reactant
+1
+PH2_Br-Cl-Me-C_SH_TS
+0
+48.94 # SH_PH2-Br-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-Br-CN-Cl-C_reactant
+1
+PH2_Br-CN-Cl-C_PH2_TS
+0
+16.18 # PH2_PH2-Br-CN-Cl-C
+-1
+PH2_minus
+-1
+PH2-Br-CN-F-C_reactant
+1
+PH2_Br-CN-F-C_PH2_TS
+0
+19.25 # PH2_PH2-Br-CN-F-C
+-1
+F_minus
+-1
+PH2-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_F_TS
+0
+13.35 # F_PH2-Br-CN-H-C
+-1
+NH2_minus
+-1
+PH2-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_NH2_TS
+0
+0.71 # NH2_PH2-Br-CN-H-C
+-1
+PH2_minus
+-1
+NH2-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_NH2_TS
+0
+33.89 # PH2_NH2-Br-CN-H-C
+-1
+OH_minus
+-1
+PH2-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_OH_TS
+0
+7.66 # OH_PH2-Br-CN-H-C
+-1
+PH2_minus
+-1
+OH-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_OH_TS
+0
+19.37 # PH2_OH-Br-CN-H-C
+-1
+PH2_minus
+-1
+PH2-Br-CN-H-C_reactant
+1
+PH2_Br-CN-H-C_PH2_TS
+0
+15.62 # PH2_PH2-Br-CN-H-C
+-1
+F_minus
+-1
+PH2-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_F_TS
+0
+18.49 # F_PH2-Br-CN-Me-C
+-1
+PH2_minus
+-1
+F-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_F_TS
+0
+6.86 # PH2_F-Br-CN-Me-C
+-1
+NH2_minus
+-1
+PH2-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_NH2_TS
+0
+3.82 # NH2_PH2-Br-CN-Me-C
+-1
+PH2_minus
+-1
+NH2-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_NH2_TS
+0
+37.98 # PH2_NH2-Br-CN-Me-C
+-1
+PH2_minus
+-1
+PH2-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_PH2_TS
+0
+19.26 # PH2_PH2-Br-CN-Me-C
+-1
+PH2_minus
+-1
+SH-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_SH_TS
+0
+6.24 # PH2_SH-Br-CN-Me-C
+-1
+SH_minus
+-1
+PH2-Br-CN-Me-C_reactant
+1
+PH2_Br-CN-Me-C_SH_TS
+0
+31.38 # SH_PH2-Br-CN-Me-C
+-1
+F_minus
+-1
+PH2-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_F_TS
+0
+14.57 # F_PH2-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+F-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_F_TS
+0
+4.07 # PH2_F-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+NH2-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_NH2_TS
+0
+30.67 # PH2_NH2-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_PH2_TS
+0
+17.87 # PH2_PH2-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_SH_TS
+0
+4.36 # PH2_SH-Br-CN-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-CN-NH2-C_reactant
+1
+PH2_Br-CN-NH2-C_SH_TS
+0
+28.64 # SH_PH2-Br-CN-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-F-H-C_reactant
+1
+PH2_Br-F-H-C_PH2_TS
+0
+34.61 # PH2_PH2-Br-F-H-C
+-1
+PH2_minus
+-1
+SH-Br-F-H-C_reactant
+1
+PH2_Br-F-H-C_SH_TS
+0
+19.19 # PH2_SH-Br-F-H-C
+-1
+SH_minus
+-1
+PH2-Br-F-H-C_reactant
+1
+PH2_Br-F-H-C_SH_TS
+0
+40.60 # SH_PH2-Br-F-H-C
+-1
+PH2_minus
+-1
+PH2-Br-F-Me-C_reactant
+1
+PH2_Br-F-Me-C_PH2_TS
+0
+40.78 # PH2_PH2-Br-F-Me-C
+-1
+PH2_minus
+-1
+SH-Br-F-Me-C_reactant
+1
+PH2_Br-F-Me-C_SH_TS
+0
+28.82 # PH2_SH-Br-F-Me-C
+-1
+SH_minus
+-1
+PH2-Br-F-Me-C_reactant
+1
+PH2_Br-F-Me-C_SH_TS
+0
+49.39 # SH_PH2-Br-F-Me-C
+-1
+PH2_minus
+-1
+SH-Br-F-NH2-C_reactant
+1
+PH2_Br-F-NH2-C_SH_TS
+0
+24.96 # PH2_SH-Br-F-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-F-NH2-C_reactant
+1
+PH2_Br-F-NH2-C_SH_TS
+0
+45.89 # SH_PH2-Br-F-NH2-C
+-1
+F_minus
+-1
+PH2-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_F_TS
+0
+22.77 # F_PH2-Br-H-H-C
+-1
+PH2_minus
+-1
+F-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_F_TS
+0
+12.51 # PH2_F-Br-H-H-C
+-1
+NH2_minus
+-1
+PH2-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_NH2_TS
+0
+14.57 # NH2_PH2-Br-H-H-C
+-1
+PH2_minus
+-1
+NH2-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_NH2_TS
+0
+49.79 # PH2_NH2-Br-H-H-C
+-1
+PH2_minus
+-1
+PH2-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_PH2_TS
+0
+27.91 # PH2_PH2-Br-H-H-C
+-1
+PH2_minus
+-1
+SH-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_SH_TS
+0
+12.79 # PH2_SH-Br-H-H-C
+-1
+SH_minus
+-1
+PH2-Br-H-H-C_reactant
+1
+PH2_Br-H-H-C_SH_TS
+0
+34.85 # SH_PH2-Br-H-H-C
+-1
+F_minus
+-1
+PH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_F_TS
+0
+25.72 # F_PH2-Br-H-Me-C
+-1
+PH2_minus
+-1
+F-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_F_TS
+0
+18.81 # PH2_F-Br-H-Me-C
+-1
+NH2_minus
+-1
+PH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_NH2_TS
+0
+16.47 # NH2_PH2-Br-H-Me-C
+-1
+PH2_minus
+-1
+NH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_NH2_TS
+0
+52.88 # PH2_NH2-Br-H-Me-C
+-1
+OH_minus
+-1
+PH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_OH_TS
+0
+22.21 # OH_PH2-Br-H-Me-C
+-1
+PH2_minus
+-1
+OH-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_OH_TS
+0
+38.43 # PH2_OH-Br-H-Me-C
+-1
+PH2_minus
+-1
+PH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_PH2_TS
+0
+30.82 # PH2_PH2-Br-H-Me-C
+-1
+PH2_minus
+-1
+SH-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_SH_TS
+0
+15.84 # PH2_SH-Br-H-Me-C
+-1
+SH_minus
+-1
+PH2-Br-H-Me-C_reactant
+1
+PH2_Br-H-Me-C_SH_TS
+0
+37.51 # SH_PH2-Br-H-Me-C
+-1
+F_minus
+-1
+PH2-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_F_TS
+0
+22.73 # F_PH2-Br-H-NH2-C
+-1
+PH2_minus
+-1
+F-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_F_TS
+0
+17.24 # PH2_F-Br-H-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_OH_TS
+0
+18.61 # OH_PH2-Br-H-NH2-C
+-1
+PH2_minus
+-1
+OH-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_OH_TS
+0
+35.73 # PH2_OH-Br-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_PH2_TS
+0
+27.73 # PH2_PH2-Br-H-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_SH_TS
+0
+12.59 # PH2_SH-Br-H-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-H-NH2-C_reactant
+1
+PH2_Br-H-NH2-C_SH_TS
+0
+36.08 # SH_PH2-Br-H-NH2-C
+-1
+F_minus
+-1
+PH2-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_F_TS
+0
+31.68 # F_PH2-Br-Me-Me-C
+-1
+PH2_minus
+-1
+F-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_F_TS
+0
+27.28 # PH2_F-Br-Me-Me-C
+-1
+NH2_minus
+-1
+PH2-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_NH2_TS
+0
+23.18 # NH2_PH2-Br-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_NH2_TS
+0
+60.47 # PH2_NH2-Br-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_PH2_TS
+0
+39.63 # PH2_PH2-Br-Me-Me-C
+-1
+PH2_minus
+-1
+SH-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_SH_TS
+0
+25.85 # PH2_SH-Br-Me-Me-C
+-1
+SH_minus
+-1
+PH2-Br-Me-Me-C_reactant
+1
+PH2_Br-Me-Me-C_SH_TS
+0
+48.04 # SH_PH2-Br-Me-Me-C
+-1
+F_minus
+-1
+PH2-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_F_TS
+0
+28.28 # F_PH2-Br-Me-NH2-C
+-1
+PH2_minus
+-1
+F-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_F_TS
+0
+24.71 # PH2_F-Br-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_OH_TS
+0
+24.76 # OH_PH2-Br-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_OH_TS
+0
+43.99 # PH2_OH-Br-Me-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_PH2_TS
+0
+38.63 # PH2_PH2-Br-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_SH_TS
+0
+24.47 # PH2_SH-Br-Me-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-Me-NH2-C_reactant
+1
+PH2_Br-Me-NH2-C_SH_TS
+0
+46.04 # SH_PH2-Br-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Br-Me-SH-C_reactant
+1
+PH2_Br-Me-SH-C_NH2_TS
+0
+11.13 # NH2_PH2-Br-Me-SH-C
+-1
+PH2_minus
+-1
+NH2-Br-Me-SH-C_reactant
+1
+PH2_Br-Me-SH-C_NH2_TS
+0
+48.37 # PH2_NH2-Br-Me-SH-C
+-1
+OH_minus
+-1
+PH2-Br-NH2-NH2-C_reactant
+1
+PH2_Br-NH2-NH2-C_OH_TS
+0
+20.89 # OH_PH2-Br-NH2-NH2-C
+-1
+PH2_minus
+-1
+OH-Br-NH2-NH2-C_reactant
+1
+PH2_Br-NH2-NH2-C_OH_TS
+0
+41.75 # PH2_OH-Br-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-Br-NH2-NH2-C_reactant
+1
+PH2_Br-NH2-NH2-C_PH2_TS
+0
+37.96 # PH2_PH2-Br-NH2-NH2-C
+-1
+F_minus
+-1
+PH2-Br-SH-SH-C_reactant
+1
+PH2_Br-SH-SH-C_F_TS
+0
+13.39 # F_PH2-Br-SH-SH-C
+-1
+PH2_minus
+-1
+F-Br-SH-SH-C_reactant
+1
+PH2_Br-SH-SH-C_F_TS
+0
+4.60 # PH2_F-Br-SH-SH-C
+-1
+F_minus
+-1
+PH2-CCH-CCH-H-C_reactant
+1
+PH2_CCH-CCH-H-C_F_TS
+0
+17.29 # F_PH2-CCH-CCH-H-C
+-1
+PH2_minus
+-1
+F-CCH-CCH-H-C_reactant
+1
+PH2_CCH-CCH-H-C_F_TS
+0
+3.75 # PH2_F-CCH-CCH-H-C
+-1
+OH_minus
+-1
+PH2-CCH-CCH-H-C_reactant
+1
+PH2_CCH-CCH-H-C_OH_TS
+0
+10.97 # OH_PH2-CCH-CCH-H-C
+-1
+PH2_minus
+-1
+OH-CCH-CCH-H-C_reactant
+1
+PH2_CCH-CCH-H-C_OH_TS
+0
+19.17 # PH2_OH-CCH-CCH-H-C
+-1
+PH2_minus
+-1
+PH2-CCH-CCH-H-C_reactant
+1
+PH2_CCH-CCH-H-C_PH2_TS
+0
+17.53 # PH2_PH2-CCH-CCH-H-C
+-1
+F_minus
+-1
+PH2-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_F_TS
+0
+26.22 # F_PH2-CCH-Cl-Cl-C
+-1
+PH2_minus
+-1
+F-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_F_TS
+0
+16.51 # PH2_F-CCH-Cl-Cl-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_NH2_TS
+0
+12.11 # NH2_PH2-CCH-Cl-Cl-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_NH2_TS
+0
+46.69 # PH2_NH2-CCH-Cl-Cl-C
+-1
+PH2_minus
+-1
+PH2-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_PH2_TS
+0
+26.32 # PH2_PH2-CCH-Cl-Cl-C
+-1
+PH2_minus
+-1
+SH-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_SH_TS
+0
+13.60 # PH2_SH-CCH-Cl-Cl-C
+-1
+SH_minus
+-1
+PH2-CCH-Cl-Cl-C_reactant
+1
+PH2_CCH-Cl-Cl-C_SH_TS
+0
+38.88 # SH_PH2-CCH-Cl-Cl-C
+-1
+F_minus
+-1
+PH2-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_F_TS
+0
+22.93 # F_PH2-CCH-Cl-F-C
+-1
+PH2_minus
+-1
+F-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_F_TS
+0
+20.68 # PH2_F-CCH-Cl-F-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_NH2_TS
+0
+12.85 # NH2_PH2-CCH-Cl-F-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_NH2_TS
+0
+52.60 # PH2_NH2-CCH-Cl-F-C
+-1
+PH2_minus
+-1
+PH2-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_PH2_TS
+0
+29.67 # PH2_PH2-CCH-Cl-F-C
+-1
+PH2_minus
+-1
+SH-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_SH_TS
+0
+16.13 # PH2_SH-CCH-Cl-F-C
+-1
+SH_minus
+-1
+PH2-CCH-Cl-F-C_reactant
+1
+PH2_CCH-Cl-F-C_SH_TS
+0
+39.91 # SH_PH2-CCH-Cl-F-C
+-1
+F_minus
+-1
+PH2-CCH-Cl-H-C_reactant
+1
+PH2_CCH-Cl-H-C_F_TS
+0
+20.96 # F_PH2-CCH-Cl-H-C
+-1
+PH2_minus
+-1
+F-CCH-Cl-H-C_reactant
+1
+PH2_CCH-Cl-H-C_F_TS
+0
+10.90 # PH2_F-CCH-Cl-H-C
+-1
+PH2_minus
+-1
+PH2-CCH-Cl-H-C_reactant
+1
+PH2_CCH-Cl-H-C_PH2_TS
+0
+24.11 # PH2_PH2-CCH-Cl-H-C
+-1
+PH2_minus
+-1
+SH-CCH-Cl-H-C_reactant
+1
+PH2_CCH-Cl-H-C_SH_TS
+0
+9.76 # PH2_SH-CCH-Cl-H-C
+-1
+SH_minus
+-1
+PH2-CCH-Cl-H-C_reactant
+1
+PH2_CCH-Cl-H-C_SH_TS
+0
+32.94 # SH_PH2-CCH-Cl-H-C
+-1
+F_minus
+-1
+PH2-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_F_TS
+0
+26.28 # F_PH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+F-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_F_TS
+0
+19.13 # PH2_F-CCH-Cl-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_NH2_TS
+0
+13.51 # NH2_PH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+NH2-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_NH2_TS
+0
+49.10 # PH2_NH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_PH2_TS
+0
+28.21 # PH2_PH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+SH-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_SH_TS
+0
+15.32 # PH2_SH-CCH-Cl-Me-C
+-1
+SH_minus
+-1
+PH2-CCH-Cl-Me-C_reactant
+1
+PH2_CCH-Cl-Me-C_SH_TS
+0
+38.88 # SH_PH2-CCH-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-Cl-NH2-C_reactant
+1
+PH2_CCH-Cl-NH2-C_PH2_TS
+0
+27.77 # PH2_PH2-CCH-Cl-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-Cl-NH2-C_reactant
+1
+PH2_CCH-Cl-NH2-C_SH_TS
+0
+14.50 # PH2_SH-CCH-Cl-NH2-C
+-1
+SH_minus
+-1
+PH2-CCH-Cl-NH2-C_reactant
+1
+PH2_CCH-Cl-NH2-C_SH_TS
+0
+37.73 # SH_PH2-CCH-Cl-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-Cl-OH-C_reactant
+1
+PH2_CCH-Cl-OH-C_OH_TS
+0
+10.69 # OH_PH2-CCH-Cl-OH-C
+-1
+PH2_minus
+-1
+OH-CCH-Cl-OH-C_reactant
+1
+PH2_CCH-Cl-OH-C_OH_TS
+0
+30.71 # PH2_OH-CCH-Cl-OH-C
+-1
+F_minus
+-1
+PH2-CCH-CN-H-C_reactant
+1
+PH2_CCH-CN-H-C_F_TS
+0
+9.11 # F_PH2-CCH-CN-H-C
+-1
+PH2_minus
+-1
+NH2-CCH-CN-H-C_reactant
+1
+PH2_CCH-CN-H-C_NH2_TS
+0
+24.57 # PH2_NH2-CCH-CN-H-C
+-1
+PH2_minus
+-1
+PH2-CCH-CN-H-C_reactant
+1
+PH2_CCH-CN-H-C_PH2_TS
+0
+9.06 # PH2_PH2-CCH-CN-H-C
+-1
+F_minus
+-1
+PH2-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_F_TS
+0
+21.45 # F_PH2-CCH-F-F-C
+-1
+PH2_minus
+-1
+F-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_F_TS
+0
+26.28 # PH2_F-CCH-F-F-C
+-1
+NH2_minus
+-1
+PH2-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_NH2_TS
+0
+13.96 # NH2_PH2-CCH-F-F-C
+-1
+PH2_minus
+-1
+NH2-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_NH2_TS
+0
+57.70 # PH2_NH2-CCH-F-F-C
+-1
+PH2_minus
+-1
+PH2-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_PH2_TS
+0
+32.85 # PH2_PH2-CCH-F-F-C
+-1
+PH2_minus
+-1
+SH-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_SH_TS
+0
+20.13 # PH2_SH-CCH-F-F-C
+-1
+SH_minus
+-1
+PH2-CCH-F-F-C_reactant
+1
+PH2_CCH-F-F-C_SH_TS
+0
+41.09 # SH_PH2-CCH-F-F-C
+-1
+F_minus
+-1
+PH2-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_F_TS
+0
+16.20 # F_PH2-CCH-F-H-C
+-1
+PH2_minus
+-1
+F-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_F_TS
+0
+14.58 # PH2_F-CCH-F-H-C
+-1
+OH_minus
+-1
+PH2-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_OH_TS
+0
+12.33 # OH_PH2-CCH-F-H-C
+-1
+PH2_minus
+-1
+OH-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_OH_TS
+0
+33.08 # PH2_OH-CCH-F-H-C
+-1
+PH2_minus
+-1
+PH2-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_PH2_TS
+0
+24.65 # PH2_PH2-CCH-F-H-C
+-1
+PH2_minus
+-1
+SH-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_SH_TS
+0
+11.91 # PH2_SH-CCH-F-H-C
+-1
+SH_minus
+-1
+PH2-CCH-F-H-C_reactant
+1
+PH2_CCH-F-H-C_SH_TS
+0
+31.58 # SH_PH2-CCH-F-H-C
+-1
+F_minus
+-1
+PH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_F_TS
+0
+22.45 # F_PH2-CCH-F-Me-C
+-1
+PH2_minus
+-1
+F-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_F_TS
+0
+23.14 # PH2_F-CCH-F-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_NH2_TS
+0
+13.55 # NH2_PH2-CCH-F-Me-C
+-1
+PH2_minus
+-1
+NH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_NH2_TS
+0
+51.10 # PH2_NH2-CCH-F-Me-C
+-1
+OH_minus
+-1
+PH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_OH_TS
+0
+16.83 # OH_PH2-CCH-F-Me-C
+-1
+PH2_minus
+-1
+OH-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_OH_TS
+0
+40.50 # PH2_OH-CCH-F-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_PH2_TS
+0
+30.15 # PH2_PH2-CCH-F-Me-C
+-1
+PH2_minus
+-1
+SH-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_SH_TS
+0
+15.97 # PH2_SH-CCH-F-Me-C
+-1
+SH_minus
+-1
+PH2-CCH-F-Me-C_reactant
+1
+PH2_CCH-F-Me-C_SH_TS
+0
+37.94 # SH_PH2-CCH-F-Me-C
+-1
+F_minus
+-1
+PH2-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_F_TS
+0
+19.88 # F_PH2-CCH-F-NH2-C
+-1
+PH2_minus
+-1
+F-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_F_TS
+0
+19.90 # PH2_F-CCH-F-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_NH2_TS
+0
+9.63 # NH2_PH2-CCH-F-NH2-C
+-1
+PH2_minus
+-1
+NH2-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_NH2_TS
+0
+47.31 # PH2_NH2-CCH-F-NH2-C
+-1
+PH2_minus
+-1
+PH2-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_PH2_TS
+0
+29.60 # PH2_PH2-CCH-F-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_SH_TS
+0
+16.81 # PH2_SH-CCH-F-NH2-C
+-1
+SH_minus
+-1
+PH2-CCH-F-NH2-C_reactant
+1
+PH2_CCH-F-NH2-C_SH_TS
+0
+37.15 # SH_PH2-CCH-F-NH2-C
+-1
+F_minus
+-1
+PH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_F_TS
+0
+19.67 # F_PH2-CCH-H-H-C
+-1
+PH2_minus
+-1
+F-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_F_TS
+0
+6.51 # PH2_F-CCH-H-H-C
+-1
+NH2_minus
+-1
+PH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_NH2_TS
+0
+10.36 # NH2_PH2-CCH-H-H-C
+-1
+PH2_minus
+-1
+NH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_NH2_TS
+0
+38.61 # PH2_NH2-CCH-H-H-C
+-1
+OH_minus
+-1
+PH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_OH_TS
+0
+16.43 # OH_PH2-CCH-H-H-C
+-1
+PH2_minus
+-1
+OH-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_OH_TS
+0
+25.12 # PH2_OH-CCH-H-H-C
+-1
+PH2_minus
+-1
+PH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_PH2_TS
+0
+22.77 # PH2_PH2-CCH-H-H-C
+-1
+PH2_minus
+-1
+SH-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_SH_TS
+0
+6.75 # PH2_SH-CCH-H-H-C
+-1
+SH_minus
+-1
+PH2-CCH-H-H-C_reactant
+1
+PH2_CCH-H-H-C_SH_TS
+0
+30.47 # SH_PH2-CCH-H-H-C
+-1
+F_minus
+-1
+PH2-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_F_TS
+0
+21.39 # F_PH2-CCH-H-Me-C
+-1
+PH2_minus
+-1
+F-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_F_TS
+0
+12.53 # PH2_F-CCH-H-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_NH2_TS
+0
+11.08 # NH2_PH2-CCH-H-Me-C
+-1
+PH2_minus
+-1
+NH2-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_NH2_TS
+0
+40.14 # PH2_NH2-CCH-H-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_PH2_TS
+0
+24.77 # PH2_PH2-CCH-H-Me-C
+-1
+PH2_minus
+-1
+SH-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_SH_TS
+0
+10.18 # PH2_SH-CCH-H-Me-C
+-1
+SH_minus
+-1
+PH2-CCH-H-Me-C_reactant
+1
+PH2_CCH-H-Me-C_SH_TS
+0
+32.30 # SH_PH2-CCH-H-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-H-NH2-C_reactant
+1
+PH2_CCH-H-NH2-C_NH2_TS
+0
+6.18 # NH2_PH2-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-CCH-H-NH2-C_reactant
+1
+PH2_CCH-H-NH2-C_NH2_TS
+0
+40.48 # PH2_NH2-CCH-H-NH2-C
+-1
+OH_minus
+-1
+PH2-CCH-H-NH2-C_reactant
+1
+PH2_CCH-H-NH2-C_OH_TS
+0
+10.58 # OH_PH2-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+OH-CCH-H-NH2-C_reactant
+1
+PH2_CCH-H-NH2-C_OH_TS
+0
+28.17 # PH2_OH-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-CCH-H-NH2-C_reactant
+1
+PH2_CCH-H-NH2-C_PH2_TS
+0
+21.75 # PH2_PH2-CCH-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-H-OH-C_reactant
+1
+PH2_CCH-H-OH-C_NH2_TS
+0
+2.10 # NH2_PH2-CCH-H-OH-C
+-1
+PH2_minus
+-1
+NH2-CCH-H-OH-C_reactant
+1
+PH2_CCH-H-OH-C_NH2_TS
+0
+36.81 # PH2_NH2-CCH-H-OH-C
+-1
+F_minus
+-1
+PH2-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_F_TS
+0
+25.19 # F_PH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+F-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_F_TS
+0
+19.45 # PH2_F-CCH-Me-Me-C
+-1
+NH2_minus
+-1
+PH2-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_NH2_TS
+0
+14.54 # NH2_PH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_NH2_TS
+0
+45.20 # PH2_NH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_PH2_TS
+0
+30.18 # PH2_PH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+SH-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_SH_TS
+0
+17.48 # PH2_SH-CCH-Me-Me-C
+-1
+SH_minus
+-1
+PH2-CCH-Me-Me-C_reactant
+1
+PH2_CCH-Me-Me-C_SH_TS
+0
+38.71 # SH_PH2-CCH-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-CCH-Me-NH2-C_reactant
+1
+PH2_CCH-Me-NH2-C_PH2_TS
+0
+28.16 # PH2_PH2-CCH-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-Me-SH-C_reactant
+1
+PH2_CCH-Me-SH-C_NH2_TS
+0
+5.73 # NH2_PH2-CCH-Me-SH-C
+-1
+PH2_minus
+-1
+NH2-CCH-Me-SH-C_reactant
+1
+PH2_CCH-Me-SH-C_NH2_TS
+0
+38.25 # PH2_NH2-CCH-Me-SH-C
+-1
+PH2_minus
+-1
+PH2-CCH-NH2-NH2-C_reactant
+1
+PH2_CCH-NH2-NH2-C_PH2_TS
+0
+26.57 # PH2_PH2-CCH-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-CCH-NH2-OH-C_reactant
+1
+PH2_CCH-NH2-OH-C_NH2_TS
+0
+3.45 # NH2_PH2-CCH-NH2-OH-C
+-1
+PH2_minus
+-1
+NH2-CCH-NH2-OH-C_reactant
+1
+PH2_CCH-NH2-OH-C_NH2_TS
+0
+40.48 # PH2_NH2-CCH-NH2-OH-C
+-1
+PH2_minus
+-1
+PH2-CCH-OH-OH-C_reactant
+1
+PH2_CCH-OH-OH-C_PH2_TS
+0
+26.97 # PH2_PH2-CCH-OH-OH-C
+-1
+PH2_minus
+-1
+NH2-CCH-SH-SH-C_reactant
+1
+PH2_CCH-SH-SH-C_NH2_TS
+0
+29.56 # PH2_NH2-CCH-SH-SH-C
+-1
+OH_minus
+-1
+PH2-CCH-SH-SH-C_reactant
+1
+PH2_CCH-SH-SH-C_OH_TS
+0
+6.84 # OH_PH2-CCH-SH-SH-C
+-1
+PH2_minus
+-1
+OH-CCH-SH-SH-C_reactant
+1
+PH2_CCH-SH-SH-C_OH_TS
+0
+19.84 # PH2_OH-CCH-SH-SH-C
+-1
+F_minus
+-1
+PH2-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_F_TS
+0
+25.53 # F_PH2-Cl-Cl-H-C
+-1
+PH2_minus
+-1
+F-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_F_TS
+0
+18.43 # PH2_F-Cl-Cl-H-C
+-1
+OH_minus
+-1
+PH2-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_OH_TS
+0
+21.08 # OH_PH2-Cl-Cl-H-C
+-1
+PH2_minus
+-1
+OH-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_OH_TS
+0
+39.82 # PH2_OH-Cl-Cl-H-C
+-1
+PH2_minus
+-1
+PH2-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_PH2_TS
+0
+32.44 # PH2_PH2-Cl-Cl-H-C
+-1
+PH2_minus
+-1
+SH-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_SH_TS
+0
+16.93 # PH2_SH-Cl-Cl-H-C
+-1
+SH_minus
+-1
+PH2-Cl-Cl-H-C_reactant
+1
+PH2_Cl-Cl-H-C_SH_TS
+0
+39.90 # SH_PH2-Cl-Cl-H-C
+-1
+F_minus
+-1
+PH2-Cl-Cl-Me-C_reactant
+1
+PH2_Cl-Cl-Me-C_F_TS
+0
+33.16 # F_PH2-Cl-Cl-Me-C
+-1
+PH2_minus
+-1
+F-Cl-Cl-Me-C_reactant
+1
+PH2_Cl-Cl-Me-C_F_TS
+0
+28.05 # PH2_F-Cl-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-Cl-Me-C_reactant
+1
+PH2_Cl-Cl-Me-C_PH2_TS
+0
+39.63 # PH2_PH2-Cl-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-Cl-NH2-C_reactant
+1
+PH2_Cl-Cl-NH2-C_PH2_TS
+0
+35.27 # PH2_PH2-Cl-Cl-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-F-F-C_reactant
+1
+PH2_Cl-F-F-C_OH_TS
+0
+20.74 # OH_PH2-Cl-F-F-C
+-1
+PH2_minus
+-1
+OH-Cl-F-F-C_reactant
+1
+PH2_Cl-F-F-C_OH_TS
+0
+47.63 # PH2_OH-Cl-F-F-C
+-1
+PH2_minus
+-1
+SH-Cl-F-F-C_reactant
+1
+PH2_Cl-F-F-C_SH_TS
+0
+31.87 # PH2_SH-Cl-F-F-C
+-1
+SH_minus
+-1
+PH2-Cl-F-F-C_reactant
+1
+PH2_Cl-F-F-C_SH_TS
+0
+54.14 # SH_PH2-Cl-F-F-C
+-1
+F_minus
+-1
+PH2-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_F_TS
+0
+22.25 # F_PH2-Cl-F-H-C
+-1
+PH2_minus
+-1
+F-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_F_TS
+0
+22.36 # PH2_F-Cl-F-H-C
+-1
+NH2_minus
+-1
+PH2-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_NH2_TS
+0
+16.50 # NH2_PH2-Cl-F-H-C
+-1
+PH2_minus
+-1
+NH2-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_NH2_TS
+0
+57.56 # PH2_NH2-Cl-F-H-C
+-1
+PH2_minus
+-1
+SH-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_SH_TS
+0
+19.57 # PH2_SH-Cl-F-H-C
+-1
+SH_minus
+-1
+PH2-Cl-F-H-C_reactant
+1
+PH2_Cl-F-H-C_SH_TS
+0
+40.52 # SH_PH2-Cl-F-H-C
+-1
+F_minus
+-1
+PH2-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_F_TS
+0
+30.17 # F_PH2-Cl-F-Me-C
+-1
+PH2_minus
+-1
+F-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_F_TS
+0
+32.43 # PH2_F-Cl-F-Me-C
+-1
+OH_minus
+-1
+PH2-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_OH_TS
+0
+25.12 # OH_PH2-Cl-F-Me-C
+-1
+PH2_minus
+-1
+OH-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_OH_TS
+0
+51.51 # PH2_OH-Cl-F-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_PH2_TS
+0
+42.00 # PH2_PH2-Cl-F-Me-C
+-1
+PH2_minus
+-1
+SH-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_SH_TS
+0
+29.83 # PH2_SH-Cl-F-Me-C
+-1
+SH_minus
+-1
+PH2-Cl-F-Me-C_reactant
+1
+PH2_Cl-F-Me-C_SH_TS
+0
+50.14 # SH_PH2-Cl-F-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-F-NH2-C_reactant
+1
+PH2_Cl-F-NH2-C_PH2_TS
+0
+39.36 # PH2_PH2-Cl-F-NH2-C
+-1
+F_minus
+-1
+PH2-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_F_TS
+0
+22.02 # F_PH2-Cl-H-H-C
+-1
+PH2_minus
+-1
+F-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_F_TS
+0
+13.87 # PH2_F-Cl-H-H-C
+-1
+NH2_minus
+-1
+PH2-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_NH2_TS
+0
+14.46 # NH2_PH2-Cl-H-H-C
+-1
+PH2_minus
+-1
+NH2-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_NH2_TS
+0
+50.54 # PH2_NH2-Cl-H-H-C
+-1
+PH2_minus
+-1
+PH2-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_PH2_TS
+0
+27.99 # PH2_PH2-Cl-H-H-C
+-1
+PH2_minus
+-1
+SH-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_SH_TS
+0
+13.26 # PH2_SH-Cl-H-H-C
+-1
+SH_minus
+-1
+PH2-Cl-H-H-C_reactant
+1
+PH2_Cl-H-H-C_SH_TS
+0
+34.65 # SH_PH2-Cl-H-H-C
+-1
+F_minus
+-1
+PH2-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_F_TS
+0
+25.07 # F_PH2-Cl-H-Me-C
+-1
+PH2_minus
+-1
+F-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_F_TS
+0
+20.11 # PH2_F-Cl-H-Me-C
+-1
+NH2_minus
+-1
+PH2-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_NH2_TS
+0
+16.58 # NH2_PH2-Cl-H-Me-C
+-1
+PH2_minus
+-1
+NH2-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_NH2_TS
+0
+53.73 # PH2_NH2-Cl-H-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_PH2_TS
+0
+31.03 # PH2_PH2-Cl-H-Me-C
+-1
+PH2_minus
+-1
+SH-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_SH_TS
+0
+16.36 # PH2_SH-Cl-H-Me-C
+-1
+SH_minus
+-1
+PH2-Cl-H-Me-C_reactant
+1
+PH2_Cl-H-Me-C_SH_TS
+0
+37.39 # SH_PH2-Cl-H-Me-C
+-1
+F_minus
+-1
+PH2-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_F_TS
+0
+22.37 # F_PH2-Cl-H-NH2-C
+-1
+PH2_minus
+-1
+F-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_F_TS
+0
+18.82 # PH2_F-Cl-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_NH2_TS
+0
+11.29 # NH2_PH2-Cl-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_NH2_TS
+0
+46.17 # PH2_NH2-Cl-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_PH2_TS
+0
+27.97 # PH2_PH2-Cl-H-NH2-C
+-1
+PH2_minus
+-1
+SH-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_SH_TS
+0
+13.16 # PH2_SH-Cl-H-NH2-C
+-1
+SH_minus
+-1
+PH2-Cl-H-NH2-C_reactant
+1
+PH2_Cl-H-NH2-C_SH_TS
+0
+35.98 # SH_PH2-Cl-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-Cl-Me-Me-C_reactant
+1
+PH2_Cl-Me-Me-C_NH2_TS
+0
+23.66 # NH2_PH2-Cl-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-Cl-Me-Me-C_reactant
+1
+PH2_Cl-Me-Me-C_NH2_TS
+0
+61.47 # PH2_NH2-Cl-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-Cl-Me-Me-C_reactant
+1
+PH2_Cl-Me-Me-C_PH2_TS
+0
+40.37 # PH2_PH2-Cl-Me-Me-C
+-1
+F_minus
+-1
+PH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_F_TS
+0
+28.56 # F_PH2-Cl-Me-NH2-C
+-1
+PH2_minus
+-1
+F-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_F_TS
+0
+26.46 # PH2_F-Cl-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_NH2_TS
+0
+20.23 # NH2_PH2-Cl-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_NH2_TS
+0
+56.15 # PH2_NH2-Cl-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_OH_TS
+0
+25.06 # OH_PH2-Cl-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_OH_TS
+0
+43.32 # PH2_OH-Cl-Me-NH2-C
+-1
+PH2_minus
+-1
+PH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_PH2_TS
+0
+39.43 # PH2_PH2-Cl-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_SH_TS
+0
+25.22 # PH2_SH-Cl-Me-NH2-C
+-1
+SH_minus
+-1
+PH2-Cl-Me-NH2-C_reactant
+1
+PH2_Cl-Me-NH2-C_SH_TS
+0
+46.50 # SH_PH2-Cl-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Cl-Me-SH-C_reactant
+1
+PH2_Cl-Me-SH-C_NH2_TS
+0
+11.50 # NH2_PH2-Cl-Me-SH-C
+-1
+PH2_minus
+-1
+NH2-Cl-Me-SH-C_reactant
+1
+PH2_Cl-Me-SH-C_NH2_TS
+0
+47.54 # PH2_NH2-Cl-Me-SH-C
+-1
+F_minus
+-1
+PH2-Cl-NH2-NH2-C_reactant
+1
+PH2_Cl-NH2-NH2-C_F_TS
+0
+24.81 # F_PH2-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+F-Cl-NH2-NH2-C_reactant
+1
+PH2_Cl-NH2-NH2-C_F_TS
+0
+27.54 # PH2_F-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-Cl-NH2-NH2-C_reactant
+1
+PH2_Cl-NH2-NH2-C_PH2_TS
+0
+38.26 # PH2_PH2-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+SH-Cl-NH2-NH2-C_reactant
+1
+PH2_Cl-NH2-NH2-C_SH_TS
+0
+23.87 # PH2_SH-Cl-NH2-NH2-C
+-1
+SH_minus
+-1
+PH2-Cl-NH2-NH2-C_reactant
+1
+PH2_Cl-NH2-NH2-C_SH_TS
+0
+43.74 # SH_PH2-Cl-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-Cl-NH2-OH-C_reactant
+1
+PH2_Cl-NH2-OH-C_PH2_TS
+0
+38.72 # PH2_PH2-Cl-NH2-OH-C
+-1
+PH2_minus
+-1
+PH2-Cl-OH-OH-C_reactant
+1
+PH2_Cl-OH-OH-C_PH2_TS
+0
+39.46 # PH2_PH2-Cl-OH-OH-C
+-1
+PH2_minus
+-1
+SH-Cl-OH-OH-C_reactant
+1
+PH2_Cl-OH-OH-C_SH_TS
+0
+26.91 # PH2_SH-Cl-OH-OH-C
+-1
+SH_minus
+-1
+PH2-Cl-OH-OH-C_reactant
+1
+PH2_Cl-OH-OH-C_SH_TS
+0
+48.95 # SH_PH2-Cl-OH-OH-C
+-1
+OH_minus
+-1
+PH2-Cl-OH-SH-C_reactant
+1
+PH2_Cl-OH-SH-C_OH_TS
+0
+12.15 # OH_PH2-Cl-OH-SH-C
+-1
+PH2_minus
+-1
+OH-Cl-OH-SH-C_reactant
+1
+PH2_Cl-OH-SH-C_OH_TS
+0
+30.98 # PH2_OH-Cl-OH-SH-C
+-1
+NH2_minus
+-1
+PH2-Cl-SH-SH-C_reactant
+1
+PH2_Cl-SH-SH-C_NH2_TS
+0
+2.28 # NH2_PH2-Cl-SH-SH-C
+-1
+PH2_minus
+-1
+NH2-Cl-SH-SH-C_reactant
+1
+PH2_Cl-SH-SH-C_NH2_TS
+0
+38.19 # PH2_NH2-Cl-SH-SH-C
+-1
+NH2_minus
+-1
+PH2-CN-Cl-Cl-C_reactant
+1
+PH2_CN-Cl-Cl-C_NH2_TS
+0
+1.83 # NH2_PH2-CN-Cl-Cl-C
+-1
+PH2_minus
+-1
+NH2-CN-Cl-Cl-C_reactant
+1
+PH2_CN-Cl-Cl-C_NH2_TS
+0
+34.58 # PH2_NH2-CN-Cl-Cl-C
+-1
+PH2_minus
+-1
+PH2-CN-Cl-Cl-C_reactant
+1
+PH2_CN-Cl-Cl-C_PH2_TS
+0
+16.49 # PH2_PH2-CN-Cl-Cl-C
+-1
+PH2_minus
+-1
+SH-CN-Cl-Cl-C_reactant
+1
+PH2_CN-Cl-Cl-C_SH_TS
+0
+3.54 # PH2_SH-CN-Cl-Cl-C
+-1
+SH_minus
+-1
+PH2-CN-Cl-Cl-C_reactant
+1
+PH2_CN-Cl-Cl-C_SH_TS
+0
+29.60 # SH_PH2-CN-Cl-Cl-C
+-1
+F_minus
+-1
+PH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_F_TS
+0
+13.08 # F_PH2-CN-Cl-F-C
+-1
+PH2_minus
+-1
+F-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_F_TS
+0
+8.30 # PH2_F-CN-Cl-F-C
+-1
+NH2_minus
+-1
+PH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_NH2_TS
+0
+2.00 # NH2_PH2-CN-Cl-F-C
+-1
+PH2_minus
+-1
+NH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_NH2_TS
+0
+41.66 # PH2_NH2-CN-Cl-F-C
+-1
+OH_minus
+-1
+PH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_OH_TS
+0
+6.18 # OH_PH2-CN-Cl-F-C
+-1
+PH2_minus
+-1
+OH-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_OH_TS
+0
+26.01 # PH2_OH-CN-Cl-F-C
+-1
+PH2_minus
+-1
+PH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_PH2_TS
+0
+19.78 # PH2_PH2-CN-Cl-F-C
+-1
+PH2_minus
+-1
+SH-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_SH_TS
+0
+6.04 # PH2_SH-CN-Cl-F-C
+-1
+SH_minus
+-1
+PH2-CN-Cl-F-C_reactant
+1
+PH2_CN-Cl-F-C_SH_TS
+0
+30.70 # SH_PH2-CN-Cl-F-C
+-1
+F_minus
+-1
+PH2-CN-Cl-H-C_reactant
+1
+PH2_CN-Cl-H-C_F_TS
+0
+12.54 # F_PH2-CN-Cl-H-C
+-1
+PH2_minus
+-1
+PH2-CN-Cl-H-C_reactant
+1
+PH2_CN-Cl-H-C_PH2_TS
+0
+15.57 # PH2_PH2-CN-Cl-H-C
+-1
+PH2_minus
+-1
+SH-CN-Cl-H-C_reactant
+1
+PH2_CN-Cl-H-C_SH_TS
+0
+0.98 # PH2_SH-CN-Cl-H-C
+-1
+SH_minus
+-1
+PH2-CN-Cl-H-C_reactant
+1
+PH2_CN-Cl-H-C_SH_TS
+0
+25.08 # SH_PH2-CN-Cl-H-C
+-1
+OH_minus
+-1
+PH2-CN-Cl-Me-C_reactant
+1
+PH2_CN-Cl-Me-C_OH_TS
+0
+8.57 # OH_PH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+OH-CN-Cl-Me-C_reactant
+1
+PH2_CN-Cl-Me-C_OH_TS
+0
+23.25 # PH2_OH-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-Cl-Me-C_reactant
+1
+PH2_CN-Cl-Me-C_PH2_TS
+0
+18.59 # PH2_PH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+SH-CN-Cl-Me-C_reactant
+1
+PH2_CN-Cl-Me-C_SH_TS
+0
+5.67 # PH2_SH-CN-Cl-Me-C
+-1
+SH_minus
+-1
+PH2-CN-Cl-Me-C_reactant
+1
+PH2_CN-Cl-Me-C_SH_TS
+0
+29.52 # SH_PH2-CN-Cl-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-Cl-NH2-C_reactant
+1
+PH2_CN-Cl-NH2-C_PH2_TS
+0
+16.65 # PH2_PH2-CN-Cl-NH2-C
+-1
+PH2_minus
+-1
+SH-CN-Cl-NH2-C_reactant
+1
+PH2_CN-Cl-NH2-C_SH_TS
+0
+4.69 # PH2_SH-CN-Cl-NH2-C
+-1
+SH_minus
+-1
+PH2-CN-Cl-NH2-C_reactant
+1
+PH2_CN-Cl-NH2-C_SH_TS
+0
+27.18 # SH_PH2-CN-Cl-NH2-C
+-1
+F_minus
+-1
+PH2-CN-CN-H-C_reactant
+1
+PH2_CN-CN-H-C_F_TS
+0
+0.67 # F_PH2-CN-CN-H-C
+-1
+PH2_minus
+-1
+NH2-CN-CN-H-C_reactant
+1
+PH2_CN-CN-H-C_NH2_TS
+0
+14.40 # PH2_NH2-CN-CN-H-C
+-1
+NH2_minus
+-1
+PH2-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_NH2_TS
+0
+2.85 # NH2_PH2-CN-F-F-C
+-1
+PH2_minus
+-1
+NH2-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_NH2_TS
+0
+46.52 # PH2_NH2-CN-F-F-C
+-1
+OH_minus
+-1
+PH2-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_OH_TS
+0
+6.03 # OH_PH2-CN-F-F-C
+-1
+PH2_minus
+-1
+OH-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_OH_TS
+0
+33.03 # PH2_OH-CN-F-F-C
+-1
+PH2_minus
+-1
+PH2-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_PH2_TS
+0
+23.16 # PH2_PH2-CN-F-F-C
+-1
+PH2_minus
+-1
+SH-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_SH_TS
+0
+10.20 # PH2_SH-CN-F-F-C
+-1
+SH_minus
+-1
+PH2-CN-F-F-C_reactant
+1
+PH2_CN-F-F-C_SH_TS
+0
+32.11 # SH_PH2-CN-F-F-C
+-1
+F_minus
+-1
+PH2-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_F_TS
+0
+7.51 # F_PH2-CN-F-H-C
+-1
+PH2_minus
+-1
+F-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_F_TS
+0
+3.11 # PH2_F-CN-F-H-C
+-1
+OH_minus
+-1
+PH2-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_OH_TS
+0
+2.45 # OH_PH2-CN-F-H-C
+-1
+PH2_minus
+-1
+OH-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_OH_TS
+0
+23.34 # PH2_OH-CN-F-H-C
+-1
+PH2_minus
+-1
+PH2-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_PH2_TS
+0
+16.24 # PH2_PH2-CN-F-H-C
+-1
+PH2_minus
+-1
+SH-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_SH_TS
+0
+3.16 # PH2_SH-CN-F-H-C
+-1
+SH_minus
+-1
+PH2-CN-F-H-C_reactant
+1
+PH2_CN-F-H-C_SH_TS
+0
+23.82 # SH_PH2-CN-F-H-C
+-1
+OH_minus
+-1
+PH2-CN-F-Me-C_reactant
+1
+PH2_CN-F-Me-C_OH_TS
+0
+6.26 # OH_PH2-CN-F-Me-C
+-1
+PH2_minus
+-1
+OH-CN-F-Me-C_reactant
+1
+PH2_CN-F-Me-C_OH_TS
+0
+28.03 # PH2_OH-CN-F-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-F-Me-C_reactant
+1
+PH2_CN-F-Me-C_PH2_TS
+0
+20.51 # PH2_PH2-CN-F-Me-C
+-1
+PH2_minus
+-1
+SH-CN-F-Me-C_reactant
+1
+PH2_CN-F-Me-C_SH_TS
+0
+6.61 # PH2_SH-CN-F-Me-C
+-1
+SH_minus
+-1
+PH2-CN-F-Me-C_reactant
+1
+PH2_CN-F-Me-C_SH_TS
+0
+28.80 # SH_PH2-CN-F-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_NH2_TS
+0
+38.51 # PH2_NH2-CN-F-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_OH_TS
+0
+1.47 # OH_PH2-CN-F-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_OH_TS
+0
+24.46 # PH2_OH-CN-F-NH2-C
+-1
+PH2_minus
+-1
+PH2-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_PH2_TS
+0
+16.47 # PH2_PH2-CN-F-NH2-C
+-1
+PH2_minus
+-1
+SH-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_SH_TS
+0
+7.09 # PH2_SH-CN-F-NH2-C
+-1
+SH_minus
+-1
+PH2-CN-F-NH2-C_reactant
+1
+PH2_CN-F-NH2-C_SH_TS
+0
+24.99 # SH_PH2-CN-F-NH2-C
+-1
+F_minus
+-1
+PH2-CN-H-H-C_reactant
+1
+PH2_CN-H-H-C_F_TS
+0
+12.12 # F_PH2-CN-H-H-C
+-1
+NH2_minus
+-1
+PH2-CN-H-H-C_reactant
+1
+PH2_CN-H-H-C_NH2_TS
+0
+1.75 # NH2_PH2-CN-H-H-C
+-1
+PH2_minus
+-1
+NH2-CN-H-H-C_reactant
+1
+PH2_CN-H-H-C_NH2_TS
+0
+29.99 # PH2_NH2-CN-H-H-C
+-1
+PH2_minus
+-1
+PH2-CN-H-H-C_reactant
+1
+PH2_CN-H-H-C_PH2_TS
+0
+15.15 # PH2_PH2-CN-H-H-C
+-1
+SH_minus
+-1
+PH2-CN-H-H-C_reactant
+1
+PH2_CN-H-H-C_SH_TS
+0
+23.50 # SH_PH2-CN-H-H-C
+-1
+NH2_minus
+-1
+PH2-CN-H-Me-C_reactant
+1
+PH2_CN-H-Me-C_NH2_TS
+0
+2.07 # NH2_PH2-CN-H-Me-C
+-1
+PH2_minus
+-1
+NH2-CN-H-Me-C_reactant
+1
+PH2_CN-H-Me-C_NH2_TS
+0
+31.40 # PH2_NH2-CN-H-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-H-Me-C_reactant
+1
+PH2_CN-H-Me-C_PH2_TS
+0
+16.73 # PH2_PH2-CN-H-Me-C
+-1
+PH2_minus
+-1
+SH-CN-H-Me-C_reactant
+1
+PH2_CN-H-Me-C_SH_TS
+0
+2.23 # PH2_SH-CN-H-Me-C
+-1
+SH_minus
+-1
+PH2-CN-H-Me-C_reactant
+1
+PH2_CN-H-Me-C_SH_TS
+0
+24.89 # SH_PH2-CN-H-Me-C
+-1
+F_minus
+-1
+PH2-CN-H-NH2-C_reactant
+1
+PH2_CN-H-NH2-C_F_TS
+0
+7.68 # F_PH2-CN-H-NH2-C
+-1
+PH2_minus
+-1
+F-CN-H-NH2-C_reactant
+1
+PH2_CN-H-NH2-C_F_TS
+0
+1.94 # PH2_F-CN-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-H-NH2-C_reactant
+1
+PH2_CN-H-NH2-C_NH2_TS
+0
+29.82 # PH2_NH2-CN-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-CN-H-NH2-C_reactant
+1
+PH2_CN-H-NH2-C_PH2_TS
+0
+11.27 # PH2_PH2-CN-H-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-H-OH-C_reactant
+1
+PH2_CN-H-OH-C_NH2_TS
+0
+28.83 # PH2_NH2-CN-H-OH-C
+-1
+OH_minus
+-1
+PH2-CN-Me-Me-C_reactant
+1
+PH2_CN-Me-Me-C_OH_TS
+0
+14.21 # OH_PH2-CN-Me-Me-C
+-1
+PH2_minus
+-1
+OH-CN-Me-Me-C_reactant
+1
+PH2_CN-Me-Me-C_OH_TS
+0
+26.62 # PH2_OH-CN-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-Me-Me-C_reactant
+1
+PH2_CN-Me-Me-C_PH2_TS
+0
+21.54 # PH2_PH2-CN-Me-Me-C
+-1
+PH2_minus
+-1
+SH-CN-Me-Me-C_reactant
+1
+PH2_CN-Me-Me-C_SH_TS
+0
+7.80 # PH2_SH-CN-Me-Me-C
+-1
+SH_minus
+-1
+PH2-CN-Me-Me-C_reactant
+1
+PH2_CN-Me-Me-C_SH_TS
+0
+30.50 # SH_PH2-CN-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-CN-Me-NH2-C_reactant
+1
+PH2_CN-Me-NH2-C_PH2_TS
+0
+20.24 # PH2_PH2-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-CN-Me-NH2-C_reactant
+1
+PH2_CN-Me-NH2-C_SH_TS
+0
+6.37 # PH2_SH-CN-Me-NH2-C
+-1
+SH_minus
+-1
+PH2-CN-Me-NH2-C_reactant
+1
+PH2_CN-Me-NH2-C_SH_TS
+0
+28.03 # SH_PH2-CN-Me-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-Me-SH-C_reactant
+1
+PH2_CN-Me-SH-C_NH2_TS
+0
+26.48 # PH2_NH2-CN-Me-SH-C
+-1
+F_minus
+-1
+PH2-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_F_TS
+0
+9.38 # F_PH2-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+F-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_F_TS
+0
+11.60 # PH2_F-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_NH2_TS
+0
+36.30 # PH2_NH2-CN-NH2-NH2-C
+-1
+OH_minus
+-1
+PH2-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_OH_TS
+0
+5.24 # OH_PH2-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+OH-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_OH_TS
+0
+28.17 # PH2_OH-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-CN-NH2-NH2-C_reactant
+1
+PH2_CN-NH2-NH2-C_PH2_TS
+0
+18.56 # PH2_PH2-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-CN-NH2-OH-C_reactant
+1
+PH2_CN-NH2-OH-C_NH2_TS
+0
+30.72 # PH2_NH2-CN-NH2-OH-C
+-1
+PH2_minus
+-1
+OH-CN-OH-OH-C_reactant
+1
+PH2_CN-OH-OH-C_OH_TS
+0
+23.40 # PH2_OH-CN-OH-OH-C
+-1
+PH2_minus
+-1
+SH-CN-OH-OH-C_reactant
+1
+PH2_CN-OH-OH-C_SH_TS
+0
+1.26 # PH2_SH-CN-OH-OH-C
+-1
+SH_minus
+-1
+PH2-CN-OH-OH-C_reactant
+1
+PH2_CN-OH-OH-C_SH_TS
+0
+20.60 # SH_PH2-CN-OH-OH-C
+-1
+PH2_minus
+-1
+NH2-CN-SH-SH-C_reactant
+1
+PH2_CN-SH-SH-C_NH2_TS
+0
+19.28 # PH2_NH2-CN-SH-SH-C
+-1
+NH2_minus
+-1
+PH2-F-F-F-C_reactant
+1
+PH2_F-F-F-C_NH2_TS
+0
+24.65 # NH2_PH2-F-F-F-C
+-1
+PH2_minus
+-1
+NH2-F-F-F-C_reactant
+1
+PH2_F-F-F-C_NH2_TS
+0
+70.43 # PH2_NH2-F-F-F-C
+-1
+F_minus
+-1
+PH2-F-F-H-C_reactant
+1
+PH2_F-F-H-C_F_TS
+0
+18.48 # F_PH2-F-F-H-C
+-1
+PH2_minus
+-1
+F-F-F-H-C_reactant
+1
+PH2_F-F-H-C_F_TS
+0
+26.77 # PH2_F-F-F-H-C
+-1
+NH2_minus
+-1
+PH2-F-F-H-C_reactant
+1
+PH2_F-F-H-C_NH2_TS
+0
+16.50 # NH2_PH2-F-F-H-C
+-1
+PH2_minus
+-1
+NH2-F-F-H-C_reactant
+1
+PH2_F-F-H-C_NH2_TS
+0
+62.15 # PH2_NH2-F-F-H-C
+-1
+OH_minus
+-1
+PH2-F-F-H-C_reactant
+1
+PH2_F-F-H-C_OH_TS
+0
+16.94 # OH_PH2-F-F-H-C
+-1
+PH2_minus
+-1
+OH-F-F-H-C_reactant
+1
+PH2_F-F-H-C_OH_TS
+0
+48.28 # PH2_OH-F-F-H-C
+-1
+PH2_minus
+-1
+PH2-F-F-H-C_reactant
+1
+PH2_F-F-H-C_PH2_TS
+0
+36.28 # PH2_PH2-F-F-H-C
+-1
+NH2_minus
+-1
+PH2-F-F-Me-C_reactant
+1
+PH2_F-F-Me-C_NH2_TS
+0
+24.61 # NH2_PH2-F-F-Me-C
+-1
+PH2_minus
+-1
+NH2-F-F-Me-C_reactant
+1
+PH2_F-F-Me-C_NH2_TS
+0
+69.82 # PH2_NH2-F-F-Me-C
+-1
+PH2_minus
+-1
+PH2-F-F-Me-C_reactant
+1
+PH2_F-F-Me-C_PH2_TS
+0
+45.44 # PH2_PH2-F-F-Me-C
+-1
+F_minus
+-1
+PH2-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_F_TS
+0
+24.90 # F_PH2-F-F-NH2-C
+-1
+PH2_minus
+-1
+F-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_F_TS
+0
+33.29 # PH2_F-F-F-NH2-C
+-1
+NH2_minus
+-1
+PH2-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_NH2_TS
+0
+18.85 # NH2_PH2-F-F-NH2-C
+-1
+PH2_minus
+-1
+NH2-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_NH2_TS
+0
+66.44 # PH2_NH2-F-F-NH2-C
+-1
+PH2_minus
+-1
+PH2-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_PH2_TS
+0
+43.81 # PH2_PH2-F-F-NH2-C
+-1
+PH2_minus
+-1
+SH-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_SH_TS
+0
+29.99 # PH2_SH-F-F-NH2-C
+-1
+SH_minus
+-1
+PH2-F-F-NH2-C_reactant
+1
+PH2_F-F-NH2-C_SH_TS
+0
+48.41 # SH_PH2-F-F-NH2-C
+-1
+F_minus
+-1
+PH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_F_TS
+0
+16.86 # F_PH2-F-H-H-C
+-1
+PH2_minus
+-1
+F-F-H-H-C_reactant
+1
+PH2_F-H-H-C_F_TS
+0
+17.60 # PH2_F-F-H-H-C
+-1
+NH2_minus
+-1
+PH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_NH2_TS
+0
+12.64 # NH2_PH2-F-H-H-C
+-1
+PH2_minus
+-1
+NH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_NH2_TS
+0
+54.50 # PH2_NH2-F-H-H-C
+-1
+OH_minus
+-1
+PH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_OH_TS
+0
+15.20 # OH_PH2-F-H-H-C
+-1
+PH2_minus
+-1
+OH-F-H-H-C_reactant
+1
+PH2_F-H-H-C_OH_TS
+0
+38.24 # PH2_OH-F-H-H-C
+-1
+PH2_minus
+-1
+PH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_PH2_TS
+0
+27.86 # PH2_PH2-F-H-H-C
+-1
+PH2_minus
+-1
+SH-F-H-H-C_reactant
+1
+PH2_F-H-H-C_SH_TS
+0
+14.74 # PH2_SH-F-H-H-C
+-1
+SH_minus
+-1
+PH2-F-H-H-C_reactant
+1
+PH2_F-H-H-C_SH_TS
+0
+32.60 # SH_PH2-F-H-H-C
+-1
+NH2_minus
+-1
+PH2-F-H-Me-C_reactant
+1
+PH2_F-H-Me-C_NH2_TS
+0
+15.75 # NH2_PH2-F-H-Me-C
+-1
+PH2_minus
+-1
+NH2-F-H-Me-C_reactant
+1
+PH2_F-H-Me-C_NH2_TS
+0
+58.23 # PH2_NH2-F-H-Me-C
+-1
+PH2_minus
+-1
+PH2-F-H-Me-C_reactant
+1
+PH2_F-H-Me-C_PH2_TS
+0
+31.43 # PH2_PH2-F-H-Me-C
+-1
+PH2_minus
+-1
+SH-F-H-Me-C_reactant
+1
+PH2_F-H-Me-C_SH_TS
+0
+15.26 # PH2_SH-F-H-Me-C
+-1
+SH_minus
+-1
+PH2-F-H-Me-C_reactant
+1
+PH2_F-H-Me-C_SH_TS
+0
+35.64 # SH_PH2-F-H-Me-C
+-1
+F_minus
+-1
+PH2-F-H-NH2-C_reactant
+1
+PH2_F-H-NH2-C_F_TS
+0
+18.49 # F_PH2-F-H-NH2-C
+-1
+PH2_minus
+-1
+F-F-H-NH2-C_reactant
+1
+PH2_F-H-NH2-C_F_TS
+0
+22.80 # PH2_F-F-H-NH2-C
+-1
+OH_minus
+-1
+PH2-F-H-NH2-C_reactant
+1
+PH2_F-H-NH2-C_OH_TS
+0
+15.67 # OH_PH2-F-H-NH2-C
+-1
+PH2_minus
+-1
+OH-F-H-NH2-C_reactant
+1
+PH2_F-H-NH2-C_OH_TS
+0
+41.28 # PH2_OH-F-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-F-H-NH2-C_reactant
+1
+PH2_F-H-NH2-C_PH2_TS
+0
+29.45 # PH2_PH2-F-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_NH2_TS
+0
+22.65 # NH2_PH2-F-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_NH2_TS
+0
+61.24 # PH2_NH2-F-Me-Me-C
+-1
+OH_minus
+-1
+PH2-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_OH_TS
+0
+26.41 # OH_PH2-F-Me-Me-C
+-1
+PH2_minus
+-1
+OH-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_OH_TS
+0
+52.31 # PH2_OH-F-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_PH2_TS
+0
+41.10 # PH2_PH2-F-Me-Me-C
+-1
+PH2_minus
+-1
+SH-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_SH_TS
+0
+26.70 # PH2_SH-F-Me-Me-C
+-1
+SH_minus
+-1
+PH2-F-Me-Me-C_reactant
+1
+PH2_F-Me-Me-C_SH_TS
+0
+46.54 # SH_PH2-F-Me-Me-C
+-1
+F_minus
+-1
+PH2-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_F_TS
+0
+25.63 # F_PH2-F-Me-NH2-C
+-1
+PH2_minus
+-1
+F-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_F_TS
+0
+30.37 # PH2_F-F-Me-NH2-C
+-1
+OH_minus
+-1
+PH2-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_OH_TS
+0
+24.04 # OH_PH2-F-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_OH_TS
+0
+48.04 # PH2_OH-F-Me-NH2-C
+-1
+PH2_minus
+-1
+PH2-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_PH2_TS
+0
+42.17 # PH2_PH2-F-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_SH_TS
+0
+27.05 # PH2_SH-F-Me-NH2-C
+-1
+SH_minus
+-1
+PH2-F-Me-NH2-C_reactant
+1
+PH2_F-Me-NH2-C_SH_TS
+0
+46.72 # SH_PH2-F-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-F-NH2-NH2-C_reactant
+1
+PH2_F-NH2-NH2-C_NH2_TS
+0
+18.31 # NH2_PH2-F-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-F-NH2-NH2-C_reactant
+1
+PH2_F-NH2-NH2-C_NH2_TS
+0
+59.47 # PH2_NH2-F-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-F-NH2-NH2-C_reactant
+1
+PH2_F-NH2-NH2-C_PH2_TS
+0
+41.82 # PH2_PH2-F-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-F-NH2-OH-C_reactant
+1
+PH2_F-NH2-OH-C_PH2_TS
+0
+38.82 # PH2_PH2-F-NH2-OH-C
+-1
+OH_minus
+-1
+PH2-F-NH2-SH-C_reactant
+1
+PH2_F-NH2-SH-C_OH_TS
+0
+15.15 # OH_PH2-F-NH2-SH-C
+-1
+PH2_minus
+-1
+OH-F-NH2-SH-C_reactant
+1
+PH2_F-NH2-SH-C_OH_TS
+0
+39.26 # PH2_OH-F-NH2-SH-C
+-1
+F_minus
+-1
+PH2-F-SH-SH-C_reactant
+1
+PH2_F-SH-SH-C_F_TS
+0
+11.72 # F_PH2-F-SH-SH-C
+-1
+PH2_minus
+-1
+F-F-SH-SH-C_reactant
+1
+PH2_F-SH-SH-C_F_TS
+0
+10.28 # PH2_F-F-SH-SH-C
+-1
+PH2_minus
+-1
+SH-H-H-H-C_reactant
+1
+PH2_H-H-H-C_SH_TS
+0
+10.28 # PH2_SH-H-H-H-C
+-1
+SH_minus
+-1
+PH2-H-H-H-C_reactant
+1
+PH2_H-H-H-C_SH_TS
+0
+32.94 # SH_PH2-H-H-H-C
+-1
+NH2_minus
+-1
+PH2-H-H-Me-C_reactant
+1
+PH2_H-H-Me-C_NH2_TS
+0
+16.72 # NH2_PH2-H-H-Me-C
+-1
+PH2_minus
+-1
+NH2-H-H-Me-C_reactant
+1
+PH2_H-H-Me-C_NH2_TS
+0
+45.71 # PH2_NH2-H-H-Me-C
+-1
+PH2_minus
+-1
+PH2-H-H-Me-C_reactant
+1
+PH2_H-H-Me-C_PH2_TS
+0
+28.78 # PH2_PH2-H-H-Me-C
+-1
+PH2_minus
+-1
+SH-H-H-Me-C_reactant
+1
+PH2_H-H-Me-C_SH_TS
+0
+14.11 # PH2_SH-H-H-Me-C
+-1
+SH_minus
+-1
+PH2-H-H-Me-C_reactant
+1
+PH2_H-H-Me-C_SH_TS
+0
+35.42 # SH_PH2-H-H-Me-C
+-1
+OH_minus
+-1
+PH2-H-H-NH2-C_reactant
+1
+PH2_H-H-NH2-C_OH_TS
+0
+14.78 # OH_PH2-H-H-NH2-C
+-1
+PH2_minus
+-1
+OH-H-H-NH2-C_reactant
+1
+PH2_H-H-NH2-C_OH_TS
+0
+32.05 # PH2_OH-H-H-NH2-C
+-1
+PH2_minus
+-1
+PH2-H-H-NH2-C_reactant
+1
+PH2_H-H-NH2-C_PH2_TS
+0
+25.95 # PH2_PH2-H-H-NH2-C
+-1
+PH2_minus
+-1
+SH-H-H-NH2-C_reactant
+1
+PH2_H-H-NH2-C_SH_TS
+0
+11.47 # PH2_SH-H-H-NH2-C
+-1
+SH_minus
+-1
+PH2-H-H-NH2-C_reactant
+1
+PH2_H-H-NH2-C_SH_TS
+0
+31.62 # SH_PH2-H-H-NH2-C
+-1
+NH2_minus
+-1
+PH2-H-Me-Me-C_reactant
+1
+PH2_H-Me-Me-C_NH2_TS
+0
+18.11 # NH2_PH2-H-Me-Me-C
+-1
+PH2_minus
+-1
+NH2-H-Me-Me-C_reactant
+1
+PH2_H-Me-Me-C_NH2_TS
+0
+49.22 # PH2_NH2-H-Me-Me-C
+-1
+PH2_minus
+-1
+PH2-H-Me-Me-C_reactant
+1
+PH2_H-Me-Me-C_PH2_TS
+0
+31.80 # PH2_PH2-H-Me-Me-C
+-1
+PH2_minus
+-1
+SH-H-Me-Me-C_reactant
+1
+PH2_H-Me-Me-C_SH_TS
+0
+17.46 # PH2_SH-H-Me-Me-C
+-1
+SH_minus
+-1
+PH2-H-Me-Me-C_reactant
+1
+PH2_H-Me-Me-C_SH_TS
+0
+37.46 # SH_PH2-H-Me-Me-C
+-1
+OH_minus
+-1
+PH2-H-Me-NH2-C_reactant
+1
+PH2_H-Me-NH2-C_OH_TS
+0
+14.13 # OH_PH2-H-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-H-Me-NH2-C_reactant
+1
+PH2_H-Me-NH2-C_OH_TS
+0
+35.22 # PH2_OH-H-Me-NH2-C
+-1
+PH2_minus
+-1
+PH2-H-Me-NH2-C_reactant
+1
+PH2_H-Me-NH2-C_PH2_TS
+0
+28.76 # PH2_PH2-H-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-H-Me-SH-C_reactant
+1
+PH2_H-Me-SH-C_NH2_TS
+0
+10.61 # NH2_PH2-H-Me-SH-C
+-1
+PH2_minus
+-1
+NH2-H-Me-SH-C_reactant
+1
+PH2_H-Me-SH-C_NH2_TS
+0
+40.25 # PH2_NH2-H-Me-SH-C
+-1
+NH2_minus
+-1
+PH2-H-NH2-NH2-C_reactant
+1
+PH2_H-NH2-NH2-C_NH2_TS
+0
+7.00 # NH2_PH2-H-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-H-NH2-NH2-C_reactant
+1
+PH2_H-NH2-NH2-C_NH2_TS
+0
+48.24 # PH2_NH2-H-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-H-SH-SH-C_reactant
+1
+PH2_H-SH-SH-C_NH2_TS
+0
+1.53 # NH2_PH2-H-SH-SH-C
+-1
+PH2_minus
+-1
+NH2-H-SH-SH-C_reactant
+1
+PH2_H-SH-SH-C_NH2_TS
+0
+34.46 # PH2_NH2-H-SH-SH-C
+-1
+OH_minus
+-1
+PH2-H-SH-SH-C_reactant
+1
+PH2_H-SH-SH-C_OH_TS
+0
+6.97 # OH_PH2-H-SH-SH-C
+-1
+PH2_minus
+-1
+OH-H-SH-SH-C_reactant
+1
+PH2_H-SH-SH-C_OH_TS
+0
+21.12 # PH2_OH-H-SH-SH-C
+-1
+F_minus
+-1
+PH2-Me-Me-Me-C_reactant
+1
+PH2_Me-Me-Me-C_F_TS
+0
+28.65 # F_PH2-Me-Me-Me-C
+-1
+PH2_minus
+-1
+F-Me-Me-Me-C_reactant
+1
+PH2_Me-Me-Me-C_F_TS
+0
+27.21 # PH2_F-Me-Me-Me-C
+-1
+PH2_minus
+-1
+SH-Me-Me-Me-C_reactant
+1
+PH2_Me-Me-Me-C_SH_TS
+0
+27.73 # PH2_SH-Me-Me-Me-C
+-1
+SH_minus
+-1
+PH2-Me-Me-Me-C_reactant
+1
+PH2_Me-Me-Me-C_SH_TS
+0
+47.07 # SH_PH2-Me-Me-Me-C
+-1
+OH_minus
+-1
+PH2-Me-Me-NH2-C_reactant
+1
+PH2_Me-Me-NH2-C_OH_TS
+0
+22.44 # OH_PH2-Me-Me-NH2-C
+-1
+PH2_minus
+-1
+OH-Me-Me-NH2-C_reactant
+1
+PH2_Me-Me-NH2-C_OH_TS
+0
+43.49 # PH2_OH-Me-Me-NH2-C
+-1
+PH2_minus
+-1
+PH2-Me-Me-NH2-C_reactant
+1
+PH2_Me-Me-NH2-C_PH2_TS
+0
+39.96 # PH2_PH2-Me-Me-NH2-C
+-1
+NH2_minus
+-1
+PH2-Me-NH2-NH2-C_reactant
+1
+PH2_Me-NH2-NH2-C_NH2_TS
+0
+16.76 # NH2_PH2-Me-NH2-NH2-C
+-1
+PH2_minus
+-1
+NH2-Me-NH2-NH2-C_reactant
+1
+PH2_Me-NH2-NH2-C_NH2_TS
+0
+55.72 # PH2_NH2-Me-NH2-NH2-C
+-1
+PH2_minus
+-1
+PH2-Me-NH2-NH2-C_reactant
+1
+PH2_Me-NH2-NH2-C_PH2_TS
+0
+37.81 # PH2_PH2-Me-NH2-NH2-C
+-1
+NH2_minus
+-1
+PH2-Me-NH2-SH-C_reactant
+1
+PH2_Me-NH2-SH-C_NH2_TS
+0
+11.55 # NH2_PH2-Me-NH2-SH-C
+-1
+PH2_minus
+-1
+NH2-Me-NH2-SH-C_reactant
+1
+PH2_Me-NH2-SH-C_NH2_TS
+0
+45.64 # PH2_NH2-Me-NH2-SH-C
+-1
+PH2_minus
+-1
+PH2-Me-OH-OH-C_reactant
+1
+PH2_Me-OH-OH-C_PH2_TS
+0
+40.48 # PH2_PH2-Me-OH-OH-C
+-1
+F_minus
+-1
+PH2-Me-OH-SH-C_reactant
+1
+PH2_Me-OH-SH-C_F_TS
+0
+17.80 # F_PH2-Me-OH-SH-C
+-1
+PH2_minus
+-1
+F-Me-OH-SH-C_reactant
+1
+PH2_Me-OH-SH-C_F_TS
+0
+17.63 # PH2_F-Me-OH-SH-C
+-1
+OH_minus
+-1
+PH2-Me-OH-SH-C_reactant
+1
+PH2_Me-OH-SH-C_OH_TS
+0
+11.70 # OH_PH2-Me-OH-SH-C
+-1
+PH2_minus
+-1
+OH-Me-OH-SH-C_reactant
+1
+PH2_Me-OH-SH-C_OH_TS
+0
+32.61 # PH2_OH-Me-OH-SH-C
+-1
+F_minus
+-1
+PH2-Me-SH-SH-C_reactant
+1
+PH2_Me-SH-SH-C_F_TS
+0
+17.47 # F_PH2-Me-SH-SH-C
+-1
+PH2_minus
+-1
+F-Me-SH-SH-C_reactant
+1
+PH2_Me-SH-SH-C_F_TS
+0
+9.89 # PH2_F-Me-SH-SH-C
+-1
+OH_minus
+-1
+PH2-Me-SH-SH-C_reactant
+1
+PH2_Me-SH-SH-C_OH_TS
+0
+11.61 # OH_PH2-Me-SH-SH-C
+-1
+PH2_minus
+-1
+OH-Me-SH-SH-C_reactant
+1
+PH2_Me-SH-SH-C_OH_TS
+0
+27.27 # PH2_OH-Me-SH-SH-C
+-1
+PH2_minus
+-1
+SH-NH2-NH2-SH-C_reactant
+1
+PH2_NH2-NH2-SH-C_SH_TS
+0
+9.88 # PH2_SH-NH2-NH2-SH-C
+-1
+SH_minus
+-1
+PH2-NH2-NH2-SH-C_reactant
+1
+PH2_NH2-NH2-SH-C_SH_TS
+0
+30.94 # SH_PH2-NH2-NH2-SH-C
+-1
+PH2_minus
+-1
+SH-OH-OH-SH-C_reactant
+1
+PH2_OH-OH-SH-C_SH_TS
+0
+13.63 # PH2_SH-OH-OH-SH-C
+-1
+SH_minus
+-1
+PH2-OH-OH-SH-C_reactant
+1
+PH2_OH-OH-SH-C_SH_TS
+0
+33.17 # SH_PH2-OH-OH-SH-C
+-1
+OH_minus
+-1
+PH2-SH-SH-SH-C_reactant
+1
+PH2_SH-SH-SH-C_OH_TS
+0
+4.27 # OH_PH2-SH-SH-SH-C
+-1
+PH2_minus
+-1
+OH-SH-SH-SH-C_reactant
+1
+PH2_SH-SH-SH-C_OH_TS
+0
+16.80 # PH2_OH-SH-SH-SH-C
+-1
+F_minus
+-1
+SH-Br-Br-Br-C_reactant
+1
+SH_Br-Br-Br-C_F_TS
+0
+10.33 # F_SH-Br-Br-Br-C
+-1
+SH_minus
+-1
+F-Br-Br-Br-C_reactant
+1
+SH_Br-Br-Br-C_F_TS
+0
+24.33 # SH_F-Br-Br-Br-C
+-1
+PH2_minus
+-1
+SH-Br-Br-Br-C_reactant
+1
+SH_Br-Br-Br-C_PH2_TS
+0
+20.08 # PH2_SH-Br-Br-Br-C
+-1
+SH_minus
+-1
+PH2-Br-Br-Br-C_reactant
+1
+SH_Br-Br-Br-C_PH2_TS
+0
+45.80 # SH_PH2-Br-Br-Br-C
+-1
+SH_minus
+-1
+SH-Br-Br-Br-C_reactant
+1
+SH_Br-Br-Br-C_SH_TS
+0
+31.28 # SH_SH-Br-Br-Br-C
+-1
+OH_minus
+-1
+SH-Br-Br-CCH-C_reactant
+1
+SH_Br-Br-CCH-C_OH_TS
+0
+3.88 # OH_SH-Br-Br-CCH-C
+-1
+SH_minus
+-1
+OH-Br-Br-CCH-C_reactant
+1
+SH_Br-Br-CCH-C_OH_TS
+0
+43.42 # SH_OH-Br-Br-CCH-C
+-1
+SH_minus
+-1
+SH-Br-Br-CCH-C_reactant
+1
+SH_Br-Br-CCH-C_SH_TS
+0
+24.98 # SH_SH-Br-Br-CCH-C
+-1
+SH_minus
+-1
+SH-Br-Br-Cl-C_reactant
+1
+SH_Br-Br-Cl-C_SH_TS
+0
+31.96 # SH_SH-Br-Br-Cl-C
+-1
+SH_minus
+-1
+F-Br-Br-CN-C_reactant
+1
+SH_Br-Br-CN-C_F_TS
+0
+10.98 # SH_F-Br-Br-CN-C
+-1
+PH2_minus
+-1
+SH-Br-Br-CN-C_reactant
+1
+SH_Br-Br-CN-C_PH2_TS
+0
+2.67 # PH2_SH-Br-Br-CN-C
+-1
+SH_minus
+-1
+PH2-Br-Br-CN-C_reactant
+1
+SH_Br-Br-CN-C_PH2_TS
+0
+29.41 # SH_PH2-Br-Br-CN-C
+-1
+SH_minus
+-1
+SH-Br-Br-CN-C_reactant
+1
+SH_Br-Br-CN-C_SH_TS
+0
+15.51 # SH_SH-Br-Br-CN-C
+-1
+PH2_minus
+-1
+SH-Br-Br-H-C_reactant
+1
+SH_Br-Br-H-C_PH2_TS
+0
+15.90 # PH2_SH-Br-Br-H-C
+-1
+SH_minus
+-1
+PH2-Br-Br-H-C_reactant
+1
+SH_Br-Br-H-C_PH2_TS
+0
+39.64 # SH_PH2-Br-Br-H-C
+-1
+SH_minus
+-1
+SH-Br-Br-H-C_reactant
+1
+SH_Br-Br-H-C_SH_TS
+0
+23.20 # SH_SH-Br-Br-H-C
+-1
+F_minus
+-1
+SH-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_F_TS
+0
+15.48 # F_SH-Br-Br-Me-C
+-1
+SH_minus
+-1
+F-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_F_TS
+0
+31.41 # SH_F-Br-Br-Me-C
+-1
+OH_minus
+-1
+SH-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_OH_TS
+0
+10.28 # OH_SH-Br-Br-Me-C
+-1
+SH_minus
+-1
+OH-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_OH_TS
+0
+52.33 # SH_OH-Br-Br-Me-C
+-1
+PH2_minus
+-1
+SH-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_PH2_TS
+0
+24.33 # PH2_SH-Br-Br-Me-C
+-1
+SH_minus
+-1
+PH2-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_PH2_TS
+0
+48.39 # SH_PH2-Br-Br-Me-C
+-1
+SH_minus
+-1
+SH-Br-Br-Me-C_reactant
+1
+SH_Br-Br-Me-C_SH_TS
+0
+33.06 # SH_SH-Br-Br-Me-C
+-1
+F_minus
+-1
+SH-Br-Br-NH2-C_reactant
+1
+SH_Br-Br-NH2-C_F_TS
+0
+5.06 # F_SH-Br-Br-NH2-C
+-1
+SH_minus
+-1
+F-Br-Br-NH2-C_reactant
+1
+SH_Br-Br-NH2-C_F_TS
+0
+24.68 # SH_F-Br-Br-NH2-C
+-1
+SH_minus
+-1
+SH-Br-Br-NH2-C_reactant
+1
+SH_Br-Br-NH2-C_SH_TS
+0
+24.81 # SH_SH-Br-Br-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-Br-OH-C_reactant
+1
+SH_Br-Br-OH-C_PH2_TS
+0
+20.81 # PH2_SH-Br-Br-OH-C
+-1
+SH_minus
+-1
+PH2-Br-Br-OH-C_reactant
+1
+SH_Br-Br-OH-C_PH2_TS
+0
+44.95 # SH_PH2-Br-Br-OH-C
+-1
+F_minus
+-1
+SH-Br-CCH-Cl-C_reactant
+1
+SH_Br-CCH-Cl-C_F_TS
+0
+10.44 # F_SH-Br-CCH-Cl-C
+-1
+SH_minus
+-1
+F-Br-CCH-Cl-C_reactant
+1
+SH_Br-CCH-Cl-C_F_TS
+0
+24.93 # SH_F-Br-CCH-Cl-C
+-1
+PH2_minus
+-1
+SH-Br-CCH-Cl-C_reactant
+1
+SH_Br-CCH-Cl-C_PH2_TS
+0
+12.93 # PH2_SH-Br-CCH-Cl-C
+-1
+SH_minus
+-1
+PH2-Br-CCH-Cl-C_reactant
+1
+SH_Br-CCH-Cl-C_PH2_TS
+0
+38.71 # SH_PH2-Br-CCH-Cl-C
+-1
+SH_minus
+-1
+SH-Br-CCH-Cl-C_reactant
+1
+SH_Br-CCH-Cl-C_SH_TS
+0
+25.42 # SH_SH-Br-CCH-Cl-C
+-1
+F_minus
+-1
+SH-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_F_TS
+0
+7.23 # F_SH-Br-CCH-F-C
+-1
+SH_minus
+-1
+F-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_F_TS
+0
+27.73 # SH_F-Br-CCH-F-C
+-1
+OH_minus
+-1
+SH-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_OH_TS
+0
+3.19 # OH_SH-Br-CCH-F-C
+-1
+SH_minus
+-1
+OH-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_OH_TS
+0
+46.97 # SH_OH-Br-CCH-F-C
+-1
+PH2_minus
+-1
+SH-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_PH2_TS
+0
+15.38 # PH2_SH-Br-CCH-F-C
+-1
+SH_minus
+-1
+PH2-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_PH2_TS
+0
+39.64 # SH_PH2-Br-CCH-F-C
+-1
+SH_minus
+-1
+SH-Br-CCH-F-C_reactant
+1
+SH_Br-CCH-F-C_SH_TS
+0
+25.45 # SH_SH-Br-CCH-F-C
+-1
+F_minus
+-1
+SH-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_F_TS
+0
+5.37 # F_SH-Br-CCH-H-C
+-1
+SH_minus
+-1
+F-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_F_TS
+0
+17.20 # SH_F-Br-CCH-H-C
+-1
+SH_minus
+-1
+NH2-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_NH2_TS
+0
+53.02 # SH_NH2-Br-CCH-H-C
+-1
+PH2_minus
+-1
+SH-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_PH2_TS
+0
+9.38 # PH2_SH-Br-CCH-H-C
+-1
+SH_minus
+-1
+PH2-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_PH2_TS
+0
+33.21 # SH_PH2-Br-CCH-H-C
+-1
+SH_minus
+-1
+SH-Br-CCH-H-C_reactant
+1
+SH_Br-CCH-H-C_SH_TS
+0
+18.00 # SH_SH-Br-CCH-H-C
+-1
+F_minus
+-1
+SH-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_F_TS
+0
+10.43 # F_SH-Br-CCH-Me-C
+-1
+SH_minus
+-1
+F-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_F_TS
+0
+25.48 # SH_F-Br-CCH-Me-C
+-1
+SH_minus
+-1
+NH2-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_NH2_TS
+0
+58.61 # SH_NH2-Br-CCH-Me-C
+-1
+PH2_minus
+-1
+SH-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_PH2_TS
+0
+14.88 # PH2_SH-Br-CCH-Me-C
+-1
+SH_minus
+-1
+PH2-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_PH2_TS
+0
+38.84 # SH_PH2-Br-CCH-Me-C
+-1
+SH_minus
+-1
+SH-Br-CCH-Me-C_reactant
+1
+SH_Br-CCH-Me-C_SH_TS
+0
+25.03 # SH_SH-Br-CCH-Me-C
+-1
+F_minus
+-1
+SH-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_F_TS
+0
+6.50 # F_SH-Br-CCH-NH2-C
+-1
+SH_minus
+-1
+F-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_F_TS
+0
+22.10 # SH_F-Br-CCH-NH2-C
+-1
+SH_minus
+-1
+NH2-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_NH2_TS
+0
+51.05 # SH_NH2-Br-CCH-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_PH2_TS
+0
+14.04 # PH2_SH-Br-CCH-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_PH2_TS
+0
+37.53 # SH_PH2-Br-CCH-NH2-C
+-1
+SH_minus
+-1
+SH-Br-CCH-NH2-C_reactant
+1
+SH_Br-CCH-NH2-C_SH_TS
+0
+22.99 # SH_SH-Br-CCH-NH2-C
+-1
+F_minus
+-1
+SH-Br-Cl-Cl-C_reactant
+1
+SH_Br-Cl-Cl-C_F_TS
+0
+13.26 # F_SH-Br-Cl-Cl-C
+-1
+SH_minus
+-1
+F-Br-Cl-Cl-C_reactant
+1
+SH_Br-Cl-Cl-C_F_TS
+0
+29.43 # SH_F-Br-Cl-Cl-C
+-1
+SH_minus
+-1
+SH-Br-Cl-Cl-C_reactant
+1
+SH_Br-Cl-Cl-C_SH_TS
+0
+33.05 # SH_SH-Br-Cl-Cl-C
+-1
+F_minus
+-1
+SH-Br-Cl-F-C_reactant
+1
+SH_Br-Cl-F-C_F_TS
+0
+10.68 # F_SH-Br-Cl-F-C
+-1
+SH_minus
+-1
+F-Br-Cl-F-C_reactant
+1
+SH_Br-Cl-F-C_F_TS
+0
+32.22 # SH_F-Br-Cl-F-C
+-1
+SH_minus
+-1
+SH-Br-Cl-F-C_reactant
+1
+SH_Br-Cl-F-C_SH_TS
+0
+34.02 # SH_SH-Br-Cl-F-C
+-1
+F_minus
+-1
+SH-Br-Cl-H-C_reactant
+1
+SH_Br-Cl-H-C_F_TS
+0
+8.60 # F_SH-Br-Cl-H-C
+-1
+SH_minus
+-1
+F-Br-Cl-H-C_reactant
+1
+SH_Br-Cl-H-C_F_TS
+0
+23.13 # SH_F-Br-Cl-H-C
+-1
+NH2_minus
+-1
+SH-Br-Cl-H-C_reactant
+1
+SH_Br-Cl-H-C_NH2_TS
+0
+1.60 # NH2_SH-Br-Cl-H-C
+-1
+SH_minus
+-1
+NH2-Br-Cl-H-C_reactant
+1
+SH_Br-Cl-H-C_NH2_TS
+0
+60.38 # SH_NH2-Br-Cl-H-C
+-1
+SH_minus
+-1
+SH-Br-Cl-H-C_reactant
+1
+SH_Br-Cl-H-C_SH_TS
+0
+23.34 # SH_SH-Br-Cl-H-C
+-1
+F_minus
+-1
+SH-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_F_TS
+0
+16.03 # F_SH-Br-Cl-Me-C
+-1
+SH_minus
+-1
+F-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_F_TS
+0
+33.03 # SH_F-Br-Cl-Me-C
+-1
+NH2_minus
+-1
+SH-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_NH2_TS
+0
+9.04 # NH2_SH-Br-Cl-Me-C
+-1
+SH_minus
+-1
+NH2-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_NH2_TS
+0
+69.05 # SH_NH2-Br-Cl-Me-C
+-1
+OH_minus
+-1
+SH-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_OH_TS
+0
+11.19 # OH_SH-Br-Cl-Me-C
+-1
+SH_minus
+-1
+OH-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_OH_TS
+0
+53.90 # SH_OH-Br-Cl-Me-C
+-1
+SH_minus
+-1
+SH-Br-Cl-Me-C_reactant
+1
+SH_Br-Cl-Me-C_SH_TS
+0
+33.84 # SH_SH-Br-Cl-Me-C
+-1
+F_minus
+-1
+SH-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_F_TS
+0
+6.58 # F_SH-Br-Cl-NH2-C
+-1
+SH_minus
+-1
+F-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_F_TS
+0
+26.73 # SH_F-Br-Cl-NH2-C
+-1
+OH_minus
+-1
+SH-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_OH_TS
+0
+1.06 # OH_SH-Br-Cl-NH2-C
+-1
+SH_minus
+-1
+OH-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_OH_TS
+0
+45.51 # SH_OH-Br-Cl-NH2-C
+-1
+PH2_minus
+-1
+SH-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_PH2_TS
+0
+19.15 # PH2_SH-Br-Cl-NH2-C
+-1
+SH_minus
+-1
+PH2-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_PH2_TS
+0
+43.66 # SH_PH2-Br-Cl-NH2-C
+-1
+SH_minus
+-1
+SH-Br-Cl-NH2-C_reactant
+1
+SH_Br-Cl-NH2-C_SH_TS
+0
+26.04 # SH_SH-Br-Cl-NH2-C
+-1
+F_minus
+-1
+SH-Br-CN-Cl-C_reactant
+1
+SH_Br-CN-Cl-C_F_TS
+0
+0.01 # F_SH-Br-CN-Cl-C
+-1
+SH_minus
+-1
+F-Br-CN-Cl-C_reactant
+1
+SH_Br-CN-Cl-C_F_TS
+0
+12.39 # SH_F-Br-CN-Cl-C
+-1
+PH2_minus
+-1
+SH-Br-CN-Cl-C_reactant
+1
+SH_Br-CN-Cl-C_PH2_TS
+0
+3.37 # PH2_SH-Br-CN-Cl-C
+-1
+SH_minus
+-1
+PH2-Br-CN-Cl-C_reactant
+1
+SH_Br-CN-Cl-C_PH2_TS
+0
+29.59 # SH_PH2-Br-CN-Cl-C
+-1
+SH_minus
+-1
+SH-Br-CN-Cl-C_reactant
+1
+SH_Br-CN-Cl-C_SH_TS
+0
+16.62 # SH_SH-Br-CN-Cl-C
+-1
+SH_minus
+-1
+F-Br-CN-F-C_reactant
+1
+SH_Br-CN-F-C_F_TS
+0
+14.89 # SH_F-Br-CN-F-C
+-1
+SH_minus
+-1
+OH-Br-CN-F-C_reactant
+1
+SH_Br-CN-F-C_OH_TS
+0
+37.25 # SH_OH-Br-CN-F-C
+-1
+PH2_minus
+-1
+SH-Br-CN-F-C_reactant
+1
+SH_Br-CN-F-C_PH2_TS
+0
+7.26 # PH2_SH-Br-CN-F-C
+-1
+SH_minus
+-1
+PH2-Br-CN-F-C_reactant
+1
+SH_Br-CN-F-C_PH2_TS
+0
+30.52 # SH_PH2-Br-CN-F-C
+-1
+SH_minus
+-1
+SH-Br-CN-F-C_reactant
+1
+SH_Br-CN-F-C_SH_TS
+0
+18.06 # SH_SH-Br-CN-F-C
+-1
+SH_minus
+-1
+F-Br-CN-H-C_reactant
+1
+SH_Br-CN-H-C_F_TS
+0
+5.93 # SH_F-Br-CN-H-C
+-1
+SH_minus
+-1
+NH2-Br-CN-H-C_reactant
+1
+SH_Br-CN-H-C_NH2_TS
+0
+43.10 # SH_NH2-Br-CN-H-C
+-1
+SH_minus
+-1
+PH2-Br-CN-H-C_reactant
+1
+SH_Br-CN-H-C_PH2_TS
+0
+25.47 # SH_PH2-Br-CN-H-C
+-1
+SH_minus
+-1
+SH-Br-CN-H-C_reactant
+1
+SH_Br-CN-H-C_SH_TS
+0
+8.88 # SH_SH-Br-CN-H-C
+-1
+F_minus
+-1
+SH-Br-CN-Me-C_reactant
+1
+SH_Br-CN-Me-C_F_TS
+0
+0.79 # F_SH-Br-CN-Me-C
+-1
+SH_minus
+-1
+F-Br-CN-Me-C_reactant
+1
+SH_Br-CN-Me-C_F_TS
+0
+14.30 # SH_F-Br-CN-Me-C
+-1
+SH_minus
+-1
+NH2-Br-CN-Me-C_reactant
+1
+SH_Br-CN-Me-C_NH2_TS
+0
+48.37 # SH_NH2-Br-CN-Me-C
+-1
+SH_minus
+-1
+OH-Br-CN-Me-C_reactant
+1
+SH_Br-CN-Me-C_OH_TS
+0
+34.01 # SH_OH-Br-CN-Me-C
+-1
+SH_minus
+-1
+SH-Br-CN-Me-C_reactant
+1
+SH_Br-CN-Me-C_SH_TS
+0
+16.59 # SH_SH-Br-CN-Me-C
+-1
+SH_minus
+-1
+F-Br-CN-NH2-C_reactant
+1
+SH_Br-CN-NH2-C_F_TS
+0
+9.95 # SH_F-Br-CN-NH2-C
+-1
+SH_minus
+-1
+NH2-Br-CN-NH2-C_reactant
+1
+SH_Br-CN-NH2-C_NH2_TS
+0
+40.35 # SH_NH2-Br-CN-NH2-C
+-1
+SH_minus
+-1
+SH-Br-CN-NH2-C_reactant
+1
+SH_Br-CN-NH2-C_SH_TS
+0
+13.71 # SH_SH-Br-CN-NH2-C
+-1
+F_minus
+-1
+SH-Br-F-F-C_reactant
+1
+SH_Br-F-F-C_F_TS
+0
+11.07 # F_SH-Br-F-F-C
+-1
+SH_minus
+-1
+F-Br-F-F-C_reactant
+1
+SH_Br-F-F-C_F_TS
+0
+35.87 # SH_F-Br-F-F-C
+-1
+SH_minus
+-1
+SH-Br-F-F-C_reactant
+1
+SH_Br-F-F-C_SH_TS
+0
+37.00 # SH_SH-Br-F-F-C
+-1
+F_minus
+-1
+SH-Br-F-H-C_reactant
+1
+SH_Br-F-H-C_F_TS
+0
+5.95 # F_SH-Br-F-H-C
+-1
+SH_minus
+-1
+F-Br-F-H-C_reactant
+1
+SH_Br-F-H-C_F_TS
+0
+25.63 # SH_F-Br-F-H-C
+-1
+NH2_minus
+-1
+SH-Br-F-H-C_reactant
+1
+SH_Br-F-H-C_NH2_TS
+0
+2.41 # NH2_SH-Br-F-H-C
+-1
+SH_minus
+-1
+NH2-Br-F-H-C_reactant
+1
+SH_Br-F-H-C_NH2_TS
+0
+63.79 # SH_NH2-Br-F-H-C
+-1
+SH_minus
+-1
+SH-Br-F-H-C_reactant
+1
+SH_Br-F-H-C_SH_TS
+0
+24.03 # SH_SH-Br-F-H-C
+-1
+F_minus
+-1
+SH-Br-F-Me-C_reactant
+1
+SH_Br-F-Me-C_F_TS
+0
+14.44 # F_SH-Br-F-Me-C
+-1
+SH_minus
+-1
+F-Br-F-Me-C_reactant
+1
+SH_Br-F-Me-C_F_TS
+0
+35.95 # SH_F-Br-F-Me-C
+-1
+SH_minus
+-1
+SH-Br-F-Me-C_reactant
+1
+SH_Br-F-Me-C_SH_TS
+0
+35.14 # SH_SH-Br-F-Me-C
+-1
+F_minus
+-1
+SH-Br-F-NH2-C_reactant
+1
+SH_Br-F-NH2-C_F_TS
+0
+7.53 # F_SH-Br-F-NH2-C
+-1
+SH_minus
+-1
+F-Br-F-NH2-C_reactant
+1
+SH_Br-F-NH2-C_F_TS
+0
+29.45 # SH_F-Br-F-NH2-C
+-1
+SH_minus
+-1
+SH-Br-F-NH2-C_reactant
+1
+SH_Br-F-NH2-C_SH_TS
+0
+29.90 # SH_SH-Br-F-NH2-C
+-1
+F_minus
+-1
+SH-Br-H-H-C_reactant
+1
+SH_Br-H-H-C_F_TS
+0
+5.24 # F_SH-Br-H-H-C
+-1
+SH_minus
+-1
+F-Br-H-H-C_reactant
+1
+SH_Br-H-H-C_F_TS
+0
+17.04 # SH_F-Br-H-H-C
+-1
+SH_minus
+-1
+SH-Br-H-H-C_reactant
+1
+SH_Br-H-H-C_SH_TS
+0
+18.61 # SH_SH-Br-H-H-C
+-1
+F_minus
+-1
+SH-Br-H-Me-C_reactant
+1
+SH_Br-H-Me-C_F_TS
+0
+7.84 # F_SH-Br-H-Me-C
+-1
+SH_minus
+-1
+F-Br-H-Me-C_reactant
+1
+SH_Br-H-Me-C_F_TS
+0
+22.59 # SH_F-Br-H-Me-C
+-1
+OH_minus
+-1
+SH-Br-H-Me-C_reactant
+1
+SH_Br-H-Me-C_OH_TS
+0
+5.51 # OH_SH-Br-H-Me-C
+-1
+SH_minus
+-1
+OH-Br-H-Me-C_reactant
+1
+SH_Br-H-Me-C_OH_TS
+0
+43.40 # SH_OH-Br-H-Me-C
+-1
+SH_minus
+-1
+SH-Br-H-Me-C_reactant
+1
+SH_Br-H-Me-C_SH_TS
+0
+21.96 # SH_SH-Br-H-Me-C
+-1
+F_minus
+-1
+SH-Br-H-NH2-C_reactant
+1
+SH_Br-H-NH2-C_F_TS
+0
+2.02 # F_SH-Br-H-NH2-C
+-1
+SH_minus
+-1
+F-Br-H-NH2-C_reactant
+1
+SH_Br-H-NH2-C_F_TS
+0
+20.02 # SH_F-Br-H-NH2-C
+-1
+SH_minus
+-1
+NH2-Br-H-NH2-C_reactant
+1
+SH_Br-H-NH2-C_NH2_TS
+0
+54.43 # SH_NH2-Br-H-NH2-C
+-1
+SH_minus
+-1
+OH-Br-H-NH2-C_reactant
+1
+SH_Br-H-NH2-C_OH_TS
+0
+39.54 # SH_OH-Br-H-NH2-C
+-1
+SH_minus
+-1
+SH-Br-H-NH2-C_reactant
+1
+SH_Br-H-NH2-C_SH_TS
+0
+17.89 # SH_SH-Br-H-NH2-C
+-1
+F_minus
+-1
+SH-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_F_TS
+0
+14.18 # F_SH-Br-Me-Me-C
+-1
+SH_minus
+-1
+F-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_F_TS
+0
+31.97 # SH_F-Br-Me-Me-C
+-1
+NH2_minus
+-1
+SH-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_NH2_TS
+0
+9.76 # NH2_SH-Br-Me-Me-C
+-1
+SH_minus
+-1
+NH2-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_NH2_TS
+0
+69.24 # SH_NH2-Br-Me-Me-C
+-1
+OH_minus
+-1
+SH-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_OH_TS
+0
+13.11 # OH_SH-Br-Me-Me-C
+-1
+SH_minus
+-1
+OH-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_OH_TS
+0
+53.49 # SH_OH-Br-Me-Me-C
+-1
+SH_minus
+-1
+SH-Br-Me-Me-C_reactant
+1
+SH_Br-Me-Me-C_SH_TS
+0
+32.05 # SH_SH-Br-Me-Me-C
+-1
+F_minus
+-1
+SH-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_F_TS
+0
+10.40 # F_SH-Br-Me-NH2-C
+-1
+SH_minus
+-1
+F-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_F_TS
+0
+28.40 # SH_F-Br-Me-NH2-C
+-1
+NH2_minus
+-1
+SH-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_NH2_TS
+0
+5.34 # NH2_SH-Br-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_NH2_TS
+0
+63.34 # SH_NH2-Br-Me-NH2-C
+-1
+OH_minus
+-1
+SH-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_OH_TS
+0
+8.49 # OH_SH-Br-Me-NH2-C
+-1
+SH_minus
+-1
+OH-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_OH_TS
+0
+49.28 # SH_OH-Br-Me-NH2-C
+-1
+SH_minus
+-1
+SH-Br-Me-NH2-C_reactant
+1
+SH_Br-Me-NH2-C_SH_TS
+0
+29.42 # SH_SH-Br-Me-NH2-C
+-1
+F_minus
+-1
+SH-Br-NH2-NH2-C_reactant
+1
+SH_Br-NH2-NH2-C_F_TS
+0
+6.01 # F_SH-Br-NH2-NH2-C
+-1
+SH_minus
+-1
+F-Br-NH2-NH2-C_reactant
+1
+SH_Br-NH2-NH2-C_F_TS
+0
+28.05 # SH_F-Br-NH2-NH2-C
+-1
+SH_minus
+-1
+SH-Br-NH2-NH2-C_reactant
+1
+SH_Br-NH2-NH2-C_SH_TS
+0
+25.97 # SH_SH-Br-NH2-NH2-C
+-1
+SH_minus
+-1
+NH2-Br-NH2-SH-C_reactant
+1
+SH_Br-NH2-SH-C_NH2_TS
+0
+55.39 # SH_NH2-Br-NH2-SH-C
+-1
+PH2_minus
+-1
+SH-Br-OH-SH-C_reactant
+1
+SH_Br-OH-SH-C_PH2_TS
+0
+12.10 # PH2_SH-Br-OH-SH-C
+-1
+SH_minus
+-1
+PH2-Br-OH-SH-C_reactant
+1
+SH_Br-OH-SH-C_PH2_TS
+0
+37.23 # SH_PH2-Br-OH-SH-C
+-1
+SH_minus
+-1
+NH2-Br-SH-SH-C_reactant
+1
+SH_Br-SH-SH-C_NH2_TS
+0
+45.67 # SH_NH2-Br-SH-SH-C
+-1
+PH2_minus
+-1
+SH-CCH-CCH-H-C_reactant
+1
+SH_CCH-CCH-H-C_PH2_TS
+0
+3.06 # PH2_SH-CCH-CCH-H-C
+-1
+SH_minus
+-1
+PH2-CCH-CCH-H-C_reactant
+1
+SH_CCH-CCH-H-C_PH2_TS
+0
+27.74 # SH_PH2-CCH-CCH-H-C
+-1
+SH_minus
+-1
+SH-CCH-CCH-H-C_reactant
+1
+SH_CCH-CCH-H-C_SH_TS
+0
+12.13 # SH_SH-CCH-CCH-H-C
+-1
+SH_minus
+-1
+NH2-CCH-Cl-Cl-C_reactant
+1
+SH_CCH-Cl-Cl-C_NH2_TS
+0
+59.18 # SH_NH2-CCH-Cl-Cl-C
+-1
+SH_minus
+-1
+SH-CCH-Cl-Cl-C_reactant
+1
+SH_CCH-Cl-Cl-C_SH_TS
+0
+25.92 # SH_SH-CCH-Cl-Cl-C
+-1
+SH_minus
+-1
+NH2-CCH-Cl-F-C_reactant
+1
+SH_CCH-Cl-F-C_NH2_TS
+0
+63.26 # SH_NH2-CCH-Cl-F-C
+-1
+SH_minus
+-1
+SH-CCH-Cl-F-C_reactant
+1
+SH_CCH-Cl-F-C_SH_TS
+0
+26.00 # SH_SH-CCH-Cl-F-C
+-1
+OH_minus
+-1
+SH-CCH-Cl-H-C_reactant
+1
+SH_CCH-Cl-H-C_OH_TS
+0
+0.10 # OH_SH-CCH-Cl-H-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-H-C_reactant
+1
+SH_CCH-Cl-H-C_OH_TS
+0
+36.77 # SH_OH-CCH-Cl-H-C
+-1
+SH_minus
+-1
+SH-CCH-Cl-H-C_reactant
+1
+SH_CCH-Cl-H-C_SH_TS
+0
+18.00 # SH_SH-CCH-Cl-H-C
+-1
+SH_minus
+-1
+SH-CCH-Cl-Me-C_reactant
+1
+SH_CCH-Cl-Me-C_SH_TS
+0
+25.14 # SH_SH-CCH-Cl-Me-C
+-1
+SH_minus
+-1
+SH-CCH-Cl-NH2-C_reactant
+1
+SH_CCH-Cl-NH2-C_SH_TS
+0
+23.19 # SH_SH-CCH-Cl-NH2-C
+-1
+F_minus
+-1
+SH-CCH-Cl-OH-C_reactant
+1
+SH_CCH-Cl-OH-C_F_TS
+0
+5.60 # F_SH-CCH-Cl-OH-C
+-1
+SH_minus
+-1
+F-CCH-Cl-OH-C_reactant
+1
+SH_CCH-Cl-OH-C_F_TS
+0
+23.18 # SH_F-CCH-Cl-OH-C
+-1
+SH_minus
+-1
+OH-CCH-Cl-OH-C_reactant
+1
+SH_CCH-Cl-OH-C_OH_TS
+0
+39.25 # SH_OH-CCH-Cl-OH-C
+-1
+SH_minus
+-1
+F-CCH-CN-H-C_reactant
+1
+SH_CCH-CN-H-C_F_TS
+0
+1.72 # SH_F-CCH-CN-H-C
+-1
+SH_minus
+-1
+PH2-CCH-CN-H-C_reactant
+1
+SH_CCH-CN-H-C_PH2_TS
+0
+20.08 # SH_PH2-CCH-CN-H-C
+-1
+SH_minus
+-1
+SH-CCH-CN-H-C_reactant
+1
+SH_CCH-CN-H-C_SH_TS
+0
+3.85 # SH_SH-CCH-CN-H-C
+-1
+F_minus
+-1
+SH-CCH-F-F-C_reactant
+1
+SH_CCH-F-F-C_F_TS
+0
+7.70 # F_SH-CCH-F-F-C
+-1
+SH_minus
+-1
+F-CCH-F-F-C_reactant
+1
+SH_CCH-F-F-C_F_TS
+0
+33.49 # SH_F-CCH-F-F-C
+-1
+NH2_minus
+-1
+SH-CCH-F-F-C_reactant
+1
+SH_CCH-F-F-C_NH2_TS
+0
+1.69 # NH2_SH-CCH-F-F-C
+-1
+SH_minus
+-1
+NH2-CCH-F-F-C_reactant
+1
+SH_CCH-F-F-C_NH2_TS
+0
+66.39 # SH_NH2-CCH-F-F-C
+-1
+SH_minus
+-1
+SH-CCH-F-F-C_reactant
+1
+SH_CCH-F-F-C_SH_TS
+0
+27.99 # SH_SH-CCH-F-F-C
+-1
+F_minus
+-1
+SH-CCH-F-H-C_reactant
+1
+SH_CCH-F-H-C_F_TS
+0
+2.77 # F_SH-CCH-F-H-C
+-1
+SH_minus
+-1
+F-CCH-F-H-C_reactant
+1
+SH_CCH-F-H-C_F_TS
+0
+20.82 # SH_F-CCH-F-H-C
+-1
+SH_minus
+-1
+NH2-CCH-F-H-C_reactant
+1
+SH_CCH-F-H-C_NH2_TS
+0
+54.01 # SH_NH2-CCH-F-H-C
+-1
+SH_minus
+-1
+SH-CCH-F-H-C_reactant
+1
+SH_CCH-F-H-C_SH_TS
+0
+18.35 # SH_SH-CCH-F-H-C
+-1
+F_minus
+-1
+SH-CCH-F-Me-C_reactant
+1
+SH_CCH-F-Me-C_F_TS
+0
+6.85 # F_SH-CCH-F-Me-C
+-1
+SH_minus
+-1
+F-CCH-F-Me-C_reactant
+1
+SH_CCH-F-Me-C_F_TS
+0
+29.50 # SH_F-CCH-F-Me-C
+-1
+SH_minus
+-1
+SH-CCH-F-Me-C_reactant
+1
+SH_CCH-F-Me-C_SH_TS
+0
+24.40 # SH_SH-CCH-F-Me-C
+-1
+F_minus
+-1
+SH-CCH-F-NH2-C_reactant
+1
+SH_CCH-F-NH2-C_F_TS
+0
+4.66 # F_SH-CCH-F-NH2-C
+-1
+SH_minus
+-1
+F-CCH-F-NH2-C_reactant
+1
+SH_CCH-F-NH2-C_F_TS
+0
+25.02 # SH_F-CCH-F-NH2-C
+-1
+OH_minus
+-1
+SH-CCH-F-NH2-C_reactant
+1
+SH_CCH-F-NH2-C_OH_TS
+0
+0.90 # OH_SH-CCH-F-NH2-C
+-1
+SH_minus
+-1
+OH-CCH-F-NH2-C_reactant
+1
+SH_CCH-F-NH2-C_OH_TS
+0
+44.32 # SH_OH-CCH-F-NH2-C
+-1
+SH_minus
+-1
+SH-CCH-F-NH2-C_reactant
+1
+SH_CCH-F-NH2-C_SH_TS
+0
+23.42 # SH_SH-CCH-F-NH2-C
+-1
+SH_minus
+-1
+SH-CCH-H-H-C_reactant
+1
+SH_CCH-H-H-C_SH_TS
+0
+13.57 # SH_SH-CCH-H-H-C
+-1
+SH_minus
+-1
+SH-CCH-H-Me-C_reactant
+1
+SH_CCH-H-Me-C_SH_TS
+0
+17.11 # SH_SH-CCH-H-Me-C
+-1
+F_minus
+-1
+SH-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_F_TS
+0
+1.45 # F_SH-CCH-H-NH2-C
+-1
+SH_minus
+-1
+F-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_F_TS
+0
+20.21 # SH_F-CCH-H-NH2-C
+-1
+SH_minus
+-1
+NH2-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_NH2_TS
+0
+47.75 # SH_NH2-CCH-H-NH2-C
+-1
+SH_minus
+-1
+OH-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_OH_TS
+0
+33.51 # SH_OH-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_PH2_TS
+0
+9.80 # PH2_SH-CCH-H-NH2-C
+-1
+SH_minus
+-1
+PH2-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_PH2_TS
+0
+29.84 # SH_PH2-CCH-H-NH2-C
+-1
+SH_minus
+-1
+SH-CCH-H-NH2-C_reactant
+1
+SH_CCH-H-NH2-C_SH_TS
+0
+14.59 # SH_SH-CCH-H-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-H-OH-C_reactant
+1
+SH_CCH-H-OH-C_PH2_TS
+0
+9.63 # PH2_SH-CCH-H-OH-C
+-1
+SH_minus
+-1
+PH2-CCH-H-OH-C_reactant
+1
+SH_CCH-H-OH-C_PH2_TS
+0
+30.14 # SH_PH2-CCH-H-OH-C
+-1
+SH_minus
+-1
+SH-CCH-Me-Me-C_reactant
+1
+SH_CCH-Me-Me-C_SH_TS
+0
+25.20 # SH_SH-CCH-Me-Me-C
+-1
+SH_minus
+-1
+NH2-CCH-Me-NH2-C_reactant
+1
+SH_CCH-Me-NH2-C_NH2_TS
+0
+53.46 # SH_NH2-CCH-Me-NH2-C
+-1
+OH_minus
+-1
+SH-CCH-Me-NH2-C_reactant
+1
+SH_CCH-Me-NH2-C_OH_TS
+0
+2.94 # OH_SH-CCH-Me-NH2-C
+-1
+SH_minus
+-1
+OH-CCH-Me-NH2-C_reactant
+1
+SH_CCH-Me-NH2-C_OH_TS
+0
+42.39 # SH_OH-CCH-Me-NH2-C
+-1
+SH_minus
+-1
+SH-CCH-Me-NH2-C_reactant
+1
+SH_CCH-Me-NH2-C_SH_TS
+0
+19.40 # SH_SH-CCH-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-Me-SH-C_reactant
+1
+SH_CCH-Me-SH-C_PH2_TS
+0
+10.66 # PH2_SH-CCH-Me-SH-C
+-1
+SH_minus
+-1
+PH2-CCH-Me-SH-C_reactant
+1
+SH_CCH-Me-SH-C_PH2_TS
+0
+33.31 # SH_PH2-CCH-Me-SH-C
+-1
+SH_minus
+-1
+NH2-CCH-NH2-NH2-C_reactant
+1
+SH_CCH-NH2-NH2-C_NH2_TS
+0
+53.26 # SH_NH2-CCH-NH2-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-NH2-NH2-C_reactant
+1
+SH_CCH-NH2-NH2-C_PH2_TS
+0
+11.11 # PH2_SH-CCH-NH2-NH2-C
+-1
+SH_minus
+-1
+PH2-CCH-NH2-NH2-C_reactant
+1
+SH_CCH-NH2-NH2-C_PH2_TS
+0
+31.85 # SH_PH2-CCH-NH2-NH2-C
+-1
+SH_minus
+-1
+SH-CCH-NH2-NH2-C_reactant
+1
+SH_CCH-NH2-NH2-C_SH_TS
+0
+10.78 # SH_SH-CCH-NH2-NH2-C
+-1
+PH2_minus
+-1
+SH-CCH-NH2-OH-C_reactant
+1
+SH_CCH-NH2-OH-C_PH2_TS
+0
+16.12 # PH2_SH-CCH-NH2-OH-C
+-1
+SH_minus
+-1
+PH2-CCH-NH2-OH-C_reactant
+1
+SH_CCH-NH2-OH-C_PH2_TS
+0
+34.47 # SH_PH2-CCH-NH2-OH-C
+-1
+SH_minus
+-1
+NH2-CCH-NH2-SH-C_reactant
+1
+SH_CCH-NH2-SH-C_NH2_TS
+0
+49.12 # SH_NH2-CCH-NH2-SH-C
+-1
+PH2_minus
+-1
+SH-CCH-OH-OH-C_reactant
+1
+SH_CCH-OH-OH-C_PH2_TS
+0
+12.98 # PH2_SH-CCH-OH-OH-C
+-1
+SH_minus
+-1
+PH2-CCH-OH-OH-C_reactant
+1
+SH_CCH-OH-OH-C_PH2_TS
+0
+33.34 # SH_PH2-CCH-OH-OH-C
+-1
+SH_minus
+-1
+NH2-CCH-SH-SH-C_reactant
+1
+SH_CCH-SH-SH-C_NH2_TS
+0
+41.42 # SH_NH2-CCH-SH-SH-C
+-1
+PH2_minus
+-1
+SH-Cl-Cl-Cl-C_reactant
+1
+SH_Cl-Cl-Cl-C_PH2_TS
+0
+23.70 # PH2_SH-Cl-Cl-Cl-C
+-1
+SH_minus
+-1
+PH2-Cl-Cl-Cl-C_reactant
+1
+SH_Cl-Cl-Cl-C_PH2_TS
+0
+48.69 # SH_PH2-Cl-Cl-Cl-C
+-1
+SH_minus
+-1
+SH-Cl-Cl-Cl-C_reactant
+1
+SH_Cl-Cl-Cl-C_SH_TS
+0
+34.15 # SH_SH-Cl-Cl-Cl-C
+-1
+F_minus
+-1
+SH-Cl-Cl-F-C_reactant
+1
+SH_Cl-Cl-F-C_F_TS
+0
+13.01 # F_SH-Cl-Cl-F-C
+-1
+SH_minus
+-1
+F-Cl-Cl-F-C_reactant
+1
+SH_Cl-Cl-F-C_F_TS
+0
+35.33 # SH_F-Cl-Cl-F-C
+-1
+PH2_minus
+-1
+SH-Cl-Cl-F-C_reactant
+1
+SH_Cl-Cl-F-C_PH2_TS
+0
+27.20 # PH2_SH-Cl-Cl-F-C
+-1
+SH_minus
+-1
+PH2-Cl-Cl-F-C_reactant
+1
+SH_Cl-Cl-F-C_PH2_TS
+0
+50.98 # SH_PH2-Cl-Cl-F-C
+-1
+SH_minus
+-1
+SH-Cl-Cl-F-C_reactant
+1
+SH_Cl-Cl-F-C_SH_TS
+0
+35.55 # SH_SH-Cl-Cl-F-C
+-1
+OH_minus
+-1
+SH-Cl-Cl-H-C_reactant
+1
+SH_Cl-Cl-H-C_OH_TS
+0
+4.65 # OH_SH-Cl-Cl-H-C
+-1
+SH_minus
+-1
+OH-Cl-Cl-H-C_reactant
+1
+SH_Cl-Cl-H-C_OH_TS
+0
+46.36 # SH_OH-Cl-Cl-H-C
+-1
+SH_minus
+-1
+SH-Cl-Cl-H-C_reactant
+1
+SH_Cl-Cl-H-C_SH_TS
+0
+23.43 # SH_SH-Cl-Cl-H-C
+-1
+F_minus
+-1
+SH-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_F_TS
+0
+16.44 # F_SH-Cl-Cl-Me-C
+-1
+SH_minus
+-1
+F-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_F_TS
+0
+34.71 # SH_F-Cl-Cl-Me-C
+-1
+NH2_minus
+-1
+SH-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_NH2_TS
+0
+9.85 # NH2_SH-Cl-Cl-Me-C
+-1
+SH_minus
+-1
+NH2-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_NH2_TS
+0
+70.14 # SH_NH2-Cl-Cl-Me-C
+-1
+PH2_minus
+-1
+SH-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_PH2_TS
+0
+26.20 # PH2_SH-Cl-Cl-Me-C
+-1
+SH_minus
+-1
+PH2-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_PH2_TS
+0
+49.57 # SH_PH2-Cl-Cl-Me-C
+-1
+SH_minus
+-1
+SH-Cl-Cl-Me-C_reactant
+1
+SH_Cl-Cl-Me-C_SH_TS
+0
+34.36 # SH_SH-Cl-Cl-Me-C
+-1
+F_minus
+-1
+SH-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_F_TS
+0
+8.29 # F_SH-Cl-Cl-NH2-C
+-1
+SH_minus
+-1
+F-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_F_TS
+0
+29.39 # SH_F-Cl-Cl-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_NH2_TS
+0
+64.42 # SH_NH2-Cl-Cl-NH2-C
+-1
+PH2_minus
+-1
+SH-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_PH2_TS
+0
+20.85 # PH2_SH-Cl-Cl-NH2-C
+-1
+SH_minus
+-1
+PH2-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_PH2_TS
+0
+44.88 # SH_PH2-Cl-Cl-NH2-C
+-1
+SH_minus
+-1
+SH-Cl-Cl-NH2-C_reactant
+1
+SH_Cl-Cl-NH2-C_SH_TS
+0
+27.56 # SH_SH-Cl-Cl-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-F-F-C_reactant
+1
+SH_Cl-F-F-C_NH2_TS
+0
+12.37 # NH2_SH-Cl-F-F-C
+-1
+SH_minus
+-1
+NH2-Cl-F-F-C_reactant
+1
+SH_Cl-F-F-C_NH2_TS
+0
+77.89 # SH_NH2-Cl-F-F-C
+-1
+SH_minus
+-1
+SH-Cl-F-F-C_reactant
+1
+SH_Cl-F-F-C_SH_TS
+0
+39.06 # SH_SH-Cl-F-F-C
+-1
+F_minus
+-1
+SH-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_F_TS
+0
+6.02 # F_SH-Cl-F-H-C
+-1
+SH_minus
+-1
+F-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_F_TS
+0
+27.10 # SH_F-Cl-F-H-C
+-1
+NH2_minus
+-1
+SH-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_NH2_TS
+0
+2.96 # NH2_SH-Cl-F-H-C
+-1
+SH_minus
+-1
+NH2-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_NH2_TS
+0
+64.99 # SH_NH2-Cl-F-H-C
+-1
+OH_minus
+-1
+SH-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_OH_TS
+0
+4.23 # OH_SH-Cl-F-H-C
+-1
+SH_minus
+-1
+OH-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_OH_TS
+0
+50.06 # SH_OH-Cl-F-H-C
+-1
+SH_minus
+-1
+SH-Cl-F-H-C_reactant
+1
+SH_Cl-F-H-C_SH_TS
+0
+23.94 # SH_SH-Cl-F-H-C
+-1
+F_minus
+-1
+SH-Cl-F-Me-C_reactant
+1
+SH_Cl-F-Me-C_F_TS
+0
+15.13 # F_SH-Cl-F-Me-C
+-1
+SH_minus
+-1
+F-Cl-F-Me-C_reactant
+1
+SH_Cl-F-Me-C_F_TS
+0
+37.71 # SH_F-Cl-F-Me-C
+-1
+SH_minus
+-1
+SH-Cl-F-Me-C_reactant
+1
+SH_Cl-F-Me-C_SH_TS
+0
+35.61 # SH_SH-Cl-F-Me-C
+-1
+F_minus
+-1
+SH-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_F_TS
+0
+9.26 # F_SH-Cl-F-NH2-C
+-1
+SH_minus
+-1
+F-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_F_TS
+0
+32.12 # SH_F-Cl-F-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_NH2_TS
+0
+3.64 # NH2_SH-Cl-F-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_NH2_TS
+0
+68.30 # SH_NH2-Cl-F-NH2-C
+-1
+PH2_minus
+-1
+SH-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_PH2_TS
+0
+25.71 # PH2_SH-Cl-F-NH2-C
+-1
+SH_minus
+-1
+PH2-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_PH2_TS
+0
+46.31 # SH_PH2-Cl-F-NH2-C
+-1
+SH_minus
+-1
+SH-Cl-F-NH2-C_reactant
+1
+SH_Cl-F-NH2-C_SH_TS
+0
+31.12 # SH_SH-Cl-F-NH2-C
+-1
+F_minus
+-1
+SH-Cl-H-H-C_reactant
+1
+SH_Cl-H-H-C_F_TS
+0
+4.93 # F_SH-Cl-H-H-C
+-1
+SH_minus
+-1
+F-Cl-H-H-C_reactant
+1
+SH_Cl-H-H-C_F_TS
+0
+18.17 # SH_F-Cl-H-H-C
+-1
+OH_minus
+-1
+SH-Cl-H-H-C_reactant
+1
+SH_Cl-H-H-C_OH_TS
+0
+2.96 # OH_SH-Cl-H-H-C
+-1
+SH_minus
+-1
+OH-Cl-H-H-C_reactant
+1
+SH_Cl-H-H-C_OH_TS
+0
+39.88 # SH_OH-Cl-H-H-C
+-1
+SH_minus
+-1
+SH-Cl-H-H-C_reactant
+1
+SH_Cl-H-H-C_SH_TS
+0
+18.61 # SH_SH-Cl-H-H-C
+-1
+F_minus
+-1
+SH-Cl-H-Me-C_reactant
+1
+SH_Cl-H-Me-C_F_TS
+0
+7.59 # F_SH-Cl-H-Me-C
+-1
+SH_minus
+-1
+F-Cl-H-Me-C_reactant
+1
+SH_Cl-H-Me-C_F_TS
+0
+23.66 # SH_F-Cl-H-Me-C
+-1
+NH2_minus
+-1
+SH-Cl-H-Me-C_reactant
+1
+SH_Cl-H-Me-C_NH2_TS
+0
+3.10 # NH2_SH-Cl-H-Me-C
+-1
+SH_minus
+-1
+NH2-Cl-H-Me-C_reactant
+1
+SH_Cl-H-Me-C_NH2_TS
+0
+61.28 # SH_NH2-Cl-H-Me-C
+-1
+SH_minus
+-1
+SH-Cl-H-Me-C_reactant
+1
+SH_Cl-H-Me-C_SH_TS
+0
+21.95 # SH_SH-Cl-H-Me-C
+-1
+F_minus
+-1
+SH-Cl-H-NH2-C_reactant
+1
+SH_Cl-H-NH2-C_F_TS
+0
+2.13 # F_SH-Cl-H-NH2-C
+-1
+SH_minus
+-1
+F-Cl-H-NH2-C_reactant
+1
+SH_Cl-H-NH2-C_F_TS
+0
+21.39 # SH_F-Cl-H-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-H-NH2-C_reactant
+1
+SH_Cl-H-NH2-C_NH2_TS
+0
+53.26 # SH_NH2-Cl-H-NH2-C
+-1
+SH_minus
+-1
+SH-Cl-H-NH2-C_reactant
+1
+SH_Cl-H-NH2-C_SH_TS
+0
+18.10 # SH_SH-Cl-H-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-Me-Me-C_reactant
+1
+SH_Cl-Me-Me-C_NH2_TS
+0
+10.41 # NH2_SH-Cl-Me-Me-C
+-1
+SH_minus
+-1
+NH2-Cl-Me-Me-C_reactant
+1
+SH_Cl-Me-Me-C_NH2_TS
+0
+70.00 # SH_NH2-Cl-Me-Me-C
+-1
+PH2_minus
+-1
+SH-Cl-Me-Me-C_reactant
+1
+SH_Cl-Me-Me-C_PH2_TS
+0
+26.63 # PH2_SH-Cl-Me-Me-C
+-1
+SH_minus
+-1
+PH2-Cl-Me-Me-C_reactant
+1
+SH_Cl-Me-Me-C_PH2_TS
+0
+48.42 # SH_PH2-Cl-Me-Me-C
+-1
+SH_minus
+-1
+SH-Cl-Me-Me-C_reactant
+1
+SH_Cl-Me-Me-C_SH_TS
+0
+32.23 # SH_SH-Cl-Me-Me-C
+-1
+F_minus
+-1
+SH-Cl-Me-NH2-C_reactant
+1
+SH_Cl-Me-NH2-C_F_TS
+0
+10.61 # F_SH-Cl-Me-NH2-C
+-1
+SH_minus
+-1
+F-Cl-Me-NH2-C_reactant
+1
+SH_Cl-Me-NH2-C_F_TS
+0
+29.79 # SH_F-Cl-Me-NH2-C
+-1
+NH2_minus
+-1
+SH-Cl-Me-NH2-C_reactant
+1
+SH_Cl-Me-NH2-C_NH2_TS
+0
+6.27 # NH2_SH-Cl-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-Me-NH2-C_reactant
+1
+SH_Cl-Me-NH2-C_NH2_TS
+0
+63.48 # SH_NH2-Cl-Me-NH2-C
+-1
+SH_minus
+-1
+SH-Cl-Me-NH2-C_reactant
+1
+SH_Cl-Me-NH2-C_SH_TS
+0
+29.81 # SH_SH-Cl-Me-NH2-C
+-1
+F_minus
+-1
+SH-Cl-NH2-NH2-C_reactant
+1
+SH_Cl-NH2-NH2-C_F_TS
+0
+7.76 # F_SH-Cl-NH2-NH2-C
+-1
+SH_minus
+-1
+F-Cl-NH2-NH2-C_reactant
+1
+SH_Cl-NH2-NH2-C_F_TS
+0
+30.36 # SH_F-Cl-NH2-NH2-C
+-1
+SH_minus
+-1
+SH-Cl-NH2-NH2-C_reactant
+1
+SH_Cl-NH2-NH2-C_SH_TS
+0
+27.63 # SH_SH-Cl-NH2-NH2-C
+-1
+SH_minus
+-1
+NH2-Cl-NH2-SH-C_reactant
+1
+SH_Cl-NH2-SH-C_NH2_TS
+0
+53.19 # SH_NH2-Cl-NH2-SH-C
+-1
+F_minus
+-1
+SH-Cl-SH-SH-C_reactant
+1
+SH_Cl-SH-SH-C_F_TS
+0
+0.06 # F_SH-Cl-SH-SH-C
+-1
+SH_minus
+-1
+F-Cl-SH-SH-C_reactant
+1
+SH_Cl-SH-SH-C_F_TS
+0
+14.90 # SH_F-Cl-SH-SH-C
+-1
+SH_minus
+-1
+NH2-Cl-SH-SH-C_reactant
+1
+SH_Cl-SH-SH-C_NH2_TS
+0
+49.80 # SH_NH2-Cl-SH-SH-C
+-1
+SH_minus
+-1
+NH2-CN-Cl-Cl-C_reactant
+1
+SH_CN-Cl-Cl-C_NH2_TS
+0
+47.15 # SH_NH2-CN-Cl-Cl-C
+-1
+SH_minus
+-1
+OH-CN-Cl-Cl-C_reactant
+1
+SH_CN-Cl-Cl-C_OH_TS
+0
+32.58 # SH_OH-CN-Cl-Cl-C
+-1
+SH_minus
+-1
+SH-CN-Cl-Cl-C_reactant
+1
+SH_CN-Cl-Cl-C_SH_TS
+0
+16.65 # SH_SH-CN-Cl-Cl-C
+-1
+SH_minus
+-1
+NH2-CN-Cl-F-C_reactant
+1
+SH_CN-Cl-F-C_NH2_TS
+0
+52.48 # SH_NH2-CN-Cl-F-C
+-1
+SH_minus
+-1
+OH-CN-Cl-F-C_reactant
+1
+SH_CN-Cl-F-C_OH_TS
+0
+36.12 # SH_OH-CN-Cl-F-C
+-1
+SH_minus
+-1
+SH-CN-Cl-F-C_reactant
+1
+SH_CN-Cl-F-C_SH_TS
+0
+16.71 # SH_SH-CN-Cl-F-C
+-1
+SH_minus
+-1
+SH-CN-Cl-H-C_reactant
+1
+SH_CN-Cl-H-C_SH_TS
+0
+10.01 # SH_SH-CN-Cl-H-C
+-1
+SH_minus
+-1
+OH-CN-Cl-Me-C_reactant
+1
+SH_CN-Cl-Me-C_OH_TS
+0
+32.37 # SH_OH-CN-Cl-Me-C
+-1
+SH_minus
+-1
+SH-CN-Cl-Me-C_reactant
+1
+SH_CN-Cl-Me-C_SH_TS
+0
+16.55 # SH_SH-CN-Cl-Me-C
+-1
+SH_minus
+-1
+OH-CN-Cl-NH2-C_reactant
+1
+SH_CN-Cl-NH2-C_OH_TS
+0
+26.65 # SH_OH-CN-Cl-NH2-C
+-1
+SH_minus
+-1
+SH-CN-Cl-NH2-C_reactant
+1
+SH_CN-Cl-NH2-C_SH_TS
+0
+13.79 # SH_SH-CN-Cl-NH2-C
+-1
+SH_minus
+-1
+F-CN-Cl-OH-C_reactant
+1
+SH_CN-Cl-OH-C_F_TS
+0
+12.33 # SH_F-CN-Cl-OH-C
+-1
+SH_minus
+-1
+OH-CN-CN-H-C_reactant
+1
+SH_CN-CN-H-C_OH_TS
+0
+7.88 # SH_OH-CN-CN-H-C
+-1
+SH_minus
+-1
+NH2-CN-F-F-C_reactant
+1
+SH_CN-F-F-C_NH2_TS
+0
+55.40 # SH_NH2-CN-F-F-C
+-1
+SH_minus
+-1
+OH-CN-F-F-C_reactant
+1
+SH_CN-F-F-C_OH_TS
+0
+41.39 # SH_OH-CN-F-F-C
+-1
+SH_minus
+-1
+SH-CN-F-F-C_reactant
+1
+SH_CN-F-F-C_SH_TS
+0
+19.02 # SH_SH-CN-F-F-C
+-1
+SH_minus
+-1
+SH-CN-F-H-C_reactant
+1
+SH_CN-F-H-C_SH_TS
+0
+10.47 # SH_SH-CN-F-H-C
+-1
+SH_minus
+-1
+SH-CN-F-Me-C_reactant
+1
+SH_CN-F-Me-C_SH_TS
+0
+15.57 # SH_SH-CN-F-Me-C
+-1
+SH_minus
+-1
+OH-CN-F-NH2-C_reactant
+1
+SH_CN-F-NH2-C_OH_TS
+0
+30.52 # SH_OH-CN-F-NH2-C
+-1
+SH_minus
+-1
+SH-CN-F-NH2-C_reactant
+1
+SH_CN-F-NH2-C_SH_TS
+0
+14.40 # SH_SH-CN-F-NH2-C
+-1
+SH_minus
+-1
+F-CN-H-H-C_reactant
+1
+SH_CN-H-H-C_F_TS
+0
+2.28 # SH_F-CN-H-H-C
+-1
+SH_minus
+-1
+SH-CN-H-H-C_reactant
+1
+SH_CN-H-H-C_SH_TS
+0
+6.14 # SH_SH-CN-H-H-C
+-1
+SH_minus
+-1
+SH-CN-H-Me-C_reactant
+1
+SH_CN-H-Me-C_SH_TS
+0
+10.13 # SH_SH-CN-H-Me-C
+-1
+SH_minus
+-1
+F-CN-H-NH2-C_reactant
+1
+SH_CN-H-NH2-C_F_TS
+0
+6.22 # SH_F-CN-H-NH2-C
+-1
+SH_minus
+-1
+NH2-CN-H-NH2-C_reactant
+1
+SH_CN-H-NH2-C_NH2_TS
+0
+37.57 # SH_NH2-CN-H-NH2-C
+-1
+SH_minus
+-1
+OH-CN-H-NH2-C_reactant
+1
+SH_CN-H-NH2-C_OH_TS
+0
+23.58 # SH_OH-CN-H-NH2-C
+-1
+SH_minus
+-1
+PH2-CN-H-NH2-C_reactant
+1
+SH_CN-H-NH2-C_PH2_TS
+0
+20.26 # SH_PH2-CN-H-NH2-C
+-1
+SH_minus
+-1
+SH-CN-H-NH2-C_reactant
+1
+SH_CN-H-NH2-C_SH_TS
+0
+5.53 # SH_SH-CN-H-NH2-C
+-1
+SH_minus
+-1
+OH-CN-Me-Me-C_reactant
+1
+SH_CN-Me-Me-C_OH_TS
+0
+33.92 # SH_OH-CN-Me-Me-C
+-1
+SH_minus
+-1
+SH-CN-Me-Me-C_reactant
+1
+SH_CN-Me-Me-C_SH_TS
+0
+16.42 # SH_SH-CN-Me-Me-C
+-1
+SH_minus
+-1
+F-CN-Me-NH2-C_reactant
+1
+SH_CN-Me-NH2-C_F_TS
+0
+13.52 # SH_F-CN-Me-NH2-C
+-1
+SH_minus
+-1
+SH-CN-Me-NH2-C_reactant
+1
+SH_CN-Me-NH2-C_SH_TS
+0
+15.02 # SH_SH-CN-Me-NH2-C
+-1
+SH_minus
+-1
+OH-CN-Me-OH-C_reactant
+1
+SH_CN-Me-OH-C_OH_TS
+0
+28.56 # SH_OH-CN-Me-OH-C
+-1
+SH_minus
+-1
+NH2-CN-Me-SH-C_reactant
+1
+SH_CN-Me-SH-C_NH2_TS
+0
+37.12 # SH_NH2-CN-Me-SH-C
+-1
+SH_minus
+-1
+F-CN-NH2-NH2-C_reactant
+1
+SH_CN-NH2-NH2-C_F_TS
+0
+14.34 # SH_F-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+SH-CN-NH2-NH2-C_reactant
+1
+SH_CN-NH2-NH2-C_PH2_TS
+0
+7.26 # PH2_SH-CN-NH2-NH2-C
+-1
+SH_minus
+-1
+PH2-CN-NH2-NH2-C_reactant
+1
+SH_CN-NH2-NH2-C_PH2_TS
+0
+26.86 # SH_PH2-CN-NH2-NH2-C
+-1
+SH_minus
+-1
+SH-CN-NH2-NH2-C_reactant
+1
+SH_CN-NH2-NH2-C_SH_TS
+0
+10.43 # SH_SH-CN-NH2-NH2-C
+-1
+PH2_minus
+-1
+SH-CN-NH2-OH-C_reactant
+1
+SH_CN-NH2-OH-C_PH2_TS
+0
+6.06 # PH2_SH-CN-NH2-OH-C
+-1
+SH_minus
+-1
+PH2-CN-NH2-OH-C_reactant
+1
+SH_CN-NH2-OH-C_PH2_TS
+0
+24.69 # SH_PH2-CN-NH2-OH-C
+-1
+SH_minus
+-1
+NH2-CN-SH-SH-C_reactant
+1
+SH_CN-SH-SH-C_NH2_TS
+0
+31.22 # SH_NH2-CN-SH-SH-C
+-1
+NH2_minus
+-1
+SH-F-F-F-C_reactant
+1
+SH_F-F-F-C_NH2_TS
+0
+17.05 # NH2_SH-F-F-F-C
+-1
+SH_minus
+-1
+NH2-F-F-F-C_reactant
+1
+SH_F-F-F-C_NH2_TS
+0
+83.76 # SH_NH2-F-F-F-C
+-1
+PH2_minus
+-1
+SH-F-F-F-C_reactant
+1
+SH_F-F-F-C_PH2_TS
+0
+37.66 # PH2_SH-F-F-F-C
+-1
+SH_minus
+-1
+PH2-F-F-F-C_reactant
+1
+SH_F-F-F-C_PH2_TS
+0
+58.58 # SH_PH2-F-F-F-C
+-1
+SH_minus
+-1
+SH-F-F-F-C_reactant
+1
+SH_F-F-F-C_SH_TS
+0
+42.71 # SH_SH-F-F-F-C
+-1
+F_minus
+-1
+SH-F-F-H-C_reactant
+1
+SH_F-F-H-C_F_TS
+0
+3.44 # F_SH-F-F-H-C
+-1
+SH_minus
+-1
+F-F-F-H-C_reactant
+1
+SH_F-F-H-C_F_TS
+0
+30.21 # SH_F-F-F-H-C
+-1
+NH2_minus
+-1
+SH-F-F-H-C_reactant
+1
+SH_F-F-H-C_NH2_TS
+0
+3.59 # NH2_SH-F-F-H-C
+-1
+SH_minus
+-1
+NH2-F-F-H-C_reactant
+1
+SH_F-F-H-C_NH2_TS
+0
+67.74 # SH_NH2-F-F-H-C
+-1
+PH2_minus
+-1
+SH-F-F-H-C_reactant
+1
+SH_F-F-H-C_PH2_TS
+0
+21.34 # PH2_SH-F-F-H-C
+-1
+SH_minus
+-1
+PH2-F-F-H-C_reactant
+1
+SH_F-F-H-C_PH2_TS
+0
+39.82 # SH_PH2-F-F-H-C
+-1
+SH_minus
+-1
+SH-F-F-H-C_reactant
+1
+SH_F-F-H-C_SH_TS
+0
+23.46 # SH_SH-F-F-H-C
+-1
+PH2_minus
+-1
+SH-F-F-Me-C_reactant
+1
+SH_F-F-Me-C_PH2_TS
+0
+32.42 # PH2_SH-F-F-Me-C
+-1
+SH_minus
+-1
+PH2-F-F-Me-C_reactant
+1
+SH_F-F-Me-C_PH2_TS
+0
+50.80 # SH_PH2-F-F-Me-C
+-1
+SH_minus
+-1
+SH-F-F-Me-C_reactant
+1
+SH_F-F-Me-C_SH_TS
+0
+35.62 # SH_SH-F-F-Me-C
+-1
+F_minus
+-1
+SH-F-F-NH2-C_reactant
+1
+SH_F-F-NH2-C_F_TS
+0
+9.22 # F_SH-F-F-NH2-C
+-1
+SH_minus
+-1
+F-F-F-NH2-C_reactant
+1
+SH_F-F-NH2-C_F_TS
+0
+36.03 # SH_F-F-F-NH2-C
+-1
+SH_minus
+-1
+SH-F-F-NH2-C_reactant
+1
+SH_F-F-NH2-C_SH_TS
+0
+32.53 # SH_SH-F-F-NH2-C
+-1
+OH_minus
+-1
+SH-F-H-H-C_reactant
+1
+SH_F-H-H-C_OH_TS
+0
+1.48 # OH_SH-F-H-H-C
+-1
+SH_minus
+-1
+OH-F-H-H-C_reactant
+1
+SH_F-H-H-C_OH_TS
+0
+42.38 # SH_OH-F-H-H-C
+-1
+SH_minus
+-1
+SH-F-H-H-C_reactant
+1
+SH_F-H-H-C_SH_TS
+0
+18.35 # SH_SH-F-H-H-C
+-1
+F_minus
+-1
+SH-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_F_TS
+0
+2.45 # F_SH-F-H-Me-C
+-1
+SH_minus
+-1
+F-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_F_TS
+0
+26.44 # SH_F-F-H-Me-C
+-1
+NH2_minus
+-1
+SH-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_NH2_TS
+0
+1.48 # NH2_SH-F-H-Me-C
+-1
+SH_minus
+-1
+NH2-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_NH2_TS
+0
+64.35 # SH_NH2-F-H-Me-C
+-1
+OH_minus
+-1
+SH-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_OH_TS
+0
+2.61 # OH_SH-F-H-Me-C
+-1
+SH_minus
+-1
+OH-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_OH_TS
+0
+47.64 # SH_OH-F-H-Me-C
+-1
+SH_minus
+-1
+SH-F-H-Me-C_reactant
+1
+SH_F-H-Me-C_SH_TS
+0
+19.01 # SH_SH-F-H-Me-C
+-1
+SH_minus
+-1
+F-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_F_TS
+0
+24.19 # SH_F-F-H-NH2-C
+-1
+SH_minus
+-1
+NH2-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_NH2_TS
+0
+55.97 # SH_NH2-F-H-NH2-C
+-1
+SH_minus
+-1
+OH-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_OH_TS
+0
+43.83 # SH_OH-F-H-NH2-C
+-1
+PH2_minus
+-1
+SH-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_PH2_TS
+0
+16.39 # PH2_SH-F-H-NH2-C
+-1
+SH_minus
+-1
+PH2-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_PH2_TS
+0
+36.47 # SH_PH2-F-H-NH2-C
+-1
+SH_minus
+-1
+SH-F-H-NH2-C_reactant
+1
+SH_F-H-NH2-C_SH_TS
+0
+18.06 # SH_SH-F-H-NH2-C
+-1
+SH_minus
+-1
+SH-F-Me-Me-C_reactant
+1
+SH_F-Me-Me-C_SH_TS
+0
+30.15 # SH_SH-F-Me-Me-C
+-1
+F_minus
+-1
+SH-F-Me-NH2-C_reactant
+1
+SH_F-Me-NH2-C_F_TS
+0
+7.86 # F_SH-F-Me-NH2-C
+-1
+SH_minus
+-1
+F-F-Me-NH2-C_reactant
+1
+SH_F-Me-NH2-C_F_TS
+0
+32.27 # SH_F-F-Me-NH2-C
+-1
+OH_minus
+-1
+SH-H-H-H-C_reactant
+1
+SH_H-H-H-C_OH_TS
+0
+1.30 # OH_SH-H-H-H-C
+-1
+SH_minus
+-1
+OH-H-H-H-C_reactant
+1
+SH_H-H-H-C_OH_TS
+0
+32.11 # SH_OH-H-H-H-C
+-1
+SH_minus
+-1
+SH-H-H-H-C_reactant
+1
+SH_H-H-H-C_SH_TS
+0
+15.00 # SH_SH-H-H-H-C
+-1
+F_minus
+-1
+SH-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_F_TS
+0
+4.95 # F_SH-H-H-Me-C
+-1
+SH_minus
+-1
+F-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_F_TS
+0
+18.31 # SH_F-H-H-Me-C
+-1
+NH2_minus
+-1
+SH-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_NH2_TS
+0
+2.02 # NH2_SH-H-H-Me-C
+-1
+SH_minus
+-1
+NH2-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_NH2_TS
+0
+52.31 # SH_NH2-H-H-Me-C
+-1
+OH_minus
+-1
+SH-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_OH_TS
+0
+2.04 # OH_SH-H-H-Me-C
+-1
+SH_minus
+-1
+OH-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_OH_TS
+0
+34.73 # SH_OH-H-H-Me-C
+-1
+SH_minus
+-1
+SH-H-H-Me-C_reactant
+1
+SH_H-H-Me-C_SH_TS
+0
+18.88 # SH_SH-H-H-Me-C
+-1
+SH_minus
+-1
+SH-H-H-NH2-C_reactant
+1
+SH_H-H-NH2-C_SH_TS
+0
+13.17 # SH_SH-H-H-NH2-C
+-1
+NH2_minus
+-1
+SH-H-Me-Me-C_reactant
+1
+SH_H-Me-Me-C_NH2_TS
+0
+3.86 # NH2_SH-H-Me-Me-C
+-1
+SH_minus
+-1
+NH2-H-Me-Me-C_reactant
+1
+SH_H-Me-Me-C_NH2_TS
+0
+54.97 # SH_NH2-H-Me-Me-C
+-1
+OH_minus
+-1
+SH-H-Me-Me-C_reactant
+1
+SH_H-Me-Me-C_OH_TS
+0
+3.72 # OH_SH-H-Me-Me-C
+-1
+SH_minus
+-1
+OH-H-Me-Me-C_reactant
+1
+SH_H-Me-Me-C_OH_TS
+0
+38.43 # SH_OH-H-Me-Me-C
+-1
+SH_minus
+-1
+SH-H-Me-Me-C_reactant
+1
+SH_H-Me-Me-C_SH_TS
+0
+20.41 # SH_SH-H-Me-Me-C
+-1
+NH2_minus
+-1
+SH-H-Me-NH2-C_reactant
+1
+SH_H-Me-NH2-C_NH2_TS
+0
+0.04 # NH2_SH-H-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-H-Me-NH2-C_reactant
+1
+SH_H-Me-NH2-C_NH2_TS
+0
+52.89 # SH_NH2-H-Me-NH2-C
+-1
+PH2_minus
+-1
+SH-H-Me-NH2-C_reactant
+1
+SH_H-Me-NH2-C_PH2_TS
+0
+12.63 # PH2_SH-H-Me-NH2-C
+-1
+SH_minus
+-1
+PH2-H-Me-NH2-C_reactant
+1
+SH_H-Me-NH2-C_PH2_TS
+0
+29.51 # SH_PH2-H-Me-NH2-C
+-1
+SH_minus
+-1
+NH2-H-NH2-NH2-C_reactant
+1
+SH_H-NH2-NH2-C_NH2_TS
+0
+54.67 # SH_NH2-H-NH2-NH2-C
+-1
+SH_minus
+-1
+NH2-H-NH2-SH-C_reactant
+1
+SH_H-NH2-SH-C_NH2_TS
+0
+44.73 # SH_NH2-H-NH2-SH-C
+-1
+SH_minus
+-1
+F-H-OH-SH-C_reactant
+1
+SH_H-OH-SH-C_F_TS
+0
+16.11 # SH_F-H-OH-SH-C
+-1
+SH_minus
+-1
+F-H-SH-SH-C_reactant
+1
+SH_H-SH-SH-C_F_TS
+0
+9.40 # SH_F-H-SH-SH-C
+-1
+SH_minus
+-1
+NH2-H-SH-SH-C_reactant
+1
+SH_H-SH-SH-C_NH2_TS
+0
+43.53 # SH_NH2-H-SH-SH-C
+-1
+PH2_minus
+-1
+SH-H-SH-SH-C_reactant
+1
+SH_H-SH-SH-C_PH2_TS
+0
+4.81 # PH2_SH-H-SH-SH-C
+-1
+SH_minus
+-1
+PH2-H-SH-SH-C_reactant
+1
+SH_H-SH-SH-C_PH2_TS
+0
+26.83 # SH_PH2-H-SH-SH-C
+-1
+SH_minus
+-1
+SH-Me-Me-Me-C_reactant
+1
+SH_Me-Me-Me-C_SH_TS
+0
+31.15 # SH_SH-Me-Me-Me-C
+-1
+SH_minus
+-1
+SH-Me-Me-NH2-C_reactant
+1
+SH_Me-Me-NH2-C_SH_TS
+0
+11.41 # SH_SH-Me-Me-NH2-C
+-1
+SH_minus
+-1
+F-Me-OH-SH-C_reactant
+1
+SH_Me-OH-SH-C_F_TS
+0
+20.95 # SH_F-Me-OH-SH-C
+-1
+SH_minus
+-1
+NH2-Me-SH-SH-C_reactant
+1
+SH_Me-SH-SH-C_NH2_TS
+0
+50.19 # SH_NH2-Me-SH-SH-C
+-1
+SH_minus
+-1
+OH-Me-SH-SH-C_reactant
+1
+SH_Me-SH-SH-C_OH_TS
+0
+35.25 # SH_OH-Me-SH-SH-C
+-1
+PH2_minus
+-1
+SH-Me-SH-SH-C_reactant
+1
+SH_Me-SH-SH-C_PH2_TS
+0
+13.00 # PH2_SH-Me-SH-SH-C
+-1
+SH_minus
+-1
+PH2-Me-SH-SH-C_reactant
+1
+SH_Me-SH-SH-C_PH2_TS
+0
+34.43 # SH_PH2-Me-SH-SH-C
+-1
+SH_minus
+-1
+NH2-NH2-SH-SH-C_reactant
+1
+SH_NH2-SH-SH-C_NH2_TS
+0
+49.48 # SH_NH2-NH2-SH-SH-C
+-1
+SH_minus
+-1
+OH-NH2-SH-SH-C_reactant
+1
+SH_NH2-SH-SH-C_OH_TS
+0
+32.25 # SH_OH-NH2-SH-SH-C
