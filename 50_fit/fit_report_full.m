@@ -13,12 +13,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-function fit_report_full(pout,yin,yout)
+function fit_report_full(pout,yin,yout,f_damp)
 
   global hy2kcal e n xc z c6 c8 c10 c9 rc dimers mol1 mol2 be_ref active
 
   printf("# Parameters of the fit\n");
-  printf(" a1 = %.8f || a2(ang) = %.8f\n\n",pout(1),pout(2))
+  if (strcmp(f_damp,"energy_z.m"))
+    printf(" z_damp = %12.4f\n\n",pout(2)) 
+  else
+    printf(" a1 = %12.8f || a2(ang) = %12.8f\n\n",pout(1),pout(2))
+  endif
   printf("\n# Statistics\n");
   printf(" Dataset size = %d\n",length(yin));
   printf(" MAD    = %.3f\n",mean(abs(yout-yin)));
