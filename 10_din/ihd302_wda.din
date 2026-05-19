@@ -1,11 +1,13 @@
-###########################################
-# IHD302: Dimerization Energies           #
-#         wda subset                      #
-# Reference: PNO-LCCSD(T)-F12/vtz(corr.)  #
-# Geometries: r2SCAN-3c                   #
-# DOI: https://doi.org/10.1039/D3CP06217A #
-###########################################
-# K R Bryenton 2025-08-05
+# IDH302: inorganic heterocyclic dimerization energies, weak donor-acceptor subset.
+# Contains 302 dimerization reactions (weak donor-acceptor dimers).
+#
+# T. Gasevic et al., Phys. Chem. Chem. Phys., 2024, **26**, 13884.
+# DOI: https://doi.org/10.1039/D3CP06217A
+#
+# Reference level: PNO-LCCSD(T)-F12/vtz(corr.)
+# Geometries: r2SCAN-3c
+#
+# Uploaded by: K R Bryenton 2025-08-05
 1
 al3as3_wda
 -1
